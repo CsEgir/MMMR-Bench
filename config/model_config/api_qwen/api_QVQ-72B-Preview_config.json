@@ -1,0 +1,17 @@
+{
+    "model_info": {
+        "provider": "openai",
+        "name": "Qwen/QVQ-72B-Preview",
+        "model_method": "api"
+    },
+    "api_key_info": {
+        "api_keys": "f382081a-81a7-4c6d-b24a-723ab866452c",
+        "api_url": "https://api-inference.modelscope.cn/v1/"
+    },
+    "params": {
+        "temperature": 0.1,
+        "seed": 100,
+        "gpus": [],
+        "max_output_tokens": 2500
+    }
+}

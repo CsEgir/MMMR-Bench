@@ -1,0 +1,739 @@
+[
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rw_9935454173.png"
+    ],
+    "answer": "The sequence of images captures playful interactions among three dogs in an indoor setting with a child's slide and a tunnel. Initially, a black dog is seen lying inside the tunnel. As the black dog approaches a brown dog, it suddenly runs away, initiating a playful chase. The brown dog eagerly pursues the black dog, which is all part of their play. After a short run, the black dog stops, and the brown dog, still in the spirit of the game, bends down in a playful stance."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rw_4932338665.png"
+    ],
+    "answer": "The sequence of images captures two dogs, one black and one brown, engaging in a playful fight on a grassy area. Initially, the black dog appears to be the aggressor, initiating the interaction by attacking first. As the skirmish unfolds, the dogs can be seen mounting each other as part of their playful combat. Throughout the series of images, the dogs exhibit a dynamic and spirited interaction, characterized by chasing and playful fighting."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rw_2972558344.png"
+    ],
+    "answer": "The collage of images depicts various scenes, including interior shots of a building with staircases and a hallway, a person in a striped jacket exiting a building, and outdoor scenes featuring a dog in a grassy area.  Meanwhile, a dog is shown in several frames; it is seen sniffing the ground, sitting down after picking up a toy. The sequence of images suggests a narrative of a daily playful moment between a boy and his dog in an outdoor setting."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rw_4435031690.png"
+    ],
+    "answer": "In the image, we see a series of moments captured where a man in white is filming others with a camera. He is wearing a helmet on his head. At the beginning of this sequence, the man in a yellow shirt is seen gesturing at something before folding his arms. Meanwhile, the man in light blue is talking while holding a bag in his hands. As the man in white turns around with his camera in the middle of the sequence, he eventually stands still and engages in conversation. Additionally, a man in green is observed standing with his arms folded while the man in white is filming."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rw_5452090232.png"
+    ],
+    "answer": "The sequence of images captures a woman performing a water-based stunt on a surfboard, holding onto a rope for support as she glides across the water. She skillfully maneuvers from side to side, following the rope's direction, and bends her body towards one side intermittently to maintain her balance. As she moves, her body's motion and the board's interaction with the water create a large splash behind her. The rope serves as her main support and guide, allowing her to steer and balance herself on the board, while her arms are stretched out to hold the rope firmly throughout the stunt."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rw_5858839474.png"
+    ],
+    "answer": "The sequence of images captures moments in a living room where two children and a baby are engaged in various activities. The child dressed in red is playfully rolling around on the sofa, seemingly enjoying the fun of tumbling about. Meanwhile, the boy wearing a striped outfit is intently flipping through the pages of a book, leaning on the sofa as he looks at its contents. After an attempt at a headstand, the girl in red lies back down on the sofa to rest. In the final scenes, a baby dressed in blue is seen moving their hands in a stretching motion while lying in a crib, their head comfortably elevated on a pillow. The overall atmosphere is one of casual, playful relaxation within the family's living space."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_92.png"
+    ],
+    "answer": "A young couple opens their front door and finds a basket with a cute baby left outside their home, and they are thrilled. Just when everyone thinks that the couple will naturally adopt the child, it turns out they don't. They are just happy to have received a free basket. They take the basket inside their home to use it for flower arrangement and decoration, leaving the little baby outside the door."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_78.png"
+    ],
+    "answer": "A house is engulfed in flames, and both the father and son are running out of the house carrying various items. The father is holding the son's toy car and a handbag, while the son is carrying the father's hat and smoking pipe. As the father runs back into the fire to salvage more items, the son takes some documents out of the handbag and throws them into the fire when his father isn't looking. This act is witnessed by the father, who is at that moment carrying a carpet and clothes out of the house."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_28.png"
+    ],
+    "answer": "Today, the weather is very hot, and the old man wipes his sweat while walking and fanning himself with a hand fan. When he sees a bench, he sits down, feeling extremely warm. He waves the fan while imagining himself singing in a bathtub. Suddenly, a beautiful woman wearing a cheongsam passes by. The old man, absorbed in his fantasy of being in a bath, doesn't immediately realize he's actually sitting on a bench. Panicked at the thought of being seen naked, he hurriedly covers himself with the fan."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_96.png"
+    ],
+    "answer": "A little boy at home discovers a bird that has died outside his window. He buries the bird using a shovel and creates a simple grave for it. In the grave, another bird in the spirit world of the deceased bird tells it that it should take action when the moon is full. When that time comes, the bird breaks out of the grave and emerges from it."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_10.png"
+    ],
+    "answer": "Next to a field of flowers, a little bear held a thin string tied to a dark cloud. As the bear pulled, the cloud began to rain, watering the parched land and wilted flowers. With the nourishment of the rain, the flowers bloomed anew, as if the bear had breathed new life into them."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_30.png"
+    ],
+    "answer": "One day, the old man returns home and immediately senses something is wrong. He hurriedly calls the police. After a while, two police officers arrive with an investigator. The old man guides the investigator through his house. Inside, his room is in complete disarray, with clothes scattered from the wardrobe, huge handprints covering the walls, floor, and wardrobe, and books strewn about. The investigator is left in utter shock at the sight."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/cmc_62.png"
+    ],
+    "answer": "A young boy sails in a boat on the sea. A shark swims up to the boat, its fin breaking the surface of the water. The boy watches the shark intently. The shark swims around the boat, tracing a circle in the water. Suddenly, a large hole opens up in the sea within the circle, and the sailboat falls straight down into it."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_6759487764.png"
+    ],
+    "answer": "In this scene, on a blue table, there is a brown cup on the left and a blue cup on the right. The robotic arm picks up the brown cup from the left and places it inside the blue cup on the right, stacking them together."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_6894223792.png"
+    ],
+    "answer": "In this scene, on the table, there's a blue bowl, a yellow bowl, and a standing colorful square object. The robotic arm picks up the standing colorful square object."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_3221608526.png"
+    ],
+    "answer": "In this scene, on the blue table, at the far left, there is a blue towel. To the right of the towel, there's a blue spoon, and next to the spoon, there's a silver bowl containing a green object. The robotic arm picks up the blue spoon and places it on top of the blue towel."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_7342135898.png"
+    ],
+    "answer": "In this scene, there is a dish soap and a bowl on a table. A robotic arm picked up the dish soap and placed it into the bowl."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_8700085806.png"
+    ],
+    "answer": "In this scene, there is a wooden board with a small cabinet with two drawers. A robotic arm opened the upper drawer."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_5119753507.png"
+    ],
+    "answer": "In this scene, there is a small blue object, a brown bowl, and another brown bowl containing a small blue ball. The robotic arm picks up the small blue object and suspends it in the air."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_6576102930.png"
+    ],
+    "answer": "In this scene, on the table, there is a blue plastic bag, a blue can, and a green plastic bag. The robotic arm picks up the green plastic bag from the far end and suspends it in mid-air."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_4071751276.png"
+    ],
+    "answer": "In this scene, there's a table covered with a collection of toys that resemble kitchen condiments and food. These include a seasoning box, a block of cheese, a toy pie cut in half, and a plate. The robotic arm grasps the toy pie that's cut in half from inside the plate and then moving it to the outside of the plate."
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/rb_6880655151.png"
+    ],
+    "answer": "In this scene, on a white table, there's a green water bottle, a white object, a blue object, a purple object, and an orange can. The robotic arm picks up the blue object located in the middle and suspends it mid-air."
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/7_12_front_7_12_back.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/5_11_front_5_11_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 7,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/6_19_front_6_19_back_6_19_left_6_19_right.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 5,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/7_4_front_7_4_back.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 7,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/5_6_front_5_6_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/5_8_front_5_8_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/5_12_front_5_12_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_1_front_4_1_back_4_1_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 5,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_4_front_4_4_back_4_4_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_7_front_4_7_back_4_7_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 3,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/3_1_back_3_1_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 9,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/6_9_front_6_9_back_6_9_left_6_9_right.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 8,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/6_5_front_6_5_back_6_5_left_6_5_right.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 5,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_15_front_4_15_back_4_15_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_1_front_4_1_back_4_1_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 7,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/6_18_front_6_18_back_6_18_left_6_18_right.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_7_front_4_7_back_4_7_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 5,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/4_4_front_4_4_back_4_4_left_white_img.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/5_18_front_5_18_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 8,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/5_16_front_5_16_left.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/6_17_front_6_17_back_6_17_left_6_17_right.jpg"
+    ]
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/7_17_front_7_17_back.jpg"
+    ]
+  },
+  {
+    "question": "How many umbrella are in these two images?",
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000205401_000000162543.jpg"
+    ]
+  },
+  {
+    "question": "How many suitcase are in these two images?",
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000294783_000000297595.jpg"
+    ]
+  },
+  {
+    "question": "How many spoon are in these two images?",
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000151820_000000361621.jpg"
+    ]
+  },
+  {
+    "question": "How many baseball bat are in these two images?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000420069_000000468505.jpg"
+    ]
+  },
+  {
+    "question": "How many horse are in these two images?",
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000250766_000000113235.jpg"
+    ]
+  },
+  {
+    "question": "How many apple are in these two images?",
+    "answer": 0,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000152686_000000106389.jpg"
+    ]
+  },
+  {
+    "question": "How many fire hydrant are in these two images?",
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/000000523194_000000039769.jpg"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [2, 3, 0, 1], B. [0, 1, 2, 3], C. [1, 2, 3, 0], D. [0, 2, 3, 1].",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_7_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_7_piece_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_7_piece_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_7_piece_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_7_piece_2.png"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [2, 0, 1, 3], B. [1, 2, 0, 3], C. [0, 3, 1, 2], D. [2, 0, 3, 1].",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_2_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_2_piece_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_2_piece_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_2_piece_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_2_piece_3.png"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [3, 1, 0, 2], B. [1, 0, 3, 2], C. [0, 2, 3, 1], D. [3, 0, 2, 1].",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_8_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_8_piece_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_8_piece_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_8_piece_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_8_piece_0.png"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [0, 2, 3, 1], B. [0, 1, 2, 3], C. [3, 2, 1, 0], D. [2, 3, 0, 1].",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_77_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_77_piece_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_77_piece_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_77_piece_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_77_piece_3.png"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [1, 0, 2, 3], B. [0, 1, 2, 3], C. [3, 0, 1, 2], D. [1, 3, 0, 2].",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_40_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_40_piece_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_40_piece_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_40_piece_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_40_piece_1.png"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [3, 1, 2, 0], B. [0, 3, 2, 1], C. [1, 3, 2, 0], D. [1, 2, 3, 0].",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_53_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_53_piece_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_53_piece_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_53_piece_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_53_piece_1.png"
+    ]
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [3, 1, 2, 0], B. [2, 0, 1, 3], C. [2, 1, 0, 3], D. [0, 2, 1, 3].",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_69_original.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_69_piece_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_69_piece_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_69_piece_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/jigsaw_69_piece_3.png"
+    ]
+  },
+  {
+    "question": "Where is the following sightseeing place?",
+    "answer": "New_York_City",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/New_York_City_Central_Park_image_10.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/New_York_City_Times_Square_image_1.png"
+    ]
+  },
+  {
+    "question": "Is the following sightseeing place in Singapore?",
+    "answer": "Yes",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Singapore_Sentosa_Island_image_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Singapore_Gardens_by_the_Bay_image_8.png"
+    ]
+  },
+  {
+    "question": "Where is the following sightseeing place?",
+    "answer": "Singapore",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Singapore_Merlion_Park_image_5.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Singapore_Marina_Bay_Sands_image_1.png"
+    ]
+  },
+  {
+    "question": "Where is the following sightseeing place?",
+    "answer": "London",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/London_Big_Ben_image_8.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/London_London_Eye_image_5.png"
+    ]
+  },
+  {
+    "question": "Is the following sightseeing place in Sydney?",
+    "answer": "No",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Paris_Notre-Dame_Cathedral_image_5.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/London_London_Eye_image_1.png"
+    ]
+  },
+  {
+    "question": "Is the following sightseeing place in Sydney?",
+    "answer": "Yes",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Sydney_Bondi_Beach_image_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Sydney_Sydney_Harbour_Bridge_image_3.png"
+    ]
+  },
+  {
+    "question": "Where is the following sightseeing place?",
+    "answer": "London",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/London_Big_Ben_image_8.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/London_British_Museum_image_2.png"
+    ]
+  },
+  {
+    "question": "Is the following sightseeing place in New_York_City?",
+    "answer": "No",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Rome_Pantheon_image_10.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/Tokyo_Senso-ji_Temple_image_7.png"
+    ]
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> what color is the stoplight in the given images?\nA. None of the choices provided\nB. yellow\nC. red\nD. green",
+    "index": 1034,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1033_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1033_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1033_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1033_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1033_4.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1033_5.jpg"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> how many cycles in the image in the given images?\nA. None of the choices provided\nB. four\nC. one\nD. three",
+    "index": 241,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_240_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_240_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_240_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_240_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_240_4.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_240_5.jpg"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> how many bridges do you see in the given images?\nA. three\nB. four\nC. None of the choices provided\nD. one",
+    "index": 628,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_627_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_627_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_627_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_627_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_627_4.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_627_5.jpg"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> how many cars can be seen in the front picture in the given images?\nA. None of the choices provided\nB. two\nC. one\nD. four",
+    "index": 486,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_485_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_485_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_485_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_485_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_485_4.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_485_5.jpg"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image>Please predict the last 10 frames of the video based on the first 10 frames of the input video. Note that the order is from left to right.The last four images represent four choices, referred to as Candidate 1, Candidate 2, Candidate 3, Candidate 4, respectively.\nA. Candidate 1: last 10 frames\nB. Candidate 2: last 10 frames\nC. Candidate 3: last 10 frames\nD. Candidate 4: last 10 frames",
+    "index": 87,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_86_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_86_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_86_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_86_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_86_4.jpg"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> how many black sedans can be seen in the given images?\nA. four\nB. two\nC. None of the choices provided\nD. one",
+    "index": 615,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_614_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_614_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_614_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_614_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_614_4.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_614_5.jpg"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> what is the number that appears on the blue column on the building in the given images?\nA. twenty\nB. fifteen\nC. five\nD. None of the choices provided",
+    "index": 1039,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1038_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1038_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1038_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1038_3.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1038_4.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1038_5.jpg"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image> This woman is jumping out from a toilet. What is the correct order of images according to the given context?\nA. None of the choices provided\nB. the first image, the second image, the third image, the fourth image\nC. the second image, the third image, the fourth image, the first image\nD. the fourth image, the third image, the second image, the first image\nE. the third image, the fourth image, the first image, the second image",
+    "index": 77,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_76_0.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_76_1.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_76_2.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_76_3.jpg"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Can you identify the sequence of actions in this video and list them in order? <image> <image> <image> <image> <image> <image> <image> <image> .\nA. None of the choices provided\nB. grab teabag, approach kettle, lift kettle, pour boiling water into cup, stir tea in cup\nC. hold teabag, move to kettle, lift kettle lid, pour water into cup, stir tea in cup\nD. carry teabag, reach kettle, carry kettle, pour water, carry kettle",
+    "index": 425,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_5.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_6.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_424_7.png"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> what does the rectangular, yellow sign say in the given images?\nA. caution\nB. danger\nC. None of the choices provided\nD. warning",
+    "index": 945,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_944_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_944_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_944_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_944_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_944_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_944_5.png"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> what direction are the orange signs pointing in the given images?\nA. None of the choices provided\nB. down\nC. left\nD. up",
+    "index": 1020,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1019_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1019_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1019_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1019_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1019_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1019_5.png"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "<image> <image> <image> The man opens the door. What is the correct order of images according to the given context?\nA. the third image, the first image, the second image\nB. the third image, the second image, the first image\nC. the second image, the first image, the third image\nD. None of the choices provided",
+    "index": 230,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_229_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_229_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_229_2.png"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "<image>Which traffic sign can you see from the image?\nA. curve right\nB. double curve first right\nC. winding road first right\nD. double reverse curve right",
+    "index": 1038,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1037_0.png"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "<image>Please determine whether the spatial relationships described in the captions below are correct based on the image.\nCaption: The dog is at the right side of the horse.\nA. Error\nB. Correct",
+    "index": 959,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_958_0.png"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image>Please predict the last 10 frames of the video based on the first 10 frames of the input video. Note that the order is from left to right.The last four images represent four choices, referred to as Candidate 1, Candidate 2, Candidate 3, Candidate 4, respectively.\nA. Candidate 1: last 10 frames\nB. Candidate 2: last 10 frames\nC. Candidate 3: last 10 frames\nD. Candidate 4: last 10 frames",
+    "index": 898,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_897_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_897_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_897_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_897_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_897_4.png"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "<image>Please determine whether the spatial relationships described in the captions below are correct based on the image.\nCaption: The dog is on the motorcycle.\nA. Error\nB. Correct",
+    "index": 1015,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1014_0.png"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "<image>Please determine whether the spatial relationships described in the captions below are correct based on the image.\nCaption: The laptop is facing the chair.\nA. Correct\nB. Error",
+    "index": 1022,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_1021_0.png"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "<image> <image> <image> <image>These images are consecutive frames from a video clip. Which object would the person take next?\nA. Sleep on\nB. Throw away\nC. Fold\nD. The pillow.",
+    "index": 262,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_261_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_261_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_261_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_261_3.png"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> what colour are the lights front right in the given images?\nA. yellow\nB. red\nC. blue\nD. None of the choices provided",
+    "index": 948,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_947_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_947_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_947_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_947_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_947_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_947_5.png"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "<image> <image> <image> <image>These images are consecutive frames from a video clip.Please generate a description for this meme\nA. The person's initial approach seemed like they were catching a dangerous animal, but the final outcome of catching a belt was mundane.\nB. The person's initial careful approach seemed like they were catching a live fish, but the final outcome of catching a belt was amusing.\nC. The person's initial careful approach seemed like they were catching a snake, but the final outcome of catching a belt was comical.\nD. The person's initial careful approach seemed like they were catching a valuable item, but the final outcome of catching a belt was disappointing.",
+    "index": 902,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_901_0.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_901_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_901_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_901_3.png"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "<image>Please determine whether the spatial relationships described in the captions below are correct based on the image.\nCaption: The dog is at the right side of the laptop.\nA. Correct\nB. Error",
+    "index": 954,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/images_new/image_953_0.png"
+    ],
+    "answer": "A"
+  }
+]

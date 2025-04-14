@@ -1,0 +1,632 @@
+[
+    {
+        "id": 157,
+        "question": "Which granary can hold more wheat? (If equal, mark C.) Select from A, B, and C  (A)  A  (B)  B (C) C",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_156.png"
+        ],
+        "category": "LogicVista",
+        "newid": 1
+    },
+    {
+        "id": 254,
+        "question": "What’s the difference in the average speeds of the 07:50 and 10:30 train departures, to the nearest mph. (Distance travelled = 164 miles) Select from A, B, C, and D. (A) 0mph (B) 5mph (C) 60mph (D) 68mph",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_253.png"
+        ],
+        "category": "LogicVista",
+        "newid": 2
+    },
+    {
+        "id": 22,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_22_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 3
+    },
+    {
+        "id": 94,
+        "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_93.png"
+        ],
+        "category": "LogicVista",
+        "newid": 4
+    },
+    {
+        "id": 3096,
+        "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/3545.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 5
+    },
+    {
+        "id": 116,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 3,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/116.png"
+        ],
+        "category": "Marvel",
+        "newid": 6
+    },
+    {
+        "id": 632,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 4,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/632.png"
+        ],
+        "category": "Marvel",
+        "newid": 7
+    },
+    {
+        "id": 307,
+        "question": "Things-in-themselves are projected onto mirrors.  Select from A, B and C. (A) True (B)False (C)Insufficient Information",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_306.png"
+        ],
+        "category": "LogicVista",
+        "newid": 8
+    },
+    {
+        "id": 4080,
+        "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity ().",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/2888.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 9
+    },
+    {
+        "id": 17,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "E",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_17_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 10
+    },
+    {
+        "id": 120,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 2,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/120.png"
+        ],
+        "category": "Marvel",
+        "newid": 11
+    },
+    {
+        "id": 45,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_45_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 12
+    },
+    {
+        "id": 488,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 1,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/488.png"
+        ],
+        "category": "Marvel",
+        "newid": 13
+    },
+    {
+        "id": 165,
+        "question": "Campers are trying to start a fire using only the sunlight and a magnifying glass. When they are holding the magnifying glass 15 inches away from the wood, it starts to smoke. How close to the wood should they hold the magnifying glass in order to create a fire? Select from A, B, C, and D  (A)  10 inches away (B) 30 inches away (C) Remain at 15 inches  (D) It is impossible to start a fire using this method ",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_164.png"
+        ],
+        "category": "LogicVista",
+        "newid": 14
+    },
+    {
+        "id": 6,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_6_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 15
+    },
+    {
+        "id": 1132,
+        "question": "Divide the following six figures into two categories, so that each type of figure has its own common characteristics or laws. The correct classification is:",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/724.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 16
+    },
+    {
+        "id": 345,
+        "question": "wHICH OF THE FOLLOWING STATEMENT IS TRUE? Select from A, B, C, D and E. (A) Current employees and Directors owned 40% of Leutts shares on 30 April 2009 (B) The largest Director share dealing was 1,440 shares (C) Directors held 4,870 shares in total on 30 April 2009 (D) Tobey Gilham held the most shares of any Director on 1st April 2009 (E) Each Director has less shares on 31 May 2009 compared to 1st April 2009 ",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_344.png"
+        ],
+        "category": "LogicVista",
+        "newid": 17
+    },
+    {
+        "id": 29,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_29_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 18
+    },
+    {
+        "id": 24,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_24_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 19
+    },
+    {
+        "id": 175,
+        "question": "Which wheels are turing counter-clockwise? Select from A, B,  C, and D.  (A) C and E (B) A, B, D, F (C) ALL (D) F and D ",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_174.png"
+        ],
+        "category": "LogicVista",
+        "newid": 20
+    },
+    {
+        "id": 28,
+        "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_27.png"
+        ],
+        "category": "LogicVista",
+        "newid": 21
+    },
+    {
+        "id": 460,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 3,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/460.png"
+        ],
+        "category": "Marvel",
+        "newid": 22
+    },
+    {
+        "id": 2566,
+        "question": "The one given on the left is the outer surface of the carton. Which of the following options cannot be folded into it ().",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/1702.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 23
+    },
+    {
+        "id": 159,
+        "question": "Two balloons are placed side by side. Balloon A is inflated fully, while Balloon B is only half-inflated.   Which balloon has more air pressure inside? (If equal, mark C) Select from A, B, and C  (A)  A  (B)  B (C) C",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_158.png"
+        ],
+        "category": "LogicVista",
+        "newid": 24
+    },
+    {
+        "id": 380,
+        "question": "Which of the 4 figures presented (A, B, C, D) is a rotation of the first?",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_379.png"
+        ],
+        "category": "LogicVista",
+        "newid": 25
+    },
+    {
+        "id": 435,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 4,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/435.png"
+        ],
+        "category": "Marvel",
+        "newid": 26
+    },
+    {
+        "id": 72,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "E",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_72_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 27
+    },
+    {
+        "id": 63,
+        "question": "What is the difference between direct sales and telesales across the five teams combined? Select from A, B, C, D and E. (A) £10 million (B) £11 million (C) £12 million (D) £13 million (E) £14 million",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_62.png"
+        ],
+        "category": "LogicVista",
+        "newid": 28
+    },
+    {
+        "id": 525,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 2,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/525.png"
+        ],
+        "category": "Marvel",
+        "newid": 29
+    },
+    {
+        "id": 96,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 3,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/96.png"
+        ],
+        "category": "Marvel",
+        "newid": 30
+    },
+    {
+        "id": 270,
+        "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E ",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_269.png"
+        ],
+        "category": "LogicVista",
+        "newid": 31
+    },
+    {
+        "id": 3598,
+        "question": "If the following three-dimensional figure is planed from either side, which item [below] cannot be the cross-section of the three-dimensional figure? ()。",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/4231.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 32
+    },
+    {
+        "id": 3010,
+        "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity.（  ）",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/1970.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 33
+    },
+    {
+        "id": 52,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_52_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 34
+    },
+    {
+        "id": 574,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 2,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/574.png"
+        ],
+        "category": "Marvel",
+        "newid": 35
+    },
+    {
+        "id": 683,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 6 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 2,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/683.png"
+        ],
+        "category": "Marvel",
+        "newid": 36
+    },
+    {
+        "id": 16,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_16_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 37
+    },
+    {
+        "id": 3233,
+        "question": "The developed view of the outer surface of the carton is given on the left. Which item on the right can be folded into it? Please find it.",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/3690.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 38
+    },
+    {
+        "id": 71,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_71_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 39
+    },
+    {
+        "id": 374,
+        "question": "Which 3D shape can be made from the 2D net by folding it away from you?",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_373.png"
+        ],
+        "category": "LogicVista",
+        "newid": 40
+    },
+    {
+        "id": 64,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_64_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 41
+    },
+    {
+        "id": 15,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_15_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 42
+    },
+    {
+        "id": 313,
+        "question": "Accountants always produce at least twice the amount of money as secretaries.  Select from A, B and C. (A) True (B)False (C)Insufficient Information",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_312.png"
+        ],
+        "category": "LogicVista",
+        "newid": 43
+    },
+    {
+        "id": 4,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "G",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_4_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 44
+    },
+    {
+        "id": 355,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 1,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/355.png"
+        ],
+        "category": "Marvel",
+        "newid": 45
+    },
+    {
+        "id": 24,
+        "question": "What is the correct answer to the question in the image? Select from A-D",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_23.png"
+        ],
+        "category": "LogicVista",
+        "newid": 46
+    },
+    {
+        "id": 55,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "A",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_55_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 47
+    },
+    {
+        "id": 162,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 3,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/162.png"
+        ],
+        "category": "Marvel",
+        "newid": 48
+    },
+    {
+        "id": 67,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_67_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 49
+    },
+    {
+        "id": 3696,
+        "question": "Divide the following six figures into two categories, so that each type of figure has its own common characteristics or laws. The correct one is ().",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/4331.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 50
+    },
+    {
+        "id": 233,
+        "question": " If whales, sperm whales and dolphins exist, what logical conclusion can be drawn from the following two statements?  All dolphins are whales   No whales are sperm whales   Select from A, B, C, and D. (A) Some sperm whales are dolphins (B) No whales are dolphins (C) None of the other answers is correct   (D) No dolphins are whales ",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_232.png"
+        ],
+        "category": "LogicVista",
+        "newid": 51
+    },
+    {
+        "id": 4193,
+        "question": "Among the following options, the one that conforms to the change rule of the given graph is ().",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/3019.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 52
+    },
+    {
+        "id": 32,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "E",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_32_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 53
+    },
+    {
+        "id": 371,
+        "question": "Visitors arriving from which website were most likely to make a purchase at newbags.com? Select from A, B, C, and D. (A) Website W (B) Website X (C) Website Y (D) Website Z",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_370.png"
+        ],
+        "category": "LogicVista",
+        "newid": 54
+    },
+    {
+        "id": 4261,
+        "question": "",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/3111.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 55
+    },
+    {
+        "id": 335,
+        "question": "What will be the average annual change in attendance at Calewall casino across the years 2006-2010 if the 2010 prediction proves to be accurate?  Select from A, B, C, D and E. (A)  47,500 decrease  (B) 53,500 decrease  (C) 52,500 increase (D) 47,500 increase (E) 53,500 increase",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_334.png"
+        ],
+        "category": "LogicVista",
+        "newid": 56
+    },
+    {
+        "id": 3,
+        "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+        "answer": "F",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_3_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 57
+    },
+    {
+        "id": 4053,
+        "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/441.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 58
+    },
+    {
+        "id": 588,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 1,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/588.png"
+        ],
+        "category": "Marvel",
+        "newid": 59
+    },
+    {
+        "id": 490,
+        "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+        "answer": 4,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel/images/490.png"
+        ],
+        "category": "Marvel",
+        "newid": 60
+    },
+    {
+        "id": 26,
+        "question": "What is the correct answer to the question in the image? Select from A-D",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/LogicVista/images/v1_25.png"
+        ],
+        "category": "LogicVista",
+        "newid": 61
+    },
+    {
+        "id": 70,
+        "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+        "answer": "C",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_70_0.png"
+        ],
+        "category": "MME-CoT_Logic",
+        "newid": 62
+    },
+    {
+        "id": 858,
+        "question": "Among the following options, according to the relationship between Figure 1 and Figure 2, the graph corresponding to Figure 3 is.",
+        "answer": "D",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MLRQA/images/2802.jpg"
+        ],
+        "category": "MLRQA",
+        "newid": 63
+    }
+]

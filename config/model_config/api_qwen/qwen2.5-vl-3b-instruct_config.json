@@ -1,0 +1,17 @@
+{
+    "model_info": {
+        "provider": "openai",
+        "name": "Qwen/Qwen2.5-VL-3B-Instruct",
+        "model_method": "api"
+    },
+    "api_key_info": {
+        "api_keys": "179ec12a-70b8-46e2-a3b7-5fd22dd46b0c",
+        "api_url": "https://api-inference.modelscope.cn/v1/"
+    },
+    "params": {
+        "temperature": 0.1,
+        "seed": 100,
+        "gpus": [],
+        "max_output_tokens": 1000
+    }
+}

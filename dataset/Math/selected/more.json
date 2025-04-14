@@ -1,0 +1,93 @@
+[
+{
+    "category": "Math",
+    "question": "In determining the height, $M N$, of a tower on an island, two points $A$ and $B, 100 \\mathrm{~m}$ apart, are chosen on the same horizontal plane as $N$. If $\\angle N A B=108^{\\circ}$, $\\angle A B N=47^{\\circ}$ and $\\angle M B N=32^{\\circ}$, determine the height of the tower to the nearest metre.\n\n<image>\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 109,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_108.jpg"
+    ],
+    "answer": "['141']"
+  },
+  {
+    "category": "Math",
+    "question": "Square $A B C D$ has side length 22. Points $G$ and $H$ lie on $\\overline{A B}$ so that $A H=B G=5$. Points $E$ and $F$ lie outside square $A B C D$ so that $E F G H$ is a square. Compute the area of hexagon $A E F B C D$.\n\n<image>\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 116,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_115.jpg"
+    ],
+    "answer": "['688']"
+  },
+  {
+    "category": "Math",
+    "question": "Give the earliest and latest occurrence times of each event (A,B ... ,H)and the critical path.\n<image>\nA. Earliest times: A-1, B-4, C-7, D-14, E-18, F-21, G-24, H-27; Latest times: A-1, B-5, C-8, D-16, E-20, F-24, G-28, H-31; Critical path: ACEGH\nB. Earliest times: A-0, B-4, C-9, D-15, E-20, F-24, G-27, H-31; Latest times: A-0, B-5, C-10, D-16, E-22, F-25, G-28, H-32; Critical path: ABDEH\nC. Earliest times: A-0, B-6, C-9, D-17, E-22, F-24, G-27, H-28; Latest times: A-0, B-8, C-9, D-17, E-23, F-25, G-27, H-28; Critical path: ACDGH\nD. Earliest times: A-1, B-5, C-8, D-14, E-18, F-21, G-25, H-29; Latest times: A-1, B-6, C-9, D-15, E-20, F-24, G-28, H-32; Critical path: ACEFH\nE. Earliest times: A-0, B-5, C-10, D-15, E-20, F-23, G-26, H-30; Latest times: A-0, B-5, C-10, D-15, E-21, F-23, G-26, H-30; Critical path: ABFGH\nF. Earliest times: A-0, B-3, C-8, D-16, E-19, F-23, G-26, H-29; Latest times: A-0, B-4, C-8, D-17, E-20, F-24, G-27, H-30; Critical path: BCEFH\nG. Earliest times: A-0, B-5, C-8, D-13, E-18, F-21, G-25, H-29; Latest times: A-0, B-6, C-9, D-14, E-20, F-24, G-28, H-33; Critical path: ABDEH\nH. Earliest times: A-0, B-3, C-7, D-13, E-19, F-22, G-25, H-28; Latest times: A-0, B-5, C-8, D-15, E-21, F-26, G-30, H-33; Critical path: ABDGH\nI. Earliest times: A-2, B-6, C-9, D-12, E-18, F-21, G-24, H-27; Latest times: A-2, B-7, C-9, D-13, E-18, F-22, G-24, H-27; Critical path: ADEGH\nJ. Earliest times: A-0, B-7, C-8, D-15, E-19, F-21, G-25, H-27; Latest times: A-0, B-7, C-9, D-17, E-23, F-26, G-29, H-32; Critical path: ABDFH\nK. nan\nL. nan",
+    "index": 141,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_140.jpg"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "Math",
+    "question": "<image>An obiect is thrown upward into the air 10 meters above the ground. The figure above shows the initiaposition of the object and the position at a later time. At time t seconds after the object is thrown upwardthe horizontal distance from the initial position is given by x(t) meters, and the vertical distance from the ground is given by y(t) meters, where ${\\frac{d x}{d t}}=1.4$ and ${\\frac{d y}{d t}}=4.2-9.8t$,for t $\\ge $ 0 .Find the angle $\\theta $, 0 < $\\theta $ < $\\pi $/2 , between the path of the object and the ground at the instance the objecthit the ground.\nA. $\\theta $ = 1.221\nB. $\\theta $ = 0.785\nC. $\\theta $ = 1.047\nD. $\\theta $ = 1.475\nE. $\\theta $ = 0.853\nF. $\\theta $ = 1.178\nG. $\\theta $ = 1.396\nH. $\\theta $ = 1.570\nI. $\\theta $ = 0.524\nJ. $\\theta $ = 1.309\nK. nan\nL. nan",
+    "index": 147,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_146.jpg"
+    ],
+    "answer": "D"
+  },
+  {
+    "category": "Math",
+    "question": "<image>Find L. Give your answer rounded down to the nearest cm.\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 155,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_154.jpg"
+    ],
+    "answer": "14"
+  },
+  {
+    "category": "Math",
+    "question": "<image>Find A B if \\triangle A B C is an isosceles triangle.\n\nA. 3\nB. 4\nC. 7\nD. 11\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 173,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_172.jpg"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "Math",
+    "question": "<image>f(x)=-5(x+4)^2+8. Which function has a greater maximum, f(x) or g(x)?\n\nA. $f$ has a greater maximum than $g$.\nB. $g$ has a greater maximum than $f$.\nC. $f$ and $g$ share the same maximum.\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 183,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_182.jpg"
+    ],
+    "answer": "C"
+  },
+  {
+    "category": "Math",
+    "question": "In the diagram, $\\angle E A D=90^{\\circ}, \\angle A C D=90^{\\circ}$, and $\\angle A B C=90^{\\circ}$. Also, $E D=13, E A=12$, $D C=4$, and $C B=2$. Determine the length of $A B$.\n\n<image>\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 196,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_195.jpg"
+    ],
+    "answer": "['$\\\\sqrt{5}$']"
+  },
+  {
+    "category": "Math",
+    "question": "<image>In the figure above, a shaded polygon which has equal sides and equal angles is partially covered with a sheet of blank paper. If x + y = 80, how many sides does the polygon have?\n\nA. Ten\nB. Nine\nC. Eight\nD. Seven\nE. Six\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+    "index": 203,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_202.jpg"
+    ],
+    "answer": "B"
+  },
+  {
+    "category": "Math",
+    "question": "A graph <image_1> and a spanning tree <image_2> of <image_1> are given, Give the Fundamental Cut sets of <image_1> with respect of <image_2> <image_1>: <image> <image_2>: <image>\nA. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_6$, $e_8$}\nB. {$e_2$, $e_4$, $e_8$}\nC. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}\nD. {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}\nE. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_6$, $e_8$}, {$e_2$, $e_4$}\nF. {$e_1$, $e_8$}, {$e_2$, $e_3$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}, {$e_2$, $e_3$}\nG. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_8$}, {$e_6$, $e_8$}\nH. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_6$, $e_8$}\nI. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}, {$e_2$, $e_4$}\nJ. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}\nK. nan\nL. nan",
+    "index": 209,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_208.jpg",
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_209.jpg"
+    ],
+    "answer": "C"
+  }
+]

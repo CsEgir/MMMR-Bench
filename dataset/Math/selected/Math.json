@@ -1,0 +1,633 @@
+[
+    {
+        "ID": 1,
+        "question": "There are two points at -2 and 1 on the number line. Write the set of numbers represented on the number line in interval notation.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_474.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "(-2,1]"
+    },
+    {
+        "ID": 11,
+        "question": "Two curves are symmetrical about the x-axis. Use the vertical line test to determine if this relation is a function.()Choices: A:This is a function ,B:This is not a function",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_476.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "B"
+    },
+    {
+        "ID": 18,
+        "question": "Determine if this relation is a function.()Choices: A:This is a function ,B:This is not a function",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_477.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "A"
+    },
+    {
+        "ID": 28,
+        "question": "Determine if this relation is a one-to-one function.()Choices: A:This is a one-to-one function ,B:This is not a one-to-one function",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_479.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "A"
+    },
+    {
+        "ID": 34,
+        "question": "Determine if this relation is a one-to-one function.()Choices: A:This is a one-to-one function ,B:This is not a one-to-one function",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_480.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "B"
+    },
+    {
+        "ID": 52,
+        "question": "Write the domain and range of the function using interval notation.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_484.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "domain: [-5,3) and range: [0,2]"
+    },
+    {
+        "ID": 61,
+        "question": "There is a hyperbolic function with its center at the origin. The graph approaches zero as $∣x∣$ increases, and the function is undefined at x=0. There are four points labeled at (1/6,6), (6,1/6), (-1/6,-6), (-6,-1/6). Write the domain and range of the function using interval notation.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_486.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "domain: [-6,-\frac{1}{6}] cup[\frac{1}{6}, 6] and range: [-6,-\frac{1}{6}\right] cup[\frac{1}{6}, 6]"
+    },
+    {
+        "ID": 73,
+        "question": "Estimate the intervals on which the function is increasing or decreasing.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_488.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "The function is increasing on (-infty,-2.5) cup(1, infty), and decreasing on (-2.5,1)"
+    },
+    {
+        "ID": 81,
+        "question": "There is an odd function f going through (0,0). Estimate the point(s) at which the graph of f has a local maximum or a local minimum.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_490.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "\text { local maximum: }(-3,60) \text {, local minimum: }(3, -60)"
+    },
+    {
+        "ID": 92,
+        "question": "The point  (1.333,5.185)  is which of the following for the cubic function f?()Choices: A.a relative (local) maximum of the functionB.the vertex of the functionC.the absolute maximum of the functionD.a zero of the function",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_492.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "A"
+    },
+    {
+        "ID": 98,
+        "question": "Write an equation for the graphed function f.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_493.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "When x<=3 $f(x)=-x+1$, when x>3, $f(x)=x-5$"
+    },
+    {
+        "ID": 103,
+        "question": "Write an equation for the graphed function f.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_494.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "When x<=-3 $f(x) = -x-5$, when x>3, $f(x)=x+1$"
+    },
+    {
+        "ID": 149,
+        "question": "Write the equation for the function.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_503.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "f(x)=|x-3|"
+    },
+    {
+        "ID": 378,
+        "question": "There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_549.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "12.5"
+    },
+    {
+        "ID": 384,
+        "question": "Elena knows that Lea has a garden with an area of 100 square meters. She does not know the specific width, $w$, and length, $l$ of the garden. The graph below represents the widths that correspond to possible lengths of Lea's garden. As the possible width of Lea's garden increases, what does its possible length approach?()Choices: A:$infty$ ,B:$hline 0$ ,C:$hline 10$ ,D:$hline 120$",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_550.png"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "B"
+    },
+    {
+        "ID": 1,
+        "question": "what is the total volume of the measuring cup?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/2.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "1000"
+    },
+    {
+        "ID": 8,
+        "question": "Fill in the blank to describe the model. The model has 4 dots divided into 2 equal groups. There are (_) dots in each group.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/21.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "2"
+    },
+    {
+        "ID": 11,
+        "question": "What is the age gap between these two people in image?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/29.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "4"
+    },
+    {
+        "ID": 16,
+        "question": "What is the age gap between these two people in image?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/41.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "7"
+    },
+    {
+        "ID": 21,
+        "question": "What is the sum of the digits on either end of the sign in the corner?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/49.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "0"
+    },
+    {
+        "ID": 26,
+        "question": "Subtract all small balls. Subtract all blue rubber things. How many objects are left?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/57.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "2"
+    },
+    {
+        "ID": 31,
+        "question": "What is the age gap between these two people in image?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/70.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "8"
+    },
+    {
+        "ID": 36,
+        "question": "Is the number of shiny buss less than the number of matte things?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/83.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "Yes"
+    },
+    {
+        "ID": 42,
+        "question": "The shape is made of unit squares. What is the area of the shape?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/102.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "6"
+    },
+    {
+        "ID": 49,
+        "question": "Is the number of big cyan airliners less than the number of gray shiny utility bikes?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/112.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "No"
+    },
+    {
+        "ID": 54,
+        "question": "What is the age gap between the leftmost and the rigtmost person?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/126.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "9"
+    },
+    {
+        "ID": 74,
+        "question": "What is the sum of accuracies of the algorithm liver for all the datasets?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/175.jpg"
+        ],
+        "form": "algebraic reasoning",
+        "answer": "24"
+    },
+    {
+        "ID": 2,
+        "question": "As shown in the figure, it is known that angle A = 80.0, angle B = 60.0, DE parallel BC, then the size of angle CED is ()Choices: A:40° ,B:60° ,C:120° ,D:140°",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_1.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "D"
+    },
+    {
+        "ID": 2884,
+        "question": "As shown in the figure, part of the solid is a cone. The height of the cone is 12cm. Find the volume of the composite figure shown, correct to two decimal places.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_738.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "169.65 mathrm{cm}^3"
+    },
+    {
+        "ID": 2888,
+        "question": "A pyramid has been removed from a rectangular prism, as shown in the figure. The height of the rectangular prism is 8cm. Find the volume of this composite solid.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_739.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "720 mathrm{cm}^3"
+    },
+    {
+        "ID": 2898,
+        "question": "A cylinder has a surface area of 54105 mathrm{mm}^2.What must the height h mm of the cylinder be? Round your answer to the nearest whole number.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_741.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "30"
+    },
+    {
+        "ID": 2915,
+        "question": "Calculate the radius of the sphere shown in figure with the volume of the cylinder 13.75pi cm$^3$.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_744.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "3"
+    },
+    {
+        "ID": 2933,
+        "question": "The following is a right pyramid on a square base with side length 16cm. A right pyramid has its apex aligned directly above the centre of its base.Find the length of VW, the perpendicular height of the pyramid correct to two decimal places.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_748.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "23.41"
+    },
+    {
+        "ID": 2949,
+        "question": "In the tube shown above, the circumference of the base is 32 . If the tube is cut along $overline{A B}$ and laid out flat to make a surface, what is the length of $overline{A C}$ to the nearest whole number?()Choices: A:24 ,B:30 ,C:34 ,D:38",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_751.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "C"
+    },
+    {
+        "ID": 2968,
+        "question": "What is the value of x^2 + y^2?()Choices: A.21B.27C.33D.sqrt{593} (approximately 24.35)E.sqrt{611} (approximately 24.72)",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_755.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "A"
+    },
+    {
+        "ID": 2983,
+        "question": "In triangle ABC above, the bisector of angle BAC is AD. The length of AB is equal to the length of AC. If AB = 6 and BD = 3, what is the measure of angle BAC?()Choices: A.15*degreeB.30*degreeC.45*degreeD.60*degreeE.75*degree",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_758.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "D"
+    },
+    {
+        "ID": 2993,
+        "question": "In the figure above, the circle has radius r. Lines AB and AC are tangent to the circle. If M is the midpoint of segment AC and the measure of angle PMC equals the measure of angle MPC, what is the length, in terms of r, of segment PA?()Choices: A.r + 1B.2*rC.r*sqrt{2}D.r*sqrt{3}E.r*sqrt{5}",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_760.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "E"
+    },
+    {
+        "ID": 3008,
+        "question": "In the figure above, the radii of four circles are 1, 2, 3, and 4, respectively. What is the ratio of the area of the small shaded ring to the area of the large shaded ring?()Choices: A.1:2B.1:4C.3:5D.3:7E.5:7",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_763.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "D"
+    },
+    {
+        "ID": 3022,
+        "question": "In the figure above, point B lies on side AC. This figure consists of triangles BCD and BAD. If 55 < x < 60, what is one possible value of y ?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_766.png"
+        ],
+        "form": "geometry reasoning",
+        "answer": "123"
+    },
+    {
+        "ID": 1,
+        "question": "△ABC的两内角平分线OB、OC相交于点O，若∠A＝110°，则∠BOC＝（）",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/3.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "145°"
+    },
+    {
+        "ID": 5,
+        "question": "如图，在Rt△ABC中，∠ACB＝90°，D是AB的中点，AB＝10，则CD的长为（）",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/17.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "5"
+    },
+    {
+        "ID": 12,
+        "question": "In the figure above, the ratio of the length of line AB to the length of line AC is 2 : 5. If AC = 25, what is the length of line AB?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/54.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "10"
+    },
+    {
+        "ID": 17,
+        "question": "As shown in the figure, points A, B, C, and D are on circle O, and point E is on the extended line of AD. If ∠ABC = 60.0, then the degree of ∠CDE is ()",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/79.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "60°"
+    },
+    {
+        "ID": 22,
+        "question": "As shown in the figure, the straight lines AB and CD intersect at point O, OD bisects ∠AOE, ∠BOC = 50.0, then ∠EOB = ()",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/95.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "80°"
+    },
+    {
+        "ID": 29,
+        "question": "As shown in the figure, points A, B, and C are three points on ⊙O, and the straight line CD and ⊙O are tangent to point C. If ∠DCB = 40.0, then the degree of ∠CAB is ()",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/150.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "40°"
+    },
+    {
+        "ID": 36,
+        "question": "An image has the gray level PDF $p_r(r)$ shown in Fig. Q1a. One wants to do histogram specification SO that the processed image will have the specified $p_z(z)$ shown in Fig. Q1b. Can we use intensity mapping function $T: z=1-r$ to achieve the goal?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/185.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "False"
+    },
+    {
+        "ID": 39,
+        "question": "如图，AB是⊙O的直径，C，D两点在⊙O上，∠BCD＝25°，则∠AOD的度数为（）",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/195.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "130°"
+    },
+    {
+        "ID": 51,
+        "question": "As shown in the figure, ∠BAC = 110.0, if A and B are symmetrical with respect to the line MP, A and C are symmetrical with respect to the line NQ, then the size of ∠PAQ is ()",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/255.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "40°"
+    },
+    {
+        "ID": 57,
+        "question": "One diagonal of a rhombus is twice as long as the other diagonal. If the area of the rhombus is 169 square millimeters, what are the lengths of the diagonals?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/273.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "26"
+    },
+    {
+        "ID": 63,
+        "question": "As shown in the figure, it is known that AB is the diameter of ⊙O, if the degree of ∠BOC is 50.0, then the degree of ∠A is ()",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/285.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "25°"
+    },
+    {
+        "ID": 70,
+        "question": "As shown in the figure, given that points A, B, and C are on ⊙O, ∠AOB = 100.0, then the degree of ∠ACB is ()",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/316.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "50°"
+    },
+    {
+        "ID": 76,
+        "question": "如图，在⊙O中，AB=AC，∠BAC＝70°，则∠AEC的度数是（）",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/339.jpg"
+        ],
+        "form": "geometry reasoning",
+        "answer": "55°"
+    },
+    {
+        "ID": 2,
+        "question": "How many items sold less than 5 units in at least one store?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/16.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "2"
+    },
+    {
+        "ID": 7,
+        "question": "Use the graph to answer the question below. Which month is the wettest on average in Christchurch?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/43.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "May"
+    },
+    {
+        "ID": 11,
+        "question": "How many countries have people working for more than 35 hours over the years?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/85.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "2"
+    },
+    {
+        "ID": 16,
+        "question": "What is the sum of all the values in the ruling group?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/100.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "12"
+    },
+    {
+        "ID": 20,
+        "question": "How many bars have value below 40?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/131.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "3"
+    },
+    {
+        "ID": 27,
+        "question": "How many methods in the table achieve an A-847 score higher than 20.0?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/188.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "3"
+    },
+    {
+        "ID": 31,
+        "question": "What is the value of the smallest bar?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/202.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "3"
+    },
+    {
+        "ID": 36,
+        "question": "In which year there was lowest per capita real gross domestic product of ohio?",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/213.jpg"
+        ],
+        "form": "statistical reasoning",
+        "answer": "2001"
+    },
+    {
+        "category": "Math",
+        "question": "In determining the height, $M N$, of a tower on an island, two points $A$ and $B, 100 \\mathrm{~m}$ apart, are chosen on the same horizontal plane as $N$. If $\\angle N A B=108^{\\circ}$, $\\angle A B N=47^{\\circ}$ and $\\angle M B N=32^{\\circ}$, determine the height of the tower to the nearest metre.\n\n<image>\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 109,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_108.jpg"
+        ],
+        "answer": "['141']"
+      },
+      {
+        "category": "Math",
+        "question": "Square $A B C D$ has side length 22. Points $G$ and $H$ lie on $\\overline{A B}$ so that $A H=B G=5$. Points $E$ and $F$ lie outside square $A B C D$ so that $E F G H$ is a square. Compute the area of hexagon $A E F B C D$.\n\n<image>\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 116,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_115.jpg"
+        ],
+        "answer": "['688']"
+      },
+      {
+        "category": "Math",
+        "question": "Give the earliest and latest occurrence times of each event (A,B ... ,H)and the critical path.\n<image>\nA. Earliest times: A-1, B-4, C-7, D-14, E-18, F-21, G-24, H-27; Latest times: A-1, B-5, C-8, D-16, E-20, F-24, G-28, H-31; Critical path: ACEGH\nB. Earliest times: A-0, B-4, C-9, D-15, E-20, F-24, G-27, H-31; Latest times: A-0, B-5, C-10, D-16, E-22, F-25, G-28, H-32; Critical path: ABDEH\nC. Earliest times: A-0, B-6, C-9, D-17, E-22, F-24, G-27, H-28; Latest times: A-0, B-8, C-9, D-17, E-23, F-25, G-27, H-28; Critical path: ACDGH\nD. Earliest times: A-1, B-5, C-8, D-14, E-18, F-21, G-25, H-29; Latest times: A-1, B-6, C-9, D-15, E-20, F-24, G-28, H-32; Critical path: ACEFH\nE. Earliest times: A-0, B-5, C-10, D-15, E-20, F-23, G-26, H-30; Latest times: A-0, B-5, C-10, D-15, E-21, F-23, G-26, H-30; Critical path: ABFGH\nF. Earliest times: A-0, B-3, C-8, D-16, E-19, F-23, G-26, H-29; Latest times: A-0, B-4, C-8, D-17, E-20, F-24, G-27, H-30; Critical path: BCEFH\nG. Earliest times: A-0, B-5, C-8, D-13, E-18, F-21, G-25, H-29; Latest times: A-0, B-6, C-9, D-14, E-20, F-24, G-28, H-33; Critical path: ABDEH\nH. Earliest times: A-0, B-3, C-7, D-13, E-19, F-22, G-25, H-28; Latest times: A-0, B-5, C-8, D-15, E-21, F-26, G-30, H-33; Critical path: ABDGH\nI. Earliest times: A-2, B-6, C-9, D-12, E-18, F-21, G-24, H-27; Latest times: A-2, B-7, C-9, D-13, E-18, F-22, G-24, H-27; Critical path: ADEGH\nJ. Earliest times: A-0, B-7, C-8, D-15, E-19, F-21, G-25, H-27; Latest times: A-0, B-7, C-9, D-17, E-23, F-26, G-29, H-32; Critical path: ABDFH\nK. nan\nL. nan",
+        "index": 141,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_140.jpg"
+        ],
+        "answer": "C"
+      },
+      {
+        "category": "Math",
+        "question": "<image>An obiect is thrown upward into the air 10 meters above the ground. The figure above shows the initiaposition of the object and the position at a later time. At time t seconds after the object is thrown upwardthe horizontal distance from the initial position is given by x(t) meters, and the vertical distance from the ground is given by y(t) meters, where ${\\frac{d x}{d t}}=1.4$ and ${\\frac{d y}{d t}}=4.2-9.8t$,for t $\\ge $ 0 .Find the angle $\\theta $, 0 < $\\theta $ < $\\pi $/2 , between the path of the object and the ground at the instance the objecthit the ground.\nA. $\\theta $ = 1.221\nB. $\\theta $ = 0.785\nC. $\\theta $ = 1.047\nD. $\\theta $ = 1.475\nE. $\\theta $ = 0.853\nF. $\\theta $ = 1.178\nG. $\\theta $ = 1.396\nH. $\\theta $ = 1.570\nI. $\\theta $ = 0.524\nJ. $\\theta $ = 1.309\nK. nan\nL. nan",
+        "index": 147,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_146.jpg"
+        ],
+        "answer": "D"
+      },
+      {
+        "category": "Math",
+        "question": "<image>Find L. Give your answer rounded down to the nearest cm.\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 155,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_154.jpg"
+        ],
+        "answer": "14"
+      },
+      {
+        "category": "Math",
+        "question": "<image>Find A B if \\triangle A B C is an isosceles triangle.\n\nA. 3\nB. 4\nC. 7\nD. 11\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 173,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_172.jpg"
+        ],
+        "answer": "C"
+      },
+      {
+        "category": "Math",
+        "question": "<image>f(x)=-5(x+4)^2+8. Which function has a greater maximum, f(x) or g(x)?\n\nA. $f$ has a greater maximum than $g$.\nB. $g$ has a greater maximum than $f$.\nC. $f$ and $g$ share the same maximum.\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 183,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_182.jpg"
+        ],
+        "answer": "C"
+      },
+      {
+        "category": "Math",
+        "question": "In the diagram, $\\angle E A D=90^{\\circ}, \\angle A C D=90^{\\circ}$, and $\\angle A B C=90^{\\circ}$. Also, $E D=13, E A=12$, $D C=4$, and $C B=2$. Determine the length of $A B$.\n\n<image>\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 196,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_195.jpg"
+        ],
+        "answer": "['$\\\\sqrt{5}$']"
+      },
+      {
+        "category": "Math",
+        "question": "<image>In the figure above, a shaded polygon which has equal sides and equal angles is partially covered with a sheet of blank paper. If x + y = 80, how many sides does the polygon have?\n\nA. Ten\nB. Nine\nC. Eight\nD. Seven\nE. Six\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 203,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_202.jpg"
+        ],
+        "answer": "B"
+      },
+      {
+        "category": "Math",
+        "question": "A graph <image_1> and a spanning tree <image_2> of <image_1> are given, Give the Fundamental Cut sets of <image_1> with respect of <image_2> <image_1>: <image> <image_2>: <image>\nA. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_6$, $e_8$}\nB. {$e_2$, $e_4$, $e_8$}\nC. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}\nD. {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}\nE. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_6$, $e_8$}, {$e_2$, $e_4$}\nF. {$e_1$, $e_8$}, {$e_2$, $e_3$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}, {$e_2$, $e_3$}\nG. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_8$}, {$e_6$, $e_8$}\nH. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_6$, $e_8$}\nI. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_3$, $e_7$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}, {$e_2$, $e_4$}\nJ. {$e_1$, $e_8$}, {$e_2$, $e_4$, $e_8$}, {$e_5$, $e_7$, $e_8$}, {$e_6$, $e_8$}\nK. nan\nL. nan",
+        "index": 209,
+        "image_url": [
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_208.jpg",
+          "/mnt/zeli/LRM_Benchmark/dataset/Math/selected/images/image_209.jpg"
+        ],
+        "answer": "C"
+      }
+]

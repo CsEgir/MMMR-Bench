@@ -1,0 +1,18 @@
+{
+    "ACC": 0,
+    "empty_answers": 1,
+    "results": [
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The correct answer is B.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MME-CoT/images/image_1_0.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ],
+    "time": 2.5798351764678955
+}

@@ -1,0 +1,1121 @@
+[
+    {
+        "category": "OCR",
+        "question": "Below are four slides from one presentation. Please reorder them to ensure a logical flow: \n\n<image> <image> <image> <image>\nA. None of the choices provided\nB. The second image, the first image, the third image, the forth image.\nC. The third image, the second image, the forth image, the first image.\nD. The first image, the second image, the third image, the forth image.\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 23,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_22_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_22_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_22_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_22_3.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "Below are four slides from one presentation. Please reorder them to ensure a logical flow: \n\n<image> <image> <image> <image>\nA. The forth image, the second image, the third image, the first image.\nB. The first image, the third image, the second image, the forth image.\nC. The third image, the first image, the second image, the forth image.\nD. None of the choices provided\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 46,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_45_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_45_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_45_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_45_3.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "What are the jokes of these pictures? <image> <image> <image>\nA. These animals have dull expressions.\nB. All three animals have strange expressions.\nC. It's funny to use different animals to compare people with different lifestyles, convey truth through comparison and satirize some people.\nD. None of the choices provided\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 53,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_52_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_52_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_52_2.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "What are the jokes of these pictures? <image> <image> <image> <image>\nA. A man easily pulled out the sword in the stone\nB. None of the choices provided\nC. The sword was so powerful that it cut Stone.\nD. Here is the imitation of King Arthur pulled out the sword in the stone, but turned Stone into a living thing, and pulled out the sword, Stone actually bled.\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 54,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_53_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_53_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_53_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_53_3.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "<image> <image> <image> <image> <image> <image> How many figures are included in the presentation slides?\nA. None of the choices provided\nB. 5\nC. 4\nD. 6\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 61,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_60_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_60_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_60_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_60_3.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_60_4.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_60_5.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "2021/05/31 conversation: People1:This picture was taken on New Year's Day People1:<image> People1:And this was taken today. People1:<image> People1:I've gained a lot of weight and I'm so annoyed. How many kilograms does people1 gain per month on average?\nA. 21.4\nB. 10.7\nC. None of the choices provided\nD. 1.28\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 67,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_66_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_66_1.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "People1:<image> People1:This one drink is very sweet and should suit your taste @People2 People2:All I can say is that if you bring a bottle back, you can still be friends. People3:<image> People2:I am angry! Why people2 feel angry at the end of conversation?\nA. Because People1 refused to bring him a drink\nB. Because People3 drank the drink originally brought to him\nC. Because People3 thinks this drink is terrible to drink\nD. None of the choices provided\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 68,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_67_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_67_1.jpg"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "OCR",
+        "question": "What role does the duck in this comic strip look more like in the family? <image> <image>\nA. Son.\nB. None of the choices provided\nC. Grandparent.\nD. Daughter.\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 71,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_70_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_70_1.jpg"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "OCR",
+        "question": "What are the jokes of these pictures? <image> <image>\nA. None of the choices provided\nB. The man in the plaid shirt heard \"why july\" as \"why you lie\".\nC. The man in the plaid shirt lied.\nD. The man in the plaid shirt looks funny.\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 73,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_72_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_72_1.jpg"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "OCR",
+        "question": "What are the jokes of these pictures? <image> <image> <image> <image>\nA. The ostrich's head was buried in the ground, and as a result, the earth became an ostrich's head.\nB. The ostrich buried its head in the soil and couldn't lift it\nC. The earth is an ostrich\nD. None of the choices provided\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 75,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_74_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_74_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_74_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_74_3.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "<image> <image> <image> <image> <image> <image> <image> <image> How many tables are presented in the experimental results?\nA. None of the choices provided\nB. 5\nC. 4\nD. 2\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 76,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_3.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_4.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_5.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_6.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_75_7.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "This is my daily exercise goal: <image> And my current situation today: <image> Can you make any appropriate suggestions for today's situation?\nA. All good, no advice needed.\nB. None of the choices provided\nC. Take too many steps, should relax appropriately.\nD. Lack of sleep, should rest as soon as possible\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 80,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_79_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_79_1.jpg"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "OCR",
+        "question": "This is my home office. <image> This is the computer price list. <image> How much did the computer in my home office cost at least?\nA. $1299\nB. $1499\nC. None of the choices provided\nD. $1799\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 81,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_80_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_80_1.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "What is funny about this comic strip? <image> <image> <image> <image>\nA. None of the choices provided\nB. The polar bear competed with the dinosaur in skating.\nC. The dinosaur skates.\nD. the dinosaur is several times bigger than the polar bear.\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 86,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_85_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_85_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_85_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_85_3.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "Below are four slides from one presentation. Please reorder them to ensure a logical flow: _x000D_\n_x000D_\n<image> <image> <image> <image>\nA. The second image, the third image, the forth image, the first image.\nB. The forth image, the third image, the first image, the second image.\nC. The first image, the forth image, the third image, the second image.\nD. None of the choices provided\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 88,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_87_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_87_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_87_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_87_3.jpg"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "OCR",
+        "question": "<image> <image> <image> <image> <image> <image> How many tables are presented in the experimental results?\nA. 1\nB. 5\nC. None of the choices provided\nD. 6\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 89,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_88_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_88_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_88_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_88_3.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_88_4.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_88_5.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "Can you determine which slide serves a different function compared to the others? For instance, some slides may be for concluding the presentation while others are for introducing the topic: \n\n<image> <image> <image> <image>\nA. the forth image\nB. None of the choices provided\nC. the third image\nD. the second image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 93,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_92_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_92_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_92_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_92_3.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "Three of the following four slides are from the same presentation, but one is from a different one. Please identify the outlier: \n\n<image> <image> <image> <image>\nA. the third image\nB. None of the choices provided\nC. the second image\nD. the forth image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 95,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_94_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_94_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_94_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_94_3.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "<image>What's the average of all the bars in \"The coronavirus outbreak\" category?\nA. 23\nB. 27\nC. 30\nD. 25\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 97,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_96_0.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "Three of the following four slides are from the same presentation, but one is from a different one. Please identify the outlier: \n\n<image> <image> <image> <image>\nA. the second image\nB. the third image\nC. None of the choices provided\nD. the forth image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 98,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_97_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_97_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_97_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_97_3.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "Which of the following figures belongs to the same paper as <image>?\nA. None of the choices provided\nB. <image>\nC. <image>\nD. <image>\nE. <image>\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 99,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_98_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_98_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_98_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_98_3.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_98_4.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "Which of the following figures belongs to the same paper as <image>?\nA. <image>\nB. None of the choices provided\nC. <image>\nD. <image>\nE. <image>\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 101,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_100_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_100_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_100_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_100_3.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_100_4.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "Three of the following four slides are from the same presentation, but one is from a different one. Please identify the outlier: \n\n<image> <image> <image> <image>\nA. None of the choices provided\nB. the second image\nC. the forth image\nD. the third image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 104,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_103_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_103_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_103_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_103_3.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "Can you determine which slide serves a different function compared to the others? For instance, some slides may be for concluding the presentation while others are for introducing the topic: \n\n<image> <image> <image> <image>\nA. the second image\nB. the first image\nC. the fourth image\nD. None of the choices provided\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 105,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_104_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_104_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_104_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_104_3.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "<image>What is the name of the variant where there is an observable component in population of previously infected category on August 8, 2021 but not on June 12, 2021?\nA. nan\nB. nan\nC. nan\nD. nan\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 106,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_105_0.jpg"
+        ],
+        "answer": "Delta"
+    },
+    {
+        "category": "OCR",
+        "question": "Can you determine which slide serves a different function compared to the others? For instance, some slides may be for concluding the presentation while others are for introducing the topic: \n\n<image> <image> <image> <image>\nA. None of the choices provided\nB. the forth image\nC. the third image\nD. the second image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 123,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_122_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_122_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_122_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_122_3.jpg"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "OCR",
+        "question": "Can you determine which slide serves a different function compared to the others? For instance, some slides may be for concluding the presentation while others are for introducing the topic: \n\n<image> <image> <image> <image>\nA. the second image\nB. the third image\nC. None of the choices provided\nD. the forth image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 124,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_123_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_123_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_123_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_123_3.jpg"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "OCR",
+        "question": "Can you determine which slide serves a different function compared to the others? For instance, some slides may be for concluding the presentation while others are for introducing the topic: \n\n<image> <image> <image> <image>\nA. None of the choices provided\nB. the fourth image\nC. the second image\nD. the first image\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 126,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_125_0.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_125_1.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_125_2.jpg",
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_125_3.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "OCR",
+        "question": "<image>The shortest light blue bar minus the tallest blue bar yields what value??\nA. -30.00\nB. 27.55\nC. -25.79\nD. 31.12\nE. nan\nF. nan\nG. nan\nH. nan\nI. nan\nJ. nan\nK. nan\nL. nan",
+        "index": 129,
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MME-CoT/images/image_128_0.jpg"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": "dev_Accounting_1",
+        "question": "Each of the following situations relates to a different company. <image 1> For company B, find the missing amounts.\n$63,020\n$58,410\n$71,320\n$77,490",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/dev_Accounting_1_1.png"
+        ],
+        "answer": "$77,490"
+    },
+    {
+        "id": "dev_Accounting_2",
+        "question": "Here are facts for the Hudson Roofing Company for December. <image 1> Assuming no investments or withdrawals, what is the ending balance in the owners' capital account?\n$171,900\n$170,000\n$172,500\n$181,900",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/dev_Accounting_2_1.png"
+        ],
+        "answer": "$171,900"
+    },
+    {
+        "id": "dev_Accounting_3",
+        "question": "For 2015, calculate the cash flow from assets(1) ________, cash flow to creditors(2) ________, and cash flow to stockholders(3) ________.<image 1>\n1): -$493.02 (2):-$2,384 (3):$1,890.98\n1): $1843.98 (2): -$2,384 (3):$493.02\n1): -$493.02 (2):  -$2,384 (3):-$1,890.98",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/dev_Accounting_3_1.png"
+        ],
+        "answer": "1): -$493.02 (2):  -$2,384 (3):-$1,890.98"
+    },
+    {
+        "id": "dev_Accounting_4",
+        "question": "Paper Submarine Manufacturing is investigating a lockbox system to reduce its collection time. It has determined the following:<image 1> The total collection time will be reduced by three days if the lockbox system is adopted.What is the net cash flow per check from adopting? \n$.02\n$7.79\n$8.65",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/dev_Accounting_4_1.png"
+        ],
+        "answer": "$.02"
+    },
+    {
+        "id": "dev_Accounting_5",
+        "question": "Solve for the unknown number of years in each of the following:<image 1>\n10.52 years; 14.73 years; 20.02 years; 24.73 years\n10.64 years; 14.81 years; 20.35 years; 25.01 years\n10.96 years; 15.22 years; 20.83 years; 25.96 years",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/dev_Accounting_5_1.png"
+        ],
+        "answer": "10.64 years; 14.81 years; 20.35 years; 25.01 years"
+    },
+    {
+        "id": "validation_Accounting_1",
+        "question": "<image 1> Baxter Company has a relevant range of production between 15,000 and 30,000 units. The following cost data represents average variable costs per unit for 25,000 units of production. If 30,000 units are produced, what are the per unit manufacturing overhead costs incurred?\n$6\n$7\n$8\n$9",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_1_1.png"
+        ],
+        "answer": "$7"
+    },
+    {
+        "id": "validation_Accounting_2",
+        "question": "Assume accounts have normal balances, solve for the one missing account balance: Dividends. Equipment was recently purchased, so there is neither depreciation expense nor accumulated depreciation. <image 1>\n$194,815\n$182,815\n$12,000\n$9,000",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_2_1.png"
+        ],
+        "answer": "$12,000"
+    },
+    {
+        "id": "validation_Accounting_3",
+        "question": "Maxwell Software, Inc., has the following mutually exclusive projects.Suppose the company uses the NPV rule to rank these two projects.<image 1> Which project should be chosen if the appropriate discount rate is 15 percent?\nProject A\nProject B",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_3_1.png"
+        ],
+        "answer": "Project B"
+    },
+    {
+        "id": "validation_Accounting_4",
+        "question": "Each situation below relates to an independent company's Owners' Equity. <image 1> Calculate the missing values of company 2.\n$1,620\n$12,000\n$51,180\n$0",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_4_1.png"
+        ],
+        "answer": "$0"
+    },
+    {
+        "id": "validation_Accounting_5",
+        "question": "The following data show the units in beginning work in process inventory, the number of units started, the number of units transferred, and the percent completion of the ending work in process for conversion. Given that materials are added at the beginning of the process, what are the equivalent units for conversion costs for each quarter using the weighted-average method? Assume that the quarters are independent.<image 1>\n132,625\n134,485\n135,332\n132,685",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_5_1.png"
+        ],
+        "answer": "134,485"
+    },
+    {
+        "id": "validation_Accounting_6",
+        "question": "Job cost sheets show the following information: <image 1> What are the balances in the work in process inventory, finished goods inventory, and cost of goods sold for January?\n2,500 4,838 0\n3,409 6,950 4,838\n5,728 3,700 3,250\n5,728 3,409 2,500",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_6_1.png"
+        ],
+        "answer": "2,500 4,838 0"
+    },
+    {
+        "id": "validation_Accounting_7",
+        "question": "You are a consultant to a large manufacturing orporation that is considering a project with thefollowing net after-tax cash flows (in millions of dollars ): <image 1> The project's beta is 1.8. Assuming that rf = 8% and E(rM) = 16%, what is the highest possible beta estimate for the project before its NPV becomes negative?\n3.31\n3.47\n3.65",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_7_1.png"
+        ],
+        "answer": "3.47"
+    },
+    {
+        "id": "validation_Accounting_8",
+        "question": "Tim-Buck-II rents jet skis at a beach resort. There are three models available to rent: Junior, Adult, and Expert. The rental price and variable costs for these three models are as follows: <image 1> The current product mix is 5:4:1. The three models share total fixed costs of $114,750. Calculate the sales price per composite unit.\n$660\n$760\n$650\n$750",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_8_1.png"
+        ],
+        "answer": "$660"
+    },
+    {
+        "id": "validation_Accounting_9",
+        "question": "Forest Company had the following transactions during the month of December. What is the December 31 cash balance? <image 1>\n$6,000\n$6,150\n$6,090\n$6,060",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_9_1.png"
+        ],
+        "answer": "$6,090"
+    },
+    {
+        "id": "validation_Accounting_10",
+        "question": "Use the following cash flow data for Rocket Transport to find Rocket's (1)net cash provided by or used in investing activities (2)Net increase or decrease in cash for the year. <image 1>\n(1)$39,000 ; (2)84,000\n(1)$36,000 ; (2)77,000\n(1)$38,650 ; (2)82,910",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_10_1.png"
+        ],
+        "answer": "(1)$39,000 ; (2)84,000"
+    },
+    {
+        "id": "validation_Accounting_11",
+        "question": "Donna Donie, CFA, has a client who believes the common stock price of TRT Materials (currently $58 per share) could move substantially in either direction in reaction to an expected court decision involving the company. The client currently owns no TRT shares, but asks Donie for advice about implementing a strangle strategy to capitalize on the possible stock price movement. A strangle is a portfolio of a put and a call with different exercise prices but the same expiration date. Donie gathers the TRT option-pricing data: <image 1> Calculate, at expiration for long strangle strategy, the Maximum possible loss per share.\n$9.00\n$5.00\nthe Maximum  possible loss is unlimited",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_11_1.png"
+        ],
+        "answer": "$9.00"
+    },
+    {
+        "id": "validation_Accounting_12",
+        "question": "<image 1> Hicks Products produces and sells patio furniture through a national dealership network. They purchase raw materials from a variety of suppliers and all manufacturing, and assembly work is performed at their plant outside of Cleveland, Ohio. They recorded these costs for the year ending December 31, 2017. What is total revenue?\n$3,100,000\n$2,616,000\n$2,474,000\n$484,000",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_12_1.png"
+        ],
+        "answer": "$3,100,000"
+    },
+    {
+        "id": "validation_Accounting_13",
+        "question": "Choco's Chocolates incurs the following costs for the month: <image 1> What is the conversion cost?\n$52,000\n$62,000\n$72,000\n$82,000",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_13_1.png"
+        ],
+        "answer": "$72,000"
+    },
+    {
+        "id": "validation_Accounting_14",
+        "question": "A new company started production. Job 1 was completed, and Job 2 remains in production. Here is the information from the job cost sheets from their first and only jobs so far: <image 1> Using the information provided, what is the balance in finished goods inventory?\n$10,208\n$10,308\n$10,408\n$10,508",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_14_1.png"
+        ],
+        "answer": "$10,308"
+    },
+    {
+        "id": "validation_Accounting_15",
+        "question": "The cost data for BC Billing Solutions for the year 2020 is as follows: <image 1> Predict the overtime wages if 6,500 invoices are processed.\n$4,840\n$4,940\n$5,040\n$5,140",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_15_1.png"
+        ],
+        "answer": "$4,840"
+    },
+    {
+        "id": "validation_Accounting_16",
+        "question": "Janet Ludlow's firm requires all its analysts to use a two-stage dividend discount model (DDM) and the capital asset pricing model (CAPM) to value stocks. Using the CAPM and DDM, Ludlow has valued QuickBrush Company at $63 per share. She now must value SmileWhite Corporation.  Calculate the required rate of return for SmileWhite by using the information in the following table:.<image 1> \n14%\n15%\n16%",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_16_1.png"
+        ],
+        "answer": "16%"
+    },
+    {
+        "id": "validation_Accounting_17",
+        "question": "Assume accounts have normal balances, what is the balance of the account? <image 1> Adjustments needed: Physical count of supplies inventory remaining at end of period, $2,150; Taxes payable at end of period, $3,850.\n$135,726\n$112,500\n$126,925\n$116,350",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_17_1.png"
+        ],
+        "answer": "$126,925"
+    },
+    {
+        "id": "validation_Accounting_18",
+        "question": "During the year, a company purchased raw materials of $77,321 and incurred direct labor costs of $125,900. Overhead is applied at the rate of 75% of the direct labor cost. These are the inventory balances: <image 1> Compute the cost of materials used in production.\n$72,283\n$73,283\n$74,283\n$75,283",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_18_1.png"
+        ],
+        "answer": "$75,283"
+    },
+    {
+        "id": "validation_Accounting_19",
+        "question": "<image 1> Baxter Company has a relevant range of production between 15,000 and 30,000 units. The following cost data represents average variable costs per unit for 25,000 units of production. If 15,000 units are produced, what are the per unit manufacturing overhead costs incurred?\n$10\n$11\n$12\n$13",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_19_1.png"
+        ],
+        "answer": "$12"
+    },
+    {
+        "id": "validation_Accounting_20",
+        "question": "Consider the following multifactor (APT) model of security returns for a particular stock.<image 1>  If T-bills currently offer a 6% yield, find the expected rate of return on this stock if the market views the stock as fairly priced.\n17.4%\n18.1%\n18.5%",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_20_1.png"
+        ],
+        "answer": "18.1%"
+    },
+    {
+        "id": "validation_Accounting_21",
+        "question": "An all-equity firm is considering the following projects: <image 1> The T-bill rate is 3.5 percent, and the expected return on the market is 11 percent.Which projects would be incorrectly accepted or rejected if the firm's overall cost of capital was used as a hurdle rate?\nProject X would be incorrectly rejected; Project Z would be incorrectly accepted.\nProject Y would be incorrectly rejected; Project X would be incorrectly accepted.\nProject Z would be incorrectly rejected; Project X would be incorrectly accepted.\nNo project would be incorrectly rejected; Project Z would be incorrectly accepted.",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_21_1.png"
+        ],
+        "answer": "Project X would be incorrectly rejected; Project Z would be incorrectly accepted."
+    },
+    {
+        "id": "validation_Accounting_22",
+        "question": "Jon Fulkerson has received a credit application from Seether, LLC, a private company. An abbreviated portion of the financial information provided by the company is shown below:<image 1>What is the Z-score for this company?\n3.470\n3.096\n3.187",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_22_1.png"
+        ],
+        "answer": "3.096"
+    },
+    {
+        "id": "validation_Accounting_23",
+        "question": "You are asked to compare two options with parameters as given. The risk-free interest rate should be assumed to be 6%. Assume the stocks on which these options are written pay no dividends. <image 1> Which put option must be written on the stock with the lower price?\nA\nB\nNot enough information",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_23_1.png"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": "validation_Accounting_24",
+        "question": "Consider the two (excess return) index-model regression results for stocks A and B. The risk-free rate over the period was 6%, and the market's average return was 14%. Performance is measured using an index model regression on excess returns. <image 1> Calculate the information ratio\n(1) 0.0971 (2)0.01047\n(1) 0.1134 (2)0.01722\n(1) 0.1149 (2)0.01322",
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/MMMU/images/validation_Accounting_24_1.png"
+        ],
+        "answer": "(1) 0.0971 (2)0.01047"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/1.png"
+        ],
+        "ID": "0",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "According to the tree diagram, how many women who have breast cancer received a negative mammogram?",
+        "choice_A": "80",
+        "choice_B": "950",
+        "choice_C": "20",
+        "choice_D": "8,950",
+        "answer": "D",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/1.png"
+        ],
+        "ID": "1",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What is the percentage of women who do not have breast cancer and received a positive mammogram?",
+        "choice_A": "9.60%",
+        "choice_B": "0.20%",
+        "choice_C": "90.40%",
+        "choice_D": "9.50%",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/1.png"
+        ],
+        "ID": "2",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Based on the 2 x 2 table, how many women in total received a positive mammogram?",
+        "choice_A": "1,030",
+        "choice_B": "9,000",
+        "choice_C": "100",
+        "choice_D": "9,900",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/1.png"
+        ],
+        "ID": "3",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Using the frequencies section of the tree diagram, what is the total number of women who received a negative mammogram?",
+        "choice_A": "8,950",
+        "choice_B": "9,900",
+        "choice_C": "970",
+        "choice_D": "9,050",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/1.png"
+        ],
+        "ID": "4",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Referring to the probabilities section of the visualization, what is the probability of having breast cancer given a positive mammogram result?",
+        "choice_A": "0.80%",
+        "choice_B": "7.50%",
+        "choice_C": "1%",
+        "choice_D": "0.20%",
+        "answer": "C",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/2.png"
+        ],
+        "ID": "5",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Which section of the website directly links to \"Project 2\"?",
+        "choice_A": "About me",
+        "choice_B": "Projects",
+        "choice_C": "Contact",
+        "choice_D": "Homepage",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/2.png"
+        ],
+        "ID": "6",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "How many sections can be accessed directly from the \"Homepage\"?",
+        "choice_A": "2",
+        "choice_B": "3",
+        "choice_C": "4",
+        "choice_D": "5",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/2.png"
+        ],
+        "ID": "7",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Which color is not used for any box in the tree diagram?",
+        "choice_A": "Pink",
+        "choice_B": "Blue",
+        "choice_C": "Yellow",
+        "choice_D": "Green",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/2.png"
+        ],
+        "ID": "8",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "If the user is currently viewing \"Project 1,\" what page must they have navigated through beforehand?",
+        "choice_A": "About me",
+        "choice_B": "Contact",
+        "choice_C": "Projects",
+        "choice_D": "Homepage",
+        "answer": "C",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/3.png"
+        ],
+        "ID": "9",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "In the tree diagram for \"Risa bought a blue watch,\" what part of speech is \"bought\" categorized as?",
+        "choice_A": "Noun",
+        "choice_B": "Verb",
+        "choice_C": "Adjective",
+        "choice_D": "Determiner",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/3.png"
+        ],
+        "ID": "10",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "In the sentence \"He went to the market yesterday,\" which word is represented as a preposition (Prep) in the tree diagram?",
+        "choice_A": "went",
+        "choice_B": "to",
+        "choice_C": "market",
+        "choice_D": "yesterday",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/3.png"
+        ],
+        "ID": "11",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "How is the word \"blue\" classified in the tree diagram for \"Risa bought a blue watch\"?",
+        "choice_A": "Noun",
+        "choice_B": "Adjective",
+        "choice_C": "Adverb",
+        "choice_D": "Article",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/3.png"
+        ],
+        "ID": "12",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Based on the tree diagram, which category immediately branches into a Determiner (Det) and a Noun (N) in the sentence \"He went to the market yesterday\"?",
+        "choice_A": "NP (Noun Phrase)",
+        "choice_B": "VP (Verb Phrase)",
+        "choice_C": "PP (Prepositional Phrase)",
+        "choice_D": "AdvP (Adverb Phrase)",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/3.png"
+        ],
+        "ID": "13",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "In the sentence structure for \"Risa bought a blue watch,\" which term is used for the highest node of the tree diagram?",
+        "choice_A": "S",
+        "choice_B": "NP",
+        "choice_C": "VP",
+        "choice_D": "AdjP",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/4.png"
+        ],
+        "ID": "14",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What is the probability of throwing a fastball that is also a strike according to the diagram?",
+        "choice_A": "0.42",
+        "choice_B": "0.6",
+        "choice_C": "0.7",
+        "choice_D": "0.28",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/4.png"
+        ],
+        "ID": "15",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Which event has the highest probability of occurring according to the calculations?",
+        "choice_A": "Fastball - Strike",
+        "choice_B": "Knuckler - No Strike",
+        "choice_C": "Fastball - No Strike",
+        "choice_D": "Knuckler - Strike",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/4.png"
+        ],
+        "ID": "16",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "Based on the tree diagram, what is the probability of not getting a strike after throwing a knuckleball?",
+        "choice_A": "0.24",
+        "choice_B": "0.08",
+        "choice_C": "0.8",
+        "choice_D": "0.2",
+        "answer": "C",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/4.png"
+        ],
+        "ID": "17",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "If a ball is thrown and it's a strike, what is the chance that it was a fastball (calculate using the information provided in the diagram)?",
+        "choice_A": "(0.6)/(0.6+0.2)",
+        "choice_B": "(0.42)/(0.42+0.06)",
+        "choice_C": "(0.42)/(0.42+0.24)",
+        "choice_D": "(0.7)/(0.7+0.2)",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/5.png"
+        ],
+        "ID": "18",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What is the probability of getting two heads in a row when a coin is tossed twice, according to the tree diagram?",
+        "choice_A": "\\\\( \\\\frac{1}{4} \\\\)",
+        "choice_B": "\\\\( \\\\frac{1}{3} \\\\)",
+        "choice_C": "\\\\( \\\\frac{1}{2} \\\\)",
+        "choice_D": "\\\\( \\\\frac{2}{4} \\\\)",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/5.png"
+        ],
+        "ID": "19",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "According to the tree diagram, what is the probability of getting a head on the 1st toss and a tail on the 2nd toss?",
+        "choice_A": "\\\\( \\\\frac{1}{4} \\\\)",
+        "choice_B": "\\\\( \\\\frac{1}{5} \\\\)",
+        "choice_C": "\\\\( \\\\frac{2}{4} \\\\)",
+        "choice_D": "\\\\( \\\\frac{1}{3} \\\\)",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/5.png"
+        ],
+        "ID": "20",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What does P(tail, head) signify in the context of the tree diagram provided?",
+        "choice_A": "The probability of getting a tail on the 1st toss and a head on the 2nd toss.",
+        "choice_B": "The probability of getting a head first followed by a tail.",
+        "choice_C": "The probability of getting two tails in succession.",
+        "choice_D": "The probability of getting two heads in succession.",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/6.png"
+        ],
+        "ID": "21",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What is the probability of picking a yellow ball first given there are 3 yellow and 5 red balls in the bag?",
+        "choice_A": "3/9",
+        "choice_B": "3/8",
+        "choice_C": "5/8",
+        "choice_D": "3/5",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/6.png"
+        ],
+        "ID": "22",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "If a yellow ball is picked first and not replaced, what is the probability of picking a red ball second?",
+        "choice_A": "5/7",
+        "choice_B": "5/8",
+        "choice_C": "4/7",
+        "choice_D": "2/7",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/6.png"
+        ],
+        "ID": "23",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "According to the tree diagram, what is the total probability of picking two red balls in succession?",
+        "choice_A": "20/64",
+        "choice_B": "5/8",
+        "choice_C": "20/56",
+        "choice_D": "25/64",
+        "answer": "C",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/6.png"
+        ],
+        "ID": "24",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "If a red ball is picked first, what is the probability of picking a yellow ball second?",
+        "choice_A": "3/7",
+        "choice_B": "3/8",
+        "choice_C": "2/7",
+        "choice_D": "3/5",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/6.png"
+        ],
+        "ID": "25",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What is the probability of not picking two yellow balls in succession?",
+        "choice_A": "5/8",
+        "choice_B": "50/56",
+        "choice_C": "17/56",
+        "choice_D": "11/56",
+        "answer": "B",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/7.png"
+        ],
+        "ID": "26",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "In the sentence provided by the tree diagram, what does the NP (noun phrase) \"a little white lie\" consist of?",
+        "choice_A": "Det (Determiner), Adj (Adjective), N (Noun)",
+        "choice_B": "Det (Determiner), Adj (Adjective), Adj (Adjective)",
+        "choice_C": "Det (Determiner), N (Noun), N (Noun)",
+        "choice_D": "Det (Determiner), Adv (Adverb), N (Noun)",
+        "answer": "A",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/7.png"
+        ],
+        "ID": "27",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "According to the tree diagram, which part of the sentence is categorized under the SC (small clause) component?",
+        "choice_A": "come back",
+        "choice_B": "will come back",
+        "choice_C": "to haunt me",
+        "choice_D": "haunt me",
+        "answer": "C",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    },
+    {
+        "image_url": [
+            "/mnt/zeli/LRM_Benchmark/dataset/Structure/SEED-Bench-2-Plus/images/7.png"
+        ],
+        "ID": "28",
+        "question_image_type": "chart",
+        "question_image_subtype": "tree diagram",
+        "question": "What grammatical function does the word \"will\" serve in the sentence diagram?",
+        "choice_A": "V (Verb)",
+        "choice_B": "Adv (Adverb)",
+        "choice_C": "NP (Noun Phrase)",
+        "choice_D": "Aux (Auxiliary)",
+        "answer": "D",
+        "data_source": "SEED-Bench v2 plus",
+        "data_type": "Single Image",
+        "level": "L1",
+        "subpart": "Single-Image & Text Comprehension",
+        "version": "v2+"
+    }
+]

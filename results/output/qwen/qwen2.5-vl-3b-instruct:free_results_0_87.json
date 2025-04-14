@@ -1,0 +1,61 @@
+{
+    "ACC": 0,
+    "empty_answers": 5,
+    "results": [
+        {
+            "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/Mementos/image/rw_9935454173.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "The sequence of images captures playful interactions among three dogs in an indoor setting with a child's slide and a tunnel. Initially, a black dog is seen lying inside the tunnel. As the black dog approaches a brown dog, it suddenly runs away, initiating a playful chase. The brown dog eagerly pursues the black dog, which is all part of their play. After a short run, the black dog stops, and the brown dog, still in the spirit of the game, bends down in a playful stance.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The image sequence depicts a playful interaction between two dogs on a grassy field. In the first frame, one dog is seen running towards the other. In the second frame, the two dogs are engaged in a playful tussle, with one dog attempting to bite the other. In the third frame, the dogs continue their playful chase, with one dog leaping over the other. In the fourth frame, the dogs are seen running away from each other, with one dog playfully chasing the other. In the fifth frame, the dogs are seen playing with a toy, with one dog carrying the toy in its mouth. In the sixth frame, the dogs are seen playing with the toy, with one dog carrying the toy in its mouth. In the seventh frame, the dogs are seen playing with the toy, with one dog carrying the toy in its mouth.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/Mementos/image/rw_4932338665.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "The sequence of images captures two dogs, one black and one brown, engaging in a playful fight on a grassy area. Initially, the black dog appears to be the aggressor, initiating the interaction by attacking first. As the skirmish unfolds, the dogs can be seen mounting each other as part of their playful combat. Throughout the series of images, the dogs exhibit a dynamic and spirited interaction, characterized by chasing and playful fighting.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/Mementos/image/rw_2972558344.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "The collage of images depicts various scenes, including interior shots of a building with staircases and a hallway, a person in a striped jacket exiting a building, and outdoor scenes featuring a dog in a grassy area.  Meanwhile, a dog is shown in several frames; it is seen sniffing the ground, sitting down after picking up a toy. The sequence of images suggests a narrative of a daily playful moment between a boy and his dog in an outdoor setting.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/Mementos/image/rw_4435031690.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "In the image, we see a series of moments captured where a man in white is filming others with a camera. He is wearing a helmet on his head. At the beginning of this sequence, the man in a yellow shirt is seen gesturing at something before folding his arms. Meanwhile, the man in light blue is talking while holding a bag in his hands. As the man in white turns around with his camera in the middle of the sequence, he eventually stands still and engages in conversation. Additionally, a man in green is observed standing with his arms folded while the man in white is filming.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/Mementos/image/rw_5452090232.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "The sequence of images captures a woman performing a water-based stunt on a surfboard, holding onto a rope for support as she glides across the water. She skillfully maneuvers from side to side, following the rope's direction, and bends her body towards one side intermittently to maintain her balance. As she moves, her body's motion and the board's interaction with the water create a large splash behind her. The rope serves as her main support and guide, allowing her to steer and balance herself on the board, while her arms are stretched out to hold the rope firmly throughout the stunt.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ]
+}
