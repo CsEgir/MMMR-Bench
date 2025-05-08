@@ -1,0 +1,1186 @@
+[
+  {
+    "question": "Which frame appears first on the match timeline? A.<image> B.<image>",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_3.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 59,
+    "question": "Given on the left is the outer surface of a cardboard box. Which of the following can be folded from it?",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_59.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "biology_17",
+    "question": "Considering the likely selective pressure of predation on the population in <image 1>, which of the following outcomes would you expect?",
+    "options": "['The percentage of white mice in the population will increase.', 'There will be no change in the ratio of white mice to dark mice.', 'The percentage of dark mice in the population will increase.', \"It's impossible to predict how the ratio of white mice to dark mice will change.\"]",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/biology_17_1.png"
+    ],
+    "subfield": "Evolution",
+    "answer": "The percentage of dark mice in the population will increase.",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "Find the equation of the hyperbola.",
+    "index": 37,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_37.png"
+    ],
+    "answer": "\\frac{y^2}{16}-\\frac{x^2}{25}=1",
+    "Category": "Math"
+  },
+  {
+    "id": 37,
+    "question": "The left picture shows a polyhedron composed of 3 equal-sized gray cubes and 15 white cubes. It can be cut into three small polyhedrons ①, ② and ③. The polyhedron represented by ③ may be:",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_37.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "question": "How many baseball bat are in these two images?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_23.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "validation_Biology_3",
+    "question": "<image 1> If the pH outside the cell decreases, would you expect the amount of amino acids transported into the cell to increase or decrease?",
+    "options": "['increase', 'decrease']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_3_1.png"
+    ],
+    "subfield": "Cell Biology",
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "id": "hr_organizing-containers-of-balls",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_203.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_204.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_205.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_206.png"
+    ],
+    "answer": "import sys\nfrom collections import Counter\nq = int(input().strip())\nfor a0 in range(q):\n\tn = int(input().strip())\n\tM = []\n\tfor M_i in range(n):\n\t\tM_t = [int(M_temp) for M_temp in input().strip().split(' ')]\n\t\tM.append(M_t)\n\trows = Counter()\n\tcols = Counter()\n\tfor i in range(n):\n\t\trows[sum(M[i])] += 1\n\t\ttmp = 0\n\t\tfor row in M:\n\t\t\ttmp += row[i]\n\t\tcols[tmp] += 1\n\tprint('Possible' if rows == cols else 'Impossible')\n",
+    "question": "David has several containers, each with a number of balls in it.  He has just enough containers to sort each type of ball he has into its own container.  David wants to sort the balls using his sort method.\n\nDavid wants to perform some number of swap operations such that:\n\nEach container contains only balls of the same type.\nNo two balls of the same type are located in different containers.\n\nExample   \n\n$containers=[[1,4],[2,3]]$   \n\nDavid has $n=2$ containers and $2$ different types of balls, both of which are numbered from $\\mbox{0}$ to $n-1=1$. The distribution of ball types per container are shown in the following diagram.   \n\n\n![image](1.png)\nIn a single operation, David can swap two balls located in different containers.\n\nThe diagram below depicts a single swap operation:\n\n\n![image](2.png)\nIn this case, there is no way to have all green balls in one container and all red in the other using only swap operations.  Return Impossible.  \n\nYou must perform $\\textit{q}$ queries where each query is in the form of a matrix, $\\mbox{M}$. For each query, print Possible on a new line if David can satisfy the conditions above for the given matrix.  Otherwise, print Impossible.  \n\nFunction Description  \n\nComplete the organizingContainers function in the editor below.   \n\norganizingContainers has the following parameter(s):  \n\nint containter[n][m]: a two dimensional array of integers that represent the number of balls of each color in each container  \n\nReturns   \n\nstring:  either Possible or Impossible     \n\nInput Format\n\nThe first line contains an integer $\\textit{q}$, the number of queries.  \n\nEach of the next $\\textit{q}$ sets of lines is as follows:  \n\nThe first line contains an integer $n$, the number of containers (rows) and ball types (columns).        \nEach of the next $n$ lines contains $n$ space-separated integers describing row $containers[i]$.\n\nConstraints\n\n$1\\leq q\\leq10$  \n$1\\leq n\\leq100$  \n$0\\leq\\textit{containers}[i][j]\\leq10^9$\n\nScoring\n\nFor $33\\%$ of score, $1\\leq n\\leq10$.  \nFor $\\textbf{100\\%}$ of score, $1\\leq n\\leq100$.\n\nOutput Format\n\nFor each query, print Possible on a new line if David can satisfy the conditions above for the given matrix.  Otherwise, print Impossible.\n\nSample Input 0\n2\n2\n1 1\n1 1\n2\n0 2\n1 1\n\nSample Output 0\nPossible\nImpossible\n\nExplanation 0\n\nWe perform the following $q=2$ queries:\n\nThe diagram below depicts one possible way to satisfy David's requirements for the first query:\n \n\n![image](3.png)\nThus, we print Possible on a new line.\nThe diagram below depicts the matrix for the second query:\n \n\n![image](4.png)\nNo matter how many times we swap balls of type $\\boldsymbol{t_0}$ and $\\boldsymbol{t_1}$ between the two containers, we'll never end up with one container only containing type $\\boldsymbol{t_0}$ and the other container only containing type $\\boldsymbol{t_1}$. Thus, we print Impossible on a new line.\n\nSample Input 1\n2\n3\n1 3 1\n2 1 2\n3 3 3\n3\n0 2 1\n1 1 1\n2 0 0\n\nSample Output 1\nImpossible\nPossible\nPlease use a python program to solve this problem\n\nexample_input:\n2\n2\n1 1\n1 1\n2\n0 2\n1 1\n\n\nexample_output:\nPossible\nImpossible\n\n",
+    "test_input": [
+      "2\n3\n1 3 1\n2 1 2\n3 3 3\n3\n0 2 1\n1 1 1\n2 0 0\n"
+    ],
+    "test_output": [
+      "Impossible\nPossible\n"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 77,
+    "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it has a certain regularity:",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_77.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "id": 26,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 13 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n  <title>Complex Website Design</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@400;600&display=swap\" rel=\"stylesheet\">\n  <style>\n    body {\n      font-family: 'Roboto', sans-serif;\n      margin: 0;\n      padding: 0;\n      background-color: #f4f7fb;\n      color: #333;\n    }\n\n    header {\n      background-color: #333;\n      color: white;\n      padding: 15px 0;\n      text-align: center;\n      font-size: 24px;\n      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    }\n\n    .container {\n      width: 80%;\n      margin: 20px auto;\n    }\n\n    .grid-layout {\n      display: grid;\n      grid-template-columns: repeat(3, 1fr);\n      gap: 20px;\n    }\n\n    .nested-grid {\n      display: grid;\n      grid-template-columns: 1fr 2fr;\n      gap: 10px;\n    }\n\n    section {\n      background: white;\n      padding: 20px;\n      border-radius: 8px;\n      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    }\n\n    h2 {\n      font-size: 22px;\n      color: #444;\n      margin-bottom: 15px;\n    }\n\n    table {\n      width: 100%;\n      margin-top: 20px;\n      border-collapse: collapse;\n    }\n\n    table th, table td {\n      padding: 10px;\n      text-align: left;\n      border-bottom: 1px solid #ddd;\n    }\n\n    table th {\n      background-color: #f4f4f4;\n      font-weight: bold;\n    }\n\n    .form-group {\n      margin-bottom: 15px;\n    }\n\n    label {\n      display: block;\n      font-weight: 500;\n      margin-bottom: 5px;\n    }\n\n    input[type=\"text\"], select, input[type=\"range\"], input[type=\"checkbox\"], input[type=\"radio\"] {\n      width: 100%;\n      padding: 10px;\n      border: 1px solid #ddd;\n      border-radius: 4px;\n      margin-top: 5px;\n    }\n\n    input[type=\"range\"] {\n      width: 90%;\n    }\n\n    .checkbox-group, .radio-group {\n      display: flex;\n      gap: 10px;\n    }\n\n    .checkbox-group label, .radio-group label {\n      margin-left: 10px;\n    }\n\n    .dropdown-container {\n      display: flex;\n      gap: 15px;\n    }\n\n    .dropdown-container select {\n      width: 30%;\n    }\n\n    .section-header {\n      font-size: 20px;\n      margin-bottom: 10px;\n      color: #333;\n    }\n\n    .controls {\n      margin-top: 30px;\n    }\n\n    footer {\n      background-color: #333;\n      color: white;\n      text-align: center;\n      padding: 10px 0;\n      position: absolute;\n      width: 100%;\n      bottom: 0;\n      font-size: 14px;\n    }\n  </style>\n</head>\n<body>\n  <header>\n    Complex Website Design\n  </header>\n  \n  <div class=\"container\">\n    <!-- Grid Layout Section -->\n    <section>\n      <h2>Grid Layout with Nested Elements</h2>\n      <div class=\"grid-layout\">\n        <div class=\"nested-grid\">\n          <div>\n            <h3>Text Box and Dropdown</h3>\n            <form>\n              <div class=\"form-group\">\n                <label for=\"name\">Name:</label>\n                <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\">\n              </div>\n              <div class=\"form-group\">\n                <label for=\"dropdown\">Select a Category:</label>\n                <select id=\"dropdown\" name=\"dropdown\">\n                  <option value=\"category1\">Category 1</option>\n                  <option value=\"category2\">Category 2</option>\n                  <option value=\"category3\">Category 3</option>\n                </select>\n              </div>\n            </form>\n          </div>\n          <div>\n            <h3>Slider Control</h3>\n            <div class=\"form-group\">\n              <label for=\"slider\">Adjust the value:</label>\n              <input type=\"range\" id=\"slider\" name=\"slider\" min=\"0\" max=\"100\" value=\"50\">\n            </div>\n          </div>\n        </div>\n        <div>\n          <h3>Additional Form</h3>\n          <form>\n            <div class=\"form-group\">\n              <label for=\"email\">Email Address:</label>\n              <input type=\"text\" id=\"email\" name=\"email\" placeholder=\"Enter your email\">\n            </div>\n            <div class=\"form-group\">\n              <label for=\"comments\">Comments:</label>\n              <textarea id=\"comments\" name=\"comments\" rows=\"4\" placeholder=\"Leave your comments here\"></textarea>\n            </div>\n          </form>\n        </div>\n      </div>\n    </section>\n\n    <!-- Data Table Section -->\n    <section>\n      <h2>Complex Table with Multiple Structures</h2>\n      <table>\n        <thead>\n          <tr>\n            <th>Name</th>\n            <th>Age</th>\n            <th>City</th>\n            <th>Country</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>John Doe</td>\n            <td>30</td>\n            <td>New York</td>\n            <td>USA</td>\n          </tr>\n          <tr>\n            <td>Mary Smith</td>\n            <td>25</td>\n            <td>London</td>\n            <td>UK</td>\n          </tr>\n          <tr>\n            <td>Steve Brown</td>\n            <td>35</td>\n            <td>Toronto</td>\n            <td>Canada</td>\n          </tr>\n        </tbody>\n      </table>\n      <table>\n        <thead>\n          <tr>\n            <th>Product</th>\n            <th>Price</th>\n            <th>Quantity</th>\n            <th>Total</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>Apple</td>\n            <td>$1.50</td>\n            <td>10</td>\n            <td>$15.00</td>\n          </tr>\n          <tr>\n            <td>Banana</td>\n            <td>$0.75</td>\n            <td>15</td>\n            <td>$11.25</td>\n          </tr>\n          <tr>\n            <td>Orange</td>\n            <td>$2.00</td>\n            <td>5</td>\n            <td>$10.00</td>\n          </tr>\n        </tbody>\n      </table>\n    </section>\n\n    <!-- Controls and Dropdown Section -->\n    <section>\n      <h2>Controls & Dropdowns</h2>\n      <div class=\"dropdown-container\">\n        <select>\n          <option value=\"option1\">Option 1</option>\n          <option value=\"option2\">Option 2</option>\n          <option value=\"option3\">Option 3</option>\n        </select>\n        <select>\n          <option value=\"option1\">Option A</option>\n          <option value=\"option2\">Option B</option>\n          <option value=\"option3\">Option C</option>\n        </select>\n        <select>\n          <option value=\"option1\">Choice X</option>\n          <option value=\"option2\">Choice Y</option>\n          <option value=\"option3\">Choice Z</option>\n        </select>\n      </div>\n\n      <div class=\"controls\">\n        <h3>Multiple Checkboxes</h3>\n        <div class=\"checkbox-group\">\n          <input type=\"checkbox\" id=\"check1\"><label for=\"check1\">Option 1</label>\n          <input type=\"checkbox\" id=\"check2\"><label for=\"check2\">Option 2</label>\n          <input type=\"checkbox\" id=\"check3\"><label for=\"check3\">Option 3</label>\n        </div>\n\n        <h3>Multiple Radio Buttons</h3>\n        <div class=\"radio-group\">\n          <input type=\"radio\" id=\"radio1\" name=\"choice\"><label for=\"radio1\">Choice A</label>\n          <input type=\"radio\" id=\"radio2\" name=\"choice\"><label for=\"radio2\">Choice B</label>\n          <input type=\"radio\" id=\"radio3\" name=\"choice\"><label for=\"radio3\">Choice C</label>\n        </div>\n      </div>\n    </section>\n  </div>\n\n  <footer>\n    © 2025 Complex Website Design. All rights reserved.\n  </footer>\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/33.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "category": "Math",
+    "question": "Piecewise functions f and g can model the heights (in meters) of two airplanes. Here are the graphs of f and g, where t is the number of minutes that have passed since noon at a local airport.\nThe airplanes have the same height about 9 minutes after noon.\nWhat is the other time the airplanes have the same height?\nRound your answer to the nearest ten minutes.\nAbout _ minutes after noon",
+    "index": 127,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_127.jpg"
+    ],
+    "answer": "90",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "As shown in the figure, the straight line a parallel b, and AB perpendicular BC, then the degree of angle 1 is ()\nChoices:\nA:65°\nB:25°\nC:35°\nD:45°",
+    "index": 20,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_20.png"
+    ],
+    "answer": "B",
+    "Category": "Math"
+  },
+  {
+    "id": 6,
+    "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_6.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "As shown in the figure, AB // CD, then the degree of angle 2 is ()\nChoices:\nA:50°\nB:120°\nC:130°\nD:150°",
+    "index": 14,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_14.png"
+    ],
+    "answer": "C",
+    "Category": "Math"
+  },
+  {
+    "id": 64,
+    "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_64.jpg"
+    ],
+    "source": "MME-CoT_Logic",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "validation_Biology_5",
+    "question": "What is part B in the figure? <image 1>",
+    "options": "['Sheath', 'Viral genome', 'Capsid', 'Tail Fibers']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_5_1.png"
+    ],
+    "subfield": "Microbiology",
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "10 \\cdot f(7) + 9 \\cdot g(-1) =",
+    "index": 63,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_63.png"
+    ],
+    "answer": "-1",
+    "Category": "Math"
+  },
+  {
+    "ID": "chem_391",
+    "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+    "subject": "Chemistry",
+    "category": "Knowledge-based counting",
+    "options": [],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_818.png"
+    ],
+    "answer": "15",
+    "Category": "Science"
+  },
+  {
+    "id": 34,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 9 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Complex Web Interface</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body {\n            font-family: 'Roboto', sans-serif;\n            background-color: #f4f4f4;\n            color: #333;\n            line-height: 1.6;\n        }\n        header {\n            background: #2c3e50;\n            color: white;\n            padding: 1.5rem;\n            text-align: center;\n        }\n        header h1 {\n            font-family: 'Ubuntu', sans-serif;\n        }\n        .container {\n            width: 80%;\n            margin: 2rem auto;\n        }\n        .grid-container {\n            display: grid;\n            grid-template-columns: repeat(3, 1fr);\n            grid-gap: 1rem;\n        }\n        .grid-item {\n            background: white;\n            padding: 1.5rem;\n            border-radius: 8px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n        .card-header {\n            font-weight: bold;\n            margin-bottom: 1rem;\n            font-size: 1.2rem;\n        }\n        .table-responsive {\n            overflow-x: auto;\n            margin-top: 2rem;\n        }\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n        th, td {\n            padding: 12px;\n            text-align: left;\n            border-bottom: 1px solid #ddd;\n        }\n        th {\n            background-color: #2c3e50;\n            color: white;\n        }\n        .form-control {\n            width: 100%;\n            padding: 10px;\n            margin: 0.5rem 0;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n        }\n        .multi-column {\n            display: grid;\n            grid-template-columns: repeat(2, 1fr);\n            gap: 1.5rem;\n        }\n        .checkbox-group input, .radio-group input {\n            margin-right: 10px;\n        }\n        .slider {\n            width: 100%;\n            margin: 10px 0;\n        }\n        .dropdown {\n            margin: 1rem 0;\n        }\n        .footer {\n            background-color: #2c3e50;\n            color: white;\n            padding: 2rem 0;\n            text-align: center;\n        }\n    </style>\n</head>\n<body>\n    <header>\n        <h1>Complex Web Interface</h1>\n        <p>Rich Design with Multiple Sections, Forms, and Tables</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"grid-container\">\n            <div class=\"grid-item\">\n                <div class=\"card-header\">Section 1</div>\n                <p>This section contains various form controls such as dropdowns, checkboxes, and sliders.</p>\n                <div class=\"dropdown\">\n                    <label for=\"dropdown1\">Select Option 1</label>\n                    <select id=\"dropdown1\" class=\"form-control\">\n                        <option value=\"option1\">Option 1</option>\n                        <option value=\"option2\">Option 2</option>\n                        <option value=\"option3\">Option 3</option>\n                    </select>\n                </div>\n                <div class=\"checkbox-group\">\n                    <label>Select Preferences</label><br>\n                    <input type=\"checkbox\" id=\"check1\"> <label for=\"check1\">Preference 1</label><br>\n                    <input type=\"checkbox\" id=\"check2\"> <label for=\"check2\">Preference 2</label><br>\n                    <input type=\"checkbox\" id=\"check3\"> <label for=\"check3\">Preference 3</label><br>\n                </div>\n                <div class=\"radio-group\">\n                    <label>Choose Gender</label><br>\n                    <input type=\"radio\" name=\"gender\" id=\"male\"> <label for=\"male\">Male</label><br>\n                    <input type=\"radio\" name=\"gender\" id=\"female\"> <label for=\"female\">Female</label><br>\n                </div>\n                <div class=\"slider\">\n                    <label for=\"slider1\">Volume</label><br>\n                    <input type=\"range\" id=\"slider1\" class=\"form-control\" min=\"0\" max=\"100\" value=\"50\">\n                </div>\n            </div>\n            <div class=\"grid-item\">\n                <div class=\"card-header\">Section 2: Multi-column Form</div>\n                <div class=\"multi-column\">\n                    <div>\n                        <label for=\"first-name\">First Name</label>\n                        <input type=\"text\" id=\"first-name\" class=\"form-control\">\n                    </div>\n                    <div>\n                        <label for=\"last-name\">Last Name</label>\n                        <input type=\"text\" id=\"last-name\" class=\"form-control\">\n                    </div>\n                    <div>\n                        <label for=\"email\">Email</label>\n                        <input type=\"email\" id=\"email\" class=\"form-control\">\n                    </div>\n                    <div>\n                        <label for=\"phone\">Phone Number</label>\n                        <input type=\"tel\" id=\"phone\" class=\"form-control\">\n                    </div>\n                    <div>\n                        <label for=\"address\">Address</label>\n                        <textarea id=\"address\" class=\"form-control\" rows=\"4\"></textarea>\n                    </div>\n                </div>\n            </div>\n            <div class=\"grid-item\">\n                <div class=\"card-header\">Section 3: Data Table</div>\n                <div class=\"table-responsive\">\n                    <table>\n                        <thead>\n                            <tr>\n                                <th>#</th>\n                                <th>Name</th>\n                                <th>Age</th>\n                                <th>Email</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td>1</td>\n                                <td>John Doe</td>\n                                <td>28</td>\n                                <td>john.doe@example.com</td>\n                            </tr>\n                            <tr>\n                                <td>2</td>\n                                <td>Jane Smith</td>\n                                <td>34</td>\n                                <td>jane.smith@example.com</td>\n                            </tr>\n                            <tr>\n                                <td>3</td>\n                                <td>Mike Johnson</td>\n                                <td>40</td>\n                                <td>mike.johnson@example.com</td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"grid-container\">\n            <div class=\"grid-item\">\n                <div class=\"card-header\">Section 4: Data Table 2</div>\n                <div class=\"table-responsive\">\n                    <table>\n                        <thead>\n                            <tr>\n                                <th>#</th>\n                                <th>Product</th>\n                                <th>Price</th>\n                                <th>Stock</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td>1</td>\n                                <td>Widget</td>\n                                <td>$19.99</td>\n                                <td>Available</td>\n                            </tr>\n                            <tr>\n                                <td>2</td>\n                                <td>Gadget</td>\n                                <td>$29.99</td>\n                                <td>Out of stock</td>\n                            </tr>\n                            <tr>\n                                <td>3</td>\n                                <td>Tool</td>\n                                <td>$49.99</td>\n                                <td>Available</td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            </div>\n            <div class=\"grid-item\">\n                <div class=\"card-header\">Section 5: Controls</div>\n                <div>\n                    <label for=\"dropdown2\">Choose a Color</label>\n                    <select id=\"dropdown2\" class=\"form-control\">\n                        <option value=\"red\">Red</option>\n                        <option value=\"green\">Green</option>\n                        <option value=\"blue\">Blue</option>\n                    </select>\n                </div>\n                <div>\n                    <label for=\"dropdown3\">Select a Range</label>\n                    <input type=\"range\" id=\"dropdown3\" class=\"form-control\" min=\"1\" max=\"10\" step=\"1\" value=\"5\">\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <footer class=\"footer\">\n        <p>&copy; 2025 Complex Web Interface. All Rights Reserved.</p>\n    </footer>\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/41.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 8,
+    "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_8.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "chem_87",
+    "question": "<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.",
+    "subject": "Chemistry",
+    "category": "Reaction Simulation Pro",
+    "options": [
+      "<image_2>",
+      "<image_3>",
+      "<image_4>",
+      "<image_5>"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_431.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_432.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_433.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_434.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_435.png"
+    ],
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "id": 5,
+    "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_5.jpg"
+    ],
+    "source": "MME-CoT_Logic",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "Question is shown by the image.\nOptions:\n- $A G=B G$\n- $\\angle B G C \\cong \\angle B G A$\n- $A G=C G$\n- $\\angle A E B \\cong \\angle A E C$\n- $D G=E G$\n- $\\angle A B G \\cong \\angle A E C$\n- $\\angle D A B \\cong \\angle E A B$\n- $\\angle A G B \\cong \\angle A G C$\n- $\\angle D B G \\cong \\angle E B G$\n- $B G=D G$",
+    "index": 103,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_103.png"
+    ],
+    "answer": "I",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "Let the vertices of the regular hexagon be denoted as $A_1, A_2, A_3, A_4, A_5, A_6$ in clockwise order.  Consider the linear transformations $T_i$ defined by rotating the hexagon about its center by an angle of $\\frac{i\\pi}{3}$ radians, where $i \\in \\{1, 2, 3, 4, 5, 6\\}$.  Let $M$ be the matrix representation of $T_1$ with respect to the basis \\{$A_1, A_2, A_3, A_4, A_5, A_6\\}$, where each vertex is represented by a vector. Then what is the trace of $M^2$?\n\n\\begin{enumerate}\n    \\item[(A)] 0\n    \\item[(B)] 1\n    \\item[(C)] 2\n    \\item[(D)] 3\n\\end{enumerate}",
+    "index": 179,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_179.png"
+    ],
+    "answer": "B",
+    "Category": "Math"
+  },
+  {
+    "id": 92,
+    "question": "All vehicles in the garage can only drive forwards or backwards. The black car wants to leave the garage (see diagram). What is the minimum number of grey vehicles that need to move at least a little bit so that this is possible?\n<image1>",
+    "answer": "4",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_92.jpg"
+    ],
+    "source": "MathVision",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "id": "cf_771_A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_190.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_191.png"
+    ],
+    "answer": "from collections import defaultdict\n\nclass Graph:\n\n\tdef __init__(self, n):\n\t\tself.graph = defaultdict(list)\n\t\tself.vertices = n\n\t\tself.visited = [False] * (n + 1)\n\t\tself.one = 0\n\t\tself.others = []\n\n\tdef addEdge(self, fr, to):\n\t\tself.graph[fr].append(to)\n\t\tself.graph[to].append(fr)\n\n\tdef solve(self):\n\t\tfor i in range(1, self.vertices + 1):\n\t\t\tif self.visited[i] == False:\n\t\t\t\tself.visited[i] = True\n\t\t\t\tSet = set(self.graph[i])\n\t\t\t\tSet.add(i)\n\t\t\t\tfor j in self.graph[i]:\n\t\t\t\t\tSet1 = Set.copy()\n\t\t\t\t\tSet1.remove(j)\n\t\t\t\t\tself.visited[j] = True\n\t\t\t\t\tif set(self.graph[j]) != Set1:\n\t\t\t\t\t\treturn 'NO'\n\t\treturn 'YES'\n(n, m) = map(int, input().split())\nG = Graph(n)\nfor i in range(m):\n\t(a, b) = map(int, input().split())\n\tG.addEdge(a, b)\nprint(G.solve())\n",
+    "question": "Bear Limak examines a social network. Its main functionality is that two members can become friends (then they can talk with each other and share funny pictures).\nThere are n members, numbered 1 through n. m pairs of members are friends. Of course, a member can't be a friend with themselves.\nLet A-B denote that members A and B are friends. Limak thinks that a network is reasonable if and only if the following condition is satisfied: For every three distinct members (X, Y, Z), if X-Y and Y-Z then also X-Z.\nFor example: if Alan and Bob are friends, and Bob and Ciri are friends, then Alan and Ciri should be friends as well.\nCan you help Limak and check if the network is reasonable? Print \"YES\" or \"NO\" accordingly, without the quotes.\n\nInput\nThe first line of the input contain two integers n and m (3 ≤ n ≤ 150 000, ![image](1.png)) — the number of members and the number of pairs of members that are friends.\nThe i-th of the next m lines contains two distinct integers a_{i} and b_{i} (1 ≤ a_{i}, b_{i} ≤ n, a_{i} ≠ b_{i}). Members a_{i} and b_{i} are friends with each other. No pair of members will appear more than once in the input.\n\nOutput\nIf the given network is reasonable, print \"YES\" in a single line (without the quotes). Otherwise, print \"NO\" in a single line (without the quotes).\n\nExamples\nInput\n4 3\n1 3\n3 4\n1 4\n\n\nOutput\nYES\n\n\nInput\n4 4\n3 1\n2 3\n3 4\n1 2\n\n\nOutput\nNO\n\n\nInput\n10 4\n4 3\n5 10\n8 9\n1 2\n\n\nOutput\nYES\n\n\nInput\n3 2\n1 2\n2 3\n\n\nOutput\nNO\n\n\n\n\nNote\nThe drawings below show the situation in the first sample (on the left) and in the second sample (on the right). Each edge represents two members that are friends. The answer is \"NO\" in the second sample because members (2, 3) are friends and members (3, 4) are friends, while members (2, 4) are not.\n ![image](2.png) \n\n\nPlease use a python program to solve this problem\n\nexample_input:\n4 3\n1 3\n3 4\n1 4\n\n\nexample_output:\nYES\n\n\nTime limit:\n1 second\n\nMemory limit:\n256 megabytes\n",
+    "test_input": [
+      "4 4\n3 1\n2 3\n3 4\n1 2\n",
+      "10 4\n4 3\n5 10\n8 9\n1 2\n",
+      "3 2\n1 2\n2 3\n"
+    ],
+    "test_output": [
+      "NO\n",
+      "YES\n",
+      "NO\n"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "ID": "chem_1086",
+    "question": "An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. Please choose the SMILES expression for the molecules(state) after the electron has been relocated, as depicted in the image. <image_1>",
+    "subject": "Chemistry",
+    "category": "Reaction Simulation",
+    "options": [
+      "C12=CC=CC=C1C=C(NNc3ccccc3)C=C2",
+      "C12=CC=CC=C1C=C(NCc3ccccc3)C=C2",
+      "C1=CC=C(C=C1)C=C(NNc2ccc(C)cc2)",
+      "C12=CC=CC=C1C=C(NNc3ccc(C)cc3)C=C2"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_1513.png"
+    ],
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "ID": "chem_207",
+    "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+    "subject": "Chemistry",
+    "category": "Knowledge-based counting",
+    "options": [],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_634.png"
+    ],
+    "answer": "8",
+    "Category": "Science"
+  },
+  {
+    "pid": "coding_10",
+    "answer": "D",
+    "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nepochs = np.arange(0, 101, 1)\nacc_rat_natural = np.clip(30 + 0.7 * epochs + np.random.normal(0, 2, len(epochs)), 30, 95)\nacc_dat_natural = np.clip(35 + 0.6 * epochs + np.random.normal(0, 2, len(epochs)), 30, 90)\nacc_rat_adversarial = np.clip(5 + 0.5 * epochs + np.random.normal(0, 2, len(epochs)), 5, 50)\nacc_dat_adversarial = np.clip(0 + 0.55 * epochs + np.random.normal(0, 2, len(epochs)), 0, 55)\nfig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))\nax1.plot(epochs, acc_rat_natural, label='Accelerated RAT', color='tab:blue')\nax1.plot(epochs, acc_dat_natural, label='Accelerated DAT', color='tab:orange')\nax1.set_title('Natural accuracy')\nax1.set_xlabel('Epoch')\nax1.set_ylabel('Accuracy (%)')\nax1.grid(True)\nax1.set_xlim([0, 100])\nax1.set_ylim([30, 100])\nax1.legend()\nax2.plot(epochs, acc_rat_adversarial, label='Accelerated RAT', color='tab:blue')\nax2.plot(epochs, acc_dat_adversarial, label='Accelerated DAT', color='tab:orange')\nax2.set_title('Adversarial accuracy')\nax2.set_xlabel('Epoch')\nax2.set_ylabel('Accuracy (%)')\nax2.grid(True)\nax2.set_xlim([0, 100])\nax2.set_ylim([0, 55])\nax2.legend()\nplt.tight_layout()\nplt.show()",
+    "task": "Code Choose Vis",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_37.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_38.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_39.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_40.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 8,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_13.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "validation_Geography_13",
+    "question": "According to the \"Regulations on Management of Building Engineering Data\" (JGJ/T185-2009), the steel bars for the second floor concrete floor slab of a certain project above ground The correct number for the concealed engineering record form is ().<image 1>",
+    "options": "['01-01-C1-007', '01-01-C5-007', '02-01-C1-007', '02-01-C5-007']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_13_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "pid": "coding_46",
+    "answer": "C",
+    "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nsns.set(style=\"dark\")\nlabels = [\n    'kw_avg_avg', 'is_weekend', 'kw_min_max', 'kw_max_max', \n    'data_channel_is_tech', 'self_reference_avg_sharess', \n    'data_channel_is_entertainment', 'kw_min_avg', \n    'data_channel_is_socmed', 'self_reference_min_shares'\n]\ncategories = ['location', 'scale', 'skewness']\ndata = np.array([\n    [0.2, 0, 0],   \n    [0.15, 0, 0],  \n    [0.1, 0, 0],   \n    [0.08, 0, 0],  \n    [0.05, 0, 0.11],  \n    [0.03, 0, 0],  \n    [0.02, 0, 0],  \n    [0.01, 0, 0], \n    [0, 0.09, 0], \n    [0, 0, 0]     \n])\nfig, ax = plt.subplots(figsize=(6, 4))\ncax = ax.imshow(data, cmap='Blues', aspect='auto')\nax.set_xticks(np.arange(len(categories)))\nax.set_yticks(np.arange(len(labels)))\nax.set_xticklabels(categories)\nax.set_yticklabels(labels)\nplt.setp(ax.get_xticklabels(), rotation=45, ha=\"right\", rotation_mode=\"anchor\")\nax.set_xticks(np.arange(-0.5, len(categories), 1), minor=True)\nax.set_yticks(np.arange(-0.5, len(labels), 1), minor=True)\nax.grid(which='minor', color='gray', linestyle='-', linewidth=1.5)\nax.tick_params(which=\"minor\", size=0)\ncbar = ax.figure.colorbar(cax, ax=ax)\nplt.show()",
+    "task": "Code Choose Vis",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_181.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_182.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_183.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_184.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "question_id": "20240409001534_0_0",
+    "question": "You are now in a 12 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To navigate through the maze, you must avoid the burgundy obstacle area and follow the white free area. Starting from the green start point, move downwards twice until you reach marker H1. From there, move to the right once until you reach marker q9. Then, move down one step to reach marker 9M. Finally, move upwards for nine steps to reach the blue end point. Remember to follow the markers to find the path.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_66.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "category": "Math",
+    "question": "Right triangular prism $ABCDEF$ with triangular faces $\\vartriangle ABC$ and $\\vartriangle DEF$ and edges $\\overline{AD}$, $\\overline{BE}$, and $\\overline{CF}$ has $\\angle ABC = 90^o$ and $\\angle EAB = \\angle CAB = 60^o$ . Given that $AE = 2$, the volume of $ABCDEF$ can be written in the form $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Compute $m + n$.\\n<image1>",
+    "index": 160,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_160.png"
+    ],
+    "answer": "5",
+    "solution": "The volume of $A B C D E F$ is equal to the area of $\\triangle A B C$ multiplied by the height $B E$. We have that the height is $A E \\sin \\left(60^{\\circ}\\right)=\\sqrt{3}$ and $B A=A E \\cos \\left(60^{\\circ}\\right)=1$, so $\\triangle A B C$ is a $30-60-90$ right triangle. Then its area is $\\frac{\\sqrt{3}}{2}$, and the volume of $A B C D E F$ is $\\frac{3}{2}$. Our answer, therefore, is 5 .",
+    "level": 3,
+    "Category": "Math"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 5,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_146.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "pid": "coding_20",
+    "answer": "D",
+    "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\ndates = np.linspace(0, 10, 100)\ngdd_data = lambda: np.random.uniform(0.2, 1, 100)\nthermal_data = np.linspace(0.1, 1, 100)\ncrops = ['Corn', 'Sorghum', 'Soybeans', 'Winter Wheat', \n         'Oats', 'Dry Beans', 'Alfalfa', 'Millet']\nfig, axes = plt.subplots(4, 2, figsize=(12, 12))\nfig.tight_layout(pad=5.0)\nfor ax, crop in zip(axes.flatten(), crops):\n    gdd = gdd_data()\n    ax.plot(dates, gdd, label='GDD', color='orange')\n    ax.plot(dates, thermal_data, label='Thermal', linestyle='--', color='brown')\n    ax.set_title(crop)\n    ax.set_xlabel('Date')\n    ax.set_ylabel('GDD')\n    ax.legend()\nplt.show()",
+    "task": "Code Choose Vis",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_77.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_78.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_79.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_80.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 22,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 11 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Complex Web Design</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n\n        header {\n            background-color: #2c3e50;\n            color: #fff;\n            padding: 20px;\n            text-align: center;\n        }\n\n        header h1 {\n            margin: 0;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 30px auto;\n            padding: 20px;\n            background-color: #fff;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n        }\n\n        .grid-layout {\n            display: grid;\n            grid-template-columns: repeat(2, 1fr);\n            gap: 20px;\n            margin-bottom: 30px;\n        }\n\n        .grid-layout > div {\n            background-color: #ecf0f1;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n        }\n\n        .multi-column-layout {\n            display: grid;\n            grid-template-columns: 1fr 2fr 1fr;\n            gap: 20px;\n            margin-bottom: 30px;\n        }\n\n        .table-wrapper {\n            overflow-x: auto;\n            margin-bottom: 30px;\n        }\n\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-bottom: 20px;\n        }\n\n        th, td {\n            padding: 12px;\n            border: 1px solid #ddd;\n            text-align: left;\n        }\n\n        th {\n            background-color: #2c3e50;\n            color: white;\n        }\n\n        .form-group {\n            margin-bottom: 20px;\n        }\n\n        .form-group label {\n            display: block;\n            margin-bottom: 5px;\n        }\n\n        .dropdown, .checkbox-group, .radio-group, .slider {\n            width: 100%;\n        }\n\n        .slider input {\n            width: 100%;\n        }\n\n        footer {\n            background-color: #34495e;\n            color: #fff;\n            text-align: center;\n            padding: 20px;\n            position: relative;\n            bottom: 0;\n            width: 100%;\n        }\n    </style>\n</head>\n<body>\n\n<header>\n    <h1>Complex Web Design Showcase</h1>\n</header>\n\n<div class=\"container\">\n\n    <section class=\"grid-layout\">\n        <div>\n            <h2>Section 1: Tables</h2>\n            <div class=\"table-wrapper\">\n                <h3>Table 1: Employee Details</h3>\n                <table>\n                    <thead>\n                        <tr>\n                            <th>Name</th>\n                            <th>Position</th>\n                            <th>Location</th>\n                            <th>Salary</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td>John Doe</td>\n                            <td>Software Engineer</td>\n                            <td>New York</td>\n                            <td>$100,000</td>\n                        </tr>\n                        <tr>\n                            <td>Jane Smith</td>\n                            <td>Project Manager</td>\n                            <td>London</td>\n                            <td>$120,000</td>\n                        </tr>\n                        <tr>\n                            <td>Sam Johnson</td>\n                            <td>Designer</td>\n                            <td>San Francisco</td>\n                            <td>$90,000</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n            <div class=\"table-wrapper\">\n                <h3>Table 2: Project Overview</h3>\n                <table>\n                    <thead>\n                        <tr>\n                            <th>Project Name</th>\n                            <th>Deadline</th>\n                            <th>Status</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td>Website Redesign</td>\n                            <td>July 2025</td>\n                            <td>In Progress</td>\n                        </tr>\n                        <tr>\n                            <td>Mobile App</td>\n                            <td>November 2025</td>\n                            <td>Not Started</td>\n                        </tr>\n                        <tr>\n                            <td>Branding Project</td>\n                            <td>June 2025</td>\n                            <td>Completed</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n\n        <div>\n            <h2>Section 2: Forms & Controls</h2>\n            <div class=\"form-group\">\n                <label for=\"dropdown1\">Select a Country:</label>\n                <select id=\"dropdown1\" class=\"dropdown\">\n                    <option value=\"usa\">USA</option>\n                    <option value=\"uk\">UK</option>\n                    <option value=\"canada\">Canada</option>\n                    <option value=\"australia\">Australia</option>\n                </select>\n            </div>\n\n            <div class=\"form-group\">\n                <label>Choose your preferences:</label>\n                <div class=\"checkbox-group\">\n                    <input type=\"checkbox\" id=\"checkbox1\" name=\"preference\" value=\"option1\">\n                    <label for=\"checkbox1\">Option 1</label><br>\n                    <input type=\"checkbox\" id=\"checkbox2\" name=\"preference\" value=\"option2\">\n                    <label for=\"checkbox2\">Option 2</label><br>\n                    <input type=\"checkbox\" id=\"checkbox3\" name=\"preference\" value=\"option3\">\n                    <label for=\"checkbox3\">Option 3</label>\n                </div>\n            </div>\n\n            <div class=\"form-group\">\n                <label>Choose a category:</label>\n                <div class=\"radio-group\">\n                    <input type=\"radio\" id=\"radio1\" name=\"category\" value=\"technology\">\n                    <label for=\"radio1\">Technology</label><br>\n                    <input type=\"radio\" id=\"radio2\" name=\"category\" value=\"design\">\n                    <label for=\"radio2\">Design</label><br>\n                    <input type=\"radio\" id=\"radio3\" name=\"category\" value=\"marketing\">\n                    <label for=\"radio3\">Marketing</label>\n                </div>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"slider\">Adjust your budget:</label>\n                <input type=\"range\" id=\"slider\" class=\"slider\" min=\"0\" max=\"100\" value=\"50\">\n            </div>\n        </div>\n    </section>\n\n    <section class=\"multi-column-layout\">\n        <div>\n            <h2>Section 3: Nested Grids</h2>\n            <div class=\"grid-layout\">\n                <div>\n                    <h3>Nested Grid 1</h3>\n                    <p>This is a nested grid layout with content inside. It demonstrates how multiple grids can be nested within each other.</p>\n                </div>\n                <div>\n                    <h3>Nested Grid 2</h3>\n                    <p>This section can contain various content types like text, images, and forms, organized in a structured way.</p>\n                </div>\n            </div>\n        </div>\n        <div>\n            <h2>Section 4: Additional Content</h2>\n            <p>Here, additional content can be placed such as text, images, or even additional controls and tables, based on the design needs.</p>\n        </div>\n    </section>\n\n</div>\n\n<footer>\n    <p>&copy; 2025 Complex Web Design. All rights reserved.</p>\n</footer>\n\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/4.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 17,
+    "question": "The following triangular prism is shown in the figure. A cylinder is dug out from it and then it is cut from any side. Which of the following cannot be the cross-section of the triangular prism?",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_17.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "validation_Physics_13",
+    "question": "<image 1>The graph above shows the velocity versus time for an object moving in a straight line. At what time after t = 0 does the object again pass through its initial position?",
+    "options": "['1 s', 'Between 1 and 2 s', '2 s', 'Between 2 and 3 s']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/validation_Physics_13_1.png"
+    ],
+    "subfield": "Classical Mechanics",
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "Circles of radius $ 2$ and $ 3$ are externally tangent and are circumscribed by a third circle, as shown in the figure. Find the area of the shaded region.\n\n<image1>",
+    "index": 154,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_154.png"
+    ],
+    "answer": "E",
+    "options": [
+      "$3\\pi$",
+      "$4\\pi$",
+      "$6\\pi$",
+      "$9\\pi$",
+      "$12\\pi$"
+    ],
+    "level": 4,
+    "Category": "Math"
+  },
+  {
+    "question": "How many apple are in these two images?",
+    "answer": 0,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_25.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Among the following four sets of views where the front views are all full sectional views, please choose the option (A, B, C, or D) where the front view has missing lines.",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_34.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 37,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <title>Complex Dashboard Prototype</title>\n  <style>\n    :root {\n      --primary: #2c3e50;\n      --secondary: #ecf0f1;\n      --accent: #3498db;\n      --light: #ffffff;\n      --dark: #34495e;\n      --spacing: 1rem;\n    }\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body {\n      font-family: Arial, sans-serif;\n      background: var(--secondary);\n      color: var(--primary);\n      line-height: 1.5;\n    }\n    .container {\n      display: grid;\n      grid-template-areas:\n        \"header header\"\n        \"sidebar main\"\n        \"footer footer\";\n      grid-template-columns: 250px 1fr;\n      grid-template-rows: auto 1fr auto;\n      gap: var(--spacing);\n      max-width: 1440px;\n      margin: var(--spacing) auto;\n    }\n    header {\n      grid-area: header;\n      background: var(--light);\n      padding: var(--spacing);\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      border-bottom: 1px solid var(--dark);\n    }\n    header h1 { font-size: 1.5rem; color: var(--accent); }\n    header nav select,\n    header nav input[type=\"text\"] {\n      margin-left: var(--spacing);\n      padding: 0.5em;\n      border: 1px solid var(--dark);\n      border-radius: 4px;\n    }\n    aside {\n      grid-area: sidebar;\n      background: var(--light);\n      padding: var(--spacing);\n      border-right: 1px solid var(--dark);\n    }\n    aside nav ul {\n      list-style: none;\n    }\n    aside nav li {\n      margin: 0.5rem 0;\n    }\n    aside nav a {\n      text-decoration: none;\n      color: var(--primary);\n      padding: 0.5em;\n      display: block;\n      border-radius: 4px;\n    }\n    aside nav a:hover {\n      background: var(--accent);\n      color: var(--light);\n    }\n    main {\n      grid-area: main;\n      display: grid;\n      grid-template-rows: auto auto auto auto;\n      gap: var(--spacing);\n    }\n    .filters, .cards, .tables, .form-section, .nested-grid {\n      background: var(--light);\n      padding: var(--spacing);\n      border-radius: 8px;\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    .filters {\n      display: flex;\n      flex-wrap: wrap;\n      gap: var(--spacing);\n    }\n    .filters label {\n      display: flex;\n      flex-direction: column;\n      font-size: 0.9rem;\n    }\n    .filters select, .filters input {\n      margin-top: 0.25rem;\n      padding: 0.5em;\n      border: 1px solid var(--dark);\n      border-radius: 4px;\n    }\n    .cards {\n      display: grid;\n      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n      gap: var(--spacing);\n    }\n    .card {\n      background: var(--secondary);\n      padding: var(--spacing);\n      border-radius: 8px;\n      text-align: center;\n    }\n    .tables table {\n      width: 100%;\n      border-collapse: collapse;\n      margin-bottom: var(--spacing);\n    }\n    .tables th, .tables td {\n      border: 1px solid var(--dark);\n      padding: 0.5em;\n      text-align: left;\n    }\n    .tables th {\n      background: var(--accent);\n      color: var(--light);\n      position: sticky;\n      top: 0;\n    }\n    .tables tr:nth-child(even) {\n      background: var(--secondary);\n    }\n    .form-section form {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: var(--spacing);\n    }\n    .form-section fieldset {\n      border: 1px solid var(--dark);\n      border-radius: 4px;\n      padding: var(--spacing);\n    }\n    .form-section legend {\n      font-weight: bold;\n      padding: 0 0.25em;\n    }\n    .form-section label {\n      display: flex;\n      align-items: center;\n      gap: 0.5em;\n      margin-bottom: var(--spacing);\n    }\n    .nested-grid {\n      display: grid;\n      grid-template-columns: 2fr 1fr;\n      gap: var(--spacing);\n    }\n    .nested-grid .sub-grid {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      grid-template-rows: 1fr 1fr;\n      gap: var(--spacing);\n    }\n    footer {\n      grid-area: footer;\n      text-align: center;\n      padding: var(--spacing);\n      background: var(--light);\n      border-top: 1px solid var(--dark);\n      font-size: 0.85rem;\n    }\n    .range-control {\n      display: flex;\n      flex-direction: column;\n      gap: 0.25em;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <header>\n      <h1>Acme Pro Dashboard</h1>\n      <nav>\n        <input type=\"text\" placeholder=\"Search...\" />\n        <select>\n          <option>EN</option>\n          <option>FR</option>\n          <option>ES</option>\n        </select>\n      </nav>\n    </header>\n\n    <aside>\n      <nav>\n        <ul>\n          <li><a href=\"#\">Overview</a></li>\n          <li>\n            <a href=\"#\">Analytics ▾</a>\n            <ul>\n              <li><a href=\"#\">Traffic</a></li>\n              <li><a href=\"#\">Sales</a></li>\n              <li><a href=\"#\">Conversions</a></li>\n            </ul>\n          </li>\n          <li><a href=\"#\">Users</a></li>\n          <li><a href=\"#\">Settings</a></li>\n        </ul>\n      </nav>\n    </aside>\n\n    <main>\n      <!-- Filter Section -->\n      <section class=\"filters\">\n        <label>\n          Category\n          <select>\n            <option>All</option>\n            <option>Marketing</option>\n            <option>Development</option>\n            <option>Design</option>\n          </select>\n        </label>\n        <label>\n          Status\n          <select>\n            <option>Active</option>\n            <option>Pending</option>\n            <option>Completed</option>\n          </select>\n        </label>\n        <label>\n          Priority\n          <select>\n            <optgroup label=\"High\">\n              <option>Critical</option>\n              <option>Urgent</option>\n            </optgroup>\n            <optgroup label=\"Normal\">\n              <option>Medium</option>\n              <option>Low</option>\n            </optgroup>\n          </select>\n        </label>\n        <label>\n          Date Range\n          <input type=\"date\" />\n        </label>\n        <label>\n          Search Keyword\n          <input type=\"text\" placeholder=\"Enter keyword\" />\n        </label>\n      </section>\n\n      <!-- Cards Section -->\n      <section class=\"cards\">\n        <div class=\"card\">\n          <h3>Total Users</h3>\n          <p>12,345</p>\n        </div>\n        <div class=\"card\">\n          <h3>New Sales</h3>\n          <p>1,234</p>\n        </div>\n        <div class=\"card\">\n          <h3>Active Projects</h3>\n          <p>56</p>\n        </div>\n        <div class=\"card\">\n          <h3>Server Uptime</h3>\n          <p>99.9%</p>\n        </div>\n      </section>\n\n      <!-- Tables Section -->\n      <section class=\"tables\">\n        <h2>User Data</h2>\n        <table>\n          <thead>\n            <tr>\n              <th>ID</th><th>Name</th><th>Email</th><th>Role</th><th>Joined</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr><td>1</td><td>Alice</td><td>alice@example.com</td><td>Admin</td><td>2024-10-12</td></tr>\n            <tr><td>2</td><td>Bob</td><td>bob@example.com</td><td>Editor</td><td>2025-01-03</td></tr>\n            <tr><td>3</td><td>Charlie</td><td>charlie@example.com</td><td>Viewer</td><td>2023-07-21</td></tr>\n            <tr><td>4</td><td>Dana</td><td>dana@example.com</td><td>Editor</td><td>2022-05-30</td></tr>\n          </tbody>\n        </table>\n\n        <h2>Quarterly Sales</h2>\n        <table>\n          <thead>\n            <tr>\n              <th rowspan=\"2\">Region</th>\n              <th colspan=\"2\">Q1</th>\n              <th colspan=\"2\">Q2</th>\n            </tr>\n            <tr>\n              <th>Online</th><th>Offline</th><th>Online</th><th>Offline</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>North</td><td>$12,000</td><td>$8,500</td><td>$15,000</td><td>$9,200</td>\n            </tr>\n            <tr>\n              <td>South</td><td>$10,500</td><td>$7,300</td><td>$13,400</td><td>$8,800</td>\n            </tr>\n            <tr>\n              <td>East</td><td>$11,200</td><td>$6,900</td><td>$14,100</td><td>$7,600</td>\n            </tr>\n            <tr>\n              <td>West</td><td>$9,800</td><td>$5,700</td><td>$12,300</td><td>$6,400</td>\n            </tr>\n          </tbody>\n        </table>\n      </section>\n\n      <!-- Form Section -->\n      <section class=\"form-section\">\n        <h2>Advanced Controls</h2>\n        <form>\n          <fieldset>\n            <legend>Preferences</legend>\n            <label><input type=\"checkbox\" name=\"email_updates\" /> Email Updates</label>\n            <label><input type=\"checkbox\" name=\"sms_alerts\" /> SMS Alerts</label>\n            <label><input type=\"checkbox\" name=\"push_notifications\" /> Push Notifications</label>\n          </fieldset>\n          <fieldset>\n            <legend>Gender</legend>\n            <label><input type=\"radio\" name=\"gender\" value=\"male\" /> Male</label>\n            <label><input type=\"radio\" name=\"gender\" value=\"female\" /> Female</label>\n            <label><input type=\"radio\" name=\"gender\" value=\"other\" /> Other</label>\n          </fieldset>\n          <fieldset class=\"range-control\">\n            <legend>Volume</legend>\n            <label for=\"volumeRange\">Adjust Volume:</label>\n            <input type=\"range\" id=\"volumeRange\" name=\"volume\" min=\"0\" max=\"100\" />\n          </fieldset>\n          <fieldset>\n            <legend>Select Items</legend>\n            <label>\n              Item A\n              <select multiple size=\"4\">\n                <option>Option 1</option>\n                <option>Option 2</option>\n                <option>Option 3</option>\n                <option>Option 4</option>\n              </select>\n            </label>\n          </fieldset>\n        </form>\n      </section>\n\n      <!-- Nested Grid Section -->\n      <section class=\"nested-grid\">\n        <div class=\"sub-grid\">\n          <div class=\"card\"><h4>Chart Area 1</h4><p>Placeholder</p></div>\n          <div class=\"card\"><h4>Chart Area 2</h4><p>Placeholder</p></div>\n          <div class=\"card\"><h4>Chart Area 3</h4><p>Placeholder</p></div>\n          <div class=\"card\"><h4>Chart Area 4</h4><p>Placeholder</p></div>\n        </div>\n        <div>\n          <h3>Summary</h3>\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae purus nec lectus bibendum tincidunt.</p>\n          <p>Praesent vulputate justo non nisi faucibus, a facilisis turpis cursus.</p>\n        </div>\n      </section>\n    </main>\n\n    <footer>\n      &copy; 2025 Acme Pro. All rights reserved. | <a href=\"#\">Privacy Policy</a> | <a href=\"#\">Terms</a>\n    </footer>\n  </div>\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/37.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "question": "<image> <image> <image> <image> This woman is jumping out from a toilet. What is the correct order of images according to the given context?\nA. None of the choices provided\nB. the first image, the second image, the third image, the fourth image\nC. the second image, the third image, the fourth image, the first image\nD. the fourth image, the third image, the second image, the first image\nE. the third image, the fourth image, the first image, the second image",
+    "index": 77,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Time/image/Time_28.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Time/image/Time_29.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Time/image/Time_30.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Time/image/Time_31.png"
+    ],
+    "answer": "B",
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Select the correct arrangement from the options below to reconstruct the original image. Each option defines the subfigure positions as [top-left, top-right, bottom-left, bottom-right].  Your options are: A. [4, 2, 1, 3], B. [2, 3, 1, 4], C. [1, 3, 4, 2], D. [4, 1, 3, 2].",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_11.jpg"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Which frame appears first on the match timeline? A.<image> B.<image>",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_25.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_26.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 33,
+    "question": "The left picture shows a polyhedron composed of 13 white cubes and 5 gray cubes. Now use a plane passing through the three vertices A, B, and C to cut the polyhedron. The correct cross section is:",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_33.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "validation_Chemistry_29",
+    "question": "Among the following, the most stable isomer is :",
+    "options": "['<image 1>', '<image 2>', '<image 3>', '<image 4>']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_4.png"
+    ],
+    "subfield": "Organic Chemistry",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Biology_9",
+    "question": "You discover a transmembrane protein ALPHA that, like most transmembrane proteins, exhibits a transmembrane domain composed of alpha helices. You next discover that ALPHA serves as a channel. What is a likely amino acid sequence for some portion of the transmembrane domain?  (See <image 1> for one-letter abbreviations)",
+    "options": "['ALILALMWWLLF', 'LMQKPMDSLPDY', 'FPPALGGLPFAMG', 'LKMELAKMILLA', 'ALQQMMDSILDY']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_9_1.png"
+    ],
+    "subfield": "Molecular Biology",
+    "answer": "E",
+    "Category": "Science"
+  },
+  {
+    "pid": "coding_47",
+    "answer": "A",
+    "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport seaborn as sns\nsns.set(style=\"dark\")\nlabels = [\n    'kw_avg_avg', 'is_weekend', 'kw_min_max', 'kw_max_max', \n    'data_channel_is_tech', 'self_reference_avg_sharess', \n    'data_channel_is_entertainment', 'kw_min_avg', \n    'data_channel_is_socmed', 'self_reference_min_shares'\n]\ncategories = ['location', 'scale', 'skewness']\ndata = np.array([\n    [0.2, 0, 0],   \n    [0.15, 0, 0],  \n    [0.1, 0, 0],   \n    [0.08, 0, 0],  \n    [0.05, 0, 0.11],  \n    [0.03, 0, 0],  \n    [0.02, 0, 0],  \n    [0.01, 0, 0], \n    [0, 0.09, 0], \n    [0, 0, 0]     \n])\nfig, ax = plt.subplots(figsize=(6, 4))\ncmap = plt.get_cmap('Blues', 10)\ncax = ax.imshow(data, cmap=cmap, aspect='auto')\nax.set_xticks(np.arange(len(categories)))\nax.set_yticks(np.arange(len(labels)))\nax.set_xticklabels(categories)\nax.set_yticklabels(labels)\nplt.setp(ax.get_xticklabels(), rotation=45, ha=\"right\", rotation_mode=\"anchor\")\nax.set_xticks(np.arange(-0.5, len(categories), 1), minor=True)\nax.set_yticks(np.arange(-0.5, len(labels), 1), minor=True)\nax.grid(which='minor', color='gray', linestyle='-', linewidth=1.5)\nax.tick_params(which=\"minor\", size=0)\ncbar = ax.figure.colorbar(cax, ax=ax, ticks=np.linspace(0, 0.2, 11))\ncbar.ax.set_yticklabels([f'{i:.2f}' for i in np.linspace(0, 0.2, 11)])  \nplt.show()",
+    "task": "Code Choose Vis",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_185.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_186.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_187.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_188.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "category": "Math",
+    "question": "Find x.\nChoices:\nA:0.5\nB:1\nC:1.5\nD:2",
+    "index": 31,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_31.png"
+    ],
+    "answer": "B",
+    "Category": "Math"
+  },
+  {
+    "ID": "validation_Biology_16",
+    "question": "Using the figure, which two groups will form a strong ionic bond? <image 1>",
+    "options": "['Group 1 and Group 17', 'Group 1 and Group 14', 'Group 14 and Group 18', 'Group 1 and Group 18']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_16_1.png"
+    ],
+    "subfield": "Evolution",
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "As shown in the figure, BD bisects angle ABC, CD parallel AB, then the degree of angle CDB is ()\nChoices:\nA:55°\nB:50°\nC:45°\nD:30°",
+    "index": 11,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_11.png"
+    ],
+    "answer": "A",
+    "Category": "Math"
+  },
+  {
+    "question": "Given the front view and top view of a solid, please choose the correct left view from options A, B, C, and D.",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_48.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 9,
+    "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_9.jpg"
+    ],
+    "source": "Marvel",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 5,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_4.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "validation_Biology_26",
+    "question": "Consider the following plasmid, pET28a, a popular expression vector that is used for protein expression in bacteria: <image 1>. You freshly purified plasmid from overnight bacterial culture using extraction kit, also known as miniprep. You confirmed the quality of plasmids by checking DNA and protein ratio (A260/280) and running them on a DNA agarose gel. They looked pure as they should be. You would now like to digest this vector for gene manipulation (molecular cloning) to generate vectors suitable for molecular cloning. If you cut the above plasmid with restriction enzyme called HindIII, the form of DNA will be changed from _________",
+    "options": "['Linear to supercoiled', 'Nicked to linear', 'Nicked to supercoiled', 'Supercoiled to nicked', 'Supercoiled to linear']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_26_1.png"
+    ],
+    "subfield": "Genetics",
+    "answer": "E",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Biology_30",
+    "question": "Which feature(s) of this developing embryo are already established at the stage shown in <image 1>",
+    "options": "['segmentation', 'head-tail orientation', 'limb placement', 'type of symmetry', 'limb placement and segmentation', 'segmentation, type of symmetry and head-tail orientation', 'segmentation, head-tail orientation and limb placement', 'type of symmetry and head-tail orientation', 'segmentation and head-tail orientation']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_30_1.png"
+    ],
+    "subfield": "Animal Physiology",
+    "answer": "F",
+    "Category": "Science"
+  },
+  {
+    "question_id": "20240408204626_0_0",
+    "question": "You are now in a 19 by 20 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Purple, and the color of free area is Light Blue. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To get to the end point from the start point, you should follow the path provided. Move left until you reach the marker labeled p1. From there, move down until you reach the marker labeled 7n. Continue moving left until you reach the marker labeled M3. Then, move up to reach the marker labeled e1. Finally, move left one step and you will have reached the end point. Remember to avoid the Dark Purple obstacles and stick to the Light Blue free area.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_45.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "ID": "phy_38",
+    "question": "In the circuit shown below, a capacitor $C=4 \\mathrm{~F}$, inductor $L=5 \\mathrm{H}$, and resistors $R_{1}=3 \\Omega$ and $R_{2}=2 \\Omega$ are placed in a diamond shape and are then fed an alternating current with peak voltage $V_{0}=1 \\mathrm{~V}$ of unknown frequency. Determine the magnitude of the maximum instantaneous output voltage shown in the diagram.\n<image_1>",
+    "subject": "Physics",
+    "category": "Multi-hop Visual Reasoning",
+    "options": [
+      "0.85",
+      "0.65",
+      "0.2 \\mathrm{~V}",
+      "0.4 \\, \\text{V}"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_60.png"
+    ],
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "id": 2,
+    "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_2.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "biology_18",
+    "question": "In the Deep structures of neck, identify the 224 structure. <image 1>",
+    "options": "['Scalenus medius', 'Sympathetic trunk', 'Thoracic duct', 'Longus colli']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/biology_18_1.png"
+    ],
+    "subfield": "Physiology",
+    "answer": "Sympathetic trunk",
+    "Category": "Science"
+  },
+  {
+    "question": "How many umbrella are in these two images?",
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_20.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "biology_2",
+    "question": "In the Gluteal region and thigh, identify the 149 structure. <image 1>",
+    "options": "['Superior gluteal nerve', 'Gluteus minimus', 'Semitendinosus', 'Piriformis']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/biology_2_1.png"
+    ],
+    "subfield": "Physiology",
+    "answer": "Gluteus minimus",
+    "Category": "Science"
+  },
+  {
+    "id": 14,
+    "question": "Given on the left is the unfolded diagram of the outer surface of a cube. Which of the following can be folded from it?",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_14.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "A cake maker has rectangular boxes. She often receives orders for cakes in the shape of an ellipse, and wants to determine the largest possible cake that can be made to fit inside the rectangular box.\n\nState the coordinates of the center of the cake in the form $(a, b)$.",
+    "index": 44,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_44.png"
+    ],
+    "answer": "Center $=(20,10)$",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "As shown in the figure, DE parallel BC, then the size of angle CED is ()\nChoices:\nA:40°\nB:60°\nC:120°\nD:140°",
+    "index": 9,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_9.png"
+    ],
+    "answer": "D",
+    "Category": "Math"
+  },
+  {
+    "question_id": "20240408193530_0_0",
+    "question": "You are now in a 19 by 11 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is Peach. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "Starting from the Green start point, move left until you reach marker B7 in the Peach free area. From there, move upwards towards marker e5, also in the Peach free area, taking care to avoid the Charcoal Gray obstacle area. Once you reach marker e5, move left again until you have successfully reached the Gold end point.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_90.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "id": 39,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 7 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Complex and Beautiful Website Design</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f9;\n            color: #333;\n        }\n        header {\n            background-color: #4CAF50;\n            color: white;\n            padding: 20px;\n            text-align: center;\n            font-size: 2em;\n        }\n        .container {\n            display: grid;\n            grid-template-columns: 1fr 3fr;\n            grid-gap: 20px;\n            padding: 20px;\n        }\n        .sidebar {\n            background-color: #fff;\n            border: 1px solid #ddd;\n            padding: 20px;\n            border-radius: 8px;\n        }\n        .main-content {\n            background-color: #fff;\n            border: 1px solid #ddd;\n            padding: 20px;\n            border-radius: 8px;\n        }\n        h2 {\n            color: #4CAF50;\n        }\n        .table-container {\n            overflow-x: auto;\n            margin-bottom: 20px;\n        }\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-bottom: 20px;\n        }\n        th, td {\n            padding: 12px;\n            text-align: left;\n            border-bottom: 1px solid #ddd;\n        }\n        th {\n            background-color: #f4f4f4;\n        }\n        .form-container {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 15px;\n        }\n        .form-container input, .form-container select, .form-container button {\n            padding: 10px;\n            font-size: 1em;\n            border: 1px solid #ddd;\n            border-radius: 5px;\n            width: 100%;\n        }\n        .form-container select {\n            width: auto;\n            min-width: 200px;\n        }\n        .multi-column {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 20px;\n        }\n        .card {\n            background-color: #fff;\n            border-radius: 8px;\n            padding: 20px;\n            border: 1px solid #ddd;\n        }\n        .card h3 {\n            margin-top: 0;\n            color: #4CAF50;\n        }\n        .slider-container {\n            margin: 20px 0;\n        }\n        .slider-container input {\n            width: 100%;\n        }\n        footer {\n            background-color: #4CAF50;\n            color: white;\n            padding: 20px;\n            text-align: center;\n            font-size: 1em;\n        }\n    </style>\n</head>\n<body>\n    <header>\n        Complex and Beautiful Website Design\n    </header>\n\n    <div class=\"container\">\n        <div class=\"sidebar\">\n            <h2>Sidebar Menu</h2>\n            <form class=\"form-container\">\n                <input type=\"text\" placeholder=\"Search...\" />\n                <select>\n                    <option value=\"option1\">Option 1</option>\n                    <option value=\"option2\">Option 2</option>\n                    <option value=\"option3\">Option 3</option>\n                </select>\n                <button type=\"button\">Submit</button>\n            </form>\n        </div>\n\n        <div class=\"main-content\">\n            <h2>Main Content</h2>\n\n            <div class=\"multi-column\">\n                <div class=\"card\">\n                    <h3>Card Title 1</h3>\n                    <p>Card content goes here. This could be a description or any information relevant to the card.</p>\n                </div>\n                <div class=\"card\">\n                    <h3>Card Title 2</h3>\n                    <p>Card content goes here. This could be a description or any information relevant to the card.</p>\n                </div>\n            </div>\n\n            <h3>Tables Section</h3>\n\n            <div class=\"table-container\">\n                <table>\n                    <caption>Simple Data Table</caption>\n                    <thead>\n                        <tr>\n                            <th>Name</th>\n                            <th>Email</th>\n                            <th>Phone</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td>John Doe</td>\n                            <td>john@example.com</td>\n                            <td>+123456789</td>\n                        </tr>\n                        <tr>\n                            <td>Jane Smith</td>\n                            <td>jane@example.com</td>\n                            <td>+987654321</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n\n            <div class=\"table-container\">\n                <table>\n                    <caption>Advanced Data Table</caption>\n                    <thead>\n                        <tr>\n                            <th>Item</th>\n                            <th>Category</th>\n                            <th>Price</th>\n                            <th>Stock</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td>Item 1</td>\n                            <td>Electronics</td>\n                            <td>$100</td>\n                            <td>20</td>\n                        </tr>\n                        <tr>\n                            <td>Item 2</td>\n                            <td>Furniture</td>\n                            <td>$200</td>\n                            <td>15</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n\n            <h3>Form Section</h3>\n            <form class=\"form-container\">\n                <input type=\"text\" placeholder=\"Full Name\" />\n                <input type=\"email\" placeholder=\"Email Address\" />\n                <div>\n                    <label for=\"gender\">Gender:</label>\n                    <select id=\"gender\">\n                        <option value=\"male\">Male</option>\n                        <option value=\"female\">Female</option>\n                        <option value=\"other\">Other</option>\n                    </select>\n                </div>\n                <div>\n                    <label>Interests:</label>\n                    <input type=\"checkbox\" id=\"interest1\"> Sports\n                    <input type=\"checkbox\" id=\"interest2\"> Music\n                    <input type=\"checkbox\" id=\"interest3\"> Technology\n                </div>\n                <div>\n                    <label>Subscription:</label>\n                    <input type=\"radio\" name=\"subscription\" value=\"newsletter\" checked> Newsletter\n                    <input type=\"radio\" name=\"subscription\" value=\"promotions\"> Promotions\n                </div>\n                <div class=\"slider-container\">\n                    <label for=\"quantity\">Quantity:</label>\n                    <input type=\"range\" id=\"quantity\" name=\"quantity\" min=\"1\" max=\"100\" value=\"50\">\n                </div>\n                <button type=\"submit\">Submit</button>\n            </form>\n        </div>\n    </div>\n\n    <footer>\n        &copy; 2025 Complex Website. All rights reserved.\n    </footer>\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/42.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "qid": "q100-2",
+    "answer": "from typing import Tuple\nimport math\n\ndef solution(coordinate: Tuple[int, int]) -> int:\n    \"\"\"\n    Determines the color of the zone at the given coordinate.\n    The colors follow an infinitely repeating pattern.\n\n    Args:\n        coordinate: A tuple (x, y) representing the coordinate point\n\n    Returns:\n        0 for white\n        1 for black\n        3 for boarder\n    \"\"\"\n    x, y = coordinate\n    sq = math.sqrt(x*x + y*y)\n    if int(sq) == sq:\n        return 3\n    \n    r_floor = math.floor(sq)\n    if x > 0 and y > 0:\n        quadrant = 1\n    elif x < 0 and y > 0:\n        quadrant = 2\n    elif x < 0 and y < 0:\n        quadrant = 3\n    elif x > 0 and y < 0:\n        quadrant = 4\n    else:\n        quadrant = 1\n    \n    if quadrant in [1, 3]:\n        return 0 if (r_floor % 2 == 0) else 1\n    else:\n        return 1 if (r_floor % 2 == 0) else 0\n",
+    "question": "# Problem Description\nThis is a coordinate-based zone coloring problem where we need to determine the color of a point given its (x,y) coordinates. The plane is divided into alternating black and white circular rings, with special rules for different quadrants. The coloring pattern depends on:\n1. The distance from the origin (0,0)\n2. Which quadrant the point lies in\n3. Whether the point lies on a border\n\n# Visual Facts\n1. Coordinate System:\n   - X-axis ranges from -5 to 5 (visible portion)\n   - Y-axis ranges from -5 to 5 (visible portion)\n   - Grid is marked in unit intervals\n\n2. Sample Points Given:\n   - (-1, 1): White zone\n   - (3, 2): Black zone\n   - (0.5, -0.5): Black zone\n   - (20, -16): White zone\n   - (-3, -4): Border\n\n3. Visual Structure:\n   - Concentric circles centered at origin (0,0)\n   - Circles are spaced at unit intervals\n   - Pattern alternates between black and white rings\n\n# Visual Patterns\n1. Distance-Based Rules:\n   - Each ring represents a unit distance from the origin\n   - The pattern alternates at every integer distance\n\n2. Quadrant-Specific Rules:\n   - Quadrants I & III: \n     * Even distance → White\n     * Odd distance → Black\n   - Quadrants II & IV:\n     * Even distance → Black\n     * Odd distance → White\n\n3. Border Detection:\n   - Points exactly on integer distances from origin are borders\n   - Border points return value 3\n\n4. Mathematical Patterns:\n   - Color determination requires:\n     * Calculating distance from origin: √(x² + y²)\n     * Determining quadrant: sign(x) and sign(y)\n     * Checking if point is on border\n     * Applying quadrant-specific even/odd rules using the lower bound of distance\n",
+    "test_script": "def test():\n    test_cases = [\n        ((0.5, 0.5), 0),  \n        ((0.5, -0.5),1),\n        ((3, 2), 1),\n        ((-1, 1), 0),\n        ((5, -3), 0),\n        ((5, -4), 1),\n        ((2, 2), 0),\n        ((4, 3), 3),\n        ((7, 7), 1),\n        ((23009853, 23009853), 0),\n        ((-23009853, -23009853), 0),\n        ((992384, 223), 0)\n    ]\n\n    for i, (coordinate, expected_output) in enumerate(test_cases, 1):\n        try:\n            output = solution(coordinate)\n        except Exception as e:\n            error_message = (\n                f\"An exception occurred while running the test case:\\n\"\n                f\"`coordinate`: {coordinate}\\n\\n\"\n                f\"Exception: '{str(e)}'\"\n            )\n            assert False, error_message\n\n        if output != expected_output:\n            error_message = (\n                f\"The following Test Case failed:\\n\"\n                f\"`coordinate`: {coordinate}\\n\\n\"\n                f\"Actual Output: {output}\\n\"\n                f\"Expected Output: {expected_output}\"\n            )\n            assert False, error_message\n\ntest()",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_246.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "ID": "validation_Geography_1",
+    "question": "As shown in the figure, the fixed straight rod at the left end is subjected to a torsion couple, and the torque at sections 1-1 and 2-2 is: <image 1>",
+    "options": "['12.0kN.m, -3kN.m', '-2.5kN.m, -3kN.m', '-2.5kN.m, -3kN.m', '2.5kN.m, -3kN.m']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_1_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "ID": "phy_36",
+    "question": "In the following two problems we will look at shooting a basketball. Model the basketball as an elastic hollow sphere with radius 0.1 meters. Model the net and basket as shown below, dimensions marked. Neglect friction between the backboard and basketball, and assume all collisions are perfectly elastic.\n\n<image_1>\n\n\nFor this problem, you launch the basketball from the point that is 2 meters above the ground and 4 meters from the backboard as shown. You attempt to make a shot by hitting the basketball off the backboard as depicted above. What is the minimum initial speed required for the ball to make this shot?\nNote: For this problem, you may assume that the size of the ball is negligible.",
+    "subject": "Physics",
+    "category": "Visual Decomposition Simulation",
+    "options": [
+      "6.6 \\, \\text{m/s}",
+      "7.19",
+      "7.23",
+      "8.07 \\, \\text{m/s}"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_58.png"
+    ],
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_7.png"
+    ],
+    "question": "Which road to take to go from Denizli Pamukkale İzci Evi to Melrose Viewpoint Hotel?\nOptions:\nYörük Sk\nMehmetçik Sk\nPala Sk\nKadıoğlu Cd\n",
+    "Category": "MAP"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_137.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "pid": "coding_15",
+    "answer": "C",
+    "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom mpl_toolkits.mplot3d import Axes3D\nA = np.linspace(0, 20, 100)  \nk = np.linspace(0, 20, 100)  \nA, k = np.meshgrid(A, k)\nZ = np.exp(-A * k / 100)  \nfig = plt.figure()\nax = fig.add_subplot(111, projection='3d')\nax.plot_wireframe(k, A, Z, cmap='viridis', linewidth=0.5)  \nax.set_xlabel(r'$k$')\nax.set_ylabel(r'$|A|$')\nax.set_zlabel('Value')\nplt.show()",
+    "task": "Code Choose Vis",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_57.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_58.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_59.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_60.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 70,
+    "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "answer": 3,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_70.jpg"
+    ],
+    "source": "Marvel",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_37.png"
+    ],
+    "question": "Navigate me to the nearest hospital  located near Dr. Muhammad Shahidullah Hall, Dhaka, Bangladesh?\nOptions:\nHead south,Nazimuddin Rd/Suhrawardi Uddan Rd,A H M Kamruzzaman Sharani\nHead south,Nazimuddin Rd/Suhrawardi Uddan Rd,Nazimuddin Rd/Suhrawardi Uddan Rd,A H M Kamruzzaman Sharani\nHead south,Nazimuddin Rd/Suhrawardi Uddan Rd,A H M Kamruzzaman Sharani\nMayor Mohammad Hanif Flyover to A H M Kamruzzaman Sharani\n",
+    "Category": "MAP"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_144.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 40,
+    "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "answer": 1,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_40.jpg"
+    ],
+    "source": "Marvel",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "Considering the depicted topological space, let $X$ be the space and $A$ be the subspace represented by the smaller interior circle.  What is the fundamental group $\\pi_1(X \\setminus A)$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\mathbb{Z}$\n    \\item[(B)] $\\mathbb{Z} \\times \\mathbb{Z}$\n    \\item[(C)] $0$\n    \\item[(D)] $\\mathbb{Z}_2$\n\\end{enumerate}",
+    "index": 175,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_175.png"
+    ],
+    "answer": "A",
+    "Category": "Math"
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "answer": "Take exercise to be a famous player\nFather:Son, come with daddy together.Son:Ok!Father: Jump, jump, you have the same talent as me!Father:Keep balance. Hold tightly.Son:Ok!Father:One, two, come on!Son:I succeed.Father: Son, is it great of the feeling of fl y? Dad is great, right?Son:Daddy, I can do it, too.Father: Ah! Great! Put me down soon…",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_53.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> how many cycles in the image in the given images?\nA. None of the choices provided\nB. four\nC. one\nD. three",
+    "index": 241,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_83.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_84.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_85.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_86.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_87.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_88.png"
+    ],
+    "answer": "C",
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "chem_275",
+    "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+    "subject": "Chemistry",
+    "category": "Knowledge-based counting",
+    "options": [],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_702.png"
+    ],
+    "answer": "11",
+    "Category": "Science"
+  },
+  {
+    "question": "<image> <image> <image> <image> <image> <image> how many bridges do you see in the given images?\nA. three\nB. four\nC. None of the choices provided\nD. one",
+    "index": 628,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_89.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_90.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_91.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_92.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_93.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_94.png"
+    ],
+    "answer": "D",
+    "Category": "Space-Time"
+  },
+  {
+    "category": "Math",
+    "question": "Considering the depicted mapping $f: X \\times I \\to M_f$, where $X$ is a topological space and $I$ is the unit interval, and $M_f$ is the mapping cylinder, which statement regarding the fundamental group $\\pi_1(M_f)$ is true?\n\n\\begin{enumerate}\n    \\item[(A)] $\\pi_1(M_f)$ is isomorphic to $\\pi_1(X)$.\n    \\item[(B)] $\\pi_1(M_f)$ is trivial if and only if $\\pi_1(X)$ and $\\pi_1(Y)$ are both trivial.\n    \\item[(C)] $\\pi_1(M_f)$ is a free product of $\\pi_1(X)$ and $\\pi_1(Y)$.\n    \\item[(D)] $\\pi_1(M_f)$ is isomorphic to $\\pi_1(X) \\times \\pi_1(Y)$.\n\\end{enumerate}",
+    "index": 176,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_176.png"
+    ],
+    "answer": "C",
+    "Category": "Math"
+  },
+  {
+    "id": "cf_1060_C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_242.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_243.png"
+    ],
+    "answer": "(m, n) = list(map(int, input().split()))\nM = list(map(int, input().split()))\nN = list(map(int, input().split()))\nbound = int(input())\nres = 0\nif m > n:\n\t(m, n) = (n, m)\n\t(M, N) = (N, M)\nmultis = []\nfor L in range(1, m + 1):\n\tcur = sum((M[i] for i in range(L)))\n\tmini = cur\n\tfor i in range(L, m):\n\t\tcur += M[i] - M[i - L]\n\t\tmini = min(mini, cur)\n\tmultis.append(mini)\nfor (i, multi) in enumerate(multis):\n\tcur_sum = 0\n\tcur_l = 0\n\tfor j in range(n):\n\t\tcur_sum += N[j]\n\t\tcur_l += 1\n\t\twhile cur_sum * multi > bound:\n\t\t\tcur_l -= 1\n\t\t\tcur_sum -= N[j - cur_l]\n\t\tres = max(res, (i + 1) * cur_l)\nprint(res)\n",
+    "question": "You are given two arrays $$$a$$$ and $$$b$$$ of positive integers, with length $$$n$$$ and $$$m$$$ respectively. \nLet $$$c$$$ be an $$$n \\times m$$$ matrix, where $$$c_{i,j} = a_i \\cdot b_j$$$. \nYou need to find a subrectangle of the matrix $$$c$$$ such that the sum of its elements is at most $$$x$$$, and its area (the total number of elements) is the largest possible.\nFormally, you need to find the largest number $$$s$$$ such that it is possible to choose integers $$$x_1, x_2, y_1, y_2$$$ subject to $$$1 \\leq x_1 \\leq x_2 \\leq n$$$, $$$1 \\leq y_1 \\leq y_2 \\leq m$$$, $$$(x_2 - x_1 + 1) \\times (y_2 - y_1 + 1) = s$$$, and $$$$$$\\sum_{i=x_1}^{x_2}{\\sum_{j=y_1}^{y_2}{c_{i,j}}} \\leq x.$$$$$$\n\nInput\nThe first line contains two integers $$$n$$$ and $$$m$$$ ($$$1 \\leq n, m \\leq 2000$$$).\nThe second line contains $$$n$$$ integers $$$a_1, a_2, \\ldots, a_n$$$ ($$$1 \\leq a_i \\leq 2000$$$).\nThe third line contains $$$m$$$ integers $$$b_1, b_2, \\ldots, b_m$$$ ($$$1 \\leq b_i \\leq 2000$$$).\nThe fourth line contains a single integer $$$x$$$ ($$$1 \\leq x \\leq 2 \\cdot 10^{9}$$$).\n\nOutput\nIf it is possible to choose four integers $$$x_1, x_2, y_1, y_2$$$ such that $$$1 \\leq x_1 \\leq x_2 \\leq n$$$, $$$1 \\leq y_1 \\leq y_2 \\leq m$$$, and $$$\\sum_{i=x_1}^{x_2}{\\sum_{j=y_1}^{y_2}{c_{i,j}}} \\leq x$$$, output the largest value of $$$(x_2 - x_1 + 1) \\times (y_2 - y_1 + 1)$$$ among all such quadruplets, otherwise output $$$0$$$.\n\nExamples\nInput\n3 3\n1 2 3\n1 2 3\n9\n\n\nOutput\n4\n\n\nInput\n5 1\n5 4 2 4 5\n2\n5\n\n\nOutput\n1\n\n\n\n\nNote\nMatrix from the first sample and the chosen subrectangle (of blue color):\n ![image](1.png) Matrix from the second sample and the chosen subrectangle (of blue color):\n ![image](2.png) \n\n\nPlease use a python program to solve this problem\n\nexample_input:\n3 3\n1 2 3\n1 2 3\n9\n\n\nexample_output:\n4\n\n\nTime limit:\n2 seconds\n\nMemory limit:\n512 megabytes\n",
+    "test_input": [
+      "5 1\n5 4 2 4 5\n2\n5\n",
+      "1 1\n1\n1\n1\n",
+      "5 5\n816 1061 1639 1627 1007\n45 104 1091 592 1881\n84465\n"
+    ],
+    "test_output": [
+      "1\n",
+      "1\n",
+      "2\n"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "ID": "chem_397",
+    "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+    "subject": "Chemistry",
+    "category": "Knowledge-based counting",
+    "options": [],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_824.png"
+    ],
+    "answer": "25",
+    "Category": "Science"
+  },
+  {
+    "ID": "phy_1",
+    "question": "A ray of light is incident on a spherical mirror after passing through its focus \\( F \\).\n\nWhich of the following diagrams shows the reflected ray correctly?\n\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n\n<image_1>",
+    "subject": "Physics",
+    "category": "Path Tracing",
+    "options": [
+      "<image_2>",
+      "<image_3>",
+      "<image_4>",
+      "<image_5>"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_5.png"
+    ],
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "ID": "geography_9",
+    "question": "Of the following characteristic indicators of soft clay, () is definitely problematic?<image 1> ",
+    "options": "['Unconfined compressive strength 10KPa', 'c', 'Standard penetration hammer blow count 8 blows/30cm ', 'Shear wave velocity 100m/s']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/geography_9_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "Static penetration resistance value 30KPa",
+    "Category": "Science"
+  },
+  {
+    "answer": 3,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_38.png"
+    ],
+    "question": "Identify three landmarks that are located between Point Vieux-Port de Montréal and Point Montreal Courthouse\nOptions:\nMTELUS\nMuseum of Illusions Montréal\nNotre-Dame-de-Bon-Secours Chapel\nLe Vieux Montréal,\n",
+    "Category": "MAP"
+  },
+  {
+    "category": "Math",
+    "question": "so the width of the water surface AB is ()\nChoices:\nA:4m\nB:5m\nC:6m\nD:8m",
+    "index": 25,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_25.png"
+    ],
+    "answer": "D",
+    "Category": "Math"
+  },
+  {
+    "id": 27,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 7 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Complex and Beautiful Website</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n\n        header {\n            background-color: #4CAF50;\n            color: white;\n            padding: 20px;\n            text-align: center;\n            font-size: 2em;\n        }\n\n        nav {\n            background-color: #333;\n            overflow: hidden;\n        }\n\n        nav a {\n            color: white;\n            float: left;\n            padding: 14px 20px;\n            text-align: center;\n            text-decoration: none;\n        }\n\n        nav a:hover {\n            background-color: #ddd;\n            color: black;\n        }\n\n        .main-content {\n            display: grid;\n            grid-template-columns: 2fr 1fr;\n            grid-template-rows: 1fr 1fr;\n            gap: 20px;\n            padding: 20px;\n        }\n\n        .table-container, .form-container {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n        }\n\n        .table-container table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n\n        .table-container th, .table-container td {\n            padding: 12px;\n            border: 1px solid #ddd;\n        }\n\n        .table-container th {\n            background-color: #f2f2f2;\n        }\n\n        .form-container h2 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        .form-container input[type=\"text\"], .form-container select, .form-container input[type=\"range\"], .form-container input[type=\"radio\"], .form-container input[type=\"checkbox\"] {\n            width: 100%;\n            padding: 10px;\n            margin: 10px 0;\n            border-radius: 5px;\n            border: 1px solid #ddd;\n        }\n\n        .form-container input[type=\"radio\"], .form-container input[type=\"checkbox\"] {\n            width: auto;\n            margin-left: 0;\n        }\n\n        .multi-column {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 20px;\n        }\n\n        .multi-column div {\n            flex: 1 1 45%;\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n        }\n\n        footer {\n            background-color: #333;\n            color: white;\n            text-align: center;\n            padding: 10px;\n            position: relative;\n            bottom: 0;\n            width: 100%;\n        }\n\n        .nested-grid {\n            display: grid;\n            grid-template-columns: 1fr 1fr 1fr;\n            gap: 20px;\n        }\n\n        .nested-grid div {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n        }\n    </style>\n</head>\n<body>\n    <header>\n        Complex & Beautiful Website Design\n    </header>\n\n    <nav>\n        <a href=\"#\">Home</a>\n        <a href=\"#\">About</a>\n        <a href=\"#\">Services</a>\n        <a href=\"#\">Contact</a>\n    </nav>\n\n    <div class=\"main-content\">\n        <div class=\"table-container\">\n            <h2>Data Table 1</h2>\n            <table>\n                <thead>\n                    <tr>\n                        <th>Name</th>\n                        <th>Email</th>\n                        <th>Phone</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>John Doe</td>\n                        <td>johndoe@example.com</td>\n                        <td>123-456-7890</td>\n                    </tr>\n                    <tr>\n                        <td>Jane Smith</td>\n                        <td>janesmith@example.com</td>\n                        <td>987-654-3210</td>\n                    </tr>\n                    <tr>\n                        <td>Mark Johnson</td>\n                        <td>markj@example.com</td>\n                        <td>555-444-3333</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <div class=\"form-container\">\n            <h2>User Input Form</h2>\n            <form>\n                <label for=\"name\">Name:</label>\n                <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\">\n\n                <label for=\"email\">Email:</label>\n                <input type=\"text\" id=\"email\" name=\"email\" placeholder=\"Enter your email\">\n\n                <label for=\"age\">Age:</label>\n                <input type=\"range\" id=\"age\" name=\"age\" min=\"0\" max=\"100\" step=\"1\">\n\n                <label for=\"country\">Country:</label>\n                <select id=\"country\" name=\"country\">\n                    <option value=\"us\">United States</option>\n                    <option value=\"ca\">Canada</option>\n                    <option value=\"uk\">United Kingdom</option>\n                </select>\n\n                <label>Preferences:</label>\n                <input type=\"checkbox\" id=\"option1\" name=\"preference\" value=\"news\"> Receive Newsletters<br>\n                <input type=\"checkbox\" id=\"option2\" name=\"preference\" value=\"updates\"> Receive Updates<br>\n\n                <label>Gender:</label>\n                <input type=\"radio\" id=\"male\" name=\"gender\" value=\"male\"> Male\n                <input type=\"radio\" id=\"female\" name=\"gender\" value=\"female\"> Female\n\n                <button type=\"submit\">Submit</button>\n            </form>\n        </div>\n    </div>\n\n    <div class=\"multi-column\">\n        <div>\n            <h3>Column 1</h3>\n            <p>This is a simple column with text and some information.</p>\n        </div>\n        <div>\n            <h3>Column 2</h3>\n            <p>This is another column showcasing more information.</p>\n        </div>\n    </div>\n\n    <div class=\"nested-grid\">\n        <div>\n            <h3>Nested Grid 1</h3>\n            <p>This grid has multiple smaller sections nested inside.</p>\n        </div>\n        <div>\n            <h3>Nested Grid 2</h3>\n            <p>This grid also contains multiple components.</p>\n        </div>\n        <div>\n            <h3>Nested Grid 3</h3>\n            <p>This section completes the nested layout structure.</p>\n        </div>\n    </div>\n\n    <footer>\n        &copy; 2025 Complex Website Design. All rights reserved.\n    </footer>\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/0.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_6.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "category": "Math",
+    "question": "A lampshade is constructed by rotating $y=\\frac{ 1 }{ x }$ around the $x$-axis from $y=1$ to $y=2$ as seen here. Determine how much material you would need to construct this lampshade - that is, the surface area - accurate to four decimal places.",
+    "index": 89,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_89.png"
+    ],
+    "answer": "Surface Area = $10.5017$",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "The solid $E$ bounded by $z=1-x^2$ and situated in the first octant is given in the following figure:\n\n\n\nFind the volume of the solid.",
+    "index": 80,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_80.png"
+    ],
+    "answer": "$V$ = $\\frac{10}{3}$",
+    "Category": "Math"
+  },
+  {
+    "id": 55,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Complex Web Page</title>\n  <style>\n    body, html {\n      margin: 0;\n      padding: 0;\n      font-family: Arial, sans-serif;\n      background-color: #f9f9f9;\n      color: #333;\n    }\n    header {\n      background-color: #4d4d4d;\n      color: #fff;\n      padding: 20px;\n    }\n    nav {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n    }\n    nav .logo {\n      font-weight: bold;\n      font-size: 24px;\n    }\n    nav ul {\n      list-style: none;\n      display: flex;\n      margin: 0;\n      padding: 0;\n    }\n    nav ul li {\n      position: relative;\n      margin-left: 20px;\n    }\n    nav ul li a {\n      color: #fff;\n      text-decoration: none;\n      padding: 7px 12px;\n      display: inline-block;\n    }\n    nav ul li ul {\n      display: none;\n      position: absolute;\n      top: 35px;\n      left: 0;\n      background-color: #666;\n      min-width: 150px;\n      padding: 0;\n      list-style: none;\n    }\n    nav ul li:hover ul {\n      display: block;\n    }\n    nav ul li ul li {\n      margin: 0;\n    }\n    nav ul li ul li a {\n      display: block;\n      width: 100%;\n      padding: 8px;\n    }\n    .container {\n      display: grid;\n      grid-template-columns: 2fr 1fr;\n      gap: 20px;\n      padding: 20px;\n    }\n    .left-section, .right-section {\n      background-color: #ffffff;\n      padding: 20px;\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    .grid-nested {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: 15px;\n      margin-bottom: 20px;\n    }\n    .nested-box {\n      background-color: #eee;\n      padding: 10px;\n    }\n    .section-title {\n      margin-top: 0;\n      margin-bottom: 10px;\n      font-size: 18px;\n      font-weight: bold;\n      border-bottom: 2px solid #ccc;\n      padding-bottom: 5px;\n    }\n    .tables-area {\n      margin-top: 20px;\n    }\n    table {\n      width: 100%;\n      border-collapse: collapse;\n      margin-bottom: 20px;\n      background-color: #fff;\n    }\n    table thead {\n      background-color: #ccc;\n    }\n    table th, table td {\n      padding: 10px;\n      border: 1px solid #ddd;\n      text-align: left;\n    }\n    .form-section {\n      margin-bottom: 30px;\n    }\n    .form-grid {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: 20px;\n    }\n    .multi-input-group {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      margin: 10px 0;\n    }\n    .multi-input-group label {\n      margin-right: 5px;\n    }\n    .multi-column-row {\n      display: flex;\n      gap: 10px;\n      margin: 10px 0;\n    }\n    .multi-column-row div {\n      flex: 1;\n    }\n    .footer-grid {\n      display: grid;\n      grid-template-columns: repeat(3, 1fr);\n      gap: 20px;\n    }\n    footer {\n      background-color: #4d4d4d;\n      color: #ccc;\n      padding: 20px;\n      margin-top: 40px;\n    }\n    footer ul {\n      list-style: none;\n      padding: 0;\n    }\n    footer ul li {\n      margin-bottom: 8px;\n    }\n    .spacer {\n      height: 40px;\n    }\n    .dropdown-select {\n      width: 100%;\n      padding: 5px;\n      margin-bottom: 10px;\n    }\n    .controls-area input[type=\"range\"] {\n      width: 150px;\n    }\n  </style>\n</head>\n<body>\n\n  <header>\n    <nav>\n      <div class=\"logo\">ComplexWeb</div>\n      <ul>\n        <li><a href=\"#\">Home</a></li>\n        <li>\n          <a href=\"#\">Services ▼</a>\n          <ul>\n            <li><a href=\"#\">Consulting</a></li>\n            <li><a href=\"#\">Development</a></li>\n            <li><a href=\"#\">Design</a></li>\n          </ul>\n        </li>\n        <li>\n          <a href=\"#\">Products ▼</a>\n          <ul>\n            <li><a href=\"#\">Software</a></li>\n            <li><a href=\"#\">Hardware</a></li>\n            <li><a href=\"#\">Subscriptions</a></li>\n          </ul>\n        </li>\n        <li>\n          <a href=\"#\">Contact ▼</a>\n          <ul>\n            <li><a href=\"#\">Support</a></li>\n            <li><a href=\"#\">Sales</a></li>\n          </ul>\n        </li>\n      </ul>\n    </nav>\n  </header>\n\n  <div class=\"container\">\n    <div class=\"left-section\">\n      <h2 class=\"section-title\">Nested Grid and Overview</h2>\n      <div class=\"grid-nested\">\n        <div class=\"nested-box\">Nested Box 1</div>\n        <div class=\"nested-box\">Nested Box 2</div>\n        <div class=\"nested-box\">Nested Box 3</div>\n        <div class=\"nested-box\">Nested Box 4</div>\n      </div>\n\n      <div class=\"spacer\"></div>\n\n      <h2 class=\"section-title\">Additional Layout</h2>\n      <div class=\"multi-column-row\">\n        <div style=\"background-color: #f2f2f2; padding: 10px;\">Column A</div>\n        <div style=\"background-color: #f2f2f2; padding: 10px;\">Column B</div>\n        <div style=\"background-color: #f2f2f2; padding: 10px;\">Column C</div>\n      </div>\n\n      <div class=\"multi-column-row\">\n        <div style=\"background-color: #f2f2f2; padding: 10px;\">Row Segment 1</div>\n        <div style=\"background-color: #f2f2f2; padding: 10px;\">Row Segment 2</div>\n      </div>\n\n      <div class=\"spacer\"></div>\n\n      <h2 class=\"section-title\">Multiple Tables</h2>\n      <div class=\"tables-area\">\n        <table>\n          <thead>\n            <tr>\n              <th>Product</th>\n              <th>Price</th>\n              <th>Stock</th>\n              <th>Available</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>Widget A</td>\n              <td>$10</td>\n              <td>100</td>\n              <td>Yes</td>\n            </tr>\n            <tr>\n              <td>Widget B</td>\n              <td>$15</td>\n              <td>200</td>\n              <td>No</td>\n            </tr>\n            <tr>\n              <td>Widget C</td>\n              <td>$20</td>\n              <td>50</td>\n              <td>Yes</td>\n            </tr>\n          </tbody>\n        </table>\n\n        <table>\n          <thead>\n            <tr>\n              <th>Name</th>\n              <th>Department</th>\n              <th>Email</th>\n              <th>Extension</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>John Smith</td>\n              <td>Finance</td>\n              <td>john.smith@example.com</td>\n              <td>2345</td>\n            </tr>\n            <tr>\n              <td>Jane Doe</td>\n              <td>Engineering</td>\n              <td>jane.doe@example.com</td>\n              <td>5678</td>\n            </tr>\n            <tr>\n              <td>Robert Brown</td>\n              <td>Marketing</td>\n              <td>robert.brown@example.com</td>\n              <td>9101</td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n\n    <div class=\"right-section\">\n      <div class=\"form-section\">\n        <h2 class=\"section-title\">User Preferences</h2>\n        <div class=\"form-grid\">\n          <div>\n            <label for=\"country-select\">Select Country:</label>\n            <select id=\"country-select\" class=\"dropdown-select\">\n              <option value=\"us\">United States</option>\n              <option value=\"ca\">Canada</option>\n              <option value=\"uk\">United Kingdom</option>\n              <option value=\"fr\">France</option>\n            </select>\n\n            <label for=\"language-select\">Preferred Language:</label>\n            <select id=\"language-select\" class=\"dropdown-select\">\n              <option value=\"en\">English</option>\n              <option value=\"fr\">French</option>\n              <option value=\"es\">Spanish</option>\n              <option value=\"de\">German</option>\n            </select>\n\n            <label for=\"timezone-select\">Time Zone:</label>\n            <select id=\"timezone-select\" class=\"dropdown-select\">\n              <option value=\"est\">EST</option>\n              <option value=\"cst\">CST</option>\n              <option value=\"pst\">PST</option>\n              <option value=\"gmt\">GMT</option>\n            </select>\n          </div>\n          <div>\n            <div class=\"multi-input-group\">\n              <label><input type=\"checkbox\" name=\"notify\" value=\"email\"> Email Notifications</label>\n              <label><input type=\"checkbox\" name=\"notify\" value=\"sms\"> SMS Notifications</label>\n            </div>\n            <div class=\"multi-input-group\">\n              <label><input type=\"radio\" name=\"theme\" value=\"light\" checked> Light Theme</label>\n              <label><input type=\"radio\" name=\"theme\" value=\"dark\"> Dark Theme</label>\n            </div>\n            <div class=\"multi-input-group controls-area\">\n              <label for=\"volume\">Volume:</label>\n              <input type=\"range\" id=\"volume\" name=\"volume\" min=\"0\" max=\"100\" value=\"50\">\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-section\">\n        <h2 class=\"section-title\">Account Settings</h2>\n        <div>\n          <div class=\"multi-input-group\">\n            <label for=\"username\">Username:</label>\n            <input type=\"text\" id=\"username\" placeholder=\"Enter username\">\n          </div>\n          <div class=\"multi-input-group\">\n            <label for=\"email\">Email:</label>\n            <input type=\"email\" id=\"email\" placeholder=\"Enter email address\">\n          </div>\n          <div>\n            <label for=\"plan-select\">Subscription Plan:</label>\n            <select id=\"plan-select\" class=\"dropdown-select\">\n              <option value=\"basic\">Basic</option>\n              <option value=\"standard\">Standard</option>\n              <option value=\"premium\">Premium</option>\n            </select>\n          </div>\n          <div class=\"multi-input-group\">\n            <label>Notifications:</label>\n            <label><input type=\"checkbox\" name=\"notifType\" value=\"push\"> Push</label>\n            <label><input type=\"checkbox\" name=\"notifType\" value=\"email2\"> Email</label>\n            <label><input type=\"checkbox\" name=\"notifType\" value=\"sms2\"> SMS</label>\n          </div>\n          <div>\n            <button style=\"padding: 8px 16px; margin-right: 10px;\">Save</button>\n            <button style=\"padding: 8px 16px;\">Cancel</button>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n\n  <footer>\n    <div class=\"footer-grid\">\n      <div>\n        <h3>About Us</h3>\n        <ul>\n          <li>Company Info</li>\n          <li>Leadership</li>\n          <li>Careers</li>\n        </ul>\n      </div>\n      <div>\n        <h3>Resources</h3>\n        <ul>\n          <li>Blog</li>\n          <li>Documentation</li>\n          <li>Community Forum</li>\n        </ul>\n      </div>\n      <div>\n        <h3>Support</h3>\n        <ul>\n          <li>Contact Us</li>\n          <li>FAQ</li>\n          <li>Service Status</li>\n        </ul>\n      </div>\n    </div>\n  </footer>\n\n</body>\n</html>",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/38.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 76,
+    "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E ",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_76.jpg"
+    ],
+    "source": "LogicVista",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "biology_12",
+    "question": "What commponent is marked by A? <image 1>",
+    "options": "['Plaque', 'Bacterial lawn', 'None of above']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/biology_12_1.png"
+    ],
+    "subfield": "Microbiology",
+    "answer": "?",
+    "Category": "Science"
+  },
+  {
+    "ID": "phy_152",
+    "question": "A standing wave pattern is established in a string as shown. The wavelength of one of the component traveling waves is:<image_1>",
+    "subject": "Physics",
+    "category": "Multi-hop Visual Reasoning",
+    "options": [
+      "0.25 m",
+      "0.5 m",
+      "1 m",
+      "2 m",
+      "4 m"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_183.png"
+    ],
+    "answer": "E",
+    "Category": "Science"
+  },
+  {
+    "id": 38,
+    "question": "The following figure shows a cuboid made of 4 black and 8 white cubes. Which one of the following is the correct unfolded view of its outer surface?",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_38.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "The region bounded by the parabola $y^2 = 2 \\cdot p \\cdot x$ and the line AB is revolved about the Y-axis. The line AB passes through the focus of the parabola and is perpendicular to the X-axis. Find the volume of this solid of revolution using integration with respect to $y$. Use $p = \\frac{ 1 }{ 2 }$.",
+    "index": 86,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_86.png"
+    ],
+    "answer": "Volume: $\\frac{\\pi}{20}$",
+    "Category": "Math"
+  },
+  {
+    "ID": "chem_35",
+    "question": "<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.",
+    "subject": "Chemistry",
+    "category": "Reaction Simulation Pro",
+    "options": [
+      "<image_2>",
+      "<image_3>",
+      "<image_4>",
+      "<image_5>"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_171.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_172.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_173.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_174.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_175.png"
+    ],
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "question": "Where is the following sightseeing place?",
+    "answer": "London",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_148.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_74.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "category": "Math",
+    "question": "Circles $\\mathcal{P}$ and $\\mathcal{Q}$ have radii $1$ and $4$, respectively, and are externally tangent at point $A$. Point $B$ is on $\\mathcal{P}$ and point $C$ is on $\\mathcal{Q}$ so that line $BC$ is a common external tangent of the two circles. A line $\\ell$ through $A$ intersects $\\mathcal{P}$ again at $D$ and intersects $\\mathcal{Q}$ again at $E$. Points $B$ and $C$ lie on the same side of $\\ell$, and the areas of $\\triangle DBA$ and $\\triangle ACE$ are equal. This common area is $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n\n<image1>",
+    "index": 153,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_153.png"
+    ],
+    "answer": "129",
+    "level": 5,
+    "Category": "Math"
+  },
+  {
+    "id": "ac_agc006_d",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_193.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_194.png"
+    ],
+    "answer": "N = int(input())\na = [0] + list(map(int, input().split()))\n\ndef check(n):\n\tb = [False] * len(a)\n\tfor i in range(1, len(a)):\n\t\tif a[i] >= n:\n\t\t\tb[i] = True\n\t\telse:\n\t\t\tb[i] = False\n\tr = int(1000000000.0)\n\tl = int(1000000000.0)\n\trb = b[N]\n\tlb = b[N]\n\tfor i in range(1, N):\n\t\tif lb == b[N - i]:\n\t\t\tl = i\n\t\t\tbreak\n\t\telse:\n\t\t\tlb = b[N - i]\n\tfor i in range(1, N):\n\t\tif rb == b[N + i]:\n\t\t\tr = i\n\t\t\tbreak\n\t\telse:\n\t\t\trb = b[N + i]\n\tif r == int(1000000000.0) and l == int(1000000000.0):\n\t\tif N % 2 == 1:\n\t\t\treturn b[N]\n\t\telse:\n\t\t\treturn not b[N]\n\telif r < l:\n\t\treturn rb\n\telse:\n\t\treturn lb\n\ndef binarySearch(small, big):\n\tmid = (big + small) // 2\n\tif big - small <= 1:\n\t\tif check(small):\n\t\t\treturn small\n\t\telse:\n\t\t\treturn big\n\telif not check(mid):\n\t\treturn binarySearch(small, mid)\n\telse:\n\t\treturn binarySearch(mid, big)\nprint(binarySearch(2, 2 * N - 2))\n",
+    "question": "We have a pyramid with $N$ steps, built with blocks.\r\nThe steps are numbered $1$ through $N$ from top to bottom.\r\nFor each $1≤i≤N$, step $i$ consists of $2i-1$ blocks aligned horizontally.\r\nThe pyramid is built so that the blocks at the centers of the steps are aligned vertically.\n\n![image](1.png)\nA pyramid with $N=4$ steps\n\nSnuke wrote a permutation of ($1$, $2$, $...$, $2N-1$) into the blocks of step $N$.\r\nThen, he wrote integers into all remaining blocks, under the following rule:\n\n- The integer written into a block $b$ must be equal to the median of the three integers written into the three blocks directly under $b$, or to the lower left or lower right of $b$.\n\n![image](2.png)\nWriting integers into the blocks\n\nAfterwards, he erased all integers written into the blocks.\r\nNow, he only remembers that the permutation written into the blocks of step $N$ was ($a_1$, $a_2$, $...$, $a_{2N-1}$).\nFind the integer written into the block of step $1$.\n\nConstraints\n\n- $2≤N≤10^5$\n- ($a_1$, $a_2$, $...$, $a_{2N-1}$) is a permutation of ($1$, $2$, $...$, $2N-1$).\n\nInput\nThe input is given from Standard Input in the following format:\n$N$\r\n\n$a_1$ $a_2$ $...$ $a_{2N-1}$\r\n\nOutput\nPrint the integer written into the block of step $1$.\n\nSample Input 1\n4\r\n1 6 3 7 4 5 2\r\n\nSample Output 1\n4\r\n\nThis case corresponds to the figure in the problem statement.\n\nSample Input 2\n2\r\n1 2 3\r\n\nSample Output 2\n2\nPlease use a python program to solve this problem\n\nexample_input:\n2\n0 2 3\n\nexample_output:\n2\n\n\nTime limit:\n2.0 seconds\n\nMemory limit:\n256.0 megabytes\n",
+    "test_input": [
+      "4\n0 6 3 7 4 5 2",
+      "2\n-1 1 7",
+      "4\n0 5 3 1 4 9 2"
+    ],
+    "test_output": [
+      "4\n",
+      "1\n",
+      "3\n"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "category": "Math",
+    "question": "In the given solid geometry figure, let $ABCD$ be a rectangle and $P$ be a point such that $PD \\perp ABCD$.  Let $M$ be a point on the line segment $PN$ such that the ratio of lengths $PM:MN$ is $1:2$. What is the ratio of the volume of the tetrahedron $ABCM$ to the volume of the tetrahedron $ABCD$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{1}{3}$\n    \\item[(B)] $\\frac{1}{6}$\n    \\item[(C)] $\\frac{2}{3}$\n    \\item[(D)] $\\frac{1}{2}$\n\\end{enumerate}",
+    "index": 191,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_191.png"
+    ],
+    "answer": "A",
+    "Category": "Math"
+  }
+]
