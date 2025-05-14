@@ -4,7 +4,7 @@
         "question": "According to the \"Regulations on Management of Building Engineering Data\" (JGJ/T185-2009), the steel bars for the second floor concrete floor slab of a certain project above ground The correct number for the concealed engineering record form is ().<image 1>",
         "options": "['01-01-C1-007', '01-01-C5-007', '02-01-C1-007', '02-01-C5-007']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_13_1.png"
+            "images/Geography/validation_Geography_13_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "D"
@@ -14,7 +14,7 @@
         "question": "There is a square five pile cap as shown in Figures 4-36. Known conditions: cushion cap thickness of 1.2m, effective height h0=1050mm, using C25 concrete (tensile strength design value ft=1.27MPa); Pile section size 0.4m * 04m; Column section size 0.6m * 0.6m. Calculate the punching shear bearing capacity Fl of the cushion cap as () kN.<image 1>",
         "options": "[]",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_14_1.png"
+            "images/Geography/validation_Geography_14_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "8200"
@@ -24,7 +24,7 @@
         "question": "The following statements of the rocks in <image 1> are all correct EXCEPT",
         "options": "['Siltstone is cemented silt particles', 'Shale is Clay, breaking easily into flat flakes and plates', 'Chert is Silica, a microcrystalline form of quartz', 'None']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_15_1.png"
+            "images/Geography/validation_Geography_15_1.png"
         ],
         "subfield": "Physical Geography",
         "answer": "D"
@@ -34,10 +34,10 @@
         "question": "Where does the photographer most likely take the <image 1>?",
         "options": "['Forests marked in <image 2>', 'Forests marked in <image 3>', 'Forests marked in <image 4>']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_16_1.png",
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_16_2.png",
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_16_3.png",
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_16_4.png"
+            "images/Geography/validation_Geography_16_1.png",
+            "images/Geography/validation_Geography_16_2.png",
+            "images/Geography/validation_Geography_16_3.png",
+            "images/Geography/validation_Geography_16_4.png"
         ],
         "subfield": "Physical Geography",
         "answer": "A"
@@ -47,7 +47,7 @@
         "question": "In precast concrete pile foundations, the center distance of the piles should not be less than ()<image 1>",
         "options": "['4D', '3.5D', '3.0D', '2.5D']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_17_1.png"
+            "images/Geography/validation_Geography_17_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "D"
@@ -57,7 +57,7 @@
         "question": "Which thermometer in <image 1> stands for the international standard?",
         "options": "['The top one', 'The bottom one']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_18_1.png"
+            "images/Geography/validation_Geography_18_1.png"
         ],
         "subfield": "Physical Geography",
         "answer": "B"
@@ -67,7 +67,7 @@
         "question": "Which of the following options is not included in the hazard assessment of geological hazards?<image 1>",
         "options": "['Land subsidence', 'Ground collapse', ' Ground fissures', 'Earthquake']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_19_1.png"
+            "images/Geography/validation_Geography_19_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "D"
@@ -77,7 +77,7 @@
         "question": "The natural water content of a fully saturated cohesive soil is 60%, and its natural pore ratio is closest to which of the following Option?<image 1>",
         "options": "['1.0', '1.3', '1.6', '1.9']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_20_1.png"
+            "images/Geography/validation_Geography_20_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "C"
@@ -87,7 +87,7 @@
         "question": "What are the dangers degree represented by yellow, blue, and orange in <image 1>?",
         "options": "['Vulnerable, Endangered, Critical', 'Endangered, Critical, Vulnerable', 'Critical, Vulnerable, Endangered']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_21_1.png"
+            "images/Geography/validation_Geography_21_1.png"
         ],
         "subfield": "Physical Geography",
         "answer": "A"
@@ -97,7 +97,7 @@
         "question": "How many arcs connect at node 12 in Figure 3.10? <image 1>",
         "options": "[]",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_22_1.png"
+            "images/Geography/validation_Geography_22_1.png"
         ],
         "subfield": "Geographic Information Systems",
         "answer": "3"
@@ -107,7 +107,7 @@
         "question": "The cantilever beam is subjected to a concentrated force P at the free end, and the cross-sectional shape and the action line of force P are shown in the figure What type of cross-section produces the combined deformation of oblique bending and torsion?<image 1>",
         "options": "['Rectangle', 'Channel steel', 'I-beam', 'Equilateral angle steel']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_23_1.png"
+            "images/Geography/validation_Geography_23_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "D"
@@ -117,7 +117,7 @@
         "question": "Which of the following testing methods should be used to evaluate the uniformity and compactness of crushed stone fill?<image 1>",
         "options": "['Static penetration test', 'Light power penetration', 'Heavy power penetration', 'Standard penetration test']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_24_1.png"
+            "images/Geography/validation_Geography_24_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "C"
@@ -127,7 +127,7 @@
         "question": "What is the correct method for constructing the waterproofing layer of the basement exterior wall with coiled materials:<image 1>",
         "options": "['The roll waterproof layer is laid on the upstream surface of the external wall', 'The roll waterproof layer is laid on the back surface of the external wall', 'The outer wall roll adopts the empty laying method', ' When laying double layer coils, the two layers of coils are perpendicular to each other']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_25_1.png"
+            "images/Geography/validation_Geography_25_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "A"
@@ -137,7 +137,7 @@
         "question": "The following rock mass structure types () do not belong to the \"Code for Geological Investigation of Water Resources and Hydropower Engineering\" (GB Classification of Rock Mass Structure for 50287-99)<image 1>",
         "options": "['Overall, block, and sub block structures', 'Giant thick layered, thick layered, medium thick layered, interbedded, and thin layered structures', 'Weathering unloading structure and weathering fragment structure', 'Inlaid fragmented structure and fragmented structure']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_26_1.png"
+            "images/Geography/validation_Geography_26_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "C"
@@ -147,7 +147,7 @@
         "question": "In port engineering survey, the cone settlement of a cohesive soil undisturbed sample (76g liquid limit instrument sinking into the soil) was measured The depth in is 6mm. Which of the following options does this viscous natural state belong to<image 1>",
         "options": "['Hard plastic', 'Plastic', 'Soft plastic', 'Flow molding']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_27_1.png"
+            "images/Geography/validation_Geography_27_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "C"
@@ -157,7 +157,7 @@
         "question": "which type of  water in the <image 1> is located on the surfaces of individual soil particles. And this type of water is largely unavailable to plants because it is held firmly by molecular attractions so strong that they can not be broken by plants or through evaporation. ",
         "options": "['Gravitational water', 'Capillary water', 'Hygroscopic water']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_28_1.png"
+            "images/Geography/validation_Geography_28_1.png"
         ],
         "subfield": "Physical Geography",
         "answer": "C"
@@ -167,7 +167,7 @@
         "question": "What is the hardest mineral in <image 1>? ",
         "options": "['feldspar', 'fluorite', 'galena', 'quartz']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_29_1.png"
+            "images/Geography/validation_Geography_29_1.png"
         ],
         "subfield": "Physical Geography",
         "answer": "D"
@@ -177,7 +177,7 @@
         "question": "The average wave velocity value of the bored pile body at a certain site is 3555.6m/s, and the low strain reflected wave dynamic test curve of a certain column is shown in Figure 10-3, corresponding to the values of time t1, t2, and t3 in the figure ,Which of the following options is the closest value to the length of the pile? ()()<image 1>",
         "options": "['10.7m', '21.3m', '24.0m', '48.0m']",
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_30_1.png"
+            "images/Geography/validation_Geography_30_1.png"
         ],
         "subfield": "Geotechnical Engineering",
         "answer": "C"

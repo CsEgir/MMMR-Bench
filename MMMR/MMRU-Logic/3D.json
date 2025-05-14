@@ -4,7 +4,7 @@
     "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_1.jpg"
+      "images/3D/3D_1.jpg"
     ],
     "source": ""
   },
@@ -13,7 +13,7 @@
     "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_2.jpg"
+      "images/3D/3D_2.jpg"
     ],
     "source": ""
   },
@@ -22,7 +22,7 @@
     "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_3.jpg"
+      "images/3D/3D_3.jpg"
     ],
     "source": ""
   },
@@ -31,7 +31,7 @@
     "question": "For the following three-dimensional figures, which of the four options cannot be its view (front view, top view, side view)?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_4.jpg"
+      "images/3D/3D_4.jpg"
     ],
     "source": ""
   },
@@ -40,7 +40,7 @@
     "question": "Among the four options, which one cannot be the view of the solid formed by folding the given unfolding diagram?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_5.jpg"
+      "images/3D/3D_5.jpg"
     ],
     "source": ""
   },
@@ -49,7 +49,7 @@
     "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_6.jpg"
+      "images/3D/3D_6.jpg"
     ],
     "source": ""
   },
@@ -58,7 +58,7 @@
     "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_7.jpg"
+      "images/3D/3D_7.jpg"
     ],
     "source": ""
   },
@@ -67,7 +67,7 @@
     "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_8.jpg"
+      "images/3D/3D_8.jpg"
     ],
     "source": ""
   },
@@ -76,7 +76,7 @@
     "question": "The left picture shows a polyhedron composed of 3 equal-sized gray cubes and 15 white cubes. It can be cut into three small polyhedrons ①, ② and ③. The polyhedron represented by ③ may be:",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_9.jpg"
+      "images/3D/3D_9.jpg"
     ],
     "source": ""
   },
@@ -85,7 +85,7 @@
     "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_10.jpg"
+      "images/3D/3D_10.jpg"
     ],
     "source": ""
   },
@@ -94,7 +94,7 @@
     "question": "The left-hand solid figure has only one face that is blackened as shown in the picture. The following options cannot be composed of three left-hand solid figures（ ）",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_11.jpg"
+      "images/3D/3D_11.jpg"
     ],
     "source": ""
   },
@@ -103,7 +103,7 @@
     "question": "Given on the left is the outer surface of a polyhedron. Which item on the right can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_12.jpg"
+      "images/3D/3D_12.jpg"
     ],
     "source": ""
   },
@@ -112,7 +112,7 @@
     "question": "The following figure shows a given polyhedron and its outer surface development diagram. What is the corresponding relationship between the letters A, B, C, D and the edges represented by the numbers 1, 2, 3, and 4? Options: A.1-D，2-A，3-C，4-B B.1-C，2-A，3-D，4-B C.1-D，2-B，3-C，4-A D.1-C，2-B，3-D，4-A",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_13.jpg"
+      "images/3D/3D_13.jpg"
     ],
     "source": ""
   },
@@ -121,7 +121,7 @@
     "question": "Given on the left is the unfolded diagram of the outer surface of a cube. Which of the following can be folded from it?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_14.jpg"
+      "images/3D/3D_14.jpg"
     ],
     "source": ""
   },
@@ -130,7 +130,7 @@
     "question": "Figure ① and Figure ② are views of a cube from different angles. Which of the following cannot be the expanded view of the outer surface of the cube?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_15.jpg"
+      "images/3D/3D_15.jpg"
     ],
     "source": ""
   },
@@ -139,7 +139,7 @@
     "question": "On the left is a visual diagram of the front and back sides of a polyhedron composed of 15 white and 3 gray cubes. It can be composed of three polyhedrons ①, ② and ③. Which one can fill in the question mark?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_16.jpg"
+      "images/3D/3D_16.jpg"
     ],
     "source": ""
   },
@@ -148,7 +148,7 @@
     "question": "The following triangular prism is shown in the figure. A cylinder is dug out from it and then it is cut from any side. Which of the following cannot be the cross-section of the triangular prism?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_17.jpg"
+      "images/3D/3D_17.jpg"
     ],
     "source": ""
   },
@@ -157,7 +157,7 @@
     "question": "The following are the unfolded drawings of the outer surfaces of four cubes. After which unfolded drawing is restored to a cube, the sum of the numbers on the three faces with the same common vertex is 8?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_18.jpg"
+      "images/3D/3D_18.jpg"
     ],
     "source": ""
   },
@@ -166,7 +166,7 @@
     "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_19.jpg"
+      "images/3D/3D_19.jpg"
     ],
     "source": ""
   },
@@ -175,7 +175,7 @@
     "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity:",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_20.jpg"
+      "images/3D/3D_20.jpg"
     ],
     "source": ""
   },
@@ -184,7 +184,7 @@
     "question": "Which of the following views of a solid figure cannot be one of the four options given?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_21.jpg"
+      "images/3D/3D_21.jpg"
     ],
     "source": ""
   },
@@ -193,7 +193,7 @@
     "question": "The picture below is a given three-dimensional figure (the dotted part inside the large cylinder is the hollow part). If it is cut from any side, which of the following cannot be the cross-section of the three-dimensional figure?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_22.jpg"
+      "images/3D/3D_22.jpg"
     ],
     "source": ""
   },
@@ -202,7 +202,7 @@
     "question": "The following three three-view drawings correspond to three geometric bodies in turn. The correct corresponding order of the three geometric bodies is: Options: A.②①③ B.②③① C.①③② D.③①②",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_23.jpg"
+      "images/3D/3D_23.jpg"
     ],
     "source": ""
   },
@@ -211,7 +211,7 @@
     "question": "The left three-dimensional figure has only one black square face as shown in the picture. Which of the following options is least likely to be composed of three left-side figures? ( )",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_24.jpg"
+      "images/3D/3D_24.jpg"
     ],
     "source": ""
   },
@@ -220,7 +220,7 @@
     "question": "The following figure shows a polyhedron composed of 15 white and 3 gray cubes. It can be composed of three polyhedrons ①, ② and ③. Which one can fill in the question mark?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_25.jpg"
+      "images/3D/3D_25.jpg"
     ],
     "source": ""
   },
@@ -229,7 +229,7 @@
     "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it shows a certain regularity:",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_26.jpg"
+      "images/3D/3D_26.jpg"
     ],
     "source": ""
   },
@@ -238,7 +238,7 @@
     "question": "If two three-dimensional figures on the left are placed on the table, the outline of the figure that someone sees from the front of the table is least likely to be ( )",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_27.jpg"
+      "images/3D/3D_27.jpg"
     ],
     "source": ""
   },
@@ -247,7 +247,7 @@
     "question": "Given on the left is the outer surface of a cardboard box. Which of the following can be folded from it?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_28.jpg"
+      "images/3D/3D_28.jpg"
     ],
     "source": ""
   },
@@ -256,7 +256,7 @@
     "question": "The picture on the left is a three-dimensional figure composed of 14 small black and white cubes. One of the four options on the right is not a view of the three-dimensional figure. Please find it out.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_29.jpg"
+      "images/3D/3D_29.jpg"
     ],
     "source": ""
   },
@@ -265,7 +265,7 @@
     "question": "The picture on the left shows a polyhedron composed of 15 white cubes and 3 gray cubes. It can be composed of three polyhedrons ①, ②, and ③. Which one can fill in the question mark?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_30.jpg"
+      "images/3D/3D_30.jpg"
     ],
     "source": ""
   },
@@ -274,7 +274,7 @@
     "question": "Given on the left is the unfolded view of the outer surface of the cardboard box. Which item on the right can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_31.jpg"
+      "images/3D/3D_31.jpg"
     ],
     "source": ""
   },
@@ -283,7 +283,7 @@
     "question": "Which of the following cannot be a component of the cube shown in the figure? ( )",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_32.jpg"
+      "images/3D/3D_32.jpg"
     ],
     "source": ""
   },
@@ -292,7 +292,7 @@
     "question": "The left picture shows a polyhedron composed of 13 white cubes and 5 gray cubes. Now use a plane passing through the three vertices A, B, and C to cut the polyhedron. The correct cross section is:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_33.jpg"
+      "images/3D/3D_33.jpg"
     ],
     "source": ""
   },
@@ -301,7 +301,7 @@
     "question": "If you use white, gray, and black paint to paint the six faces of a cube box, and the colors of the two opposite faces are the same, which of the following cannot be the expanded view of the outer appearance of the box:",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_34.jpg"
+      "images/3D/3D_34.jpg"
     ],
     "source": ""
   },
@@ -310,7 +310,7 @@
     "question": "The picture on the left is a given polyhedron. If it is cut from any face, which one cannot be the cross section of the polyhedron?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_35.jpg"
+      "images/3D/3D_35.jpg"
     ],
     "source": ""
   },
@@ -319,7 +319,7 @@
     "question": "The left side is the given outer surface of the paper box. Which item on the right can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_36.jpg"
+      "images/3D/3D_36.jpg"
     ],
     "source": ""
   },
@@ -328,7 +328,7 @@
     "question": "The left picture shows a polyhedron composed of 3 equal-sized gray cubes and 15 white cubes. It can be cut into three small polyhedrons ①, ② and ③. The polyhedron represented by ③ may be:",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_37.jpg"
+      "images/3D/3D_37.jpg"
     ],
     "source": ""
   },
@@ -337,7 +337,7 @@
     "question": "The following figure shows a cuboid made of 4 black and 8 white cubes. Which one of the following is the correct unfolded view of its outer surface?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_38.jpg"
+      "images/3D/3D_38.jpg"
     ],
     "source": ""
   },
@@ -346,7 +346,7 @@
     "question": "Given on the left is the unfolded diagram of the outer surface of a hexahedron. Which item on the right can be folded from it?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_39.jpg"
+      "images/3D/3D_39.jpg"
     ],
     "source": ""
   },
@@ -355,7 +355,7 @@
     "question": "Given on the left is the outer surface of a cardboard box. Which of the following can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_40.jpg"
+      "images/3D/3D_40.jpg"
     ],
     "source": ""
   },
@@ -364,7 +364,7 @@
     "question": "The picture below is the outer surface of a given paper box. Which of the following can be folded from it?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_41.jpg"
+      "images/3D/3D_41.jpg"
     ],
     "source": ""
   },
@@ -373,7 +373,7 @@
     "question": "Given on the left is the unfolded outer surface of the cardboard box. Which item on the right can be folded from it?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_42.jpg"
+      "images/3D/3D_42.jpg"
     ],
     "source": ""
   },
@@ -382,7 +382,7 @@
     "question": "The following figure shows the plane expansion of a cube. The cube is most likely:",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_43.jpg"
+      "images/3D/3D_43.jpg"
     ],
     "source": ""
   },
@@ -391,7 +391,7 @@
     "question": "The following are the unfolded drawings of the outer surfaces of four cubes. After which of the unfolded drawings is restored to a cube, there are three faces with the same common vertex, and the sum of the numbers on them is 8?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_44.jpg"
+      "images/3D/3D_44.jpg"
     ],
     "source": ""
   },
@@ -400,7 +400,7 @@
     "question": "Which item on the right cannot be folded from the expanded diagram on the left?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_45.jpg"
+      "images/3D/3D_45.jpg"
     ],
     "source": ""
   },
@@ -409,7 +409,7 @@
     "question": "Given on the left is the unfolded view of the outer surface of the cardboard box. Which of the following cannot be folded from it?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_46.jpg"
+      "images/3D/3D_46.jpg"
     ],
     "source": ""
   },
@@ -418,7 +418,7 @@
     "question": "Given below is the unfolded view of the outer surface of a paper box. Which item on the right can be folded from it?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_47.jpg"
+      "images/3D/3D_47.jpg"
     ],
     "source": ""
   },
@@ -427,7 +427,7 @@
     "question": "It is known that 5 identical paper boxes are placed together in sequence as shown in the figure below. Then the surface opposite to surface ① of the paper box is:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_48.jpg"
+      "images/3D/3D_48.jpg"
     ],
     "source": ""
   },
@@ -436,7 +436,7 @@
     "question": "Choose the most appropriate one from the four options given to fill in the question mark so that the three-dimensional figures ①, ②, ③ and ④ in the figure below can form a complete cuboid:",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_49.jpg"
+      "images/3D/3D_49.jpg"
     ],
     "source": ""
   },
@@ -445,7 +445,7 @@
     "question": "In the unfolded diagram of the outer surface of the four cube paper boxes below, the one that is different from the other three folded paper boxes is:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_50.jpg"
+      "images/3D/3D_50.jpg"
     ],
     "source": ""
   },
@@ -454,7 +454,7 @@
     "question": "Which of the following is folded from the square unfolding diagram in the question stem?（  ）",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_51.jpg"
+      "images/3D/3D_51.jpg"
     ],
     "source": "MLRQA"
   },
@@ -463,7 +463,7 @@
     "question": "This template can be folded into:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_52.jpg"
+      "images/3D/3D_52.jpg"
     ],
     "source": "MLRQA"
   },
@@ -472,7 +472,7 @@
     "question": "This template is folded into:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_53.jpg"
+      "images/3D/3D_53.jpg"
     ],
     "source": "MLRQA"
   },
@@ -481,7 +481,7 @@
     "question": "Please choose the most suitable one from the four options given to make it appear regular.（）",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_54.jpg"
+      "images/3D/3D_54.jpg"
     ],
     "source": "MLRQA"
   },
@@ -490,7 +490,7 @@
     "question": "Given the plan development of the outer surface of the carton on the left, which item on the right can be folded?（  ）",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_55.jpg"
+      "images/3D/3D_55.jpg"
     ],
     "source": "MLRQA"
   },
@@ -499,7 +499,7 @@
     "question": "Which figure is a rotation of the object?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_56.jpg"
+      "images/3D/3D_56.jpg"
     ],
     "source": "LogicVista"
   },
@@ -508,7 +508,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is an unfolded diagram of the cube. The choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4) represents the correct three-dimensional assembly. Which choice (either 1, 2, 3, or 4) is the most appropriate answer?",
     "answer": "4",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_57.jpg"
+      "images/3D/3D_57.jpg"
     ],
     "source": "Marvel"
   },
@@ -517,7 +517,7 @@
     "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it shows a certain regularity.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_58.jpg"
+      "images/3D/3D_58.jpg"
     ],
     "source": ""
   },
@@ -526,7 +526,7 @@
     "question": "Given on the left is the outer surface of a cardboard box. Which of the following can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_59.jpg"
+      "images/3D/3D_59.jpg"
     ],
     "source": ""
   },
@@ -535,7 +535,7 @@
     "question": "Given on the left is the outer surface of a cardboard box. Which of the following can be folded from it?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_60.jpg"
+      "images/3D/3D_60.jpg"
     ],
     "source": ""
   },
@@ -544,7 +544,7 @@
     "question": "Given on the left is a cube. Which item on the right is the unfolded diagram of its outer surface?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_61.jpg"
+      "images/3D/3D_61.jpg"
     ],
     "source": ""
   },
@@ -553,7 +553,7 @@
     "question": "Divide the following six cube expansion diagrams into two categories so that each type of figure has its own common characteristics or rules. The correct classification is: Options: A.①③④，②⑤⑥ B.①③⑤，②④⑥ C.①②⑤，③④⑥ D.①④⑥，②③⑤",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_62.jpg"
+      "images/3D/3D_62.jpg"
     ],
     "source": ""
   },
@@ -562,7 +562,7 @@
     "question": "The following are different views of the same cube. The shape at the “?” is:",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_63.jpg"
+      "images/3D/3D_63.jpg"
     ],
     "source": ""
   },
@@ -571,7 +571,7 @@
     "question": "Given on the left is the unfolded view of the outer surface of the cardboard box. Which of the following can be folded from it?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_64.jpg"
+      "images/3D/3D_64.jpg"
     ],
     "source": ""
   },
@@ -580,7 +580,7 @@
     "question": "Among the outer surfaces of the paper box in the right frame of the figure below, the ones that cannot be folded into the paper box shown in the left frame are:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_65.jpg"
+      "images/3D/3D_65.jpg"
     ],
     "source": ""
   },
@@ -589,7 +589,7 @@
     "question": "The picture below is the outer surface of a given paper box. Which of the following can be folded from it?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_66.jpg"
+      "images/3D/3D_66.jpg"
     ],
     "source": ""
   },
@@ -598,7 +598,7 @@
     "question": "Given on the left is the unfolded diagram of the outer surface of a cube. Which item on the right can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_67.jpg"
+      "images/3D/3D_67.jpg"
     ],
     "source": ""
   },
@@ -607,7 +607,7 @@
     "question": "The three-dimensional figure on the left is composed of ①, ② and ③. Which of the following cannot be filled in the question mark?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_68.jpg"
+      "images/3D/3D_68.jpg"
     ],
     "source": ""
   },
@@ -616,7 +616,7 @@
     "question": "Given on the left is the unfolded diagram of the outer surface of a cube. Which of the following can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_69.jpg"
+      "images/3D/3D_69.jpg"
     ],
     "source": ""
   },
@@ -625,7 +625,7 @@
     "question": "The outer surface of a paper box is given on the left. Which item on the right can be folded from it? ( )",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_70.jpg"
+      "images/3D/3D_70.jpg"
     ],
     "source": ""
   },
@@ -634,7 +634,7 @@
     "question": "The picture on the left is the unfolded outer surface of the given cube paper box. Which item can be folded from it?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_71.jpg"
+      "images/3D/3D_71.jpg"
     ],
     "source": ""
   },
@@ -643,7 +643,7 @@
     "question": "Given on the left is the outer surface of a polyhedron. Which item on the right can be folded from it?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_72.jpg"
+      "images/3D/3D_72.jpg"
     ],
     "source": ""
   },
@@ -652,7 +652,7 @@
     "question": "Given on the left is the unfolded view of the outer surface of the cardboard box. Which item on the right can be folded from it?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_73.jpg"
+      "images/3D/3D_73.jpg"
     ],
     "source": ""
   },
@@ -661,7 +661,7 @@
     "question": "Given on the left is the outer surface of a given paper box. Which of the following can be folded from it?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_74.jpg"
+      "images/3D/3D_74.jpg"
     ],
     "source": ""
   },
@@ -670,7 +670,7 @@
     "question": "Given on the left is the outer surface of a given paper box. Which of the following can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_75.jpg"
+      "images/3D/3D_75.jpg"
     ],
     "source": ""
   },
@@ -679,7 +679,7 @@
     "question": "The left picture shows a polyhedron composed of 18 cubes of the same size. This polyhedron can be cut into 3 identical small polyhedrons. What are the small polyhedrons cut into?",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_76.jpg"
+      "images/3D/3D_76.jpg"
     ],
     "source": ""
   },
@@ -688,7 +688,7 @@
     "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it has a certain regularity:",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_77.jpg"
+      "images/3D/3D_77.jpg"
     ],
     "source": ""
   },
@@ -697,7 +697,7 @@
     "question": "The left side shows the unfolded view of the outer surface of the paper box. Which item on the right side can be folded from it?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_78.jpg"
+      "images/3D/3D_78.jpg"
     ],
     "source": ""
   },
@@ -706,7 +706,7 @@
     "question": "Given the solid figure below, if you cut it from any side, the number of sides of the cross section cannot be: Options: A.10 B.5 C.4 D.3",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_79.jpg"
+      "images/3D/3D_79.jpg"
     ],
     "source": ""
   },
@@ -715,7 +715,7 @@
     "question": "Given on the left is the unfolded view of the outer surface of the cardboard box. Which item on the right can be folded from it?",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_80.jpg"
+      "images/3D/3D_80.jpg"
     ],
     "source": ""
   },
@@ -724,7 +724,7 @@
     "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it shows a certain regularity:",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_81.jpg"
+      "images/3D/3D_81.jpg"
     ],
     "source": ""
   },
@@ -733,7 +733,7 @@
     "question": "The given figure is the unfolded view of the outer surface of the paper box. The following four options are formed by folding it.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_82.jpg"
+      "images/3D/3D_82.jpg"
     ],
     "source": ""
   },
@@ -742,7 +742,7 @@
     "question": "Which of the following options can form a cuboid with ① and ②?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_83.jpg"
+      "images/3D/3D_83.jpg"
     ],
     "source": ""
   },
@@ -751,7 +751,7 @@
     "question": "The left picture is the plane expansion diagram of the right picture. The numbers correspond to letters one by one. The number that corresponds to 123456 is:",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_84.jpg"
+      "images/3D/3D_84.jpg"
     ],
     "source": ""
   },
@@ -760,7 +760,7 @@
     "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it shows a certain regularity:",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_85.jpg"
+      "images/3D/3D_85.jpg"
     ],
     "source": ""
   },
@@ -769,7 +769,7 @@
     "question": "From the four options given, choose the most appropriate one to fill in the question mark so that it shows a certain regularity:",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_86.jpg"
+      "images/3D/3D_86.jpg"
     ],
     "source": ""
   }

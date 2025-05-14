@@ -4,7 +4,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_1.jpg"
+      "images/2D/2D_1.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -13,7 +13,7 @@
     "question": "( )",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_2.jpg"
+      "images/2D/2D_2.jpg"
     ],
     "source": "MLRQA"
   },
@@ -22,7 +22,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_3.jpg"
+      "images/2D/2D_3.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -31,7 +31,7 @@
     "question": "Which of the boxes comes next in the sequence?Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E ",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_4.jpg"
+      "images/2D/2D_4.jpg"
     ],
     "source": "LogicVista"
   },
@@ -40,7 +40,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_5.jpg"
+      "images/2D/2D_5.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -49,7 +49,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_6.jpg"
+      "images/2D/2D_6.jpg"
     ],
     "source": "Marvel"
   },
@@ -58,7 +58,7 @@
     "question": "Among the following options, the one that conforms to the change rule of the given graph is: ().",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_7.jpg"
+      "images/2D/2D_7.jpg"
     ],
     "source": "MLRQA"
   },
@@ -67,7 +67,7 @@
     "question": "From the given options, select the most suitable one and fill in the question mark to make it show a certain regularity ().",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_8.jpg"
+      "images/2D/2D_8.jpg"
     ],
     "source": "MLRQA"
   },
@@ -76,7 +76,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_9.jpg"
+      "images/2D/2D_9.jpg"
     ],
     "source": "Marvel"
   },
@@ -85,7 +85,7 @@
     "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity.（）",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_10.jpg"
+      "images/2D/2D_10.jpg"
     ],
     "source": "MLRQA"
   },
@@ -94,7 +94,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_11.jpg"
+      "images/2D/2D_11.jpg"
     ],
     "source": "Marvel"
   },
@@ -103,7 +103,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_12.jpg"
+      "images/2D/2D_12.jpg"
     ],
     "source": "Marvel"
   },
@@ -112,7 +112,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_13.jpg"
+      "images/2D/2D_13.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -121,7 +121,7 @@
     "question": "Which of the boxes comes next in the sequence? Select answers from A-E",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_14.jpg"
+      "images/2D/2D_14.jpg"
     ],
     "source": "LogicVista"
   },
@@ -130,7 +130,7 @@
     "question": "The figure filled in at the question mark according to the rule is ().",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_15.jpg"
+      "images/2D/2D_15.jpg"
     ],
     "source": "MLRQA"
   },
@@ -139,7 +139,7 @@
     "question": "Which of the boxes comes next in the sequence? Select answers from A-E",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_16.jpg"
+      "images/2D/2D_16.jpg"
     ],
     "source": "LogicVista"
   },
@@ -148,7 +148,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_17.jpg"
+      "images/2D/2D_17.jpg"
     ],
     "source": "Marvel"
   },
@@ -157,7 +157,7 @@
     "question": "",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_18.jpg"
+      "images/2D/2D_18.jpg"
     ],
     "source": "MLRQA"
   },
@@ -166,7 +166,7 @@
     "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_19.jpg"
+      "images/2D/2D_19.jpg"
     ],
     "source": "LogicVista"
   },
@@ -175,7 +175,7 @@
     "question": "Please choose the most suitable one from the four options given and fill in the question mark to make it show a certain pattern ().",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_20.jpg"
+      "images/2D/2D_20.jpg"
     ],
     "source": "MLRQA"
   },
@@ -184,7 +184,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_21.jpg"
+      "images/2D/2D_21.jpg"
     ],
     "source": "Marvel"
   },
@@ -193,7 +193,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "F",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_22.jpg"
+      "images/2D/2D_22.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -202,7 +202,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_23.jpg"
+      "images/2D/2D_23.jpg"
     ],
     "source": "Marvel"
   },
@@ -211,7 +211,7 @@
     "question": "The most appropriate way to fill in the question mark is ().",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_24.jpg"
+      "images/2D/2D_24.jpg"
     ],
     "source": "MLRQA"
   },
@@ -220,7 +220,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_25.jpg"
+      "images/2D/2D_25.jpg"
     ],
     "source": "Marvel"
   },
@@ -229,7 +229,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 3,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_26.jpg"
+      "images/2D/2D_26.jpg"
     ],
     "source": "Marvel"
   },
@@ -238,7 +238,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_27.jpg"
+      "images/2D/2D_27.jpg"
     ],
     "source": "Marvel"
   },
@@ -247,7 +247,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_28.jpg"
+      "images/2D/2D_28.jpg"
     ],
     "source": "Marvel"
   },
@@ -256,7 +256,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 3,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_29.jpg"
+      "images/2D/2D_29.jpg"
     ],
     "source": "Marvel"
   },
@@ -265,7 +265,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "G",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_30.jpg"
+      "images/2D/2D_30.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -274,7 +274,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_31.jpg"
+      "images/2D/2D_31.jpg"
     ],
     "source": "Marvel"
   },
@@ -283,7 +283,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_32.jpg"
+      "images/2D/2D_32.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -292,7 +292,7 @@
     "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_33.jpg"
+      "images/2D/2D_33.jpg"
     ],
     "source": "MLRQA"
   },
@@ -301,7 +301,7 @@
     "question": "According to the following graph rule, the question mark is filled in with ().",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_34.jpg"
+      "images/2D/2D_34.jpg"
     ],
     "source": "MLRQA"
   },
@@ -310,7 +310,7 @@
     "question": "Among the following options, the one that conforms to the change rule of the given graph is ().",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_35.jpg"
+      "images/2D/2D_35.jpg"
     ],
     "source": "MLRQA"
   },
@@ -319,7 +319,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "F",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_36.jpg"
+      "images/2D/2D_36.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -328,7 +328,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 3,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_37.jpg"
+      "images/2D/2D_37.jpg"
     ],
     "source": "Marvel"
   },
@@ -337,7 +337,7 @@
     "question": "Choose the most reasonable answer based on the existing rules of the given graph.（）",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_38.jpg"
+      "images/2D/2D_38.jpg"
     ],
     "source": "MLRQA"
   },
@@ -346,7 +346,7 @@
     "question": "Which of the boxes comes next in the sequence? Select answers from A-E",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_39.jpg"
+      "images/2D/2D_39.jpg"
     ],
     "source": "LogicVista"
   },
@@ -355,7 +355,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_40.jpg"
+      "images/2D/2D_40.jpg"
     ],
     "source": "Marvel"
   },
@@ -364,7 +364,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_41.jpg"
+      "images/2D/2D_41.jpg"
     ],
     "source": "Marvel"
   },
@@ -373,7 +373,7 @@
     "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_42.jpg"
+      "images/2D/2D_42.jpg"
     ],
     "source": "LogicVista"
   },
@@ -382,7 +382,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 2,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_43.jpg"
+      "images/2D/2D_43.jpg"
     ],
     "source": "Marvel"
   },
@@ -391,7 +391,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_44.jpg"
+      "images/2D/2D_44.jpg"
     ],
     "source": "Marvel"
   },
@@ -400,7 +400,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_45.jpg"
+      "images/2D/2D_45.jpg"
     ],
     "source": "Marvel"
   },
@@ -409,7 +409,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_46.jpg"
+      "images/2D/2D_46.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -418,7 +418,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_47.jpg"
+      "images/2D/2D_47.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -427,7 +427,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_48.jpg"
+      "images/2D/2D_48.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -436,7 +436,7 @@
     "question": "Among the four figures below, only one is made up of the four figures above (only by panning up, down, left and right). Please find it.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_49.jpg"
+      "images/2D/2D_49.jpg"
     ],
     "source": "MLRQA"
   },
@@ -445,7 +445,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_50.jpg"
+      "images/2D/2D_50.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -454,7 +454,7 @@
     "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_51.jpg"
+      "images/2D/2D_51.jpg"
     ],
     "source": "MLRQA"
   },
@@ -463,7 +463,7 @@
     "question": "Please select the most appropriate one from the four options and fill it in the question mark to make the graph appear regular.",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_52.jpg"
+      "images/2D/2D_52.jpg"
     ],
     "source": "MLRQA"
   },
@@ -472,7 +472,7 @@
     "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_53.jpg"
+      "images/2D/2D_53.jpg"
     ],
     "source": "LogicVista"
   },
@@ -481,7 +481,7 @@
     "question": "From the following four figures, find one figure with different patterns from the other three ().",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_54.jpg"
+      "images/2D/2D_54.jpg"
     ],
     "source": "MLRQA"
   },
@@ -490,7 +490,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_55.jpg"
+      "images/2D/2D_55.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -499,7 +499,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_56.jpg"
+      "images/2D/2D_56.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -508,7 +508,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_57.jpg"
+      "images/2D/2D_57.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -517,7 +517,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 4,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_58.jpg"
+      "images/2D/2D_58.jpg"
     ],
     "source": "Marvel"
   },
@@ -526,7 +526,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_59.jpg"
+      "images/2D/2D_59.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -535,7 +535,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_60.jpg"
+      "images/2D/2D_60.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -544,7 +544,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "F",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_61.jpg"
+      "images/2D/2D_61.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -553,7 +553,7 @@
     "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_62.jpg"
+      "images/2D/2D_62.jpg"
     ],
     "source": "MLRQA"
   },
@@ -562,7 +562,7 @@
     "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity.（）",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_63.jpg"
+      "images/2D/2D_63.jpg"
     ],
     "source": "MLRQA"
   },
@@ -571,7 +571,7 @@
     "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_64.jpg"
+      "images/2D/2D_64.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -580,7 +580,7 @@
     "question": " Which of the boxes comes next in the sequence? Select from A, B,  C, D, and E.  (A) A (B) B (C) C (D) D (E) E",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_65.jpg"
+      "images/2D/2D_65.jpg"
     ],
     "source": "LogicVista"
   },
@@ -589,7 +589,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_66.jpg"
+      "images/2D/2D_66.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -598,7 +598,7 @@
     "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_67.jpg"
+      "images/2D/2D_67.jpg"
     ],
     "source": "MME-CoT_Logic"
   },
@@ -607,7 +607,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 1,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_68.jpg"
+      "images/2D/2D_68.jpg"
     ],
     "source": "Marvel"
   },
@@ -616,7 +616,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 4,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_69.jpg"
+      "images/2D/2D_69.jpg"
     ],
     "source": "Marvel"
   },
@@ -625,7 +625,7 @@
     "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
     "answer": 3,
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_70.jpg"
+      "images/2D/2D_70.jpg"
     ],
     "source": "Marvel"
   },
@@ -634,7 +634,7 @@
     "question": "Identify the pattern and work out which one of the suggested images would complete the sequence. Select answers from A-D",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_71.jpg"
+      "images/2D/2D_71.jpg"
     ],
     "source": "LogicVista"
   },
@@ -643,7 +643,7 @@
     "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_72.jpg"
+      "images/2D/2D_72.jpg"
     ],
     "source": "LogicVista"
   },
@@ -652,7 +652,7 @@
     "question": "Which figure is a rotation of the object? Select from A, B, C, and D. (A) (B) (C) (D)",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_73.jpg"
+      "images/2D/2D_73.jpg"
     ],
     "source": "LogicVista"
   },
@@ -661,7 +661,7 @@
     "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_74.jpg"
+      "images/2D/2D_74.jpg"
     ],
     "source": "LogicVista"
   },
@@ -670,7 +670,7 @@
     "question": "What diagram replaces the question mark? Select from A, B, C, and D. (A) (B) (C) (D)",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_75.jpg"
+      "images/2D/2D_75.jpg"
     ],
     "source": "LogicVista"
   },
@@ -679,7 +679,7 @@
     "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E ",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_76.jpg"
+      "images/2D/2D_76.jpg"
     ],
     "source": "LogicVista"
   },
@@ -688,7 +688,7 @@
     "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E ",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_77.jpg"
+      "images/2D/2D_77.jpg"
     ],
     "source": "LogicVista"
   },
@@ -697,7 +697,7 @@
     "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E ",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_78.jpg"
+      "images/2D/2D_78.jpg"
     ],
     "source": "LogicVista"
   },
@@ -706,7 +706,7 @@
     "question": "Which of the 4 figures presented (A, B, C, D) is a rotation of the first?",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_79.jpg"
+      "images/2D/2D_79.jpg"
     ],
     "source": "LogicVista"
   },
@@ -715,7 +715,7 @@
     "question": "Which figure is a rotation of the object?",
     "answer": "C",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_80.jpg"
+      "images/2D/2D_80.jpg"
     ],
     "source": "LogicVista"
   },
@@ -724,7 +724,7 @@
     "question": "Each one of the four keys locks exactly one padlock. Every letter on a padlock stands for exactly one digit. Same letters mean same digits.\nWhich letters must be written on the fourth padlock?\n<image1> Options: A. GDA, B. ADG, C. GAD, D. GAG, E. DAD",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_81.jpg"
+      "images/2D/2D_81.jpg"
     ],
     "source": "MathVision"
   },
@@ -733,7 +733,7 @@
     "question": "Tom has these nine cards:\n<image1>\nHe places these cards on the board next to each other so that each horizontal line and each vertical line has three cards with the three different shapes and the three different amounts of drawings. He has already placed three cards, as shown in the picture. Which card should he place in the colored box?\n<image2>\n<image3> Options: A. A, B. B, C. C, D. D, E. E",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_82.jpg"
+      "images/2D/2D_82.jpg"
     ],
     "source": "MathVision"
   },
@@ -742,7 +742,7 @@
     "question": "Carl writes down a five-digit number.\nHe then places a shape on each of the five digits (see picture).\nHe places different shapes on different digits.\nHe places the same shape on the same digits.\nWhich number did Carl hide?\n<image1>",
     "answer": "34426",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_83.jpg"
+      "images/2D/2D_83.jpg"
     ],
     "source": "MathVision"
   },
@@ -751,7 +751,7 @@
     "question": "There are four cards on the table as in the picture. Every card has a letter on one side and a number on the other side. Peter said: \"For every card on the table it is true that if there is a vowel on one side, there is an even number on the other side.\" What is the smallest number of cards Alice must turn in order to check whether Peter said the truth?\n<image1>",
     "answer": "2",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_84.jpg"
+      "images/2D/2D_84.jpg"
     ],
     "source": "MathVision"
   },
@@ -760,7 +760,7 @@
     "question": "Adam and Bruna try to find out which is Carla's favorite figure, amongst the figures beside. Adam knows that Carla told Bruna what the shape of the figure was. Bruna knows that Carla told Adam what color the figure was. The following conversation takes place. Adam: \"I don't know what Carla's favorite figure is and I know that Bruna doesn't know either\". Bruna: \"At first I didn't know what Carla's favorite figure was, but now I know\". Adam: \"Now I know too\". What is Carla's favorite figure?\n<image1>\n<image2> Options: A. A, B. B, C. C, D. D, E. E",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_85.jpg"
+      "images/2D/2D_85.jpg"
     ],
     "source": "MathVision"
   },
@@ -769,7 +769,7 @@
     "question": "Maria describes one of these five shapes in the following way: \"It is not a square. It is grey. It is either round or three sided.\" Which shape did she describe?\n<image1> Options: A. A, B. B, C. C, D. D, E. E",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_86.jpg"
+      "images/2D/2D_86.jpg"
     ],
     "source": "MathVision"
   },
@@ -778,7 +778,7 @@
     "question": "Wanda chooses some of the following shapes. She says: \"I have chosen exactly 2 grey, 2 big and 2 round shapes.\" What is the minimum number of shapes Wanda has chosen?\n<image1>",
     "answer": "3",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_87.jpg"
+      "images/2D/2D_87.jpg"
     ],
     "source": "MathVision"
   },
@@ -787,7 +787,7 @@
     "question": "Maria colours exactly 5 cells of this grid <image1> in grey. Then she has her 5 friends guess which cells she has coloured in and their answers are the five patterns $A, B, C, D$ and $E$. Maria looks at the patterns and says: \"One of you is right. The others have each guessed exactly four cells correctly.\" Which pattern did Maria paint?\n<image2> Options: A. A, B. B, C. C, D. D, E. E",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_88.jpg"
+      "images/2D/2D_88.jpg"
     ],
     "source": "MathVision"
   },
@@ -796,7 +796,7 @@
     "question": "There are 5 boxes and each box contains some cards labeled K, M, H, P, T, as shown below. Peter wants to remove cards out of each box so that at the end each box contained only one card, and different boxes contained cards with different letters. Which card remains in the first box?\n<image1> Options: A. It is impossible to do this, B. T, C. M, D. H, E. P",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_89.jpg"
+      "images/2D/2D_89.jpg"
     ],
     "source": "MathVision"
   },
@@ -805,7 +805,7 @@
     "question": "Sofie wants to write the word KENGU by using letters from the boxes. She can only take one letter from each box. What letter must Sofie take from box 4?\n<image1> Options: A. K, B. E, C. N, D. G, E. U",
     "answer": "D",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_90.jpg"
+      "images/2D/2D_90.jpg"
     ],
     "source": "MathVision"
   },
@@ -814,7 +814,7 @@
     "question": "There are rectangular cards divided into 4 equal cells with different shapes <image1> drawn in each cell. Cards can be placed side by side only if the same shapes appear in adjacent cells on their common side. 9 cards are used to form a rectangle as shown in the figure. Which of the following cards was definitely NOT used to form this rectangle?\n<image2>\n<image3> Options: A. A, B. B, C. C, D. D, E. E",
     "answer": "E",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_91.jpg"
+      "images/2D/2D_91.jpg"
     ],
     "source": "MathVision"
   },
@@ -823,7 +823,7 @@
     "question": "All vehicles in the garage can only drive forwards or backwards. The black car wants to leave the garage (see diagram). What is the minimum number of grey vehicles that need to move at least a little bit so that this is possible?\n<image1>",
     "answer": "4",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_92.jpg"
+      "images/2D/2D_92.jpg"
     ],
     "source": "MathVision"
   },
@@ -832,7 +832,7 @@
     "question": "Each area in the picture on the right should be coloured using one of the colours, red (R), green (G), blue (B) or orange (O). Areas which touch must be different colours. Which colour is the area marked $X$?\n<image1> Options: A. red, B. blue, C. green, D. orange, E. The colour cannot definitely be determined.",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_93.jpg"
+      "images/2D/2D_93.jpg"
     ],
     "source": "MathVision"
   },
@@ -841,7 +841,7 @@
     "question": "Each region in the figure is to be coloured with one of four colours: red $(\\mathrm{R})$, green $(\\mathrm{G})$, orange $(\\mathrm{O})$ or yellow $(\\mathrm{Y})$. The colours of only three regions are shown. Any two regions that touch must have different colours. <image1> The colour of the region $\\mathrm{X}$ is: Options: A. red, B. orange, C. green, D. yellow, E. impossible to determine",
     "answer": "A",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_94.jpg"
+      "images/2D/2D_94.jpg"
     ],
     "source": "MathVision"
   },
@@ -850,7 +850,7 @@
     "question": "The diagram below shows five rectangles, each containing some of the letters $\\mathrm{P}, \\mathrm{R}, \\mathrm{I}, \\mathrm{S}$ and $\\mathrm{M}$.\n<image1>\nHarry wants to cross out letters so that each rectangle contains only one letter and each rectangle contains a different letter. Which letter does he not cross out in rectangle 2? Options: A. P, B. R, C. I, D. S, E. M",
     "answer": "B",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_95.jpg"
+      "images/2D/2D_95.jpg"
     ],
     "source": "MathVision"
   },
@@ -859,7 +859,7 @@
     "question": "In the grid on the right, there are eight kangaroos. A kangaroo may jump into any empty square. Find the least number of the kangaroos which have to jump into an empty square so that in each row and column there are exactly two kangaroos. <image1>",
     "answer": "1",
     "image_url": [
-      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_96.jpg"
+      "images/2D/2D_96.jpg"
     ],
     "source": "MathVision"
   }

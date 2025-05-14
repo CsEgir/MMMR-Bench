@@ -4,7 +4,7 @@
         "question": "How many items sold less than 5 units in at least one store?",
         "index": 1,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_1.jpg"
+            "images/Math_1.jpg"
         ],
         "answer": "2"
     },
@@ -13,7 +13,7 @@
         "question": "Use the graph to answer the question below. Which month is the wettest on average in Christchurch?",
         "index": 2,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_2.jpg"
+            "images/Math_2.jpg"
         ],
         "answer": "May"
     },
@@ -22,7 +22,7 @@
         "question": "How many countries have people working for more than 35 hours over the years?",
         "index": 3,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_3.jpg"
+            "images/Math_3.jpg"
         ],
         "answer": "2"
     },
@@ -31,7 +31,7 @@
         "question": "What is the sum of all the values in the ruling group?",
         "index": 4,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_4.jpg"
+            "images/Math_4.jpg"
         ],
         "answer": "12"
     },
@@ -40,7 +40,7 @@
         "question": "How many bars have value below 40?",
         "index": 5,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_5.jpg"
+            "images/Math_5.jpg"
         ],
         "answer": "3"
     },
@@ -49,7 +49,7 @@
         "question": "How many methods in the table achieve an A-847 score higher than 20.0?",
         "index": 6,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_6.jpg"
+            "images/Math_6.jpg"
         ],
         "answer": "3"
     },
@@ -58,7 +58,7 @@
         "question": "What is the value of the smallest bar?",
         "index": 7,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_7.jpg"
+            "images/Math_7.jpg"
         ],
         "answer": "3"
     },
@@ -67,7 +67,7 @@
         "question": "In which year there was lowest per capita real gross domestic product of ohio?",
         "index": 8,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_8.jpg"
+            "images/Math_8.jpg"
         ],
         "answer": "2001"
     },
@@ -76,7 +76,7 @@
         "question": "As shown in the figure, DE parallel BC, then the size of angle CED is ()\nChoices:\nA:40\u00b0\nB:60\u00b0\nC:120\u00b0\nD:140\u00b0",
         "index": 9,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_9.png"
+            "images/Math_9.png"
         ],
         "answer": "D"
     },
@@ -85,7 +85,7 @@
         "question": "As shown in the figure, AB parallel CD, EG bisects angle BEF, then angle 2 is equal to ()\nChoices:\nA:50\u00b0\nB:60\u00b0\nC:65\u00b0\nD:90\u00b0",
         "index": 10,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_10.png"
+            "images/Math_10.png"
         ],
         "answer": "C"
     },
@@ -94,7 +94,7 @@
         "question": "As shown in the figure, BD bisects angle ABC, CD parallel AB, then the degree of angle CDB is ()\nChoices:\nA:55\u00b0\nB:50\u00b0\nC:45\u00b0\nD:30\u00b0",
         "index": 11,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_11.png"
+            "images/Math_11.png"
         ],
         "answer": "A"
     },
@@ -103,7 +103,7 @@
         "question": "As shown in the figure, AB is tangent to circle O at point B, then angle C is equal to ()\nChoices:\nA:36\u00b0\nB:54\u00b0\nC:60\u00b0\nD:27\u00b0",
         "index": 12,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_12.png"
+            "images/Math_12.png"
         ],
         "answer": "D"
     },
@@ -112,7 +112,7 @@
         "question": "As shown in the figure, then angle 2 is equal to ()\nChoices:\nA:50\u00b0\nB:40\u00b0\nC:140\u00b0\nD:130\u00b0",
         "index": 13,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_13.png"
+            "images/Math_13.png"
         ],
         "answer": "A"
     },
@@ -121,7 +121,7 @@
         "question": "As shown in the figure, AB // CD, then the degree of angle 2 is ()\nChoices:\nA:50\u00b0\nB:120\u00b0\nC:130\u00b0\nD:150\u00b0",
         "index": 14,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_14.png"
+            "images/Math_14.png"
         ],
         "answer": "C"
     },
@@ -130,7 +130,7 @@
         "question": "As shown in the figure, triangle ABC congruent triangle ADE, then the degree of angle EAC is ()\nChoices:\nA:40\u00b0\nB:45\u00b0\nC:35\u00b0\nD:25\u00b0",
         "index": 15,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_15.png"
+            "images/Math_15.png"
         ],
         "answer": "B"
     },
@@ -139,7 +139,7 @@
         "question": "As shown in the figure, triangle ABC congruent triangle DEF, then the length of EC is ()\nChoices:\nA:1cm\nB:2cm\nC:3cm\nD:4cm",
         "index": 16,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_16.png"
+            "images/Math_16.png"
         ],
         "answer": "C"
     },
@@ -148,7 +148,7 @@
         "question": "As shown in the figure, AC = BC, AD bisects angle CAB, then the perimeter of triangle DBE is ()\nChoices:\nA:6cm\nB:7cm\nC:8cm\nD:9cm",
         "index": 17,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_17.png"
+            "images/Math_17.png"
         ],
         "answer": "A"
     },
@@ -157,7 +157,7 @@
         "question": "As shown in the figure, AB = AC, the perpendicular bisector of AB intersects AC at D, then the degree of angle BDC is ()\nChoices:\nA:72\u00b0\nB:36\u00b0\nC:60\u00b0\nD:82\u00b0",
         "index": 18,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_18.png"
+            "images/Math_18.png"
         ],
         "answer": "A"
     },
@@ -166,7 +166,7 @@
         "question": "As shown in the figure, chord AC parallel radius OB, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
         "index": 19,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_19.png"
+            "images/Math_19.png"
         ],
         "answer": "A"
     },
@@ -175,7 +175,7 @@
         "question": "As shown in the figure, the straight line a parallel b, and AB perpendicular BC, then the degree of angle 1 is ()\nChoices:\nA:65\u00b0\nB:25\u00b0\nC:35\u00b0\nD:45\u00b0",
         "index": 20,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_20.png"
+            "images/Math_20.png"
         ],
         "answer": "B"
     },
@@ -184,7 +184,7 @@
         "question": "then the degree of angle 2 is ()\nChoices:\nA:100\u00b0\nB:110\u00b0\nC:120\u00b0\nD:140\u00b0",
         "index": 21,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_21.png"
+            "images/Math_21.png"
         ],
         "answer": "B"
     },
@@ -193,7 +193,7 @@
         "question": "As shown in the figure, AB parallel CD, then the size of angle D is ()\nChoices:\nA:65\u00b0\nB:55\u00b0\nC:45\u00b0\nD:35\u00b0",
         "index": 22,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_22.png"
+            "images/Math_22.png"
         ],
         "answer": "B"
     },
@@ -202,7 +202,7 @@
         "question": "After filling some oil in a cylindrical oil tank, the maximum depth of oil is ()\nChoices:\nA:40cm\nB:60cm\nC:80cm\nD:100cm",
         "index": 23,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_23.png"
+            "images/Math_23.png"
         ],
         "answer": "A"
     },
@@ -211,7 +211,7 @@
         "question": "As shown in the figure, the line l parallel  m parallel  n, the vertices B and C of the triangle ABC are on the line n and line m, the angle between BC and the line n is 25.0, then the degree of angle a is ()\nChoices:\nA:25\u00b0\nB:30\u00b0\nC:35\u00b0\nD:45\u00b0",
         "index": 24,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_24.png"
+            "images/Math_24.png"
         ],
         "answer": "C"
     },
@@ -220,7 +220,7 @@
         "question": "so the width of the water surface AB is ()\nChoices:\nA:4m\nB:5m\nC:6m\nD:8m",
         "index": 25,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_25.png"
+            "images/Math_25.png"
         ],
         "answer": "D"
     },
@@ -229,7 +229,7 @@
         "question": "A certain mathematics learning interest group measured the shadow length of Xiaoliang in the sun as 1.5. Knowing that Xiaoliang's height is 1.8. As shown in the figure, then the height of tree AB is ()\nChoices:\nA:10.8m\nB:9m\nC:7.5m\nD:0.3m",
         "index": 26,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_26.png"
+            "images/Math_26.png"
         ],
         "answer": "A"
     },
@@ -238,7 +238,7 @@
         "question": "As shown in the figure, the quadrilateral ABCD and A\u2032B\u2032C\u2032D\u2032 are similar.  If OA\u2032: A\u2032A = 2.0:1.0, the area of \u200b\u200bthe quadrilateral A\u2032B\u2032C\u2032D\u2032 is 12.0 ^ 2, then the area of \u200b\u200bthe quadrilateral ABCD is ()\nChoices:\nA:24cm^{2}\nB:27cm^{2}\nC:36cm^{2}\nD:54cm^{2}",
         "index": 27,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_27.png"
+            "images/Math_27.png"
         ],
         "answer": "B"
     },
@@ -247,7 +247,7 @@
         "question": "Lines l, m, and n are perpendicular bisectors of \\triangle P Q R. If T Q = 2 x, P T = 3 y - 1, and T R = 8, find z.\nChoices:\nA:3\nB:4\nC:5\nD:6",
         "index": 28,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_28.png"
+            "images/Math_28.png"
         ],
         "answer": "A"
     },
@@ -256,7 +256,7 @@
         "question": "Parallelogram M N P Q, find \\angle M.\nChoices:\nA:30\nB:45\nC:60\nD:120",
         "index": 29,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_29.png"
+            "images/Math_29.png"
         ],
         "answer": "C"
     },
@@ -265,7 +265,7 @@
         "question": "Use parallelogram M N P R to find m \\angle R M N.\nChoices:\nA:33\nB:38\nC:71\nD:109",
         "index": 30,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_30.png"
+            "images/Math_30.png"
         ],
         "answer": "D"
     },
@@ -274,7 +274,7 @@
         "question": "Find x.\nChoices:\nA:0.5\nB:1\nC:1.5\nD:2",
         "index": 31,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_31.png"
+            "images/Math_31.png"
         ],
         "answer": "B"
     },
@@ -283,7 +283,7 @@
         "question": "Find the area of the shaded region. \nChoices:\nA:35.2\nB:43.2\nC:53.5\nD:56.9",
         "index": 32,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_32.png"
+            "images/Math_32.png"
         ],
         "answer": "D"
     },
@@ -292,7 +292,7 @@
         "question": "In the following diagram.\nFind the length of BD, correct to one decimal place.",
         "index": 33,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_33.png"
+            "images/Math_33.png"
         ],
         "answer": "6.3"
     },
@@ -301,7 +301,7 @@
         "question": "What is the radius $r$ of the circle?\n\nRound your answer to two decimal places.",
         "index": 34,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_34.png"
+            "images/Math_34.png"
         ],
         "answer": "$$r=7.00$$"
     },
@@ -310,7 +310,7 @@
         "question": "Find the distance between the two endpoints. Round to three decimal places.",
         "index": 35,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_35.png"
+            "images/Math_35.png"
         ],
         "answer": "8.246"
     },
@@ -319,7 +319,7 @@
         "question": "Find the coordinates of the midpoint for each diagonal.",
         "index": 36,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_36.png"
+            "images/Math_36.png"
         ],
         "answer": "(2,-2)"
     },
@@ -328,7 +328,7 @@
         "question": "Find the equation of the hyperbola.",
         "index": 37,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_37.png"
+            "images/Math_37.png"
         ],
         "answer": "\\frac{y^2}{16}-\\frac{x^2}{25}=1"
     },
@@ -337,7 +337,7 @@
         "question": "Find the equation of the hyperbola.",
         "index": 38,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_38.png"
+            "images/Math_38.png"
         ],
         "answer": "\\frac{y^2}{9}-\\frac{(x+1)^2}{9}=1"
     },
@@ -346,7 +346,7 @@
         "question": "Find the equation of the hyperbola.",
         "index": 39,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_39.png"
+            "images/Math_39.png"
         ],
         "answer": "\\frac{(x+3)^2}{25}-\\frac{(y+3)^2}{25}=1"
     },
@@ -355,7 +355,7 @@
         "question": "Write an equation that represents the figure.\nUse exact numbers.",
         "index": 40,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_40.png"
+            "images/Math_40.png"
         ],
         "answer": "$y+3=\\frac{3}{4}(x-2)$"
     },
@@ -364,7 +364,7 @@
         "question": "State the diameter.",
         "index": 41,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_41.png"
+            "images/Math_41.png"
         ],
         "answer": "8"
     },
@@ -373,7 +373,7 @@
         "question": "Consider the circle on the graph.\n\nFind the equation of the circle in standard form.",
         "index": 42,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_42.png"
+            "images/Math_42.png"
         ],
         "answer": "$(x-1)^{2}+(y-3)^{2}=36$"
     },
@@ -382,7 +382,7 @@
         "question": "State the centre of the figure.",
         "index": 43,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_43.png"
+            "images/Math_43.png"
         ],
         "answer": "(0,0)"
     },
@@ -391,7 +391,7 @@
         "question": "A cake maker has rectangular boxes. She often receives orders for cakes in the shape of an ellipse, and wants to determine the largest possible cake that can be made to fit inside the rectangular box.\n\nState the coordinates of the center of the cake in the form $(a, b)$.",
         "index": 44,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_44.png"
+            "images/Math_44.png"
         ],
         "answer": "Center $=(20,10)$"
     },
@@ -400,7 +400,7 @@
         "question": "Write the set of numbers represented on the number line in interval notation.",
         "index": 45,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_45.png"
+            "images/Math_45.png"
         ],
         "answer": "(-2,1]"
     },
@@ -409,7 +409,7 @@
         "question": "Determine if this relation is a function.\nChoices:\nA:This is a function\nB:This is not a function",
         "index": 46,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_46.png"
+            "images/Math_46.png"
         ],
         "answer": "B"
     },
@@ -418,7 +418,7 @@
         "question": "Determine if this relation is a function.\nChoices:\nA:This is a function\nB:This is not a function",
         "index": 47,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_47.png"
+            "images/Math_47.png"
         ],
         "answer": "A"
     },
@@ -427,7 +427,7 @@
         "question": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
         "index": 48,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_48.png"
+            "images/Math_48.png"
         ],
         "answer": "B"
     },
@@ -436,7 +436,7 @@
         "question": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
         "index": 49,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_49.png"
+            "images/Math_49.png"
         ],
         "answer": "A"
     },
@@ -445,7 +445,7 @@
         "question": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
         "index": 50,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_50.png"
+            "images/Math_50.png"
         ],
         "answer": "B"
     },
@@ -454,7 +454,7 @@
         "question": "Find the domain and range of the function f using interval notation.",
         "index": 51,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_51.png"
+            "images/Math_51.png"
         ],
         "answer": "domain: [-4, 0) and range: (-3, 1]"
     },
@@ -463,7 +463,7 @@
         "question": "Write the domain and range of the function using interval notation.",
         "index": 52,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_52.png"
+            "images/Math_52.png"
         ],
         "answer": "domain: (2,8] and range: [6,8)"
     },
@@ -472,7 +472,7 @@
         "question": "Write the domain and range of the hyperbolic function using interval notation.",
         "index": 53,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_53.png"
+            "images/Math_53.png"
         ],
         "answer": "domain: [-6,-\\frac{1}{6}] \\cup[\\frac{1}{6}, 6] and range: [-6,-\\frac{1}{6}\\right] \\cup[\\frac{1}{6}, 6]"
     },
@@ -481,7 +481,7 @@
         "question": "Estimate the intervals on which the function is increasing or decreasing.",
         "index": 54,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_54.png"
+            "images/Math_54.png"
         ],
         "answer": "\\text { increasing on }(-\\infty, 1) \\cup(3,4) \\text {, decreasing on }(1,3) \\cup(4, \\infty)"
     },
@@ -490,7 +490,7 @@
         "question": "Determine whether the quadratic function represents a one-to-one function.\nChoices:\nA.This is a one-to-one function\nB.This is not a one-to-one function",
         "index": 55,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_55.png"
+            "images/Math_55.png"
         ],
         "answer": "B"
     },
@@ -499,7 +499,7 @@
         "question": "Determine the intervals on which the functions are increasing, decreasing, or constant.",
         "index": 56,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_56.png"
+            "images/Math_56.png"
         ],
         "answer": "\\text { increasing } \\quad(-3,1) ; \\quad \\text { constant }(-\\infty,-3) \\cup(1, \\infty)"
     },
@@ -508,7 +508,7 @@
         "question": "Determine whether the graphed function is even, odd, or neither.",
         "index": 57,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_57.png"
+            "images/Math_57.png"
         ],
         "answer": "even"
     },
@@ -517,7 +517,7 @@
         "question": "What can we say about the $y$-value of every point on the graph?\nChoices:\nA.The $y$-value of most points of the graph is greater than 1.\nB.The $y$-value of every point on the graph is positive.\nC.The $y$-value of every point on the graph is an integer.\nD.The $y$-value of most points on the graph is positive, and the $y$-value at one point is 0.",
         "index": 58,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_58.png"
+            "images/Math_58.png"
         ],
         "answer": "B"
     },
@@ -526,7 +526,7 @@
         "question": "In both equations $x$ represents rainfall (in centimeters). When there is $0 \\mathrm{~cm}$ of rainfall, the number of mosquitos is the same as the number of bats. What is another rainfall amount where the number of mosquitos is the same as the number of bats?\nRound your answer to the nearest half centimeter.",
         "index": 59,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_59.png"
+            "images/Math_59.png"
         ],
         "answer": "4"
     },
@@ -535,7 +535,7 @@
         "question": "Esteban's account balance and Anna's account balance are shown in the graph. When do the accounts have the same balance?\nRound your answer to the nearest integer. ",
         "index": 60,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_60.png"
+            "images/Math_60.png"
         ],
         "answer": "7"
     },
@@ -544,7 +544,7 @@
         "question": "Use the graph to find an approximate solution to $\\sqrt{6 x+7}=6$. Round your answer to the nearest integer. ",
         "index": 61,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_61.png"
+            "images/Math_61.png"
         ],
         "answer": "5"
     },
@@ -553,7 +553,7 @@
         "question": "A polynomial $p$ is graphed. What could be the equation of $p$ ?\nChoices:\nA:$p(x)=(x+1)^2(2 x+5)^2(x-3)^2$\nB:$p(x)=(x+1)^2(2 x+5)(x-3)^2$\nC:$p(x)=(x+1)^2(2 x+5)(x-3)$\nD:$p(x)=(x+1)(2 x+5)(x-3)^2$",
         "index": 62,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_62.png"
+            "images/Math_62.png"
         ],
         "answer": "B"
     },
@@ -562,7 +562,7 @@
         "question": "10 \\cdot f(7) + 9 \\cdot g(-1) =",
         "index": 63,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_63.png"
+            "images/Math_63.png"
         ],
         "answer": "-1"
     },
@@ -571,7 +571,7 @@
         "question": "What is the domain of h?\nChoices:\nA:-5 \\leq x \\leq 7\nB:-5 \\leq x \\leq 4\nC:-5 \\leq x \\leq 5\nD:-5 \\leq x \\leq 6",
         "index": 64,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_64.png"
+            "images/Math_64.png"
         ],
         "answer": "C"
     },
@@ -580,7 +580,7 @@
         "question": "What is the range of g?\nChoices:\nA:-4 \\leq g(x) \\leq 9\nB:The $g(x)$-values $-5,-2,1,3$, and 4\nC:The $g(x)$-values $-4,0$, and 9\nD:-5 \\leq g(x) \\leq 4",
         "index": 65,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_65.png"
+            "images/Math_65.png"
         ],
         "answer": "A"
     },
@@ -589,7 +589,7 @@
         "question": "Find the equation of the dashed line. Use exact numbers.",
         "index": 66,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_66.png"
+            "images/Math_66.png"
         ],
         "answer": "g(x)=-x^2"
     },
@@ -598,7 +598,7 @@
         "question": "For function graphed below, determine if it has an inverse function.\nChoices:\nA:Yes\nB:No",
         "index": 67,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_67.png"
+            "images/Math_67.png"
         ],
         "answer": "A"
     },
@@ -607,7 +607,7 @@
         "question": "How many solutions \ndoes the system have?\nChoices:\nA:One\nB:Two\nC:Three\nD:Four",
         "index": 68,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_68.png"
+            "images/Math_68.png"
         ],
         "answer": "D"
     },
@@ -616,7 +616,7 @@
         "question": "Find the length of the diameter of the cone's base.",
         "index": 69,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_69.png"
+            "images/Math_69.png"
         ],
         "answer": "diameter $=10 \\mathrm{~m}$"
     },
@@ -625,7 +625,7 @@
         "question": "Find the volume of the cylinder shown, correct to two decimal places.",
         "index": 70,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_70.png"
+            "images/Math_70.png"
         ],
         "answer": "Volume $=883.57 \\mathrm{~cm}^{3}$"
     },
@@ -634,7 +634,7 @@
         "question": "Find the volume of the sphere figure shown.\n\nRound your answer to two decimal places.",
         "index": 71,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_71.png"
+            "images/Math_71.png"
         ],
         "answer": "Volume $=113.10 \\mathrm{~cm}^{3}$"
     },
@@ -643,7 +643,7 @@
         "question": "Find the volume of the solid.\n\nRound your answer to two decimal places.",
         "index": 72,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_72.png"
+            "images/Math_72.png"
         ],
         "answer": "Volume $=508.94 \\mathrm{~cm}^{3}$"
     },
@@ -652,7 +652,7 @@
         "question": "We wish to find the surface area of the entire solid, containing a cylinder and a rectangular prism.\nNote that an area is called 'exposed' if it is not covered by the other object.\nWhat is the exposed surface area of the bottom solid figure? Give your answer correct to two decimal places.",
         "index": 73,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_73.png"
+            "images/Math_73.png"
         ],
         "answer": "S.A. of rectangular prism $=4371.46 \\mathrm{~mm}^{2}$"
     },
@@ -661,7 +661,7 @@
         "question": "Find the surface area of the composite figure shown, consisting of a cone and a hemisphere joined at their bases.\n\nRound your answer to two decimal places.",
         "index": 74,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_74.png"
+            "images/Math_74.png"
         ],
         "answer": "Surface Area $=235.87 \\mathrm{~cm}^{2}$"
     },
@@ -670,7 +670,7 @@
         "question": "Now, if the size of \\angle VAW is \\theta \u00b0, find \\theta  to two decimal places.",
         "index": 75,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_75.png"
+            "images/Math_75.png"
         ],
         "answer": "68.34"
     },
@@ -679,7 +679,7 @@
         "question": "Find the surface area of the solid.\n\nRound your answer to two decimal places.",
         "index": 76,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_76.png"
+            "images/Math_76.png"
         ],
         "answer": "8128.50 \\text { units }^2"
     },
@@ -688,7 +688,7 @@
         "question": "Find the volume of the prism.",
         "index": 77,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_77.png"
+            "images/Math_77.png"
         ],
         "answer": "32 \\mathrm{cm}^3"
     },
@@ -697,7 +697,7 @@
         "question": "The graph of $g'$ is given.\n\nLet $g$ be a differentiable function with $g(1)=-4$. The graph of $g'(x)$, the derivative of $g$, is shown. Write an equation for the line tangent to the graph of $g$ at $x=1$.",
         "index": 78,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_78.png"
+            "images/Math_78.png"
         ],
         "answer": "The equation for the tangent line is $y+4=-3\\cdot(x-1)$"
     },
@@ -706,7 +706,7 @@
         "question": "Use the graph of the function $y = h(x)$ shown here to find $\\lim_{x \\to 0^{-}}\\left(h(x)\\right)$ if possible. Estimate when necessary.",
         "index": 79,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_79.png"
+            "images/Math_79.png"
         ],
         "answer": "$\\lim_{x \\to 0^{-}}\\left(h(x)\\right)$ = $0$"
     },
@@ -715,7 +715,7 @@
         "question": "The solid $E$ bounded by $z=1-x^2$ and situated in the first octant is given in the following figure:\n\n\n\nFind the volume of the solid.",
         "index": 80,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_80.png"
+            "images/Math_80.png"
         ],
         "answer": "$V$ = $\\frac{10}{3}$"
     },
@@ -724,7 +724,7 @@
         "question": "Use the graph of the function $y = f(x)$ shown here to find $\\lim_{x \\to 2}\\left(f(x)\\right)$, if possible. Estimate when necessary.",
         "index": 81,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_81.png"
+            "images/Math_81.png"
         ],
         "answer": "$\\lim_{x \\to 2}\\left(f(x)\\right)$ = $0$"
     },
@@ -733,7 +733,7 @@
         "question": "Find the surface area of the cylinder $x^2 + y^2 = x$, which is contained within the sphere $x^2 + y^2 + z^2 = 1$.",
         "index": 82,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_82.png"
+            "images/Math_82.png"
         ],
         "answer": "The final answer: $4$"
     },
@@ -742,7 +742,7 @@
         "question": "The graphs of $y=4-x^2$ and $y=3^x$ are shown in the figure above. Find the combined area of the shaded regions.",
         "index": 83,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_83.png"
+            "images/Math_83.png"
         ],
         "answer": "$8.013$"
     },
@@ -751,7 +751,7 @@
         "question": "Let $g$ and $h$ be the functions given by $g(x) = \\frac{ 1 }{ 5 } + \\sin(\\pi \\cdot x)$ and $h(x) = 5^{-x}$. Let $T$ be the shaded region in the first quadrant bounded by the $y$-axis and the graphs of $g$ and $h$, and let $M$ be the shaded region in the first quadrant enclosed by the graphs of $g$ and $h$, as shown in the figure above. What is the total area covered by the shaded regions?",
         "index": 84,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_84.png"
+            "images/Math_84.png"
         ],
         "answer": "The total area is $0.481$ units\u00b2."
     },
@@ -760,7 +760,7 @@
         "question": "Let $R$ be the region in the first quadrant bounded by the graph of $y = 3 \\cdot \\arctan(x)$ and the lines $x = \\pi$ and $y = 1$, as shown in the figure above.\n\nFind the volume of the solid generated when $R$ is revolved about the line $x = \\pi$.",
         "index": 85,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_85.png"
+            "images/Math_85.png"
         ],
         "answer": "The volume of the solid is $36.736$ units\u00b3."
     },
@@ -769,7 +769,7 @@
         "question": "The region bounded by the parabola $y^2 = 2 \\cdot p \\cdot x$ and the line AB is revolved about the Y-axis. The line AB passes through the focus of the parabola and is perpendicular to the X-axis. Find the volume of this solid of revolution using integration with respect to $y$. Use $p = \\frac{ 1 }{ 2 }$.",
         "index": 86,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_86.png"
+            "images/Math_86.png"
         ],
         "answer": "Volume: $\\frac{\\pi}{20}$"
     },
@@ -778,7 +778,7 @@
         "question": "Find the surface area bounded by the curves $y=2^x$, $y=2^{-2 \\cdot x}$, and $y=4$.",
         "index": 87,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_87.png"
+            "images/Math_87.png"
         ],
         "answer": "$S$ = $\\frac{24-\\frac{9}{\\ln(2)}}{2}$"
     },
@@ -787,7 +787,7 @@
         "question": "Split the region between the two curves $y = x^3$ and $y = x^2 + x$ into two smaller regions, then determine the area by integrating over the $x$-axis. Note that you will have two integrals to solve.",
         "index": 88,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_88.png"
+            "images/Math_88.png"
         ],
         "answer": "Area = $\\frac{13}{12}$"
     },
@@ -796,7 +796,7 @@
         "question": "A lampshade is constructed by rotating $y=\\frac{ 1 }{ x }$ around the $x$-axis from $y=1$ to $y=2$ as seen here. Determine how much material you would need to construct this lampshade - that is, the surface area - accurate to four decimal places.",
         "index": 89,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_89.png"
+            "images/Math_89.png"
         ],
         "answer": "Surface Area = $10.5017$"
     },
@@ -805,7 +805,7 @@
         "question": "Find the volume of the shape created when rotating the curve from $x=1$ to $x=2$ around the $x$-axis, as pictured here:",
         "index": 90,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_90.png"
+            "images/Math_90.png"
         ],
         "answer": "$V$ = $2\\cdot\\pi\\cdot\\left(\\ln(2)-1\\right)^2$"
     },
@@ -814,7 +814,7 @@
         "question": "Find the area of the figure enclosed between the curves $y = 4 \\cdot x^2$, $y = \\frac{ x^2 }{ 9 }$, and $y = 2$:",
         "index": 91,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_91.png"
+            "images/Math_91.png"
         ],
         "answer": "Area: $\\frac{20\\cdot\\sqrt{2}}{3}$"
     },
@@ -823,7 +823,7 @@
         "question": "Find the surface area bounded by the curves $\\left(x^2+y^2\\right)^2 = 2 \\cdot a^2 \\cdot x \\cdot y$.",
         "index": 92,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_92.png"
+            "images/Math_92.png"
         ],
         "answer": "$S$ = $a^2$"
     },
@@ -832,7 +832,7 @@
         "question": "Find the length of the closed curve: $\\rho = 3 \\cdot \\sin\\left(\\frac{ \\varphi }{ 4 }\\right)^4$",
         "index": 93,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_93.png"
+            "images/Math_93.png"
         ],
         "answer": "Length: $16$"
     },
@@ -841,7 +841,7 @@
         "question": "The graph of the function $f$ is shown above. What are all values of $x$ at which $f$ has a jump discontinuity?\n\n[Image_0]",
         "index": 94,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_94.png"
+            "images/Math_94.png"
         ],
         "answer": "The function $f$ has a jump discontinuity at $x$ = $-2$"
     },
@@ -850,7 +850,7 @@
         "question": "Let $A$ and $B$ be regions bounded by the graph of $f(x) = -3 \\cdot \\cos(x)$ and the $x$-axis for $-\\pi \\le x \\le 0$.\n\n1. Find the volume of the solid generated when $A$ is revolved about the $x$-axis.\n2. Find the volume of the solid generated when $B$ is revolved about the $y$-axis.",
         "index": 95,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_95.png"
+            "images/Math_95.png"
         ],
         "answer": "1. $22.207$ units\u00b3\n2. $10.759$ units\u00b3"
     },
@@ -859,7 +859,7 @@
         "question": "Find the surface area of the lemniscate: $\\rho^2 = a^2 \\cdot \\cos(2 \\cdot \\varphi)$.",
         "index": 96,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_96.png"
+            "images/Math_96.png"
         ],
         "answer": "$A$ = $a^2$"
     },
@@ -868,7 +868,7 @@
         "question": "Use the graph of the function $y = g(x)$ shown here to find $\\lim_{x \\to 0}\\left(g(x)\\right)$, if possible. Estimate when necessary.",
         "index": 97,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_97.png"
+            "images/Math_97.png"
         ],
         "answer": "$\\lim_{x \\to 0}\\left(g(x)\\right)$ = None"
     },
@@ -877,7 +877,7 @@
         "question": "Question is shown by the image.\nOptions:\n- $V=\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\cos({\\pi x})+1\\right)^{2}-\\left(x^{3}+1\\right)^{2}\\,\\right]\\,d x$\n- $V=\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin(\\frac{\\pi x}{2})+1\\right)^{2}-\\left(x^{3}+1\\right)^{2}\\,\\right]\\,d x$\n- $V=2\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+1\\right)^{2}-\\left(x^{3}+1\\right)^{2}\\,\\right]\\,dx$\n- $V=\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+1\\right)^{2}-\\left(x^{4}+1\\right)^{2}\\,\\right]\\,d x$\n- $V=\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+1\\right)^{2}-\\left(x^{2}+1\\right)^{2}\\,\\right]\\,d x$\n- $V=2\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+1\\right)^{3}-\\left(x^{3}+1\\right)^{2}\\,\\right]\\,d x$\n- $V=\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+2\\right)^{2}-\\left(x^{3}+1\\right)^{2}\\,\\right]\\,d x$\n- $V=2\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+1\\right)^{2}-\\left(x^{3}+2\\right)^{2}\\,\\right]\\,d x$\n- $V=\\pi\\int_{\\,\\,0}^{\\,\\,1}\\left[\\left(\\sin({\\pi x})+1\\right)^{2}-\\left(x^{3}+1\\right)^{2}\\,\\right]\\,d x$",
         "index": 98,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_98.png"
+            "images/Math_98.png"
         ],
         "answer": "B"
     },
@@ -886,7 +886,7 @@
         "question": "Question is shown by the image.\nOptions:\n- $\\angle ABC \\cong \\angle EFG$\n- $\\angle CFB \\cong \\angle GEF$\n- $\\angle DAB \\cong \\angle FGE$\n- $\\angle ABF \\cong \\angle BFC$\n- $\\angle EFB \\cong \\angle CFB$\n- $\\angle CBF \\cong \\angle GFC$\n- $\\angle CFG \\cong \\angle FCB$\n- $\\angle BCF \\cong \\angle GFE$\n- $\\angle FCB \\cong \\angle GEC$\n- $\\angle BAF \\cong \\angle FCG$",
         "index": 99,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_99.png"
+            "images/Math_99.png"
         ],
         "answer": "G"
     },
@@ -895,7 +895,7 @@
         "question": "Question is shown by the image.\nOptions:\n- TRUE\n- Only if it has an even number of vertices\n- FALSE\n- Can't be determined without additional information\n- Only if it's a complete graph\n- Only if it's a tree\n- Depends on the number of edges\n- Depends on the number of vertices",
         "index": 100,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_100.png"
+            "images/Math_100.png"
         ],
         "answer": "A"
     },
@@ -904,7 +904,7 @@
         "question": "Question is shown by the image.\nOptions:\n- A > B > C > D\n- C > D > A > B\n- B > C > A > D\n- A > C > B > D\n- B > C > D > A\n- B > A > C > D\n- C > B > A > D\n- D > C > B > A\n- D > A > B > C\n- B > D > A > C",
         "index": 101,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_101.png"
+            "images/Math_101.png"
         ],
         "answer": "F"
     },
@@ -913,7 +913,7 @@
         "question": "Question is shown by the image.\nOptions:\n- $\\overline{A E} \\cong \\overline{B E}$\n- $\\overline{A D} \\parallel \\overline{B C}$\n- $\\triangle A E C \\sim \\triangle B E D$\n- $\\angle A C B \\cong \\angle C B D$\n- $\\angle A E C \\cong \\angle B E D$\n- $\\overparen{C B} \\cong \\overparen{D A}$\n- $\\triangle A E C \\cong \\triangle B E D$\n- $\\angle A D E \\cong \\angle B C E$\n- $\\triangle C A E \\cong \\triangle D B E$\n- $\\overparen{C A} \\cong \\overparen{D B}$",
         "index": 102,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_102.png"
+            "images/Math_102.png"
         ],
         "answer": "C"
     },
@@ -922,7 +922,7 @@
         "question": "Question is shown by the image.\nOptions:\n- $A G=B G$\n- $\\angle B G C \\cong \\angle B G A$\n- $A G=C G$\n- $\\angle A E B \\cong \\angle A E C$\n- $D G=E G$\n- $\\angle A B G \\cong \\angle A E C$\n- $\\angle D A B \\cong \\angle E A B$\n- $\\angle A G B \\cong \\angle A G C$\n- $\\angle D B G \\cong \\angle E B G$\n- $B G=D G$",
         "index": 103,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_103.png"
+            "images/Math_103.png"
         ],
         "answer": "I"
     },
@@ -931,7 +931,7 @@
         "question": "In the diagram, $A C D F$ is a rectangle with $A C=200$ and $C D=50$. Also, $\\triangle F B D$ and $\\triangle A E C$ are congruent triangles which are right-angled at $B$ and $E$, respectively. What is the area of the shaded region?",
         "index": 104,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_104.jpg"
+            "images/Math_104.jpg"
         ],
         "answer": "['2500']"
     },
@@ -940,7 +940,7 @@
         "question": "A circle, with diameter $A B$ as shown, intersects the positive $y$-axis at point $D(0, d)$. Determine $d$.",
         "index": 105,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_105.jpg"
+            "images/Math_105.jpg"
         ],
         "answer": "['4']"
     },
@@ -949,7 +949,7 @@
         "question": "Find the area of the shaded region.",
         "index": 106,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_106.jpg"
+            "images/Math_106.jpg"
         ],
         "answer": "H"
     },
@@ -958,7 +958,7 @@
         "question": "In determining the height, $M N$, of a tower on an island, two points $A$ and $B, 100 \\mathrm{~m}$ apart, are chosen on the same horizontal plane as $N$. If $\\angle N A B=108^{\\circ}$, $\\angle A B N=47^{\\circ}$ and $\\angle M B N=32^{\\circ}$, determine the height of the tower to the nearest metre.",
         "index": 107,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_107.jpg"
+            "images/Math_107.jpg"
         ],
         "answer": "['141']"
     },
@@ -967,7 +967,7 @@
         "question": "In the $4 \\times 4$ grid shown, three coins are randomly placed in different squares. Determine the probability that no two coins lie in the same row or column.",
         "index": 108,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_108.jpg"
+            "images/Math_108.jpg"
         ],
         "answer": "['$\\\\frac{6}{35}$']"
     },
@@ -976,7 +976,7 @@
         "question": "Leibniz's Harmonic Triangle: Consider the triangle formed by the rule\n\n$$\n\\begin{cases}\\operatorname{Le}(n, 0)=\\frac{1}{n+1} & \\text { for all } n \\\\ \\operatorname{Le}(n, n)=\\frac{1}{n+1} & \\text { for all } n \\\\ \\operatorname{Le}(n, k)=\\operatorname{Le}(n+1, k)+\\operatorname{Le}(n+1, k+1) & \\text { for all } n \\text { and } 0 \\leq k \\leq n\\end{cases}\n$$\n\nThis triangle, discovered first by Leibniz, consists of reciprocals of integers as shown below.\n\n\n\nFor this contest, you may assume that $\\operatorname{Le}(n, k)>0$ whenever $0 \\leq k \\leq n$, and that $\\operatorname{Le}(n, k)$ is undefined if $k<0$ or $k>n$.\nCompute $\\operatorname{Le}(17,2)$.",
         "index": 109,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_109.jpg"
+            "images/Math_109.jpg"
         ],
         "answer": "['$\\\\frac{1}{2448}$']"
     },
@@ -985,7 +985,7 @@
         "question": "An obiect is thrown upward into the air 10 meters above the ground. The figure above shows the initiaposition of the object and the position at a later time. At time t seconds after the object is thrown upwardthe horizontal distance from the initial position is given by x(t) meters, and the vertical distance from the ground is given by y(t) meters, where ${\\frac{d x}{d t}}=1.4$ and ${\\frac{d y}{d t}}=4.2-9.8t$,for t $\\ge $ 0 .Find the angle $\\theta $, 0 < $\\theta $ < $\\pi $/2 , between the path of the object and the ground at the instance the objecthit the ground.",
         "index": 110,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_110.jpg"
+            "images/Math_110.jpg"
         ],
         "answer": "D"
     },
@@ -994,7 +994,7 @@
         "question": "A survey was done in the street to find out what menu items are the focus for a local restaurant.  was the result at the end of Saturday evening trading. Correct to one decimal place, what percentage of people ordered Pizza?",
         "index": 111,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_111.jpg"
+            "images/Math_111.jpg"
         ],
         "answer": "E"
     },
@@ -1003,7 +1003,7 @@
         "question": "f(x)=-5(x+4)^2+8. Which function has a greater maximum, f(x) or g(x)?",
         "index": 112,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_112.jpg"
+            "images/Math_112.jpg"
         ],
         "answer": "C"
     },
@@ -1012,7 +1012,7 @@
         "question": "Survivors on a desert island find a piece of plywood $(A B C)$ in the shape of an equilateral triangle with sides of length $2 \\mathrm{~m}$. To shelter their goat from the sun, they place edge $B C$ on the ground, lift corner $A$, and put in a vertical post $P A$ which is $h \\mathrm{~m}$ long above ground. When the sun is directly overhead, the shaded region $(\\triangle P B C)$ on the ground directly underneath the plywood is an isosceles triangle with largest angle $(\\angle B P C)$ equal to $120^{\\circ}$. Determine the value of $h$, to the nearest centimetre.",
         "index": 113,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_113.jpg"
+            "images/Math_113.jpg"
         ],
         "answer": "['163']"
     },
@@ -1021,7 +1021,7 @@
         "question": "Consider the problem of magnetism illustrated in Fig. 1. The Pole of a magnet is located at the co-ordinate point (4,3) on a horizontal surface and the equipotential lines in the (x1, x2) plane are defined by the concentric circles \u0278(x1, x2) = (x1 - 4)^2 + (x2 - 3)^2. (1) Let a steel ball be (a) free to move in an elliptic path (groove) on this x1, x2 plane defined by the equation g(x1, x2) = 36(x1 - 2)^2 + (x2 - 3)^2 = 9, (2) or (b) free to move in an elliptic area within the region g(x1, x2) = 36(x1 - 2)^2 + (x2 - 3)^2 $\\le $ 9. (3) Minimize \u0278(x) subject to (a) and then to (b)._x000D_",
         "index": 114,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_114.jpg"
+            "images/Math_114.jpg"
         ],
         "answer": "B"
     },
@@ -1030,7 +1030,7 @@
         "question": "The parabola $y=-x^{2}+4$ has vertex $P$ and intersects the $x$-axis at $A$ and $B$. The parabola is translated from its original position so that its vertex moves along the line $y=x+4$ to the point $Q$. In this position, the parabola intersects the $x$-axis at $B$ and $C$. Determine the coordinates of $C$.",
         "index": 115,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_115.jpg"
+            "images/Math_115.jpg"
         ],
         "answer": "['$(8,0)$']"
     },
@@ -1039,9 +1039,9 @@
         "question": "Which of the following graphs are not isomorphic?",
         "index": 116,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_116_0.jpg",
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_116_1.jpg",
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_116_2.jpg"
+            "images/Math_116_0.jpg",
+            "images/Math_116_1.jpg",
+            "images/Math_116_2.jpg"
         ],
         "answer": "A"
     },
@@ -1050,7 +1050,7 @@
         "question": "In the diagram, $A B C D$ and $P N C D$ are squares of side length 2, and $P N C D$ is perpendicular to $A B C D$. Point $M$ is chosen on the same side of $P N C D$ as $A B$ so that $\\triangle P M N$ is parallel to $A B C D$, so that $\\angle P M N=90^{\\circ}$, and so that $P M=M N$. Determine the volume of the convex solid $A B C D P M N$.",
         "index": 117,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_117.jpg"
+            "images/Math_117.jpg"
         ],
         "answer": "['$\\\\frac{16}{3}$']"
     },
@@ -1059,7 +1059,7 @@
         "question": "In $\\triangle A B C, \\mathrm{~m} \\angle A=\\mathrm{m} \\angle B=45^{\\circ}$ and $A B=16$. Mutually tangent circular arcs are drawn centered at all three vertices; the arcs centered at $A$ and $B$ intersect at the midpoint of $\\overline{A B}$. Compute the area of the region inside the triangle and outside of the three arcs.",
         "index": 118,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_118.jpg"
+            "images/Math_118.jpg"
         ],
         "answer": "['$\\\\quad 64-64 \\\\pi+32 \\\\pi \\\\sqrt{2}$']"
     },
@@ -1068,7 +1068,7 @@
         "question": "A regular pentagon covers part of another regular polygon, as shown. This regular polygon has $n$ sides, five of which are completely or partially visible. In the diagram, the sum of the measures of the angles marked $a^{\\circ}$ and $b^{\\circ}$ is $88^{\\circ}$. Determine the value of $n$.\n\n(The side lengths of a regular polygon are all equal, as are the measures of its interior angles.)",
         "index": 119,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_119.jpg"
+            "images/Math_119.jpg"
         ],
         "answer": "['9']"
     },
@@ -1077,7 +1077,7 @@
         "question": "Suppose that $a>\\frac{1}{2}$ and that the parabola with equation $y=a x^{2}+2$ has vertex $V$. The parabola intersects the line with equation $y=-x+4 a$ at points $B$ and $C$, as shown. If the area of $\\triangle V B C$ is $\\frac{72}{5}$, determine the value of $a$.",
         "index": 120,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_120.jpg"
+            "images/Math_120.jpg"
         ],
         "answer": "['$\\\\frac{5}{2}$']"
     },
@@ -1086,7 +1086,7 @@
         "question": "At the Big Top Circus, Herc the Human Cannonball is fired out of the cannon at ground level. (For the safety of the spectators, the cannon is partially buried in the sand floor.) Herc's trajectory is a parabola until he catches the vertical safety net, on his way down, at point $B$. Point $B$ is $64 \\mathrm{~m}$ directly above point $C$ on the floor of the tent. If Herc reaches a maximum height of $100 \\mathrm{~m}$, directly above a point $30 \\mathrm{~m}$ from the cannon, determine the horizontal distance from the cannon to the net.",
         "index": 121,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_121.jpg"
+            "images/Math_121.jpg"
         ],
         "answer": "['48']"
     },
@@ -1095,7 +1095,7 @@
         "question": "In the diagram, $V$ is the vertex of the parabola with equation $y=-x^{2}+4 x+1$. Also, $A$ and $B$ are the points of intersection of the parabola and the line with equation $y=-x+1$. Determine the value of $A V^{2}+B V^{2}-A B^{2}$.",
         "index": 122,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_122.jpg"
+            "images/Math_122.jpg"
         ],
         "answer": "['60']"
     },
@@ -1104,7 +1104,7 @@
         "question": "which of the following is the area of the shaded region in the figure above?",
         "index": 123,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_123.jpg"
+            "images/Math_123.jpg"
         ],
         "answer": "D"
     },
@@ -1113,7 +1113,7 @@
         "question": "The following is a right pyramid on a square base. A right pyramid has its apex aligned directly above the centre of its base.\n\nUse your answer from part (a) to find the length of VW, the perpendicular height of the pyramid correct to two decimal places.",
         "index": 124,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_124.jpg"
+            "images/Math_124.jpg"
         ],
         "answer": "23.41"
     },
@@ -1122,7 +1122,7 @@
         "question": "Find J K.",
         "index": 125,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_125.jpg"
+            "images/Math_125.jpg"
         ],
         "answer": "A"
     },
@@ -1131,7 +1131,7 @@
         "question": "The solid shown is constructed by cutting out a quarter of a sphere from a cube. Find the solid surface area.",
         "index": 126,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_126.jpg"
+            "images/Math_126.jpg"
         ],
         "answer": "S.A. $=1209.84$"
     },
@@ -1140,7 +1140,7 @@
         "question": "Piecewise functions f and g can model the heights (in meters) of two airplanes. Here are the graphs of f and g, where t is the number of minutes that have passed since noon at a local airport.\nThe airplanes have the same height about 9 minutes after noon.\nWhat is the other time the airplanes have the same height?\nRound your answer to the nearest ten minutes.\nAbout _ minutes after noon",
         "index": 127,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_127.jpg"
+            "images/Math_127.jpg"
         ],
         "answer": "90"
     },
@@ -1149,7 +1149,7 @@
         "question": "Which two of the following expressions are OPPOSITE of $\\tan (\\theta)$ ?\nChoose 2 answers:",
         "index": 128,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_128.jpg"
+            "images/Math_128.jpg"
         ],
         "answer": "C\nD"
     },
@@ -1158,7 +1158,7 @@
         "question": "A boat is at the current point. Write down the bearing that the boat should travel on to return to the starting point.",
         "index": 129,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_129.jpg"
+            "images/Math_129.jpg"
         ],
         "answer": "N 34\u00b0 W"
     },
@@ -1167,7 +1167,7 @@
         "question": "Find the equation of the hyperbola.",
         "index": 130,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_130.jpg"
+            "images/Math_130.jpg"
         ],
         "answer": "\\frac{(x+3)^2}{25}-\\frac{(y+3)^2}{25}=1"
     },
@@ -1176,7 +1176,7 @@
         "question": "<image1>\nIn the picture above we see a cube in two different positions.\nThe six sides of the cube look like this:\n<image2>\nWhich side is opposite to <image3>?\n<image4>",
         "index": 131,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_131.png"
+            "images/Math_131.png"
         ],
         "answer": "C",
         "level": 1
@@ -1186,7 +1186,7 @@
         "question": "On the circumference of radius $r$ three points $X, Y$ and $A$ are marked such that $X Y=r, X Y \\perp A Y$ (see the figure). How many degrees has the angle $X A Y$?\n<image1>",
         "index": 132,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_132.png"
+            "images/Math_132.png"
         ],
         "answer": "30",
         "level": 4
@@ -1196,7 +1196,7 @@
         "question": "The figure shows graphs of functions $f$ and $g$ defined on real numbers. Each graph consists of two perpendicular halflines. Which equality is satisfied for every real number $x$?\n<image1>",
         "index": 133,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_133.png"
+            "images/Math_133.png"
         ],
         "answer": "C",
         "options": [
@@ -1213,7 +1213,7 @@
         "question": "In the quadrilateral $A B C D$ the diagonal $B D$ is the bisector of $\\angle A B C$ and $A C=B C$. Given $\\angle B D C=80^{\\circ}$ and $\\angle A C B=20^{\\circ}, \\angle B A D$ is equal to:\n<image1>",
         "index": 134,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_134.png"
+            "images/Math_134.png"
         ],
         "answer": "D",
         "options": [
@@ -1230,7 +1230,7 @@
         "question": "The lengths of the sides of triangle $X Y Z$ are $X Z=\\sqrt{55}$, $X Y=8, Y Z=9$. Find the length of the diagonal $X A$ of the rectangular parallelepiped in the figure.\n<image1>",
         "index": 135,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_135.png"
+            "images/Math_135.png"
         ],
         "answer": "10",
         "level": 3
@@ -1240,7 +1240,7 @@
         "question": "We see in the diagram at the right a piece of the graphic of the function\n$$\nf(x)=a x^{3}+b x^{2}+c x+d.\n$$\nWhat is the value of $b$?\n<image1>",
         "index": 136,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_136.png"
+            "images/Math_136.png"
         ],
         "answer": "-2",
         "level": 4
@@ -1250,7 +1250,7 @@
         "question": "In the diagram a closed polygon can be seen whose vertices are the midpoints of the edges of the die. The interior angles are as usual defined as the angle that two sides of the polygon describe in a common vertex. How big is the sum of all interior angles of the polygon?\n<image1>",
         "index": 137,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_137.png"
+            "images/Math_137.png"
         ],
         "answer": "B",
         "options": [
@@ -1267,7 +1267,7 @@
         "question": "Bettina chooses five points $A, B, C, D$ and $E$ on a circle and draws the tangent to the circle at point $A$. She realizes that the five angles marked $x$ are all equally big. (Note that the diagram is not drawn to scale!) How big is the angle $\\angle A B D$?\n<image1>",
         "index": 138,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_138.png"
+            "images/Math_138.png"
         ],
         "answer": "C",
         "options": [
@@ -1284,7 +1284,7 @@
         "question": "On a circle 15 points are equally spaced. We can form triangles by joining any 3 of these. Congruent triangles, by rotation or reflection, are counted as only one triangle. How many different triangles can be drawn?\n<image1>",
         "index": 139,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_139.png"
+            "images/Math_139.png"
         ],
         "answer": "19",
         "level": 5
@@ -1294,7 +1294,7 @@
         "question": "A square is placed in a co-ordinate system as shown. Each point $(x \\mid y)$ of the square is deleted and replaced by the point $\\left(\\frac{1}{x} \\mid \\frac{1}{y}\\right)$. Which diagram shows the resulting shape?\n<image1>\n<image2>",
         "index": 140,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_140.png"
+            "images/Math_140.png"
         ],
         "answer": "C",
         "options": [
@@ -1311,7 +1311,7 @@
         "question": "The side of the square $A B C D$ is $10 \\mathrm{~cm}$. The inner point $E$ of the square is such that $\\angle E A B=75^{\\circ}, \\angle A B E=30^{\\circ}$. The length of the segment $E C$ is:\n<image1>",
         "index": 141,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_141.png"
+            "images/Math_141.png"
         ],
         "answer": "D",
         "options": [
@@ -1328,7 +1328,7 @@
         "question": "In the picture, $A B C D$ and $E F G H$, with $A B$ parallel to $E F$, are two equal squares. The shaded area is equal to 1. What is the area of the square $A B C D$?\n<image1>",
         "index": 142,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_142.png"
+            "images/Math_142.png"
         ],
         "answer": "1",
         "level": 2
@@ -1338,7 +1338,7 @@
         "question": "A small square is inscribed in a big one as shown in the figure. Find the area of the small square.\n<image1>",
         "index": 143,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_143.png"
+            "images/Math_143.png"
         ],
         "answer": "34",
         "level": 3
@@ -1348,7 +1348,7 @@
         "question": "$A B C$ and $C D E$ are equal equilateral triangles. If $\\angle A C D=80^{\\circ}$, what is $\\angle A B D$?\n<image1>",
         "index": 144,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_144.png"
+            "images/Math_144.png"
         ],
         "answer": "D",
         "options": [
@@ -1365,7 +1365,7 @@
         "question": "In the quadrilateral $\\mathrm{ABCD}, \\mathrm{AD}=\\mathrm{BC}, \\angle \\mathrm{DAC}=50^{\\circ}$, $\\angle \\mathrm{DCA}=65^{\\circ}$ and $\\angle \\mathrm{ACB}=70^{\\circ}$. How big is $\\angle \\mathrm{ABC}$?\n<image1>",
         "index": 145,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_145.png"
+            "images/Math_145.png"
         ],
         "answer": "B",
         "options": [
@@ -1382,7 +1382,7 @@
         "question": "On a sheet of paper a grid is drawn such that each of the squares has sides $2 \\mathrm{~cm}$ long. How big is the area of the grey shaded quadrilateral $A B C D$?\n<image1>",
         "index": 146,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_146.png"
+            "images/Math_146.png"
         ],
         "answer": "B",
         "options": [
@@ -1399,7 +1399,7 @@
         "question": "A square with area 30 is split into two by its diagonal and then Split into triangles as shown in the diagram. Some of the areas of the triangles are given in the diagram. Which of the line segments $a, b, c, d, e$ of the diagonal is the longest?\n<image1>",
         "index": 147,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_147.png"
+            "images/Math_147.png"
         ],
         "answer": "D",
         "options": [
@@ -1416,7 +1416,7 @@
         "question": "In the isosceles triangle $A B C$ (with base $A C$ ) the points $K$ and $L$ are added on the sides $A B$ and $B C$ respectively so that $A K=K L=\\angle B$ and $K B=A C$. How big is the angle $\\angle A B C$?\n<image1>",
         "index": 148,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_148.png"
+            "images/Math_148.png"
         ],
         "answer": "C",
         "options": [
@@ -1433,7 +1433,7 @@
         "question": "The graph of the function $f(x)$, defined for all real numbers, is formed by two half-lines and one segment, as illustrated in the picture. Clearly, -8 is a solution of the equation $f(f(x))=0$, because $f(f(-8))=f(-4)=0$. Find all the solutions of the equation $f(f(f(x)))=0$.\n<image1>",
         "index": 149,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_149.png"
+            "images/Math_149.png"
         ],
         "answer": "C",
         "options": [
@@ -1450,7 +1450,7 @@
         "question": "Triangle RZT is generated by rotating the equilateral triangle AZC about point Z. Angle $\\beta=\\angle \\mathrm{CZR}=70^{\\circ}$. Determine angle $\\alpha=\\angle \\mathrm{CAR}$.\n<image1>",
         "index": 150,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_150.png"
+            "images/Math_150.png"
         ],
         "answer": "D",
         "options": [
@@ -1467,7 +1467,7 @@
         "question": "In the diagram on the right, the triangle is equilateral.\n<image1>\nWhat is the area of the large circle divided by the area of the small circle?",
         "index": 151,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_151.png"
+            "images/Math_151.png"
         ],
         "answer": "16",
         "solution": "If $L$ is the centre of the large circle, $\\angle J N L=30^{\\circ}$ because $K N$ is a line of symmetry of the equilateral triangle. Since $L N$ and $L J$ are both radii, $\\triangle J L N$ is isosceles and so $\\angle N J L=\\angle J N L=30^{\\circ}$. Hence $\\angle K L J=60^{\\circ}$ and since $K L=J L$, $\\triangle K J L$ is equilateral and $K M=M L$. Hence the radius of the larger circle is 4 times that of the smaller circle, and so the area is 16 times that of the smaller circle.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-024.jpg?height=499&width=508&top_left_y=2189&top_left_x=1248)",
@@ -1478,7 +1478,7 @@
         "question": "The diagram shows a semicircle with centre $O$. Two of the angles are given. What is the value of $x$ ? <image1>",
         "index": 152,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_152.png"
+            "images/Math_152.png"
         ],
         "answer": "9",
         "solution": "Triangle $O P Q$ is isosceles $(O P$ and $O Q$ are both radii), so angle $O Q P=67^{\\circ}$. Angle $P Q S=90^{\\circ}$ (angle in a semicircle). Hence angle $O Q S=90^{\\circ}-67^{\\circ}=23^{\\circ}$. Triangle $O Q R$ is also isosceles $(O Q$ and $O R$ are both radii) so angle $O Q R=32^{\\circ}$. Hence $x=32-23=9$.  ![](https://cdn.mathpix.com/cropped/2023_12_27_0f4ed2787981bb911326g-327.jpg?height=328&width=622&top_left_y=767&top_left_x=1248)",
@@ -1489,7 +1489,7 @@
         "question": "Circles $\\mathcal{P}$ and $\\mathcal{Q}$ have radii $1$ and $4$, respectively, and are externally tangent at point $A$. Point $B$ is on $\\mathcal{P}$ and point $C$ is on $\\mathcal{Q}$ so that line $BC$ is a common external tangent of the two circles. A line $\\ell$ through $A$ intersects $\\mathcal{P}$ again at $D$ and intersects $\\mathcal{Q}$ again at $E$. Points $B$ and $C$ lie on the same side of $\\ell$, and the areas of $\\triangle DBA$ and $\\triangle ACE$ are equal. This common area is $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n\n<image1>",
         "index": 153,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_153.png"
+            "images/Math_153.png"
         ],
         "answer": "129",
         "level": 5
@@ -1499,7 +1499,7 @@
         "question": "Circles of radius $ 2$ and $ 3$ are externally tangent and are circumscribed by a third circle, as shown in the figure. Find the area of the shaded region.\n\n<image1>",
         "index": 154,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_154.png"
+            "images/Math_154.png"
         ],
         "answer": "E",
         "options": [
@@ -1516,7 +1516,7 @@
         "question": "The edges of a regular tetrahedron with vertices $A ,~ B,~ C$, and $D$ each have length one. Find the least possible distance between a pair of points $P$ and $Q$, where $P$ is on edge $AB$ and $Q$ is on edge $CD$.\n<image1>",
         "index": 155,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_155.png"
+            "images/Math_155.png"
         ],
         "answer": "C",
         "options": [
@@ -1533,7 +1533,7 @@
         "question": "A unit cube has vertices $P_1, P_2, P_3, P_4, P_1', P_2', P_3'$, and $P_4'$. Vertices $P_2, P_3$, and $P_4$ are adjacent to $P_1$, and for $1\\leq i\\leq 4$, vertices $P_i$ and $P_i'$ are opposite to each other. A regular octahedron has one vertex in each of the segments $P_1P_2, P_1P_3, P_1P_4, P_1'P_2', P_1'P_3'$, and $P_1'P_4'$. What is the octahedron's side length?\n<image1>",
         "index": 156,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_156.png"
+            "images/Math_156.png"
         ],
         "answer": "A",
         "options": [
@@ -1550,7 +1550,7 @@
         "question": "A $4\\times 4\\times h$ rectangular box contains a sphere of radius $2$ and eight smaller spheres of radius $1$.  The smaller spheres are each tangent to three sides of the box, and the larger sphere is tangent to each of the smaller spheres.  What is $h$?\n\n<image1>",
         "index": 157,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_157.png"
+            "images/Math_157.png"
         ],
         "answer": "A",
         "options": [
@@ -1567,7 +1567,7 @@
         "question": "A cube has eight vertices (corners) and twelve edges.  A segment, such as $x$, which joins two vertices not joined by an edge is called a diagonal.  Segment $y$ is also a diagonal.  How many diagonals does a cube have?\n\n<image1>",
         "index": 158,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_158.png"
+            "images/Math_158.png"
         ],
         "answer": "16",
         "level": 4
@@ -1577,7 +1577,7 @@
         "question": "In the cube $ABCDEFGH$ with opposite vertices $C$ and $E,$ $J$ and $I$ are the midpoints of edges $\\overline{FB}$ and $\\overline{HD},$ respectively. Let $R$ be the ratio of the area of the cross-section $EJCI$ to the area of one of the faces of the cube. What is $R^2?$\n\n<image1>",
         "index": 159,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_159.png"
+            "images/Math_159.png"
         ],
         "answer": "C",
         "options": [
@@ -1594,7 +1594,7 @@
         "question": "Right triangular prism $ABCDEF$ with triangular faces $\\vartriangle ABC$ and $\\vartriangle DEF$ and edges $\\overline{AD}$, $\\overline{BE}$, and $\\overline{CF}$ has $\\angle ABC = 90^o$ and $\\angle EAB = \\angle CAB = 60^o$ . Given that $AE = 2$, the volume of $ABCDEF$ can be written in the form $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Compute $m + n$.\\n<image1>",
         "index": 160,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_160.png"
+            "images/Math_160.png"
         ],
         "answer": "5",
         "solution": "The volume of $A B C D E F$ is equal to the area of $\\triangle A B C$ multiplied by the height $B E$. We have that the height is $A E \\sin \\left(60^{\\circ}\\right)=\\sqrt{3}$ and $B A=A E \\cos \\left(60^{\\circ}\\right)=1$, so $\\triangle A B C$ is a $30-60-90$ right triangle. Then its area is $\\frac{\\sqrt{3}}{2}$, and the volume of $A B C D E F$ is $\\frac{3}{2}$. Our answer, therefore, is 5 .",
@@ -1605,7 +1605,7 @@
         "question": "Suppose Annie the Ant is walking on a regular icosahedron (as shown). She starts on point $A$ and will randomly create a path to go to point $Z$ which is the point directly opposite to $A$. Every move she makes never moves further from Z, and she has equal probability to go down every valid move. What is the expected number of moves she can make?\\n<image1>",
         "index": 161,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_161.png"
+            "images/Math_161.png"
         ],
         "answer": "6",
         "solution": "Lets categorize the vertices into 4 levels, defined by distance to $A$. Due to the condition that she never moves further from Z, she can never go to a higher level, so she must stay on her level or progress to a lower level. At the first level, she can only make a move to level two, which is 1 move. At level two, she always has 4 moves she can make, 2 of them move down. At level three, she always has 3 moves she can make, 1 of which moves down.\\nLet $E_n$ be the expected number of moves to move from level $n$ to $n+1$. We have $E_n=1$,\\n$$\\nE_2=\\frac{1}{2} \\cdot 1+\\frac{1}{2} \\cdot\\left(E_2+1\\right) \\text { and } E_3=\\frac{1}{3} \\cdot 1+\\frac{2}{3} \\cdot\\left(E_3\\n1\\right)\\n$$\\n\\nThis solves to $E_2=2, E_3=3$. The final expected value is, by linearity of expected value, 6 .",
@@ -1616,7 +1616,7 @@
         "question": "Let $ABCD$ be a parallelogram. We have that $M$ is the midpoint of $AB$ and $N$ is the midpoint of $BC.$ The segments $DM$ and $DN$ intersect $AC$ at $P$ and $Q$, respectively. If $AC = 15,$ what is $QA$? <image1>",
         "index": 162,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_162.png"
+            "images/Math_162.png"
         ],
         "answer": "10",
         "solution": "Solution 1: The segment $BD$ begs to be drawn, so we start there: [asy]\npair A, B, C, D, pM, pN, O, P, Q;\nA = (25, 0) * dir(-20);\nB = (15, 0) * dir(60);\nC = (25, 0) * dir(160);\nD = (15, 0) * dir(-120);\npM = 0.5 * A + 0.5 * B;\npN = 0.5 * B + 0.5 * C;\nO = 0.25 * A + 0.25 * B + 0.25 * C + 0.25 * D;\nP = 0.33 * C + 0.67 * A;\nQ = 0.67 * C + 0.33 * A;\ndraw(A--B--C--D--cycle);\ndraw(A--C);\ndraw(B--D);\ndraw(pM--D);\ndraw(pN--D);\nlabel(\"$A$\", A, S);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, NW);\nlabel(\"$D$\", D, S);\nlabel(\"$M$\", pM, NE);\nlabel(\"$N$\", pN, NW);\nlabel(\"$P$\", P, N);\nlabel(\"$Q$\", Q, NE);\n[/asy] We can clearly see that now we have triangles $ABD$ and $CBD,$ and $MD,$ $ND,$ and $AC$ are medians to one or more of the triangles. That means that $P$ and $Q$ are the centroids of triangles $ABD$ and $CBD,$ respectively. Since $AC = 15,$ that means $CQ = 5,$ since the median from $C$ to $BD$ is half the length of $AC,$ or $7.5,$ and $CQ$ must be $\\frac{2}{3}$ of that, or $5.$ Therefore, $QA = AC - CQ = 15 - 5 = \\boxed{10}.$\n\nSolution 2: Since $ABCD$ is a parallelogram, $\\overline{AD}$ and $\\overline{BC}$ are parallel with $\\overline{AC}$ and $\\overline{DN}$ as transversals.  So $\\angle DAQ = \\angle NCQ$ and $\\angle ADQ = \\angle CNQ$, and so $\\triangle ADQ$ and $\\triangle CNQ$ are similar by AA similarity.\n\nAlso, we know opposite sides of a parallelogram are congruent, so $AD = BC$.  Since $N$ is a midpoint of $\\overline{BC}$, we have $CN = \\frac{AD}2$.  By similar triangles, \\[ \\frac{AQ}{CQ} = \\frac{AD}{CN} = 2, \\]so $AQ = 2CQ.$  Since $AQ + CQ = AC = 15$, we have $CQ = 5$ and $AQ = \\boxed{10}.$",
@@ -1627,7 +1627,7 @@
         "question": "Let $ABCD$ be a rectangle.  Let $E$ and $F$ be points on $BC$ and $CD$, respectively, so that the areas of triangles $ABE$, $ADF$, and $CEF$ are 8, 5, and 9, respectively.  Find the area of rectangle $ABCD$.\n\n<image1>",
         "index": 163,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_163.png"
+            "images/Math_163.png"
         ],
         "answer": "40",
         "solution": "Let $u = BE$, $v = CE$, $x = CF$, and $y = DF$. [asy]\nunitsize(1.5 cm);\n\npair A, B, C, D, E, F;\n\nA = (0,2);\nB = (0,0);\nC = (3,0);\nD = (3,2);\nE = (3*B + 2*C)/5;\nF = (2*D + C)/3;\n\ndraw(A--B--C--D--cycle);\ndraw(A--E--F--cycle);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, NE);\nlabel(\"$E$\", E, S);\nlabel(\"$F$\", F, dir(0));\nlabel(\"$8$\", (A + B + E)/3);\nlabel(\"$5$\", (A + D + F)/3);\nlabel(\"$9$\", (C + E + F)/3);\n\nlabel(\"$u$\", (B + E)/2, S);\nlabel(\"$v$\", (C + E)/2, S);\nlabel(\"$x$\", (C + F)/2, dir(0));\nlabel(\"$y$\", (D + F)/2, dir(0));\n[/asy] Then the area of triangle $ABE$ is $u(x + y)/2 = 8$, so $u(x + y) = 16$.  The area of triangle $ADF$ is $y(u + v)/2 = 5$, so $y(u + v) = 10$.  The area of triangle $CEF$ is $xv/2 = 9$, so $xv = 18$.  Thus, we have the system of equations \\begin{align*}\nux + uy &= 16, \\\\\nuy + vy &= 10, \\\\\nvx &= 18.\n\\end{align*} Solving for $x$ in equation (1), we find \\[x = \\frac{16 - uy}{u}.\\] Solving for $v$ in equation (2), we find \\[v = \\frac{10 - uy}{y}.\\] Substituting into equation (3), we get \\[\\frac{10 - uy}{y} \\cdot \\frac{16 - uy}{u} = 18.\\] This equation simplifies to \\[u^2 y^2 - 44uy + 160 = 0.\\] We recognize this equation as a quadratic in $uy$, which factors as $(uy - 4)(uy - 40) = 0$.  From equation (1), $uy$ must be less than 16, so $uy = 4$.\n\nThen from equation (1), $ux = 16 - uy = 16 - 4 = 12$, and from equation (2), $vy = 10 - uy = 10 - 4 = 6$.  Therefore, the area of rectangle $ABCD$ is $(u + v)(x + y) = ux + uy + vx + vy = 12 + 4 + 18 + 6 = \\boxed{40}$.",
@@ -1638,7 +1638,7 @@
         "question": "In the figure below, $ABDC,$ $EFHG,$ and $ASHY$ are all squares; $AB=EF =1$ and $AY=5$.\n\nWhat is the area of quadrilateral $DYES$?\n\n<image1>",
         "index": 164,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_164.png"
+            "images/Math_164.png"
         ],
         "answer": "15",
         "solution": "The large square, $ASHY$, is divided into seven regions. Two of these ($ABDC$ and $EFHG$) are squares. Four of the regions ($BSD,$ $CYD,$ $SFE,$ $YGE$) are right triangles. Finally, the seventh region is $DYES$, the quadrilateral whose area we wish to know. Thus, we subtract the area of the first six regions from the area of $ASHY$.\n\n$ASHY$ has side length $5$ and therefore has area $5^2=25$.\n\nThe two small squares each have side length $1$ and thus area $1$.\n\nThe right triangles each have legs of length $1$ and $4$ (since, for example, $CY = AY-AC = 5-1 = 4$). Thus, each right triangle has area $\\frac{1\\cdot 4}{2} = 2$.\n\nSubtracting the two small squares and the four right triangles from the large square, we determine that the area of $DYES$ is $$25 - 2\\cdot(1) - 4\\cdot(2) = \\boxed{15}.$$",
@@ -1649,7 +1649,7 @@
         "question": "Let the given figure represent a planar subdivision.  Assume that the areas of the regions labeled 1, 2, and 3 are known and denoted by $A_1$, $A_2$, and $A_3$ respectively.  The shaded region is labeled 0.  What expression relates the area of region 0, denoted $A_0$, to $A_1$, $A_2$, and $A_3$?\n\n\\begin{enumerate}\n    \\item[(A)] $A_0 = A_1 + A_2 + A_3$\n    \\item[(B)] $A_0 = \\frac{1}{2}(A_1 + A_2 + A_3)$\n    \\item[(C)] $A_0 = A_1 + A_2 - A_3$\n    \\item[(D)] $A_0$ cannot be determined from the given information.\n\\end{enumerate}",
         "index": 165,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_165.png"
+            "images/Math_165.png"
         ],
         "answer": "B"
     },
@@ -1658,7 +1658,7 @@
         "question": "Let $\\gamma$ be the curve depicted in the image.  Consider the complex integral $\\oint_\\gamma \\frac{dz}{z^2+1}$. Which of the following statements is true?\n\n\\begin{enumerate}\n    \\item[(A)] The integral is equal to $0$.\n    \\item[(B)] The integral is equal to $2\\pi i$.\n    \\item[(C)] The integral is equal to $\\pi i$.\n    \\item[(D)] The integral is equal to $\\frac{\\pi i}{2}$.\n\\end{enumerate}",
         "index": 166,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_166.png"
+            "images/Math_166.png"
         ],
         "answer": "C"
     },
@@ -1667,7 +1667,7 @@
         "question": "Considering the provided diagram depicting a surface and its associated fundamental group, which of the following group presentations accurately represents the fundamental group of the surface shown in the left part of the diagram?\n\n\\begin{enumerate}\n    \\item[(A)] $\\langle a, b, c, d, e, f \\mid aba^{-1}b^{-1}cdc^{-1}d^{-1}efe^{-1}f^{-1} = 1 \\rangle$\n    \\item[(B)] $\\langle a, b, c, d, e, f \\mid abcd = ef,  a = b^{-1}, c = d^{-1}, e = f^{-1} \\rangle$\n    \\item[(C)] $\\langle a, b, c, d, e, f \\mid a b c d e f = 1 \\rangle$\n    \\item[(D)] $\\langle a, b, c, d, e, f \\mid a b^{-1} c d^{-1} e f^{-1} = 1 \\rangle$\n\\end{enumerate}",
         "index": 167,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_167.png"
+            "images/Math_167.png"
         ],
         "answer": "B"
     },
@@ -1676,7 +1676,7 @@
         "question": "Let $X$ and $Y$ be topological spaces, and let $f: X \\to Y$ be a continuous map.  Consider the mapping cylinder $M_f = (X \\times [0, 1]) \\cup Y / \\sim$, where $(x, 1) \\sim f(x)$ for all $x \\in X$.  Let $i: X \\to M_f$ be the inclusion map $x \\mapsto [(x, 0)]$ and $r: Y \\to M_f$ be the inclusion map $y \\mapsto [y]$.  Let $j: Y \\to M_f$ be the map given by $j(y) = [y]$.  Further, assume that $f$ is a homotopy equivalence.  Considering the given diagram, what can be definitively concluded regarding the homotopy type of $M_f$?\n\n\\begin{enumerate}\n    \\item[(A)] $M_f$ is homotopy equivalent to $X$.\n    \\item[(B)] $M_f$ is homotopy equivalent to $Y$.\n    \\item[(C)] $M_f$ is homotopy equivalent to $X \\vee Y$.\n    \\item[(D)] The homotopy type of $M_f$ cannot be determined from the given information.\n\\end{enumerate}",
         "index": 168,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_168.png"
+            "images/Math_168.png"
         ],
         "answer": "B"
     },
@@ -1685,7 +1685,7 @@
         "question": "Considering the fundamental group of the space depicted in the left diagram, which of the following group presentations accurately represents it, given the generators and orientations shown in the diagram?\n\n\\begin{enumerate}\n    \\item[(A)] $\\langle a, b, c, d \\mid aba^{-1}b^{-1}cdc^{-1}d^{-1} = 1 \\rangle$\n    \\item[(B)] $\\langle a, b, c, d \\mid abcd = 1 \\rangle$\n    \\item[(C)] $\\langle a, b, c, d \\mid a b a^{-1} c^{-1} d c d^{-1} b^{-1} = 1 \\rangle$\n    \\item[(D)] $\\langle a, b, c, d \\mid aba^{-1}b^{-1} cdc^{-1}d^{-1} = 1, a^2 b^2 c^2 d^2 = 1 \\rangle$\n\\end{enumerate}",
         "index": 169,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_169.png"
+            "images/Math_169.png"
         ],
         "answer": "C"
     },
@@ -1694,7 +1694,7 @@
         "question": "Considering the fundamental group of the surface depicted in the image (left panel), which of the following group presentations accurately reflects the relations between the generators $a$ and $b$ shown in the image, given the presentation of the fundamental group of the square on the right as $\\langle a, b \\mid aba^{-1}b^{-1} \\rangle$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\langle a, b \\mid aba^{-1}b^{-1} \\rangle$\n    \\item[(B)] $\\langle a, b \\mid a^2b^2 \\rangle$\n    \\item[(C)] $\\langle a, b \\mid aba^{-1}b \\rangle$\n    \\item[(D)] $\\langle a, b \\mid ab^{-1}a^{-1}b \\rangle$\n\\end{enumerate}",
         "index": 170,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_170.png"
+            "images/Math_170.png"
         ],
         "answer": "C"
     },
@@ -1703,7 +1703,7 @@
         "question": "Consider the given knot diagrams.  Which of the following statements accurately describes the relationship between the linking numbers of the two diagrams?\n\n\\begin{enumerate}\n    \\item[(A)] The linking number is the same in both diagrams.\n    \\item[(B)] The linking number is twice as large in the bottom diagram.\n    \\item[(C)] The linking number is three times as large in the bottom diagram.\n    \\item[(D)] The linking number differs by 1 between the diagrams.\n\\end{enumerate}",
         "index": 171,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_171.png"
+            "images/Math_171.png"
         ],
         "answer": "A"
     },
@@ -1712,7 +1712,7 @@
         "question": "Considering the given braid diagram representing the braid group on two strands, which of the following statements regarding the isotopy class of the braid $\\langle ab \\rangle$ is correct?\n\n\\begin{enumerate}\n    \\item[(A)] $\\langle ab \\rangle$ is isotopic to the identity braid.\n    \\item[(B)] $\\langle ab \\rangle$ is isotopic to $\\langle a^{-1}b^{-1} \\rangle$.\n    \\item[(C)] $\\langle ab \\rangle$ is isotopic to $\\langle ba \\rangle$.\n    \\item[(D)] $\\langle ab \\rangle$ is isotopic to a braid with a different number of crossings.\n\\end{enumerate}",
         "index": 172,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_172.png"
+            "images/Math_172.png"
         ],
         "answer": "C"
     },
@@ -1721,7 +1721,7 @@
         "question": "Considering the sequence of topological spaces and maps depicted in the provided diagram, which of the following statements accurately describes the fundamental group of the final space $C_n$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\pi_1(C_n) \\cong \\mathbb{Z}$\n    \\item[(B)] $\\pi_1(C_n) \\cong \\mathbb{Z} \\times \\mathbb{Z}$\n    \\item[(C)] $\\pi_1(C_n) \\cong 0$\n    \\item[(D)] $\\pi_1(C_n)$ is a free group on infinitely many generators.\n\\end{enumerate}",
         "index": 173,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_173.png"
+            "images/Math_173.png"
         ],
         "answer": "A"
     },
@@ -1730,7 +1730,7 @@
         "question": "Let $X$ and $Y$ denote the top and bottom circular boundaries of the cylinder, respectively, and let $A$ and $C$ be the lateral boundaries as shown in the image.  Consider the quotient space obtained by identifying points $x \\in X$ and $y \\in Y$ if and only if $x$ and $y$ lie on the same vertical line segment connecting $X$ and $Y$. Which of the following spaces is homeomorphic to this quotient space?\n\n\\begin{enumerate}\n    \\item[(A)] $S^2$ (the 2-sphere)\n    \\item[(B)] $T^2$ (the 2-torus)\n    \\item[(C)] $\\mathbb{R}P^2$ (the real projective plane)\n    \\item[(D)] $S^1 \\times S^1$ (the product of two circles)\n\\end{enumerate}",
         "index": 174,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_174.png"
+            "images/Math_174.png"
         ],
         "answer": "C"
     },
@@ -1739,7 +1739,7 @@
         "question": "Considering the depicted topological space, let $X$ be the space and $A$ be the subspace represented by the smaller interior circle.  What is the fundamental group $\\pi_1(X \\setminus A)$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\mathbb{Z}$\n    \\item[(B)] $\\mathbb{Z} \\times \\mathbb{Z}$\n    \\item[(C)] $0$\n    \\item[(D)] $\\mathbb{Z}_2$\n\\end{enumerate}",
         "index": 175,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_175.png"
+            "images/Math_175.png"
         ],
         "answer": "A"
     },
@@ -1748,7 +1748,7 @@
         "question": "Considering the depicted mapping $f: X \\times I \\to M_f$, where $X$ is a topological space and $I$ is the unit interval, and $M_f$ is the mapping cylinder, which statement regarding the fundamental group $\\pi_1(M_f)$ is true?\n\n\\begin{enumerate}\n    \\item[(A)] $\\pi_1(M_f)$ is isomorphic to $\\pi_1(X)$.\n    \\item[(B)] $\\pi_1(M_f)$ is trivial if and only if $\\pi_1(X)$ and $\\pi_1(Y)$ are both trivial.\n    \\item[(C)] $\\pi_1(M_f)$ is a free product of $\\pi_1(X)$ and $\\pi_1(Y)$.\n    \\item[(D)] $\\pi_1(M_f)$ is isomorphic to $\\pi_1(X) \\times \\pi_1(Y)$.\n\\end{enumerate}",
         "index": 176,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_176.png"
+            "images/Math_176.png"
         ],
         "answer": "C"
     },
@@ -1757,7 +1757,7 @@
         "question": "Let the quadrilateral $ABCD$ be as shown in the image.  Determine the area of the quadrilateral.\n\n\\begin{enumerate}\n    \\item[(A)] $21$\n    \\item[(B)] $24$\n    \\item[(C)] $27$\n    \\item[(D)] $30$\n\\end{enumerate}",
         "index": 177,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_177.png"
+            "images/Math_177.png"
         ],
         "answer": "C"
     },
@@ -1766,7 +1766,7 @@
         "question": "In the given diagram, lines $AC$ and $DF$ intersect the circle at points $B$, $E$ and $P$, $R$ respectively.  Line segment $BE$ intersects line segment $PR$ at point $Q$.  If $\\angle APB = 40^\\circ$ and $\\angle QRE = 50^\\circ$, what is the measure of $\\angle ACB$?\n\n\\begin{enumerate}\n    \\item[(A)] $40^\\circ$\n    \\item[(B)] $50^\\circ$\n    \\item[(C)] $90^\\circ$\n    \\item[(D)] $130^\\circ$\n\\end{enumerate}",
         "index": 178,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_178.png"
+            "images/Math_178.png"
         ],
         "answer": "A"
     },
@@ -1775,7 +1775,7 @@
         "question": "Let the vertices of the regular hexagon be denoted as $A_1, A_2, A_3, A_4, A_5, A_6$ in clockwise order.  Consider the linear transformations $T_i$ defined by rotating the hexagon about its center by an angle of $\\frac{i\\pi}{3}$ radians, where $i \\in \\{1, 2, 3, 4, 5, 6\\}$.  Let $M$ be the matrix representation of $T_1$ with respect to the basis \\{$A_1, A_2, A_3, A_4, A_5, A_6\\}$, where each vertex is represented by a vector. Then what is the trace of $M^2$?\n\n\\begin{enumerate}\n    \\item[(A)] 0\n    \\item[(B)] 1\n    \\item[(C)] 2\n    \\item[(D)] 3\n\\end{enumerate}",
         "index": 179,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_179.png"
+            "images/Math_179.png"
         ],
         "answer": "B"
     },
@@ -1784,7 +1784,7 @@
         "question": "Let $L_1$ be the line passing through points $O(0,0)$ and $A(1, \\frac{1}{2})$, and let $L_2$ be the line passing through points $O(0,0)$ and $B(1, \\frac{2}{3})$.  Let $P$ be the intersection of $L_1$ and the line $y=1$, and $Q$ be the intersection of $L_2$ and the line $x=3$.  Determine the area of the quadrilateral $OPAQ$.\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{7}{6}$\n    \\item[(B)] $\\frac{5}{3}$\n    \\item[(C)] $\\frac{11}{6}$\n    \\item[(D)] $\\frac{4}{3}$\n\\end{enumerate}",
         "index": 180,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_180.png"
+            "images/Math_180.png"
         ],
         "answer": "C"
     },
@@ -1793,7 +1793,7 @@
         "question": "The graph depicts a parabola passing through points $(-k, 0)$, $(0, 3k)$, and $(3k, 0)$.  Determine the equation of the parabola.\n\n\\begin{enumerate}\n    \\item[(A)] $y = -k(x+k)(x-3k)$\n    \\item[(B)] $y = -x^2 + 3k$\n    \\item[(C)] $y = -\\frac{1}{k}(x+k)(x-3k)$\n    \\item[(D)] $y = -\\frac{1}{k}x^2 + 3k$\n\\end{enumerate}",
         "index": 181,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_181.png"
+            "images/Math_181.png"
         ],
         "answer": "C"
     },
@@ -1802,7 +1802,7 @@
         "question": "In the given coordinate plane, points $A(0, 3)$, $B(4, 0)$, and $C(k, 5)$ form a triangle.  If the area of $\\triangle ABC$ is 10 square units, what is the value of $k$?\n\n\\begin{enumerate}\n    \\item[(A)] 2\n    \\item[(B)] 3\n    \\item[(C)] 4\n    \\item[(D)] 5\n\\end{enumerate}",
         "index": 182,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_182.png"
+            "images/Math_182.png"
         ],
         "answer": "A"
     },
@@ -1811,7 +1811,7 @@
         "question": "Considering the provided arrangement of lines and points, let $G$ be a graph where the points represent vertices and the lines represent edges.  Determine the chromatic number of the subgraph induced by the vertices in the region denoted by the intersection of lines $A$, $B$, $C$, and $D$.\n\n\\begin{enumerate}\n    \\item[(A)] 1\n    \\item[(B)] 2\n    \\item[(C)] 3\n    \\item[(D)] 4\n\\end{enumerate}",
         "index": 183,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_183.png"
+            "images/Math_183.png"
         ],
         "answer": "B"
     },
@@ -1820,7 +1820,7 @@
         "question": "Let $X_n$ be a discrete-time Markov chain on the state space \\{$A_1, A_2, A_3, A_4, A_5, A_6, A_7\\}$ represented by the graph shown in the image, where each vertex represents a state and an edge exists between states if a transition is possible.  Assume all transitions along existing edges have equal probability.  Starting from state $A_1$, what is the probability that the Markov chain will reach state $A_4$ before it reaches state $A_7$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{1}{2}$\n    \\item[(B)] $\\frac{2}{3}$\n    \\item[(C)] $\\frac{3}{4}$\n    \\item[(D)] $\\frac{3}{5}$\n\\end{enumerate}",
         "index": 184,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_184.png"
+            "images/Math_184.png"
         ],
         "answer": "B"
     },
@@ -1829,7 +1829,7 @@
         "question": "Let $r$ be the radius of the smaller circles, and let $R$ be the radius of the larger circle.  Points A and B lie on the line $y=12$. Point C is at $(15,0)$. The three circles are mutually tangent.\n\nWhat is the value of $R/r$?\n\n\\begin{enumerate}\n    \\item[(A)] $2 + \\sqrt{3}$\n    \\item[(B)] $3 + \\sqrt{2}$\n    \\item[(C)] $3 + 2\\sqrt{3}$\n    \\item[(D)] $2 + 2\\sqrt{2}$\n\\end{enumerate}",
         "index": 185,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_185.png"
+            "images/Math_185.png"
         ],
         "answer": "A"
     },
@@ -1838,7 +1838,7 @@
         "question": "Given the geometric figure, find the value of $a$ such that the area of $\\triangle BCD$ is twice the area of $\\triangle ABD$.\n\n\\begin{enumerate}\n    \\item[(A)] $2$\n    \\item[(B)] $3$\n    \\item[(C)] $4$\n    \\item[(D)] $5$\n\\end{enumerate}",
         "index": 186,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_186.png"
+            "images/Math_186.png"
         ],
         "answer": "B"
     },
@@ -1847,7 +1847,7 @@
         "question": "In the given diagram, points $B$, $D$, $E$, and $A$ are collinear.  $CE$ is perpendicular to $BA$.  Line segments $BF$ and $DF$ intersect at $F$.  Points $G$ and $H$ are defined such that $H$ lies on $CE$ and $G$ lies on $DE$, and $\\overline{HG} \\parallel \\overline{BA}$. If $\\angle CBF = \\theta$ and $\\angle CDF = \\phi$, what is the relationship between $\\theta$ and $\\phi$ assuming that $\\triangle BCE$ and $\\triangle ADE$ are similar?\n\n\\begin{enumerate}\n    \\item[(A)] $\\theta = \\phi$\n    \\item[(B)] $\\theta + \\phi = 90^\\circ$\n    \\item[(C)] $\\theta = 90^\\circ - \\phi$\n    \\item[(D)] $\\theta = 2\\phi$\n\\end{enumerate}",
         "index": 187,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_187.png"
+            "images/Math_187.png"
         ],
         "answer": "C"
     },
@@ -1856,7 +1856,7 @@
         "question": "Consider a random walk on the 3x3 grid shown in the image, starting at the bottom-left corner.  At each step, the walker moves one unit up, down, left, or right with equal probability, but cannot move outside the grid.  Let $E_n$ be the expected number of visits to the central cell (the cell in the middle) after $n$ steps.  Which of the following statements regarding the behavior of $E_n$ as $n \\to \\infty$ is correct?\n\n\\begin{enumerate}\n    \\item[(A)] $\\lim_{n\\to\\infty} E_n = \\infty$\n    \\item[(B)] $\\lim_{n\\to\\infty} E_n = 0$\n    \\item[(C)] $\\lim_{n\\to\\infty} E_n$ exists and is a finite positive number.\n    \\item[(D)] $\\lim_{n\\to\\infty} E_n$ does not exist.\n\\end{enumerate}",
         "index": 188,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_188.png"
+            "images/Math_188.png"
         ],
         "answer": "C"
     },
@@ -1865,7 +1865,7 @@
         "question": "In the given figure, $\\triangle ABC$ is inscribed in a circle. A smaller circle is tangent to $AB$, $AC$, and the larger circle at point $X$. Let $Y$ be the point where the smaller circle is tangent to $AC$. If the radius of the larger circle is $R$, and the radius of the smaller circle is $r$, express the ratio $\\frac{r}{R}$ in terms of $\\angle BAC$.\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{r}{R} = \\sin(\\frac{\\angle BAC}{2})$\n    \\item[(B)] $\\frac{r}{R} = 2\\sin(\\frac{\\angle BAC}{2})$\n    \\item[(C)] $\\frac{r}{R} = \\cos(\\frac{\\angle BAC}{2})$\n    \\item[(D)] $\\frac{r}{R} = 1 - \\cos(\\frac{\\angle BAC}{2})$\n\\end{enumerate}",
         "index": 189,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_189.png"
+            "images/Math_189.png"
         ],
         "answer": "A"
     },
@@ -1874,7 +1874,7 @@
         "question": "In the given figure, lines $l_1$ and $l_2$ are parallel.  If the length of segment $FE$ is 25, what is the length of segment $BC$?\n\n\\begin{enumerate}\n    \\item[(A)] $25\\frac{41}{59}$\n    \\item[(B)] $25\\frac{59}{41}$\n    \\item[(C)] $25 \\frac{\\sin(41^\\circ)}{\\sin(59^\\circ)}$\n    \\item[(D)] $25 \\frac{\\sin(59^\\circ)}{\\sin(41^\\circ)}$\n\\end{enumerate}",
         "index": 190,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_190.png"
+            "images/Math_190.png"
         ],
         "answer": "D"
     },
@@ -1883,7 +1883,7 @@
         "question": "In the given solid geometry figure, let $ABCD$ be a rectangle and $P$ be a point such that $PD \\perp ABCD$.  Let $M$ be a point on the line segment $PN$ such that the ratio of lengths $PM:MN$ is $1:2$. What is the ratio of the volume of the tetrahedron $ABCM$ to the volume of the tetrahedron $ABCD$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{1}{3}$\n    \\item[(B)] $\\frac{1}{6}$\n    \\item[(C)] $\\frac{2}{3}$\n    \\item[(D)] $\\frac{1}{2}$\n\\end{enumerate}",
         "index": 191,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_191.png"
+            "images/Math_191.png"
         ],
         "answer": "A"
     },
@@ -1892,7 +1892,7 @@
         "question": "In the given figure, $AB = 1$.  All angles marked with a square are right angles. All angles marked $30^\\circ$ are $30^\\circ$. Determine the length of $AH$.\n\n\\begin{enumerate}\n    \\item[(A)] $2$\n    \\item[(B)] $2\\sqrt{3}$\n    \\item[(C)] $4$\n    \\item[(D)] $4\\sqrt{3}$\n\\end{enumerate}",
         "index": 192,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_192.png"
+            "images/Math_192.png"
         ],
         "answer": "B"
     },
@@ -1901,7 +1901,7 @@
         "question": "Let the shaded region be denoted by $\\mathcal{R}$.  Find the area of $\\mathcal{R}$ given that the curves bounding $\\mathcal{R}$ are defined by $y = ax^2 + b$ and $y = cx^2 + d$ for some constants $a$, $b$, $c$, and $d$, and that the vertices of the triangle are $A(-3,0)$, $B(3,0)$, and $C(0,-3)$.\n\n\\begin{enumerate}\n    \\item[(A)] $9$\n    \\item[(B)] $18$\n    \\item[(C)] $27$\n    \\item[(D)] $36$\n\\end{enumerate}",
         "index": 193,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_193.png"
+            "images/Math_193.png"
         ],
         "answer": "B"
     },
@@ -1910,7 +1910,7 @@
         "question": "In the given figure, a circle is inscribed within an isosceles trapezoid ABCD, where AB is parallel to CD.  The lengths of the legs are denoted by $x$, and the circle is tangent to the legs at points B and C. Let the radius of the inscribed circle be $r$.  If the area of trapezoid ABCD is numerically equal to its perimeter, what is the value of $x$?\n\n\\begin{enumerate}\n    \\item[(A)] $2 + \\sqrt{2}$\n    \\item[(B)] $2 + \\sqrt{3}$\n    \\item[(C)] $3 + \\sqrt{2}$\n    \\item[(D)] $3 + \\sqrt{3}$\n\\end{enumerate}",
         "index": 194,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_194.png"
+            "images/Math_194.png"
         ],
         "answer": "B"
     },
@@ -1919,7 +1919,7 @@
         "question": "In the given square $PQRS$ with side length $x$, points $T$ and $U$ are located such that $PT = 3$ and $RU = 5$.  The line segment $TU$ intersects the diagonal $PR$ at point $V$. If the area of $\\triangle PTU$ is twice the area of $\\triangle QTU$, what is the value of $x$?\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{15}{4}$\n    \\item[(B)] $\\frac{15}{2}$\n    \\item[(C)] $5$\n    \\item[(D)] $6$\n\\end{enumerate}",
         "index": 195,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_195.png"
+            "images/Math_195.png"
         ],
         "answer": "B"
     },
@@ -1928,7 +1928,7 @@
         "question": "Let the points $A(-2, 0)$, $B(8, 0)$, and $D(0, d)$ lie on a circle with center $O(0,0)$.  Find the equation of the circle.\n\n\\begin{enumerate}\n    \\item[(A)] $x^2 + y^2 = 100$\n    \\item[(B)] $x^2 + y^2 = 25$\n    \\item[(C)] $x^2 + y^2 = 10$\n    \\item[(D)] $x^2 + y^2 = 64$\n\\end{enumerate}",
         "index": 196,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_196.png"
+            "images/Math_196.png"
         ],
         "answer": "B"
     },
@@ -1937,7 +1937,7 @@
         "question": "In the given figure, line segment $AL$ intersects the circle at points $R$ and $M$. Line segment $AK$ is tangent to the circle at point $K$.  If the length of $AR$ is 6 and the length of $RL$ is 10, what is the length of $AK$?\n\n\\begin{enumerate}\n    \\item[(A)] $2\\sqrt{15}$\n    \\item[(B)] $4\\sqrt{15}$\n    \\item[(C)] $6\\sqrt{15}$\n    \\item[(D)] $8\\sqrt{15}$\n\\end{enumerate}",
         "index": 197,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_197.png"
+            "images/Math_197.png"
         ],
         "answer": "B"
     },
@@ -1946,7 +1946,7 @@
         "question": "Let the parabola in the figure be defined by $y = ax^2 + bx + c$, where $a$, $b$, and $c$ are constants. Let the line passing through points $P$ and $R$ be defined by $y = mx + k$, where $m$ and $k$ are constants.  Points $P$ and $Q$ are the $x$-intercepts of the parabola. Point $R$ is the intersection of the line and the parabola.  If the $x$-coordinate of $R$ is twice the $x$-coordinate of $Q$, what is the ratio $\\frac{k}{c}$?\n\n\\begin{enumerate}\n    \\item[(A)] $2$\n    \\item[(B)] $3$\n    \\item[(C)] $4$\n    \\item[(D)]  $\\frac{1}{2}$\n\\end{enumerate}",
         "index": 198,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_198.png"
+            "images/Math_198.png"
         ],
         "answer": "B"
     },
@@ -1955,7 +1955,7 @@
         "question": "Let $Z$, $Y$, $X$, and $W$ represent the areas of the respective circles in the diagram.  Assuming all smaller circles have the same area, and larger circles are composed of smaller circles plus any remaining area, determine the ratio $\\frac{Z}{Y}$.\n\n\\begin{enumerate}\n    \\item[(A)] $\\frac{7}{9}$\n    \\item[(B)] $\\frac{7}{8}$\n    \\item[(C)] $\\frac{8}{9}$\n    \\item[(D)] $\\frac{9}{7}$\n\\end{enumerate}",
         "index": 199,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_199.png"
+            "images/Math_199.png"
         ],
         "answer": "C"
     },
@@ -1964,7 +1964,7 @@
         "question": "In the given diagram, $ABCD$ is a rectangle.  Points $E$ and $F$ are located such that $\\angle AED = \\angle BFC = 90^\\circ$.  Given $AE = 15$, $BF = 24$, and the length of the diagonal $BD$ is 20.  What is the area of rectangle $ABCD$?\n\n\\begin{enumerate}\n    \\item[(A)] $300$\n    \\item[(B)] $360$\n    \\item[(C)] $240$\n    \\item[(D)] $150$\n\\end{enumerate}",
         "index": 200,
         "image_url": [
-            "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_200.png"
+            "images/Math_200.png"
         ],
         "answer": "B"
     }
