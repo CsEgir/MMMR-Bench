@@ -1,0 +1,1194 @@
+[
+  {
+    "ID": "phy_94",
+    "question": "A parallel plate capacitor having plates of area $S$ and plate separation $d$, has capacitance $C_1$ in air. When two dielectrics of different relative permittivities ($\\epsilon_1 = 2$ and $\\epsilon_2 = 4$) are introduced between the two plates as shown in the figure, the capacitance becomes $C_2$. The ratio $\\frac{C_2}{C_1}$ is\n<image_1>",
+    "subject": "Physics",
+    "category": "3d Field Simulation",
+    "options": [
+      "$6/5$",
+      "$5/3$",
+      "$7/5$",
+      "$7/3$"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_121.png"
+    ],
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "question": "How many objects are there in the scene based on these views?",
+    "answer": 6,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_139.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "category": "Math",
+    "question": "Use the graph to answer the question below. Which month is the wettest on average in Christchurch?",
+    "index": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_2.jpg"
+    ],
+    "answer": "May",
+    "Category": "Math"
+  },
+  {
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_34.png"
+    ],
+    "question": "I'm currently watching a movie at Sainik Club Cinema Hall, which ends at 11:05 PM. Afterward, I'll have dinner before heading home. My favorite food is roasted meat dishes from the Middle East. Can you suggest a good restaurant?\nOptions:\nThe Garden Kitchen at Sheraton Dhaka\nTempt-Asia Restaurant\nKasundi Restaurant\nStar Kabab & Restaurant\n",
+    "Category": "MAP"
+  },
+  {
+    "id": 74,
+    "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_74.jpg"
+    ],
+    "source": "LogicVista",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "question": "Select the correct arrangement from the options below to reconstruct the original image. Each option defines the subfigure positions as [top-left, top-right, bottom-left, bottom-right].  Your options are: A. [4, 3, 2, 1], B. [2, 1, 4, 3], C. [1, 3, 4, 2], D. [4, 1, 3, 2].",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_5.jpg"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 28,
+    "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_28.jpg"
+    ],
+    "source": "Marvel",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+    "index": 48,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_48.png"
+    ],
+    "answer": "B",
+    "Category": "Math"
+  },
+  {
+    "id": 73,
+    "question": "Given on the left is the unfolded view of the outer surface of the cardboard box. Which item on the right can be folded from it?",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_73.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "As shown in the figure, then angle 2 is equal to ()\nChoices:\nA:50°\nB:40°\nC:140°\nD:130°",
+    "index": 13,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_13.png"
+    ],
+    "answer": "A",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "Find the area of the figure enclosed between the curves $y = 4 \\cdot x^2$, $y = \\frac{ x^2 }{ 9 }$, and $y = 2$:",
+    "index": 91,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_91.png"
+    ],
+    "answer": "Area: $\\frac{20\\cdot\\sqrt{2}}{3}$",
+    "Category": "Math"
+  },
+  {
+    "ID": "phy_40",
+    "question": "Colliding Conducting Slab A thin conducting square slab with side length $s=5 \\mathrm{~cm}$, initial charge $q=0.1 \\mu \\mathrm{C}$, and mass $m=100 \\mathrm{~g}$ is given a kick and sent bouncing between two infinite conducting plates separated by a distance $d=0.5 \\mathrm{~cm} \\ll s$ and with surface charge density $\\pm \\sigma= \\pm 50 \\mu \\mathrm{C} / \\mathrm{m}^{2}$. After a long time it is observed exactly in the middle of the two plates to be traveling with velocity of magnitude $v=3 \\mathrm{~m} / \\mathrm{s}$ and direction $\\theta=30^{\\circ}$ with respect to the horizontal line parallel to the plates. How many collisions occur after it has traveled a distance $L=15 \\mathrm{~m}$ horizontally from when it was last observed? Assume that all collisions are elastic, and neglect induced charges. Note that the setup is horizontal so gravity does not need to be accounted for.\n<image_1>",
+    "subject": "Physics",
+    "category": "3d Field Simulation",
+    "options": [
+      "25723",
+      "25273",
+      "865",
+      "1730"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_62.png"
+    ],
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "id": 42,
+    "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_42.jpg"
+    ],
+    "source": "LogicVista",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "chem_1020",
+    "question": "Please choose the SMILES expression of the transition-state structure shown in the image, ignoring the arrows. <image_1>",
+    "subject": "Chemistry",
+    "category": "Structure Recognition",
+    "options": [
+      "C1(O)C(C(=O)OCC)C(=O)C(C(=O)CC)C1()O",
+      "*C1(O)C(C(=O)OCC)C(=O)C(C(=O)OCC)C1(*)O",
+      "C1C2C(C(C1C(=O)OCC)O)(C(C2O)O)C(=O)OCC",
+      "C1(O)C(C(=O)OCC)C(=O)C(C(=O)OCC)C1O"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_1447.png"
+    ],
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "id": 37,
+    "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "answer": 3,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_37.jpg"
+    ],
+    "source": "Marvel",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "validation_Physics_25",
+    "question": "<image 1> An object is placed at a distance of 1.5f from a converging lens of focal length f, as shown. What type of image is formed and what is its size relative to the object?Type/Size",
+    "options": "['Virtual/Larger', 'Virtual/Same size', 'Real/Smaller', 'Real/Larger']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/validation_Physics_25_1.png"
+    ],
+    "subfield": "Optics",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Physics_17",
+    "question": "Which graph shows how power dissipated P varies with current I in a component that obeys Ohm's law?<image 1>",
+    "options": "['A', 'B', 'C', 'D']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/validation_Physics_17_1.png"
+    ],
+    "subfield": "Electromagnetism",
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Physics_28",
+    "question": "<image 1>A picture P of weight W is hung by two strings as shown. The magnitude of the tension force of each string is T. The total upward pull of the strings on the picture is:",
+    "options": "['2W cos $\\\\theta $', 'T sin $\\\\theta $', 'T cos $\\\\theta $', '2T sin $\\\\theta $']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/validation_Physics_28_1.png"
+    ],
+    "subfield": "Classical Mechanics",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "question_id": "20240408160012_0_0",
+    "question": "You are now in a 14 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Navy Blue, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "Starting at the Red start point, move left until you come across the marker labeled \"0p.\" From there, move up until you reach the marker labeled \"z4.\" Finally, move left until you reach the Gold end point. Be sure to avoid the Navy Blue obstacle area and stick to the Light Pink free area.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_67.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "ID": "chem_748",
+    "question": "Please choose the SMILES expression of the transition-state structure shown in the image, ignoring the arrows. <image_1>",
+    "subject": "Chemistry",
+    "category": "Structure Recognition",
+    "options": [
+      "C()O.C[S+](C)C1C(=O)CCC1=O.[Cl-]",
+      "C()O.C[S+](C)N1C(=O)CC(C)C1=O.[Cl-]",
+      "C1C(=O)NC(=O)C1[S+](=O)(C)Cl[O-]C(C)R1R2",
+      "*C(*)O.C[S+](C)N1C(=O)CCC1=O.[Cl-]"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_1175.png"
+    ],
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "question_id": "20240408163730_0_0",
+    "question": "You are now in a 10 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Purple, and the color of free area is Lavender. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To navigate through the maze from the start point to the end point, follow these instructions:\n\n1. Start at the Red point.\n2. Move left until you reach the marker labeled 3b.\n3. Then, move up until you reach the marker labeled 4u.\n4. Finally, move right to reach the Gold endpoint.\n\nBy following this path, you will be able to successfully navigate through the maze while avoiding the obstacles.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_61.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "category": "Math",
+    "question": "Find the area of the shaded region. \nChoices:\nA:35.2\nB:43.2\nC:53.5\nD:56.9",
+    "index": 32,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_32.png"
+    ],
+    "answer": "D",
+    "Category": "Math"
+  },
+  {
+    "qid": "q18",
+    "answer": "from typing import List\n\n\ndef solution(matrix: List[List[int]]) -> List[int]:\n    \"\"\"\n    Given an M x N 2D matrix, traverse the matrix according to the spiral pattern shown in the figure\n\n    Parameters:\n    matrix (List[List[int]]): A 2D list of integers representing the matrix.\n\n    Returns:\n    List[int]: A list of integers representing the elements of the matrix in the order as shown in the picture.\n    \"\"\"\n    result = []\n    top, bottom = 0, len(matrix) - 1\n    left, right = 0, len(matrix[0]) - 1\n\n    while top <= bottom and left <= right:\n        # Traverse from right to left\n        for i in range(right, left - 1, -1):\n            result.append(matrix[top][i])\n        top += 1\n\n        # Traverse from top to bottom\n        for i in range(top, bottom + 1):\n            result.append(matrix[i][left])\n        left += 1\n\n        if top <= bottom:\n            # Traverse from left to right\n            for i in range(left, right + 1):\n                result.append(matrix[bottom][i])\n            bottom -= 1\n\n        if left <= right:\n            # Traverse from bottom to top\n            for i in range(bottom, top - 1, -1):\n                result.append(matrix[i][right])\n            right -= 1\n\n    return result\n",
+    "question": "# Problem Description\nThis is a matrix traversal problem where we need to:\n- Start from the top-right corner of a given matrix\n- Follow a specific spiral pattern in counter-clockwise direction\n- Collect all elements in the order of traversal\n- The traversal pattern should work for matrices of different sizes (MxN)\n\n# Visual Facts\n1. Four example matrices are shown with different dimensions:\n   - 4x1 (top-right)\n   - 4x2 (top-left)\n   - 4x3 (bottom-left)\n   - 4x4 (bottom-right)\n2. Each matrix is numbered sequentially from 1 to maximum cells (N×M)\n3. Arrows indicate the direction of traversal\n4. Starting point is always at position (0, N-1) (top-right corner)\n5. Initial movement is always leftward\n\n# Visual Patterns\n1. Movement Direction Pattern:\n   - Follows a consistent sequence: Left → Down → Right → Up → Left → ...\n   - Arrows show the traversal direction changes at boundaries or visited cells\n\n2. Traversal Rules:\n   - First move: Always move left along the top row\n   - Each cell is visited exactly once\n   - When can't move in current direction, rotate counter-clockwise\n   - Forms a spiral pattern inward\n   - Continue until all cells are visited\n",
+    "test_script": "def test():\n    test_cases = [\n        ([[1, 2]], [2, 1]),\n        ([[1, 2], [3, 4]], [2, 1, 3, 4]),\n        ([[1, 2, 3], \n          [4, 5, 6], \n          [7, 8 , 9]], [3, 2, 1, 4, 7, 8, 9, 6, 5]),\n        ([[1,2,3,4],\n          [5,6,7,8],\n          [9,10,11,12]], [4, 3, 2, 1, 5, 9, 10, 11, 12, 8, 7, 6]),\n        ([[1, 3, 5, 6, 2], \n          [43, 23, 19, 22, 33], \n          [12, 11, 6, 8, 4]], [2, 6, 5, 3, 1, 43, 12, 11, 6, 8, 4, 33, 22, 19, 23]),\n        ([[1, 2], \n          [3, 4], \n          [5, 6], \n          [7, 8]], [2, 1, 3, 5, 7, 8, 6, 4]),\n        ([[1, 2, 3, 4, 5, 6, 7], \n          [8, 9, 10, 11, 12, 13, 14]], [7, 6, 5, 4, 3, 2, 1, 8, 9, 10, 11, 12, 13, 14]),\n        ([[1, 2, 3, 4, 5, 6, 7, 8], \n          [13, 24, 32, 41, 54, 65, 76, 87], \n          [43, 2, 87, 5, 4, 66, 13, 94], \n          [0, 12, 87, 43, 56, 36, 92, 44], \n          [32, 33, 34, 55, 56, 72, 73, 77]], [8, 7, 6, 5, 4, 3, 2, 1, 13, 43, 0, 32, 33, 34, 55, 56, 72, 73, 77, 44, 94, 87, 76, 65, 54, 41, 32, 24, 2, 12, 87, 43, 56, 36, 92, 13, 66, 4, 5, 87]),\n        ([[1, 3, 5], \n          [7, 9, 11], \n          [2, 4, 6], \n          [8, 10, 14]], [5, 3, 1, 7, 2, 8, 10, 14, 6, 11, 9, 4]),\n        ([[1, 2, 3, 4, 5, 6], \n          [7, 8, 9, 10, 11, 17],\n          [13, 15, 16, 19, 20, 91]], [6, 5, 4, 3, 2, 1, 7, 13, 15, 16, 19, 20, 91, 17, 11, 10, 9, 8]),\n    ]\n\n    for i, (matrix, expected_output) in enumerate(test_cases):\n        original_matrix = [row.copy() for row in matrix]\n        try:\n            output = solution(matrix)\n        except Exception as e:\n            error_message = (\n                f\"An exception occurred while running the test case:\\n\"\n                f\"`matrix`: {original_matrix}\\n\\n\"\n                f\"Exception: '{str(e)}'\"\n            )\n            assert False, error_message\n\n        if output != expected_output:\n            error_message = (\n                f\"The following Test Case failed:\\n\"\n                f\"`matrix`: {original_matrix}\\n\\n\"\n                f\"Actual Output: {output}\\n\"\n                f\"Expected Output: {expected_output}\"\n            )\n            assert False, error_message\n\ntest()",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_255.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "ID": "chem_1086",
+    "question": "An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. Please choose the SMILES expression for the molecules(state) after the electron has been relocated, as depicted in the image. <image_1>",
+    "subject": "Chemistry",
+    "category": "Reaction Simulation",
+    "options": [
+      "C12=CC=CC=C1C=C(NNc3ccccc3)C=C2",
+      "C12=CC=CC=C1C=C(NCc3ccccc3)C=C2",
+      "C1=CC=C(C=C1)C=C(NNc2ccc(C)cc2)",
+      "C12=CC=CC=C1C=C(NNc3ccc(C)cc3)C=C2"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_1513.png"
+    ],
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Geography_18",
+    "question": "Which thermometer in <image 1> stands for the international standard?",
+    "options": "['The top one', 'The bottom one']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_18_1.png"
+    ],
+    "subfield": "Physical Geography",
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "Find the surface area bounded by the curves $y=2^x$, $y=2^{-2 \\cdot x}$, and $y=4$.",
+    "index": 87,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_87.png"
+    ],
+    "answer": "$S$ = $\\frac{24-\\frac{9}{\\ln(2)}}{2}$",
+    "Category": "Math"
+  },
+  {
+    "question": "Given the front view and left view of a solid, please choose the correct top view from options A, B, C, and D.",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_46.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 32,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 10 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Complex Website Layout</title>\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap\">\n    <style>\n        body {\n            font-family: 'Roboto', sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f5f7fa;\n            color: #333;\n        }\n\n        header {\n            background-color: #4CAF50;\n            color: white;\n            padding: 20px 0;\n            text-align: center;\n        }\n\n        .container {\n            width: 90%;\n            margin: 0 auto;\n        }\n\n        .grid-container {\n            display: grid;\n            grid-template-columns: repeat(3, 1fr);\n            gap: 30px;\n            margin-top: 30px;\n        }\n\n        .grid-item {\n            background-color: #fff;\n            border: 1px solid #ddd;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        .grid-item h3 {\n            margin-top: 0;\n        }\n\n        .form-section {\n            background-color: #fff;\n            padding: 30px;\n            border-radius: 8px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n            margin-top: 30px;\n        }\n\n        .form-section h3 {\n            margin-top: 0;\n            font-size: 1.5em;\n        }\n\n        .form-group {\n            margin-bottom: 20px;\n        }\n\n        .form-group label {\n            display: block;\n            font-weight: bold;\n        }\n\n        .form-group input, .form-group select, .form-group textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            border-radius: 4px;\n            border: 1px solid #ccc;\n        }\n\n        .form-group input[type=\"checkbox\"], .form-group input[type=\"radio\"] {\n            width: auto;\n        }\n\n        .form-group .slider {\n            width: 100%;\n        }\n\n        .form-group .multi-select {\n            width: 100%;\n            height: 120px;\n        }\n\n        .table-container {\n            background-color: #fff;\n            padding: 20px;\n            margin-top: 30px;\n            border-radius: 8px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n\n        table, th, td {\n            border: 1px solid #ddd;\n        }\n\n        th, td {\n            padding: 15px;\n            text-align: left;\n        }\n\n        th {\n            background-color: #f2f2f2;\n        }\n\n        .footer {\n            background-color: #333;\n            color: white;\n            text-align: center;\n            padding: 20px 0;\n            margin-top: 40px;\n        }\n\n        .footer a {\n            color: white;\n            text-decoration: none;\n            margin: 0 10px;\n        }\n\n        .footer a:hover {\n            text-decoration: underline;\n        }\n\n        .dropdown {\n            padding: 10px;\n            border: 1px solid #ddd;\n            border-radius: 4px;\n        }\n    </style>\n</head>\n<body>\n\n<header>\n    <h1>Complex Website Layout</h1>\n</header>\n\n<div class=\"container\">\n    <div class=\"grid-container\">\n        <div class=\"grid-item\">\n            <h3>Product Information</h3>\n            <table>\n                <tr>\n                    <th>Product</th>\n                    <th>Price</th>\n                    <th>Availability</th>\n                </tr>\n                <tr>\n                    <td>Product A</td>\n                    <td>$30.00</td>\n                    <td>In Stock</td>\n                </tr>\n                <tr>\n                    <td>Product B</td>\n                    <td>$25.00</td>\n                    <td>Out of Stock</td>\n                </tr>\n                <tr>\n                    <td>Product C</td>\n                    <td>$50.00</td>\n                    <td>In Stock</td>\n                </tr>\n            </table>\n        </div>\n\n        <div class=\"grid-item\">\n            <h3>Recent News</h3>\n            <ul>\n                <li><strong>April 22, 2025:</strong> New product launch!</li>\n                <li><strong>April 21, 2025:</strong> Company expansion announcement.</li>\n                <li><strong>April 20, 2025:</strong> Spring Sale starting next week!</li>\n            </ul>\n        </div>\n\n        <div class=\"grid-item\">\n            <h3>Services</h3>\n            <ul>\n                <li>Web Design</li>\n                <li>SEO Optimization</li>\n                <li>App Development</li>\n                <li>Digital Marketing</li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"form-section\">\n        <h3>Contact Us</h3>\n        <form action=\"#\">\n            <div class=\"form-group\">\n                <label for=\"name\">Full Name</label>\n                <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\">\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"email\">Email Address</label>\n                <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter your email\">\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"message\">Message</label>\n                <textarea id=\"message\" name=\"message\" placeholder=\"Your message here\" rows=\"5\"></textarea>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"reason\">Reason for Contact</label>\n                <select id=\"reason\" name=\"reason\" class=\"dropdown\">\n                    <option value=\"support\">Support</option>\n                    <option value=\"sales\">Sales</option>\n                    <option value=\"feedback\">Feedback</option>\n                    <option value=\"general\">General Inquiry</option>\n                </select>\n            </div>\n\n            <div class=\"form-group\">\n                <label>Newsletter Subscription</label><br>\n                <input type=\"checkbox\" id=\"subscribe\" name=\"subscribe\" value=\"yes\"> Subscribe to our newsletter\n            </div>\n\n            <div class=\"form-group\">\n                <label>Preferred Contact Time</label><br>\n                <input type=\"radio\" id=\"morning\" name=\"contact_time\" value=\"morning\">\n                <label for=\"morning\">Morning</label><br>\n                <input type=\"radio\" id=\"afternoon\" name=\"contact_time\" value=\"afternoon\">\n                <label for=\"afternoon\">Afternoon</label><br>\n                <input type=\"radio\" id=\"evening\" name=\"contact_time\" value=\"evening\">\n                <label for=\"evening\">Evening</label>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"priority\">Priority Level</label>\n                <select id=\"priority\" name=\"priority\" class=\"dropdown\">\n                    <option value=\"low\">Low</option>\n                    <option value=\"medium\">Medium</option>\n                    <option value=\"high\">High</option>\n                </select>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"range\">Budget Range</label><br>\n                <input type=\"range\" id=\"range\" name=\"range\" min=\"1000\" max=\"10000\" step=\"500\" value=\"5000\" class=\"slider\">\n                <span id=\"rangeValue\">$5000</span>\n            </div>\n\n            <button type=\"submit\">Submit</button>\n        </form>\n    </div>\n\n    <div class=\"table-container\">\n        <h3>Team Members</h3>\n        <table>\n            <tr>\n                <th>Name</th>\n                <th>Role</th>\n                <th>Experience</th>\n                <th>Location</th>\n            </tr>\n            <tr>\n                <td>Alice Johnson</td>\n                <td>Project Manager</td>\n                <td>5 Years</td>\n                <td>New York</td>\n            </tr>\n            <tr>\n                <td>John Doe</td>\n                <td>Lead Developer</td>\n                <td>7 Years</td>\n                <td>Los Angeles</td>\n            </tr>\n            <tr>\n                <td>Emily Smith</td>\n                <td>Designer</td>\n                <td>3 Years</td>\n                <td>San Francisco</td>\n            </tr>\n        </table>\n    </div>\n</div>\n\n<footer class=\"footer\">\n    <p>&copy; 2025 Your Company. All rights reserved.</p>\n    <p>\n        <a href=\"#\">Privacy Policy</a> |\n        <a href=\"#\">Terms of Service</a> |\n        <a href=\"#\">Contact Us</a>\n    </p>\n</footer>\n\n<script>\n    document.getElementById(\"range\").oninput = function() {\n        document.getElementById(\"rangeValue\").textContent = \"$\" + this.value;\n    }\n</script>\n\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/35.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 71,
+    "question": "The picture on the left is the unfolded outer surface of the given cube paper box. Which item can be folded from it?",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_71.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "State the diameter.",
+    "index": 41,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_41.png"
+    ],
+    "answer": "8",
+    "Category": "Math"
+  },
+  {
+    "ID": "biology_2",
+    "question": "In the Gluteal region and thigh, identify the 149 structure. <image 1>",
+    "options": "['Superior gluteal nerve', 'Gluteus minimus', 'Semitendinosus', 'Piriformis']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/biology_2_1.png"
+    ],
+    "subfield": "Physiology",
+    "answer": "Gluteus minimus",
+    "Category": "Science"
+  },
+  {
+    "id": 68,
+    "question": "The three-dimensional figure on the left is composed of ①, ② and ③. Which of the following cannot be filled in the question mark?",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_68.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "f(x)=-5(x+4)^2+8. Which function has a greater maximum, f(x) or g(x)?",
+    "index": 112,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_112.jpg"
+    ],
+    "answer": "C",
+    "Category": "Math"
+  },
+  {
+    "id": 53,
+    "question": "This template is folded into:",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_53.jpg"
+    ],
+    "source": "MLRQA",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "id": 11,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 10 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Complex Website Design</title>\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\">\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f9;\n        }\n\n        header {\n            background-color: #333;\n            color: #fff;\n            padding: 10px 20px;\n            text-align: center;\n        }\n\n        .container {\n            width: 90%;\n            margin: 20px auto;\n        }\n\n        .main-content {\n            display: grid;\n            grid-template-columns: repeat(2, 1fr);\n            gap: 20px;\n        }\n\n        .side-bar {\n            background-color: #fff;\n            border: 1px solid #ddd;\n            padding: 20px;\n            border-radius: 5px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        .side-bar h3 {\n            text-align: center;\n            color: #333;\n        }\n\n        .side-bar select,\n        .side-bar input[type=\"checkbox\"],\n        .side-bar input[type=\"radio\"],\n        .side-bar input[type=\"range\"] {\n            width: 100%;\n            padding: 10px;\n            margin-bottom: 15px;\n            border: 1px solid #ddd;\n            border-radius: 5px;\n        }\n\n        .side-bar label {\n            display: block;\n            font-weight: bold;\n            margin-bottom: 8px;\n        }\n\n        .content {\n            background-color: #fff;\n            border: 1px solid #ddd;\n            padding: 20px;\n            border-radius: 5px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        .content h2 {\n            text-align: center;\n            color: #333;\n        }\n\n        .table-container {\n            overflow-x: auto;\n            margin-top: 20px;\n        }\n\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n\n        table th, table td {\n            padding: 15px;\n            text-align: left;\n            border: 1px solid #ddd;\n        }\n\n        table th {\n            background-color: #4CAF50;\n            color: white;\n        }\n\n        .dropdown-container {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 20px;\n        }\n\n        .dropdown-container select {\n            padding: 12px;\n            border: 1px solid #ddd;\n            border-radius: 5px;\n        }\n\n        .slider-container {\n            display: flex;\n            flex-direction: column;\n            gap: 10px;\n        }\n\n        .checkbox-group,\n        .radio-group {\n            margin-bottom: 20px;\n        }\n\n        .checkbox-group label,\n        .radio-group label {\n            font-weight: normal;\n        }\n\n        .footer {\n            background-color: #333;\n            color: #fff;\n            text-align: center;\n            padding: 20px;\n            margin-top: 40px;\n        }\n    </style>\n</head>\n<body>\n\n<header>\n    <h1>Complex Webpage Design</h1>\n</header>\n\n<div class=\"container\">\n    <div class=\"main-content\">\n        <div class=\"side-bar\">\n            <h3>Filters</h3>\n\n            <div class=\"dropdown-container\">\n                <div>\n                    <label for=\"dropdown1\">Category</label>\n                    <select id=\"dropdown1\">\n                        <option value=\"1\">Technology</option>\n                        <option value=\"2\">Science</option>\n                        <option value=\"3\">Arts</option>\n                    </select>\n                </div>\n\n                <div>\n                    <label for=\"dropdown2\">Location</label>\n                    <select id=\"dropdown2\">\n                        <option value=\"1\">New York</option>\n                        <option value=\"2\">London</option>\n                        <option value=\"3\">Tokyo</option>\n                    </select>\n                </div>\n            </div>\n\n            <div class=\"slider-container\">\n                <label for=\"range\">Price Range</label>\n                <input type=\"range\" id=\"range\" min=\"0\" max=\"1000\" value=\"500\">\n            </div>\n\n            <div class=\"checkbox-group\">\n                <label><input type=\"checkbox\"> Accept Terms and Conditions</label>\n                <label><input type=\"checkbox\"> Subscribe to Newsletter</label>\n            </div>\n\n            <div class=\"radio-group\">\n                <label><input type=\"radio\" name=\"gender\" value=\"male\"> Male</label>\n                <label><input type=\"radio\" name=\"gender\" value=\"female\"> Female</label>\n                <label><input type=\"radio\" name=\"gender\" value=\"other\"> Other</label>\n            </div>\n        </div>\n\n        <div class=\"content\">\n            <h2>Recent Data</h2>\n\n            <div class=\"table-container\">\n                <table>\n                    <thead>\n                        <tr>\n                            <th>Name</th>\n                            <th>Email</th>\n                            <th>Age</th>\n                            <th>Location</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td>John Doe</td>\n                            <td>john@example.com</td>\n                            <td>30</td>\n                            <td>New York</td>\n                        </tr>\n                        <tr>\n                            <td>Jane Smith</td>\n                            <td>jane@example.com</td>\n                            <td>25</td>\n                            <td>London</td>\n                        </tr>\n                        <tr>\n                            <td>Jim Brown</td>\n                            <td>jim@example.com</td>\n                            <td>40</td>\n                            <td>Tokyo</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n\n            <div class=\"table-container\">\n                <table>\n                    <thead>\n                        <tr>\n                            <th>Product</th>\n                            <th>Price</th>\n                            <th>Quantity</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td>Smartphone</td>\n                            <td>$499</td>\n                            <td>120</td>\n                        </tr>\n                        <tr>\n                            <td>Laptop</td>\n                            <td>$999</td>\n                            <td>50</td>\n                        </tr>\n                        <tr>\n                            <td>Headphones</td>\n                            <td>$199</td>\n                            <td>300</td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n\n<footer class=\"footer\">\n    <p>&copy; 2025 Complex Webpage Design. All rights reserved.</p>\n</footer>\n\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/32.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Time/image/Time_20.png"
+    ],
+    "answer": "In this scene, on the table, there is a blue plastic bag, a blue can, and a green plastic bag. The robotic arm picks up the green plastic bag from the far end and suspends it in mid-air.",
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "validation_Physics_11",
+    "question": "<image 1>A light ray is incident normal to a thin layer of glass. Given the figure, what is the minimum thickness of the glass that gives the reflected light an orange like color ($\\lambda $(air) orange light = 600nm)",
+    "options": "['50 nm', '100 nm', '150 nm', '200 nm']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/validation_Physics_11_1.png"
+    ],
+    "subfield": "Optics",
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "question_id": "20240409001534_0_0",
+    "question": "You are now in a 12 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To navigate through the maze, you must avoid the burgundy obstacle area and follow the white free area. Starting from the green start point, move downwards twice until you reach marker H1. From there, move to the right once until you reach marker q9. Then, move down one step to reach marker 9M. Finally, move upwards for nine steps to reach the blue end point. Remember to follow the markers to find the path.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_66.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_3.png"
+    ],
+    "question": "i am at সাগর ইলেকট্রিক সার্ভিস সেন্টার .What is the nearest mosque to my location?\nOptions:\nKalumaria Mosque\nAl Ihsan Jame Mosque\nKomlapur Jame Masjid\nMollikpur mosque\n",
+    "Category": "MAP"
+  },
+  {
+    "ID": "validation_Biology_29",
+    "question": "The primary disaccharide digestion product of starch is",
+    "options": "['<image 1>', '<image 2>', '<image 3>', '<image 4>', '<image 5>']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_29_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_29_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_29_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_29_4.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_29_5.png"
+    ],
+    "subfield": "Cell Biology",
+    "answer": "C",
+    "Category": "Science"
+  },
+  {
+    "id": 88,
+    "question": "Maria colours exactly 5 cells of this grid <image1> in grey. Then she has her 5 friends guess which cells she has coloured in and their answers are the five patterns $A, B, C, D$ and $E$. Maria looks at the patterns and says: \"One of you is right. The others have each guessed exactly four cells correctly.\" Which pattern did Maria paint?\n<image2> Options: A. A, B. B, C. C, D. D, E. E",
+    "answer": "E",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_88.jpg"
+    ],
+    "source": "MathVision",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "In the given diagram, $ABCD$ is a rectangle.  Points $E$ and $F$ are located such that $\\angle AED = \\angle BFC = 90^\\circ$.  Given $AE = 15$, $BF = 24$, and the length of the diagonal $BD$ is 20.  What is the area of rectangle $ABCD$?\n\n\\begin{enumerate}\n    \\item[(A)] $300$\n    \\item[(B)] $360$\n    \\item[(C)] $240$\n    \\item[(D)] $150$\n\\end{enumerate}",
+    "index": 200,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_200.png"
+    ],
+    "answer": "B",
+    "Category": "Math"
+  },
+  {
+    "question": "Given the front view and top view of a solid, please choose the correct left view from options A, B, C, and D.",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_51.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Given the front view and top view of a cut cylinder, please choose the correct left view from figures A, B, C, and D.",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_28.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Which frame appears first on the match timeline? A.<image> B.<image>",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_20.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_19.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "answer": "The awful homework\nSon: Ah! Today's homework is very difficult! I can't do it!Father:Depend on me!Teacher:Who did the homework? So many mistakes!Son:It's…it's…it's my father.Teacher:Let's go to see your father.Father:Hello! Teacher!Teacher:Go into the house!Teacher: It's really bad for you to do this simple homework! You should be beat!",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_54.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 69,
+    "question": "Given on the left is the unfolded diagram of the outer surface of a cube. Which of the following can be folded from it?",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_69.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "question": "Select the correct arrangement from the options below to reconstruct the original image. Each option defines the subfigure positions as [top-left, top-right, bottom-left, bottom-right].  Your options are: A. [4, 2, 1, 3], B. [2, 1, 4, 3], C. [3, 1, 4, 2], D. [4, 1, 3, 2].",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_22.jpg"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question_id": "20240408200430_0_0",
+    "question": "You are now in a 13 by 19 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Gray, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To find the path from the start to the end in the 13 by 19 maze, you need to move up 3 steps until you reach the marker A0. Then, move right 5 steps until you reach the marker n5. From there, move down 3 steps until you reach the marker I3. Finally, move right 7 steps and you will arrive at the end point. Be sure to avoid the dark gray obstacle area and stick to the light pink free area. The markers labeled A0, n5, and I3 will guide you along the path.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_63.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "ID": "validation_Geography_26",
+    "question": "The following rock mass structure types () do not belong to the \"Code for Geological Investigation of Water Resources and Hydropower Engineering\" (GB Classification of Rock Mass Structure for 50287-99)<image 1>",
+    "options": "['Overall, block, and sub block structures', 'Giant thick layered, thick layered, medium thick layered, interbedded, and thin layered structures', 'Weathering unloading structure and weathering fragment structure', 'Inlaid fragmented structure and fragmented structure']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_26_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "C",
+    "Category": "Science"
+  },
+  {
+    "id": 62,
+    "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_62.jpg"
+    ],
+    "source": "MLRQA",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "Circles $\\mathcal{P}$ and $\\mathcal{Q}$ have radii $1$ and $4$, respectively, and are externally tangent at point $A$. Point $B$ is on $\\mathcal{P}$ and point $C$ is on $\\mathcal{Q}$ so that line $BC$ is a common external tangent of the two circles. A line $\\ell$ through $A$ intersects $\\mathcal{P}$ again at $D$ and intersects $\\mathcal{Q}$ again at $E$. Points $B$ and $C$ lie on the same side of $\\ell$, and the areas of $\\triangle DBA$ and $\\triangle ACE$ are equal. This common area is $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n\n<image1>",
+    "index": 153,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_153.png"
+    ],
+    "answer": "129",
+    "level": 5,
+    "Category": "Math"
+  },
+  {
+    "question_id": "20240409000511_0_0",
+    "question": "You are now in a 11 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Lavender. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To navigate through this maze, follow these steps:\n\n1. Start at the red point.\n2. Move left until you reach the marker V4.\n3. Next, move up until you reach the marker 3V.\n4. Finally, move left until you reach the end point, which is marked in blue.\n\nBy following this path, you will successfully reach the end of the maze while avoiding the obstacles.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_54.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "id": 43,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 10 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Complex and Detailed Website</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n            color: #333;\n        }\n        header {\n            background-color: #2C3E50;\n            color: white;\n            padding: 20px;\n            text-align: center;\n        }\n        nav {\n            background-color: #34495E;\n            padding: 10px;\n        }\n        nav a {\n            color: white;\n            text-decoration: none;\n            padding: 10px;\n            margin: 0 15px;\n        }\n        nav a:hover {\n            background-color: #1ABC9C;\n        }\n        .container {\n            display: grid;\n            grid-template-columns: repeat(3, 1fr);\n            gap: 20px;\n            padding: 20px;\n        }\n        .section {\n            background-color: white;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n        }\n        .section h2 {\n            margin-top: 0;\n        }\n        .form-group {\n            margin-bottom: 15px;\n        }\n        .form-group label {\n            font-weight: bold;\n            margin-bottom: 5px;\n        }\n        input, select, textarea {\n            width: 100%;\n            padding: 8px;\n            border-radius: 4px;\n            border: 1px solid #ccc;\n            margin-top: 5px;\n        }\n        .multi-select {\n            display: flex;\n            flex-wrap: wrap;\n        }\n        .multi-select label {\n            margin-right: 10px;\n        }\n        .tables-container {\n            display: flex;\n            flex-direction: column;\n            gap: 20px;\n        }\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-bottom: 20px;\n        }\n        table th, table td {\n            padding: 12px;\n            text-align: left;\n            border: 1px solid #ddd;\n        }\n        table th {\n            background-color: #2C3E50;\n            color: white;\n        }\n        .slider-container {\n            display: flex;\n            align-items: center;\n            gap: 10px;\n        }\n        .slider-container input {\n            width: 70%;\n        }\n        .footer {\n            background-color: #34495E;\n            color: white;\n            padding: 20px;\n            text-align: center;\n        }\n    </style>\n</head>\n<body>\n\n<header>\n    <h1>Complex and Beautiful Web Page</h1>\n    <p>A richly detailed website showcasing various web elements.</p>\n</header>\n\n<nav>\n    <a href=\"#\">Home</a>\n    <a href=\"#\">About</a>\n    <a href=\"#\">Services</a>\n    <a href=\"#\">Contact</a>\n</nav>\n\n<div class=\"container\">\n    <div class=\"section\">\n        <h2>Personal Information</h2>\n        <form>\n            <div class=\"form-group\">\n                <label for=\"name\">Full Name</label>\n                <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"email\">Email Address</label>\n                <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter your email\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"phone\">Phone Number</label>\n                <input type=\"tel\" id=\"phone\" name=\"phone\" placeholder=\"Enter your phone number\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"dob\">Date of Birth</label>\n                <input type=\"date\" id=\"dob\" name=\"dob\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"bio\">Short Bio</label>\n                <textarea id=\"bio\" name=\"bio\" rows=\"4\" placeholder=\"Tell us something about yourself\"></textarea>\n            </div>\n        </form>\n    </div>\n\n    <div class=\"section\">\n        <h2>Preferences</h2>\n        <form>\n            <div class=\"form-group\">\n                <label for=\"theme\">Preferred Theme</label>\n                <select id=\"theme\" name=\"theme\">\n                    <option value=\"light\">Light</option>\n                    <option value=\"dark\">Dark</option>\n                    <option value=\"solarized\">Solarized</option>\n                </select>\n            </div>\n            <div class=\"form-group\">\n                <label>Notification Preferences</label>\n                <div class=\"multi-select\">\n                    <label><input type=\"checkbox\" name=\"notifications\" value=\"email\"> Email</label>\n                    <label><input type=\"checkbox\" name=\"notifications\" value=\"sms\"> SMS</label>\n                    <label><input type=\"checkbox\" name=\"notifications\" value=\"push\"> Push Notifications</label>\n                </div>\n            </div>\n            <div class=\"form-group\">\n                <label for=\"rating\">Rate Our Service</label>\n                <div class=\"slider-container\">\n                    <input type=\"range\" id=\"rating\" name=\"rating\" min=\"1\" max=\"5\" value=\"3\">\n                    <span id=\"rating-value\">3</span>\n                </div>\n            </div>\n        </form>\n    </div>\n\n    <div class=\"tables-container\">\n        <div class=\"section\">\n            <h2>Table 1: Employee List</h2>\n            <table>\n                <thead>\n                    <tr>\n                        <th>Name</th>\n                        <th>Role</th>\n                        <th>Department</th>\n                        <th>Location</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>John Doe</td>\n                        <td>Software Engineer</td>\n                        <td>Development</td>\n                        <td>New York</td>\n                    </tr>\n                    <tr>\n                        <td>Jane Smith</td>\n                        <td>Project Manager</td>\n                        <td>Operations</td>\n                        <td>Los Angeles</td>\n                    </tr>\n                    <tr>\n                        <td>Sam Wilson</td>\n                        <td>UX Designer</td>\n                        <td>Design</td>\n                        <td>Chicago</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <div class=\"section\">\n            <h2>Table 2: Product Inventory</h2>\n            <table>\n                <thead>\n                    <tr>\n                        <th>Product</th>\n                        <th>Category</th>\n                        <th>Price</th>\n                        <th>Stock</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Smartphone</td>\n                        <td>Electronics</td>\n                        <td>$499.99</td>\n                        <td>120</td>\n                    </tr>\n                    <tr>\n                        <td>Laptop</td>\n                        <td>Electronics</td>\n                        <td>$999.99</td>\n                        <td>45</td>\n                    </tr>\n                    <tr>\n                        <td>Headphones</td>\n                        <td>Accessories</td>\n                        <td>$199.99</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n\n        <div class=\"section\">\n            <h2>Table 3: Sales Data</h2>\n            <table>\n                <thead>\n                    <tr>\n                        <th>Month</th>\n                        <th>Sales</th>\n                        <th>Revenue</th>\n                        <th>Profit</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>January</td>\n                        <td>1000</td>\n                        <td>$50,000</td>\n                        <td>$15,000</td>\n                    </tr>\n                    <tr>\n                        <td>February</td>\n                        <td>1200</td>\n                        <td>$60,000</td>\n                        <td>$18,000</td>\n                    </tr>\n                    <tr>\n                        <td>March</td>\n                        <td>1500</td>\n                        <td>$75,000</td>\n                        <td>$22,500</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>\n\n<footer class=\"footer\">\n    <p>&copy; 2025 Complex Website. All rights reserved.</p>\n</footer>\n\n<script>\n    document.getElementById(\"rating\").oninput = function() {\n        document.getElementById(\"rating-value\").innerText = this.value;\n    };\n</script>\n\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/23.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "ID": "phy_8",
+    "question": "A rod of length L = 4.0 m lays flat on a frictionless horizontal surface. Four forces act on the rod as shown in the figure below. The rod rotates about point P, where clockwise rotation is positive. Calculate the net torque on the rod about point P.\n<image_1>",
+    "subject": "Physics",
+    "category": "Visual Decomposition Simulation",
+    "options": [
+      "4.38 N-m",
+      "-4.38 N-m",
+      "-1.6 N-m",
+      "1.6 N-m"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_28.png"
+    ],
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "ID": "phy_153",
+    "question": "<image_1>An object shown in the accompanying figure moves in uniform circular motion. Which arrow best depicts the net force acting on the object at the instant shown?",
+    "subject": "Physics",
+    "category": "Visual Decomposition Simulation",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_184.png"
+    ],
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "answer": 3,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_22.png"
+    ],
+    "question": "Could you please determine the total number of hospitals present?\nOptions:\nTwo\nThree\nFour\nFive\n",
+    "Category": "MAP"
+  },
+  {
+    "id": "cf_180_A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_195.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_196.png"
+    ],
+    "answer": "import sys\n(n, m, *inp) = map(int, sys.stdin.read().split())\ninp.reverse()\nf = [[0 for x in range(201)] for y in range(201)]\nc = [(0, 0)] * 201\nf_size = [0] * 201\n\ndef putData(f_id, s_id, c_id):\n\tglobal f, c\n\tf[f_id][s_id] = c_id\n\tc[c_id] = (f_id, s_id)\nfor f_id in range(1, m + 1):\n\tf_size[f_id] = inp.pop()\n\tfor s_id in range(1, f_size[f_id] + 1):\n\t\tc_id = inp.pop()\n\t\tputData(f_id, s_id, c_id)\ne_id = c[1:].index((0, 0)) + 1\nnext_id = 1\nop = []\nfor f_id in range(1, m + 1):\n\tfor s_id in range(1, f_size[f_id] + 1):\n\t\tif c[next_id] == (f_id, s_id):\n\t\t\tnext_id += 1\n\t\t\tcontinue\n\t\tif c[next_id] != (0, 0):\n\t\t\top.append((next_id, e_id))\n\t\t\tputData(c[next_id][0], c[next_id][1], e_id)\n\t\te_id = f[f_id][s_id]\n\t\tc[e_id] = (0, 0)\n\t\top.append((e_id, next_id))\n\t\tputData(f_id, s_id, next_id)\n\t\tnext_id += 1\nprint(len(op))\nfor p in op:\n\tprint('%d %d' % p)\n",
+    "question": "In this problem you have to implement an algorithm to defragment your hard disk. The hard disk consists of a sequence of clusters, numbered by integers from 1 to n. The disk has m recorded files, the i-th file occupies clusters with numbers a_{i, 1}, a_{i, 2}, ..., a_{i, ni}. These clusters are not necessarily located consecutively on the disk, but the order in which they are given corresponds to their sequence in the file (cluster a_{i, 1} contains the first fragment of the i-th file, cluster a_{i, 2} has the second fragment, etc.). Also the disc must have one or several clusters which are free from files.\nYou are permitted to perform operations of copying the contents of cluster number i to cluster number j (i and j must be different). Moreover, if the cluster number j used to keep some information, it is lost forever. Clusters are not cleaned, but after the defragmentation is complete, some of them are simply declared unusable (although they may possibly still contain some fragments of files).\nYour task is to use a sequence of copy operations to ensure that each file occupies a contiguous area of memory. Each file should occupy a consecutive cluster section, the files must follow one after another from the beginning of the hard disk. After defragmentation all free (unused) clusters should be at the end of the hard disk. After defragmenting files can be placed in an arbitrary order. Clusters of each file should go consecutively from first to last. See explanatory examples in the notes.\nPrint the sequence of operations leading to the disk defragmentation. Note that you do not have to minimize the number of operations, but it should not exceed 2n.\n\nInput\nThe first line contains two integers n and m (1 ≤ n, m ≤ 200) — the number of clusters and the number of files, correspondingly. Next m lines contain descriptions of the files. The first number in the line is n_{i} (n_{i} ≥ 1), the number of clusters occupied by the i-th file. Then follow n_{i} numbers a_{i, 1}, a_{i, 2}, ..., a_{i, ni} (1 ≤ a_{i, j} ≤ n). It is guaranteed that each cluster number occurs not more than once and ![image](1.png), that is, there exists at least one unused cluster. Numbers on each line are separated by spaces. \n\nOutput\nIn the first line print a single integer k (0 ≤ k ≤ 2n) — the number of operations needed to defragment the disk. Next k lines should contain the operations' descriptions as \"i j\" (copy the contents of the cluster number i to the cluster number j). \n\nExamples\nInput\n7 2\n2 1 2\n3 3 4 5\n\n\nOutput\n0\n\n\nInput\n7 2\n2 1 3\n3 2 4 5\n\n\nOutput\n3\n2 6\n3 2\n6 3\n\n\n\n\nNote\nLet's say that a disk consists of 8 clusters and contains two files. The first file occupies two clusters and the second file occupies three clusters. Let's look at examples of correct and incorrect positions of files after defragmentation. \n![image](2.png)Example 2: each file must occupy a contiguous area of memory.\nExample 3: the order of files to each other is not important, at first the second file can be written, and then — the first one.\nExample 4: violating the order of file fragments to each other is not allowed.\nExample 5: unused clusters should be located at the end, and in this example the unused clusters are 3, 7, 8.\n\n\n\nPlease use a python program to solve this problem\n\nexample_input:\n7 3\n1 7\n2 6 5\n3 4 3 2\n\n\nexample_output:\n7\n7 1\n2 7\n6 2\n3 6\n5 3\n6 5\n7 6\n\n\nTime limit:\n1 second\n\nMemory limit:\n256 megabytes\n",
+    "test_input": [
+      "100 30\n8 62 50 93 34 82 24 87 65\n2 64 86\n3 91 42 88\n2 76 7\n2 35 63\n3 78 84 15\n4 90 46 73 9\n4 74 13 95 58\n3 71 59 55\n2 4 31\n1 19\n1 10\n2 45 23\n2 27 69\n4 12 66 44 22\n1 36\n2 67 2\n2 77 54\n4 96 47 25 52\n5 18 29 43 70 56\n2 14 41\n2 100 6\n3 30 94 75\n2 32 28\n1 53\n9 26 39 51 68 33 99 79 89 49\n4 5 17 81 37\n3 57 8 16\n3 21 72 98\n4 83 48 40 61\n",
+      "7 2\n2 2 1\n3 3 4 5\n",
+      "3 2\n1 3\n1 2\n"
+    ],
+    "test_output": [
+      "168\n62 1\n2 3\n50 2\n3 11\n93 3\n4 20\n34 4\n5 34\n82 5\n6 38\n24 6\n7 24\n87 7\n8 50\n65 8\n9 60\n64 9\n10 62\n86 10\n11 64\n91 11\n12 65\n42 12\n13 42\n88 13\n14 80\n76 14\n15 76\n24 15\n16 24\n35 16\n17 35\n63 17\n18 63\n78 18\n19 78\n84 19\n20 82\n76 20\n21 76\n90 21\n22 84\n46 22\n23 46\n73 23\n24 73\n60 24\n25 60\n74 25\n26 74\n42 26\n27 42\n95 27\n28 85\n58 28\n29 58\n71 29\n30 71\n59 30\n31 59\n55 31\n32 55\n82 32\n33 82\n59 33\n34 59\n78 34\n35 78\n62 35\n36 62\n45 36\n37 45\n46 37\n38 46\n42 38\n39 42\n69 39\n40 69\n65 40\n41 65\n66 41\n42 66\n44 42\n43 44\n84 43\n44 84\n62 44\n45 62\n67 45\n46 67\n64 46\n47 64\n77 47\n48 77\n54 48\n49 54\n96 49\n50 86\n64 50\n51 64\n60 51\n53 60\n63 53\n54 63\n58 54\n55 58\n84 55\n56 84\n70 56\n57 70\n84 57\n58 84\n80 58\n59 80\n65 59\n60 65\n100 60\n61 87\n67 61\n62 67\n71 62\n63 71\n94 63\n64 88\n75 64\n65 75\n84 65\n66 84\n85 66\n67 85\n75 67\n68 75\n74 68\n69 74\n84 69\n70 84\n88 70\n71 88\n75 71\n72 75\n82 72\n73 82\n99 73\n74 90\n79 74\n75 79\n89 75\n76 89\n88 76\n77 88\n80 77\n79 80\n81 79\n80 81\n85 80\n81 85\n84 81\n82 84\n86 82\n83 86\n84 83\n89 84\n86 89\n98 86\n87 91\n89 87\n90 89\n91 90\n",
+      "3\n1 6\n2 1\n6 2\n",
+      "1\n3 1\n"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 84,
+    "question": "The left picture is the plane expansion diagram of the right picture. The numbers correspond to letters one by one. The number that corresponds to 123456 is:",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_84.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "id": 53,
+    "question": "This is a screenshot of a website. Please infer its functions based on the content in the screenshot and provide the implementation code for it.",
+    "answer": "\n> Reasoned for 7 seconds\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n  <title>Complex and Beautiful Website Design</title>\n  <style>\n    body {\n      font-family: 'Arial', sans-serif;\n      margin: 0;\n      padding: 0;\n      background-color: #f4f7fc;\n    }\n\n    header {\n      background-color: #343a40;\n      color: white;\n      padding: 20px 0;\n      text-align: center;\n    }\n\n    .container {\n      width: 85%;\n      margin: 0 auto;\n    }\n\n    .row {\n      display: flex;\n      flex-wrap: wrap;\n      gap: 20px;\n    }\n\n    .column {\n      flex: 1;\n      min-width: 200px;\n    }\n\n    section {\n      margin-bottom: 40px;\n      padding: 20px;\n      background-color: white;\n      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    }\n\n    h2 {\n      margin-top: 0;\n      font-size: 24px;\n    }\n\n    .table-container {\n      overflow-x: auto;\n    }\n\n    table {\n      width: 100%;\n      border-collapse: collapse;\n      margin: 20px 0;\n    }\n\n    th, td {\n      padding: 12px 15px;\n      border: 1px solid #ddd;\n      text-align: left;\n    }\n\n    th {\n      background-color: #007bff;\n      color: white;\n    }\n\n    .input-group {\n      display: flex;\n      gap: 10px;\n      margin-bottom: 20px;\n    }\n\n    input[type=\"text\"], input[type=\"number\"], select {\n      padding: 10px;\n      width: 100%;\n      border: 1px solid #ddd;\n      border-radius: 4px;\n    }\n\n    .slider-container {\n      display: flex;\n      align-items: center;\n      margin-top: 20px;\n    }\n\n    .slider-container input {\n      width: 70%;\n      margin-right: 15px;\n    }\n\n    .checkbox-group, .radio-group {\n      margin-top: 15px;\n    }\n\n    .checkbox-group input, .radio-group input {\n      margin-right: 10px;\n    }\n\n    .dropdown {\n      margin-top: 10px;\n    }\n\n    .dropdown select {\n      width: 100%;\n      padding: 12px;\n      border-radius: 4px;\n      border: 1px solid #ddd;\n    }\n\n    .nested-grid {\n      display: grid;\n      grid-template-columns: repeat(2, 1fr);\n      gap: 20px;\n    }\n\n    .nested-grid .column {\n      padding: 20px;\n      background-color: #f9f9f9;\n      border-radius: 8px;\n      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    }\n\n  </style>\n</head>\n<body>\n\n  <header>\n    <h1>Complex Website Layout</h1>\n    <p>A highly detailed, optimized, and beautiful website design</p>\n  </header>\n\n  <div class=\"container\">\n    <!-- Section 1: Data Table -->\n    <section>\n      <h2>Data Table 1: Employee Information</h2>\n      <div class=\"table-container\">\n        <table>\n          <thead>\n            <tr>\n              <th>Name</th>\n              <th>Position</th>\n              <th>Department</th>\n              <th>Salary</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>John Doe</td>\n              <td>Software Engineer</td>\n              <td>Development</td>\n              <td>$85,000</td>\n            </tr>\n            <tr>\n              <td>Jane Smith</td>\n              <td>Product Manager</td>\n              <td>Marketing</td>\n              <td>$92,000</td>\n            </tr>\n            <tr>\n              <td>Chris Johnson</td>\n              <td>UX Designer</td>\n              <td>Design</td>\n              <td>$77,000</td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </section>\n\n    <!-- Section 2: Nested Grid Layout -->\n    <section>\n      <h2>Nested Grid Layout Example</h2>\n      <div class=\"nested-grid\">\n        <div class=\"column\">\n          <h3>Column 1</h3>\n          <p>This column contains some nested sections with controls and inputs.</p>\n          <div class=\"input-group\">\n            <input type=\"text\" placeholder=\"Enter Name\">\n            <input type=\"number\" placeholder=\"Enter Age\">\n          </div>\n          <div class=\"checkbox-group\">\n            <label><input type=\"checkbox\"> Subscribe to newsletter</label>\n            <label><input type=\"checkbox\"> Accept Terms & Conditions</label>\n          </div>\n        </div>\n        <div class=\"column\">\n          <h3>Column 2</h3>\n          <p>Another column with additional options.</p>\n          <div class=\"radio-group\">\n            <label><input type=\"radio\" name=\"options\" value=\"Option 1\"> Option 1</label>\n            <label><input type=\"radio\" name=\"options\" value=\"Option 2\"> Option 2</label>\n          </div>\n          <div class=\"dropdown\">\n            <select>\n              <option value=\"option1\">Option 1</option>\n              <option value=\"option2\">Option 2</option>\n              <option value=\"option3\">Option 3</option>\n            </select>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <!-- Section 3: Form with Slider -->\n    <section>\n      <h2>Form with Sliders and Controls</h2>\n      <div class=\"input-group\">\n        <input type=\"text\" placeholder=\"Username\">\n        <input type=\"text\" placeholder=\"Email\">\n      </div>\n      <div class=\"slider-container\">\n        <label for=\"slider\">Adjust Volume</label>\n        <input type=\"range\" id=\"slider\" name=\"volume\" min=\"0\" max=\"100\" value=\"50\">\n        <span id=\"sliderValue\">50</span>\n      </div>\n    </section>\n\n    <!-- Section 4: Multiple Tables -->\n    <section>\n      <h2>Data Table 2: Product Inventory</h2>\n      <div class=\"table-container\">\n        <table>\n          <thead>\n            <tr>\n              <th>Product Name</th>\n              <th>Category</th>\n              <th>Stock</th>\n              <th>Price</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>Product A</td>\n              <td>Electronics</td>\n              <td>100</td>\n              <td>$150</td>\n            </tr>\n            <tr>\n              <td>Product B</td>\n              <td>Furniture</td>\n              <td>50</td>\n              <td>$300</td>\n            </tr>\n            <tr>\n              <td>Product C</td>\n              <td>Clothing</td>\n              <td>200</td>\n              <td>$50</td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </section>\n\n    <!-- Section 5: Final Control Arrangement -->\n    <section>\n      <h2>Advanced Control Layout</h2>\n      <div class=\"input-group\">\n        <input type=\"text\" placeholder=\"Search\">\n        <select>\n          <option value=\"category1\">Category 1</option>\n          <option value=\"category2\">Category 2</option>\n          <option value=\"category3\">Category 3</option>\n        </select>\n      </div>\n      <div class=\"checkbox-group\">\n        <label><input type=\"checkbox\"> Enable Notifications</label>\n        <label><input type=\"checkbox\"> Receive Updates</label>\n      </div>\n    </section>\n  </div>\n\n  <footer>\n    <p style=\"text-align: center; padding: 10px 0; background-color: #343a40; color: white;\">© 2025 Complex Website Layout</p>\n  </footer>\n\n  <script>\n    const slider = document.getElementById('slider');\n    const sliderValue = document.getElementById('sliderValue');\n\n    slider.oninput = function() {\n      sliderValue.textContent = slider.value;\n    }\n  </script>\n</body>\n</html>\n```",
+    "source": null,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/web_to_code/image/11.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "ID": "validation_Chemistry_29",
+    "question": "Among the following, the most stable isomer is :",
+    "options": "['<image 1>', '<image 2>', '<image 3>', '<image 4>']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_1.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_2.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_3.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/validation_Chemistry_29_4.png"
+    ],
+    "subfield": "Organic Chemistry",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "id": 9,
+    "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?",
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_9.jpg"
+    ],
+    "source": "Marvel",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "Considering the provided arrangement of lines and points, let $G$ be a graph where the points represent vertices and the lines represent edges.  Determine the chromatic number of the subgraph induced by the vertices in the region denoted by the intersection of lines $A$, $B$, $C$, and $D$.\n\n\\begin{enumerate}\n    \\item[(A)] 1\n    \\item[(B)] 2\n    \\item[(C)] 3\n    \\item[(D)] 4\n\\end{enumerate}",
+    "index": 183,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_183.png"
+    ],
+    "answer": "B",
+    "Category": "Math"
+  },
+  {
+    "ID": "biology_28",
+    "question": "According to <image 1>, humans are phylogenetically furthest from which of the following?",
+    "options": "['Homo heidelbergensis', 'Paranthropus robustus', 'Homo habilis', 'Australopithecus anamensis']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/biology_28_1.png"
+    ],
+    "subfield": "Evolution",
+    "answer": "Australopithecus anamensis",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Biology_22",
+    "question": "What is the coefficient of relatedness between individuals A and B in <image 1>?",
+    "options": "['3/8', '5/8', '1/4', '1/2', '3/4']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_22_1.png"
+    ],
+    "subfield": "Genetics",
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "answer": 2,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_16.png"
+    ],
+    "question": "Which church is near st johannes?\nOptions:\nGustaf Vasa Church\nAdolf Fredriks Forsamling\nSt Peter's Church\nCity Church\n",
+    "Category": "MAP"
+  },
+  {
+    "question": "Given the front view and left view of a solid, please choose the correct top view from options A, B, C, and D.",
+    "answer": "B",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_57.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": "cw_5601c5f6ba804403c7000004",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_233.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_234.png"
+    ],
+    "answer": "def bar_triang(a, b, c):\n\treturn [round(sum(x) / 3.0, 4) for x in zip(a, b, c)]\n",
+    "question": "![image](1.png)\n\nThe medians of a triangle are the segments that unit the vertices with the midpoint of their opposite sides.\nThe three medians of a triangle intersect at the same point, called the barycenter or the centroid.\nGiven a triangle, defined by the cartesian coordinates of its vertices we need to localize its barycenter or centroid.\n\nThe function ```bar_triang() or barTriang or bar-triang```, receives the coordinates of the three vertices ```A, B and C ``` as three different arguments and outputs the coordinates of the barycenter ```O``` in an array ```[xO, yO]```\n\nThis is how our asked function should work:\nthe result of the coordinates should be expressed up to four decimals, (rounded result).\n\nYou know that the coordinates of the barycenter are given by the following formulas.\n\n![image](2.png)\n\nFor additional information about this important point of a triangle see at: (https://en.wikipedia.org/wiki/Centroid)\n\nLet's see some cases:\n```python\nbar_triang([4, 6], [12, 4], [10, 10]) ------> [8.6667, 6.6667]\n\nbar_triang([4, 2], [12, 2], [6, 10] ------> [7.3333, 4.6667]\n```\n```ruby\nbar_triang([4, 6], [12, 4], [10, 10]) ------> [8.6667, 6.6667]\n\nbar_triang([4, 2], [12, 2], [6, 10] ------> [7.3333, 4.6667]\n```\n```javascript\nbarTriang([4, 6], [12, 4], [10, 10]) ------> [8.6667, 6.6667]\n\nbarTriang([4, 2], [12, 2], [6, 10]) ------> [7.3333, 4.6667]\n```\n```clojure\nbar-triang([4, 6], [12, 4], [10, 10]) ------> [8.6667, 6.6667]\n\nbar-triang([4, 2], [12, 2], [6, 10] ------> [7.3333, 4.6667]\n\n(bar-triang [0, 0], [1, 6], [8, -6]) ------> [3.0, 0.0]\n```\n```haskell\nbarTriang (4, 6) (12, 4) (10, 10) ------> (8.6667, 6.6667])\n\nbarTriang (4, 2) (12, 2) (6, 10) ------> (7.3333, 4.6667)\n```\n```java\nbarTriang([4, 6], [12, 4], [10, 10]) ------> {8.6667, 6.6667}\n\nbarTriang([4, 2], [12, 2], [6, 10] ------> {7.3333, 4.6667}\n```\n```elixir\nbar_triang({4, 6}, {12, 4}, {10, 10}) ------> {8.6667, 6.6667}\n\nbar_triang({4, 2}, {12, 2}, {6, 10}) ------> {7.3333, 4.6667}\n```\nThe given points form a real or a degenerate triangle but in each case the above formulas can be used.\n\nEnjoy it and happy coding!!\n\n\nPlease use a python program to solve this problem\n\nexample_input:\n[[4, 6], [12, 4], [10, 10]]\n\nexample_output:\n[[8.6667, 6.6667]]\n",
+    "test_input": [
+      [
+        [
+          4,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          6,
+          10
+        ]
+      ],
+      [
+        [
+          4,
+          8
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          16,
+          6
+        ]
+      ]
+    ],
+    "test_output": [
+      [
+        [
+          7.3333,
+          4.6667
+        ]
+      ],
+      [
+        [
+          9.3333,
+          5.3333
+        ]
+      ]
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 34,
+    "question": "According to the following graph rule, the question mark is filled in with ().",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_34.jpg"
+    ],
+    "source": "MLRQA",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "question": "The first image is the original image, and the following images are the pieces of the original image. Put the pieces back together in the correct order. Your options are: A. [3, 1, 0, 2], B. [1, 0, 3, 2], C. [0, 2, 3, 1], D. [3, 0, 2, 1].",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_37.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_38.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_39.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_40.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/Old/Space/image/Space_41.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Among the following four sets of views where the front views are all full sectional views, please choose the option (A, B, C, or D) where the front view has missing lines.",
+    "answer": "A",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_34.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "ID": "geography_6",
+    "question": "The minimum value of characteristic load for bearing capacity under the same foundation is ()()<image 1>",
+    "options": "['pu', 'p1/4', 'p1/3', 'pcr']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/geography_6_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "pcr",
+    "Category": "Science"
+  },
+  {
+    "ID": "geography_9",
+    "question": "Of the following characteristic indicators of soft clay, () is definitely problematic?<image 1> ",
+    "options": "['Unconfined compressive strength 10KPa', 'c', 'Standard penetration hammer blow count 8 blows/30cm ', 'Shear wave velocity 100m/s']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/geography_9_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "Static penetration resistance value 30KPa",
+    "Category": "Science"
+  },
+  {
+    "pid": "coding_24",
+    "answer": "D",
+    "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nsource_samples = np.array([0, 200, 400, 600, 800, 1000, 1200])\nad_error = np.array([0.24, 0.18, 0.15, 0.14, 0.15, 0.12, 0.13])\ncv_error = np.array([0.22, 0.19, 0.18, 0.17, 0.18, 0.15, 0.14])\nfcv_error = np.array([0.23, 0.2, 0.19, 0.18, 0.19, 0.16, 0.15])\niwcv_error = np.array([0.24, 0.21, 0.19, 0.18, 0.19, 0.17, 0.16])\nad_error_std = np.array([0.02, 0.01, 0.02, 0.01, 0.03, 0.02, 0.01])\ncv_error_std = np.array([0.02, 0.01, 0.01, 0.01, 0.02, 0.02, 0.01])\nfcv_error_std = np.array([0.01, 0.01, 0.01, 0.02, 0.01, 0.01, 0.01])\niwcv_error_std = np.array([0.03, 0.02, 0.01, 0.02, 0.02, 0.01, 0.01])\nplt.errorbar(source_samples, ad_error, yerr=ad_error_std, fmt='--o', label='AD', capsize=5)\nplt.errorbar(source_samples, cv_error, yerr=cv_error_std, fmt='--^', label='CV', capsize=5)\nplt.errorbar(source_samples, fcv_error, yerr=fcv_error_std, fmt='-.s', label='FCV', capsize=5)\nplt.errorbar(source_samples, iwcv_error, yerr=iwcv_error_std, fmt='-.x', label='IWCV', capsize=5)\nplt.xlabel('Source samples')\nplt.ylabel('Target Q error')\nplt.title('Steel Plates Data.       (n_Q = 100)')\nplt.legend()\nplt.show()",
+    "task": "Code Choose Vis",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_93.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_94.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_95.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_96.png"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "category": "Math",
+    "question": "Find the surface area of the lemniscate: $\\rho^2 = a^2 \\cdot \\cos(2 \\cdot \\varphi)$.",
+    "index": 96,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_96.png"
+    ],
+    "answer": "$A$ = $a^2$",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "A square is placed in a co-ordinate system as shown. Each point $(x \\mid y)$ of the square is deleted and replaced by the point $\\left(\\frac{1}{x} \\mid \\frac{1}{y}\\right)$. Which diagram shows the resulting shape?\n<image1>\n<image2>",
+    "index": 140,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_140.png"
+    ],
+    "answer": "C",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "level": 4,
+    "Category": "Math"
+  },
+  {
+    "ID": "chem_399",
+    "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+    "subject": "Chemistry",
+    "category": "Knowledge-based counting",
+    "options": [],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_826.png"
+    ],
+    "answer": "19",
+    "Category": "Science"
+  },
+  {
+    "answer": 4,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_31.png"
+    ],
+    "question": "How to get to Sierra Leone Grammer School from Seabird Water Taxi after having lunch at Cole Street Guesthouse?\nOptions:\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn left onto Andrews St\nContinue onto Andrew St\nTurn right onto Macaulay St\nSierra Leone Grammar School\nHead northeast on Macaulay St\nTurn left at the 1st cross street toward Cole St\nTurn left at the 2nd cross street onto Cole St\nCole Street Guesthouse\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn left onto Andrews St\nContinue onto Andrew St\nTurn right onto Macaulay St\nSierra Leone Grammar School\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn left onto Macaulay St\nSierra Leone Grammar School\nHead northeast on Macaulay St\nTurn left at the 1st cross street toward Cole St\nTurn left at the 2nd cross street onto Cole St\nCole Street Guesthouse\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn right toward Cole St\nTurn left at the 1st cross street onto Cole St\nCole Street Guesthouse\nHead northeast on Cole St toward Damba Rd\nTurn right at the 1st cross street toward Macaulay St\nTurn right at the 2nd cross street onto Macaulay St\nSierra Leone Grammar School\n",
+    "Category": "MAP"
+  },
+  {
+    "ID": "validation_Biology_30",
+    "question": "Which feature(s) of this developing embryo are already established at the stage shown in <image 1>",
+    "options": "['segmentation', 'head-tail orientation', 'limb placement', 'type of symmetry', 'limb placement and segmentation', 'segmentation, type of symmetry and head-tail orientation', 'segmentation, head-tail orientation and limb placement', 'type of symmetry and head-tail orientation', 'segmentation and head-tail orientation']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_30_1.png"
+    ],
+    "subfield": "Animal Physiology",
+    "answer": "F",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "In the given diagram, points $B$, $D$, $E$, and $A$ are collinear.  $CE$ is perpendicular to $BA$.  Line segments $BF$ and $DF$ intersect at $F$.  Points $G$ and $H$ are defined such that $H$ lies on $CE$ and $G$ lies on $DE$, and $\\overline{HG} \\parallel \\overline{BA}$. If $\\angle CBF = \\theta$ and $\\angle CDF = \\phi$, what is the relationship between $\\theta$ and $\\phi$ assuming that $\\triangle BCE$ and $\\triangle ADE$ are similar?\n\n\\begin{enumerate}\n    \\item[(A)] $\\theta = \\phi$\n    \\item[(B)] $\\theta + \\phi = 90^\\circ$\n    \\item[(C)] $\\theta = 90^\\circ - \\phi$\n    \\item[(D)] $\\theta = 2\\phi$\n\\end{enumerate}",
+    "index": 187,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_187.png"
+    ],
+    "answer": "C",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "Parallelogram M N P Q, find \\angle M.\nChoices:\nA:30\nB:45\nC:60\nD:120",
+    "index": 29,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_29.png"
+    ],
+    "answer": "C",
+    "Category": "Math"
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "answer": "The cake without raisins in it\nSon:Daddy, you are very funny to make the cake!Father:Put it into the oven.Son:We forgot to put the raisins into the cake.Father:Uh, how can we add in the cake?Son:I have an idea.Son:We can shoot the raisins into the cake with this gun.Bang!Son:Daddy's marksmanship is great!",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_56.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question_id": "20240409121547_0_0",
+    "question": "You are now in a 10 by 20 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Forest Green, and the color of free area is Sky Blue. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To navigate through the maze and reach the end point, follow these instructions:\n\n1. Start at the Green point.\n2. Move up until you reach the marker at E4.\n3. Next, move left for 6 steps until you reach the marker at J0.\n4. From J0, move down for 2 steps until you reach the marker at J1.\n5. Finally, move left for 1 step, and you will have reached the end point at the Blue area.\n\nRemember to stay within the Sky Blue free area and avoid the Forest Green obstacle area.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_68.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "ID": "chem_54",
+    "question": "<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.",
+    "subject": "Chemistry",
+    "category": "Reaction Simulation Pro",
+    "options": [
+      "<image_2>",
+      "<image_3>",
+      "<image_4>",
+      "<image_5>"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_266.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_267.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_268.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_269.png",
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Chemistry/image_270.png"
+    ],
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "id": 43,
+    "question": "The following figure shows the plane expansion of a cube. The cube is most likely:",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_43.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "id": 5,
+    "question": "Among the four options, which one cannot be the view of the solid formed by folding the given unfolding diagram?",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_5.jpg"
+    ],
+    "source": "",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "category": "Math",
+    "question": "The lengths of the sides of triangle $X Y Z$ are $X Z=\\sqrt{55}$, $X Y=8, Y Z=9$. Find the length of the diagonal $X A$ of the rectangular parallelepiped in the figure.\n<image1>",
+    "index": 135,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_135.png"
+    ],
+    "answer": "10",
+    "level": 3,
+    "Category": "Math"
+  },
+  {
+    "question_id": "20240409000322_0_0",
+    "question": "You are now in a 18 by 15 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.",
+    "answer": "To navigate through the maze, start by moving right until you reach the marker at g4. From there, move down until you reach the marker at I8. Then, continue by moving left until you reach the end point. Remember to avoid the black obstacle area and stick to the light pink free area.",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_83.png"
+    ],
+    "Category": "MAP"
+  },
+  {
+    "ID": "validation_Biology_8",
+    "question": "Reto Zach studied the whelk-eating behavior of the Northwestern crow. Below are two flight paths that the crow could assume when eating whelks: <image 1>. Select the flight path that would be used most often and the response that best supports your answer.",
+    "options": "['Flight Path A: the crow has a wider view of his surroundings to assure that another bird will not steal the whelk', 'Flight Path A: the crow is maximizing the height to drop the whelk', 'Flight Path A: the crow is adding force to the downward movement to the whelk by flying higher', 'Flight Path B: the crow can see where the whelk lands', 'Flight Path B: the crow is throwing the whelk to the ground']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_8_1.png"
+    ],
+    "subfield": "Animal Behavior",
+    "answer": "A",
+    "Category": "Science"
+  },
+  {
+    "ID": "validation_Biology_5",
+    "question": "What is part B in the figure? <image 1>",
+    "options": "['Sheath', 'Viral genome', 'Capsid', 'Tail Fibers']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Biology/validation_Biology_5_1.png"
+    ],
+    "subfield": "Microbiology",
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "In the given coordinate plane, points $A(0, 3)$, $B(4, 0)$, and $C(k, 5)$ form a triangle.  If the area of $\\triangle ABC$ is 10 square units, what is the value of $k$?\n\n\\begin{enumerate}\n    \\item[(A)] 2\n    \\item[(B)] 3\n    \\item[(C)] 4\n    \\item[(D)] 5\n\\end{enumerate}",
+    "index": 182,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_182.png"
+    ],
+    "answer": "A",
+    "Category": "Math"
+  },
+  {
+    "category": "Math",
+    "question": "Consider a random walk on the 3x3 grid shown in the image, starting at the bottom-left corner.  At each step, the walker moves one unit up, down, left, or right with equal probability, but cannot move outside the grid.  Let $E_n$ be the expected number of visits to the central cell (the cell in the middle) after $n$ steps.  Which of the following statements regarding the behavior of $E_n$ as $n \\to \\infty$ is correct?\n\n\\begin{enumerate}\n    \\item[(A)] $\\lim_{n\\to\\infty} E_n = \\infty$\n    \\item[(B)] $\\lim_{n\\to\\infty} E_n = 0$\n    \\item[(C)] $\\lim_{n\\to\\infty} E_n$ exists and is a finite positive number.\n    \\item[(D)] $\\lim_{n\\to\\infty} E_n$ does not exist.\n\\end{enumerate}",
+    "index": 188,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_188.png"
+    ],
+    "answer": "C",
+    "Category": "Math"
+  },
+  {
+    "id": 16,
+    "question": "Which of the boxes comes next in the sequence? Select answers from A-E",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_16.jpg"
+    ],
+    "source": "LogicVista",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "validation_Geography_10",
+    "question": "The figure shows (a) and (b) two sections, (a) is a circle of rectangular holes, (b) a square u and v with circular holes are the spindle of the center. There are four answers about the moment of inertia L. and I, among which the correct is<image 1>",
+    "options": "['l(a)>1,(a);l(b)=l(b)', 'l.(a) >L(a);l(b)>l,(b)', 'l.(a) >2(a);l(b)>l,(b)', 'l.(a) >L(a);l(b)>2,(b)']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_10_1.png"
+    ],
+    "subfield": "Geotechnical Engineering",
+    "answer": "B",
+    "Category": "Science"
+  },
+  {
+    "category": "Math",
+    "question": "A unit cube has vertices $P_1, P_2, P_3, P_4, P_1', P_2', P_3'$, and $P_4'$. Vertices $P_2, P_3$, and $P_4$ are adjacent to $P_1$, and for $1\\leq i\\leq 4$, vertices $P_i$ and $P_i'$ are opposite to each other. A regular octahedron has one vertex in each of the segments $P_1P_2, P_1P_3, P_1P_4, P_1'P_2', P_1'P_3'$, and $P_1'P_4'$. What is the octahedron's side length?\n<image1>",
+    "index": 156,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_156.png"
+    ],
+    "answer": "A",
+    "options": [
+      "$\\frac{3\\sqrt{2}}{4}$",
+      "$\\frac{7\\sqrt{6}}{16}$",
+      "$\\frac{\\sqrt{5}}{2}$",
+      "$\\frac{2\\sqrt{3}}{3}$",
+      "$\\frac{\\sqrt{6}}{2}$"
+    ],
+    "level": 3,
+    "Category": "Math"
+  },
+  {
+    "ID": "validation_Geography_15",
+    "question": "The following statements of the rocks in <image 1> are all correct EXCEPT",
+    "options": "['Siltstone is cemented silt particles', 'Shale is Clay, breaking easily into flat flakes and plates', 'Chert is Silica, a microcrystalline form of quartz', 'None']",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Geography/validation_Geography_15_1.png"
+    ],
+    "subfield": "Physical Geography",
+    "answer": "D",
+    "Category": "Science"
+  },
+  {
+    "id": "az_2698",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Coding/MMRU-Coding/images/Code_222.png"
+    ],
+    "answer": "import sys\nreadline = sys.stdin.readline\nwrite = sys.stdout.write\ndef solve():\n    H, W = map(int, readline().split())\n    f = \".X\".index\n    S = [list(map(f, readline().strip())) for i in range(H)]\n    memo = {}\n    def dfs(px, py, qx, qy):\n        key = (px, py, qx, qy)\n        if key in memo:\n            return memo[key]\n        res = set()\n        for y in range(py, qy):\n            for x in range(px, qx):\n                if S[y][x]:\n                    continue\n                r1 = dfs(px, py, x, y)\n                r2 = dfs(x+1, py, qx, y)\n                r3 = dfs(px, y+1, x, qy)\n                r4 = dfs(x+1, y+1, qx, qy)\n                res.add(r1 ^ r2 ^ r3 ^ r4)\n        k = 0\n        while k in res:\n            k += 1\n        memo[key] = k\n        return k\n    if dfs(0, 0, W, H):\n        write(\"First\\n\")\n    else:\n        write(\"Second\\n\")\nsolve()\n",
+    "question": "\n\nProblem L\nWall Making Game\n\nThe game Wall Making Game, a two-player board game, is all the rage.\n\nThis game is played on an $H \\times W$ board. Each cell of the board is one of empty, marked, or wall. At the beginning of the game, there is no wall on the board.\n\nIn this game, two players alternately move as follows:\n\n-  A player chooses one of the empty cells (not marked and not wall). If the player can't choose a cell, he loses.\n-  Towards each of the four directions (upper, lower, left, and right) from the chosen cell, the player changes cells (including the chosen cell) to walls until the player first reaches a wall or the outside of the board.\n\nNote that marked cells cannot be chosen in step 1, but they can be changed to walls in step 2.\n\nFig.1 shows an example of a move in which a player chooses the cell at the third row and the fourth\ncolumn.\n\n![image](1.png)\nFig.1: An example of a move in Wall Making Game.\n\nYour task is to write a program that determines which player wins the game if the two players play optimally from a given initial board.\n\nInput\n\nThe first line of the input consists of two integers $H$ and $W$ $(1 \\leq H, W \\leq 20)$, where $H$ and $W$ are the height and the width of the board respectively. The following $H$ lines represent the initial board. Each of the $H$ lines consists of $W$ characters.\n\nThe $j$-th character of the $i$-th line is '.' if the cell at the $j$-th column of the $i$-th row is empty, or 'X' if the cell is marked.\n\nOutput\n\nPrint \"First\" (without the quotes) in a line if the first player wins the given game. Otherwise, print \"Second\" (also without the quotes) in a line.\n\nSample Input 1\n\n2 2\n..\n..\n\nOutput for the Sample Input 1\n\nSecond\nSample Input 2\n\n2 2\nX.\n..\n\nOutput for the Sample Input 2\n\nFirst\nSample Input 3\n\n4 5\nX....\n...X.\n.....\n.....\n\nOutput for the Sample Input 3\n\nFirst\n\nPlease use a python program to solve this problem\n\nexample_input:\n2 2\n..\n..\n\n\nexample_output:\nSecond\n\n",
+    "test_input": [
+      "2 2\nX.\n..\n",
+      "4 5\nX....\n...X.\n.....\n.....\n",
+      "3 5\n..X..\n.....\n.....\n"
+    ],
+    "test_output": [
+      "First\n",
+      "First\n",
+      "First\n"
+    ],
+    "Category": "Coding"
+  },
+  {
+    "id": 92,
+    "question": "All vehicles in the garage can only drive forwards or backwards. The black car wants to leave the garage (see diagram). What is the minimum number of grey vehicles that need to move at least a little bit so that this is possible?\n<image1>",
+    "answer": "4",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_92.jpg"
+    ],
+    "source": "MathVision",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "question": "Given the front view and top view of a solid, please choose the correct left view from options A, B, C, and D.",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_50.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "category": "Math",
+    "question": "Use the graph to find an approximate solution to $\\sqrt{6 x+7}=6$. Round your answer to the nearest integer. ",
+    "index": 61,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_61.png"
+    ],
+    "answer": "5",
+    "Category": "Math"
+  },
+  {
+    "question": "Given the front view and top view of a solid, please choose the correct left view from options A, B, C, and D.",
+    "answer": "C",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_41.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "question": "Select the correct arrangement from the options below to reconstruct the original image. Each option defines the subfigure positions as [top-left, top-right, bottom-left, bottom-right].  Your options are: A. [4, 2, 1, 3], B. [2, 1, 4, 3], C. [1, 3, 4, 2], D. [3, 1, 2, 4].",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Space/image/Space_3.jpg"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "id": 48,
+    "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.",
+    "answer": "D",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_48.jpg"
+    ],
+    "source": "MME-CoT_Logic",
+    "Category": "Logic_puzzle"
+  },
+  {
+    "ID": "phy_29",
+    "question": "A bicycle wheel of mass $M=2.8 \\mathrm{~kg}$ and radius $R=0.3 \\mathrm{~m}$ is spinning with angular velocity $\\omega=5 \\mathrm{rad} / \\mathrm{s}$ around its axis in outer space, and its center is motionless. Assume that it has all of its mass uniformly concentrated on the rim. A long, massless axle is attached to its center, extending out along its axis. A ball of mass $m=1.0 \\mathrm{~kg}$ moves at velocity $v=2 \\mathrm{~m} / \\mathrm{s}$ parallel to the plane of the wheel and hits the axle at a distance $h=0.5 \\mathrm{~m}$ from the center of the wheel. Assume that the collision is elastic and instantaneous, and that the ball's trajectory (before and after the collision) lies on a straight line.\n\n<image_1>\n\nFind the time it takes for the axle to return to its original orientation. Answer in seconds and round to three significant figures.",
+    "subject": "Physics",
+    "category": "Visual Decomposition Simulation",
+    "options": [
+      "0.458",
+      "3.77 \\, \\mathrm{seconds}",
+      "0.568",
+      "0.658"
+    ],
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Science/images/Physics/image_49.png"
+    ],
+    "answer": "C",
+    "Category": "Science"
+  },
+  {
+    "question": "Write a description for the given image sequence in a single paragraph, what is happening in this episode?",
+    "answer": "The sunset picture\nFather:I will have a rest and read the newspaper.Son:I draw a picture for you.Son:This is a boat.Son:This is lake.Son: Adding my daddy's head, a sunset picture?Father:Uh…what are you doing?",
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Space-Time/MMRU-Space-Time/New/Time/image/Time_63.png"
+    ],
+    "Category": "Space-Time"
+  },
+  {
+    "category": "Math",
+    "question": "Find the volume of the cylinder shown, correct to two decimal places.",
+    "index": 70,
+    "image_url": [
+      "/mnt/zeli/LRM_Benchmark/dataset/Math/Math-new/selected/images/Math_70.png"
+    ],
+    "answer": "Volume $=883.57 \\mathrm{~cm}^{3}$",
+    "Category": "Math"
+  }
+]
