@@ -1,0 +1,193 @@
+{
+    "ACC": 0.0,
+    "empty_answers": 16,
+    "results": [
+        {
+            "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 109.04889559745789)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_1.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 59.487916231155396)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_2.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.15810799598694)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_3.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "For the following three-dimensional figures, which of the four options cannot be its view (front view, top view, side view)?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.78887748718262)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_4.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Among the four options, which one cannot be the view of the solid formed by folding the given unfolding diagram?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.2154438495636)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_5.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Choose the most appropriate one from the four options given to fill in the question mark so that it shows a certain regularity.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('After a close look one sees that each column \u201crotates\u201d the three visual\u2010motifs (striping, a diagonal, and shading) through the three faces (top/front/right).  In the first column the stripes sit on the top, the diagonal on the front, the shading on the right; in the second column those three motifs have all \u201cstepped\u201d one face over; hence in the third column they must step once more.  The only choice in which stripes, a diagonal and a shaded face all appear in the correct positions is option C.  \\n\\n\\\\boxed{answer=C}', 52.557876110076904)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_6.jpg"
+            ],
+            "final_answer": "answer=C",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 50.06057858467102)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_7.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 46.91962289810181)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_8.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The left picture shows a polyhedron composed of 3 equal-sized gray cubes and 15 white cubes. It can be cut into three small polyhedrons \u2460, \u2461 and \u2462. The polyhedron represented by \u2462 may be:\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.65273094177246)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_9.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The outer surface of the paper box is given on the left. Which of the following can be folded from it?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 104.22151851654053)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_10.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The left-hand solid figure has only one face that is blackened as shown in the picture. The following options cannot be composed of three left-hand solid figures\uff08 \uff09\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 42.86607575416565)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_11.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Given on the left is the outer surface of a polyhedron. Which item on the right can be folded from it?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 53.52794361114502)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_12.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The following figure shows a given polyhedron and its outer surface development diagram. What is the corresponding relationship between the letters A, B, C, D and the edges represented by the numbers 1, 2, 3, and 4? Options: A.1-D\uff0c2-A\uff0c3-C\uff0c4-B B.1-C\uff0c2-A\uff0c3-D\uff0c4-B C.1-D\uff0c2-B\uff0c3-C\uff0c4-A D.1-C\uff0c2-B\uff0c3-D\uff0c4-A\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 50.095096826553345)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_13.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Given on the left is the unfolded diagram of the outer surface of a cube. Which of the following can be folded from it?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 51.42904567718506)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_14.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Figure \u2460 and Figure \u2461 are views of a cube from different angles. Which of the following cannot be the expanded view of the outer surface of the cube?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.749003171920776)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_15.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "On the left is a visual diagram of the front and back sides of a polyhedron composed of 15 white and 3 gray cubes. It can be composed of three polyhedrons \u2460, \u2461 and \u2462. Which one can fill in the question mark?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 45.15555500984192)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_16.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The following triangular prism is shown in the figure. A cylinder is dug out from it and then it is cut from any side. Which of the following cannot be the cross-section of the triangular prism?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.476508378982544)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/3D/3D_17.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ]
+}

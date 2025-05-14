@@ -1,0 +1,1008 @@
+{
+    "ACC": 0.0,
+    "empty_answers": 5,
+    "results": [
+        {
+            "question": "Is there a restaurants depicted in the image? If so, what is the name of this restaurants?\nOptions:\nABBA Arena\nBarbican Centre\nCity Spice - Voted Best Indian Restaurant Brick Lane\nWhitechapel Gallery\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The image depicts a map with various locations marked. Among the options provided, \"City Spice - Voted Best Indian Restaurant Brick Lane\" is the name of a restaurant depicted in the image. \n\nTherefore, the final answer is \\boxed{City Spice - Voted Best Indian Restaurant Brick Lane}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_1.png"
+            ],
+            "final_answer": "City Spice - Voted Best Indian Restaurant Brick Lane",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many hiking points are there?\nOptions:\nTwo\nThree\nOne\nFour\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The map shows two hiking points: \"Haeparang-gil starting point\" and \"Haeparang Trail 1st course Start.\" Therefore, the final answer is \\boxed{Two}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_2.png"
+            ],
+            "final_answer": "Two",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "i am at \u09b8\u09be\u0997\u09b0 \u0987\u09b2\u09c7\u0995\u099f\u09cd\u09b0\u09bf\u0995 \u09b8\u09be\u09b0\u09cd\u09ad\u09bf\u09b8 \u09b8\u09c7\u09a8\u09cd\u099f\u09be\u09b0 .What is the nearest mosque to my location?\nOptions:\nKalumaria Mosque\nAl Ihsan Jame Mosque\nKomlapur Jame Masjid\nMollikpur mosque\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, the nearest mosque to \u09b8\u09be\u0997\u09b0 \u0987\u09b2\u09c7\u0995\u099f\u09cd\u09b0\u09bf\u0995 \u09b8\u09be\u09b0\u09cd\u09ad\u09bf\u09b8 \u09b8\u09c7\u09a8\u09cd\u099f\u09be\u09b0 is Al Ihsan Jame Mosque. \n\nTherefore, the final answer is \\boxed{Al Ihsan Jame Mosque}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_3.png"
+            ],
+            "final_answer": "Al Ihsan Jame Mosque",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which hotel is on the left side of ht Vltava river?\nOptions:\nNarondni trida\nThe Julius Prague\nMandarin Oriental\nPrazsky hrad\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine which hotel is on the left side of the Vltava River, we need to identify the locations of the options provided on the map. The left side of the river is the western side.\n\n1. **Narodni trida**: This is not a hotel; it's a street or area in Prague.\n2. **The Julius Prague**: Located on the right (eastern) side of the Vltava River.\n3. **Mandarin Oriental**: Located on the left (western) side of the Vltava River, in the Mal\u00e1 Strana district.\n4. **Prazsky hrad**: This is Prague Castle, not a hotel, but it is located on the left (western) side of the Vltava River.\n\nBased on the options provided, the hotel located on the left side of the Vltava River is the Mandarin Oriental.\n\nThus, the final answer is \\boxed{Mandarin Oriental}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_4.png"
+            ],
+            "final_answer": "Mandarin Oriental",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Where is the nearest airport, i am currently at Selbourne Park?\nOptions:\nKumalo Aerodrome\nBangkok Airport\nDiplomat Chauffeur (Pvt) Ltd\nKumalo Aerobrome Terminal Building\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, Selbourne Park is located in Bulawayo, Zimbabwe. The nearest airport to Selbourne Park is Kumalo Aerodrome, which is located in the Kumalo area of Bulawayo. Therefore, the correct answer is:\n\n\\boxed{Kumalo Aerodrome}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_5.png"
+            ],
+            "final_answer": "Kumalo Aerodrome",
+            "correct_answer": 0,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many restaurants or caf\u00e9 are on the road Cekik - Seririt?\nOptions:\nTwo\nThree\nOne\nFour\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the number of restaurants or caf\u00e9s on the road Cekik - Seririt, we need to examine the map provided. The map shows several icons that represent restaurants or caf\u00e9s along the road. \n\nUpon inspection, the following establishments are identified as restaurants or caf\u00e9s on the Cekik - Seririt road:\n\n1. Warung D'BUCU\n2. Kopi Kubull Pemuteran\n3. The Sage Bali\n4. Warung De'Lekong\n\nTherefore, there are four restaurants or caf\u00e9s on the road Cekik - Seririt.\n\nThe final answer is \\boxed{Four}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_6.png"
+            ],
+            "final_answer": "Four",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which road to take to go from Denizli Pamukkale \u0130zci Evi to Melrose Viewpoint Hotel?\nOptions:\nY\u00f6r\u00fck Sk\nMehmet\u00e7ik Sk\nPala Sk\nKad\u0131o\u011flu Cd\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the road to take from Denizli Pamukkale \u0130zci Evi to Melrose Viewpoint Hotel, we need to analyze the map provided. \n\n1. Start at Denizli Pamukkale \u0130zci Evi.\n2. The closest road leading towards the direction of Melrose Viewpoint Hotel is Y\u00f6r\u00fck Sk.\n3. Follow Y\u00f6r\u00fck Sk as it leads directly towards the area where Melrose Viewpoint Hotel is located.\n\nTherefore, the road to take is Y\u00f6r\u00fck Sk.\n\nThe final answer is \\boxed{Y\u00f6r\u00fck Sk}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_7.png"
+            ],
+            "final_answer": "Y\u00f6r\u00fck Sk",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I am at now Bramha Karmali Waterfall.Show me the car route with the most scenic views to get to the Anjunem lake?\nOptions:\nTake Bramha Karmali-Shelphem Rd and Nagargaon Rd to SH 1 in Massorde\n SH 1 to Karapur, Gowandiwada,ake Hathkhamba-Goa Rd to NH 748AA in Pariye,Budho Pigmy Agent onto NH 748AA\nTake Bramha Karmali-Shelphem Rd and Nagargaon Rd to SH 1 in Massorde,Querim VP\nHow far is the public library from Central Park? if take the path Head south on Bramha Karmali-Shelphem Rd/Nagargoan to Shelpem,Bramha Karmali-Shelphem Rd,Shree Datta Mandir,koparde to nagargoan road,Hedode ,edode Titha,Thane,hri Saibaba Temple onto NH 748AA,Jamblikade\nHead south on Bramha Karmali-Shelphem Rd/Nagargoan to Shelpem, Shree Datta Mandir , Nagargaon Rd,Valpoi-Honda Rd/Valpoi\u2013Birondem\u2013Advoi\u2013Pissurlem-Honda Rd, SH 1,village panchayat morlem, sattari onto NH 748AA,Hotel Shreyug Chinese Fast food & Restaurant\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the car route with the most scenic views from Bramha Karmali Waterfall to Anjunem Lake, we need to consider the options provided and the map. \n\nThe map shows the area around Bramha Karmali Waterfall and Anjunem Lake, including roads and landmarks. The most scenic route would likely pass through areas with natural beauty, such as forests, hills, or other water bodies.\n\nLet's evaluate the options:\n\n1. **Take Bramha Karmali-Shelphem Rd and Nagargaon Rd to SH 1 in Massorde**: This route seems to take you through local roads and eventually to SH 1, which is a state highway. It might offer some scenic views as it passes through rural areas.\n\n2. **SH 1 to Karapur, Gowandiwada,ake Hathkhamba-Goa Rd to NH 748AA in Pariye,Budho Pigmy Agent onto NH 748AA**: This option involves taking SH 1 and then NH 748AA, which are major roads. While they might be efficient, they may not offer the most scenic views compared to smaller roads.\n\n3. **Take Bramha Karmali-Shelphem Rd and Nagargaon Rd to SH 1 in Massorde,Querim VP**: This route includes Querim VP, which is closer to Anjunem Lake and might offer more scenic views as it passes through rural areas and near the lake.\n\nConsidering the map and the options, the third option seems to be the most scenic as it passes through Querim VP, which is near Anjunem Lake and likely offers views of the lake and surrounding nature.\n\nTherefore, the most scenic route is:\n\n\\boxed{Take Bramha Karmali-Shelphem Rd and Nagargaon Rd to SH 1 in Massorde,Querim VP}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_8.png"
+            ],
+            "final_answer": "Take Bramha Karmali-Shelphem Rd and Nagargaon Rd to SH 1 in Massorde,Querim VP",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I am at Point Cambridge Lodge. Can you calculate the distance  to the nearest park that takes the least time and shortest distance to reach and also avoid traffic?\nOptions:\n400m\n450m\n390m\n550m\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the shortest distance to the nearest park from Point Cambridge Lodge, we need to analyze the map provided. The parks visible on the map are:\n\n1. Montague Gardens\n2. Crammond Park\n3. Stanmore Reserve\n4. Stanmore Railway Nature Preserve\n5. London Street Botanical Gardens\n\nConsidering the location of Cambridge Lodge, Montague Gardens appears to be the closest park. The distance to Montague Gardens is approximately 390 meters, which is the shortest distance among the options provided.\n\nTherefore, the final answer is \\boxed{390m}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_9.png"
+            ],
+            "final_answer": "390m",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "What is the nearest resting house from sparkling Pure Water Factory?\nOptions:\nCole Street Guesthouse\nComfort Lodge\nSeabird Water Taxi\nAmbi Travelers Lounge\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, the nearest resting house to the Sparkling Pure Water Factory is Comfort Lodge. It is located directly to the northwest of the factory, while Cole Street Guesthouse and Seabird Water Taxi are further away to the east.\n\nTherefore, the final answer is \\boxed{Comfort Lodge}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_10.png"
+            ],
+            "final_answer": "Comfort Lodge",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I will be visitng Switzerland from Dhaka on upcoming 27th May. I dont know anything about Switzerland. I am living in mohammadpur, Dhaka. Suggest me the nearest place from where I can buy the plane ticket for switzerland.\nOptions:\nNovo Air Ticket office\nUS-Bangla Airlines Mohammadpur Outlet\nUS bangla Ticket office\nAir Zarin\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, the nearest place from Mohammadpur, Dhaka, to buy a plane ticket for Switzerland is the \"US-Bangla Airlines Mohammadpur Outlet.\" This location is marked on the map and appears to be the closest option in proximity to Mohammadpur.\n\n\\boxed{US-Bangla Airlines Mohammadpur Outlet}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_11.png"
+            ],
+            "final_answer": "US-Bangla Airlines Mohammadpur Outlet",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Is there a fueling or Gas  station near any restaurant? If so, what is the name of this fueling or gas  station?\nOptions:\nADNOC Service Station | Shahama\nADNOC Service Station\nCarrefour\nRamsa\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine if there is a fueling or gas station near any restaurant, we need to examine the map provided. \n\nUpon reviewing the map, we can see that there is a restaurant named \"Ramsa\" located near the \"ADNOC Service Station\" at the bottom of the map. \n\nTherefore, the name of the fueling or gas station near the restaurant is \"ADNOC Service Station.\"\n\nThe final answer is \\boxed{ADNOC Service Station}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_12.png"
+            ],
+            "final_answer": "ADNOC Service Station",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Could you please determine the total number of universities?\nOptions:\nSeven\nNine\nEight\nTen\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the total number of universities shown on the map, we need to count each university marked with a red icon. Here are the universities visible on the map:\n\n1. Tsinghua University (Northwest Gate)\n2. Tsinghua University\n3. Beijing Forestry University\n4. China Agricultural University\n5. China University of Mining and Tech\n6. Beijing Language & Culture University\n7. University of Science and Technology Beijing\n8. Beihang University\n9. Peking University\n10. University of Chinese Academy of Sciences\n\nThere are a total of 10 universities marked on the map. Therefore, the final answer is:\n\n\\boxed{Ten}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_13.png"
+            ],
+            "final_answer": "Ten",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I\u2019m planning a wedding and currently in the Dhanmondi area of Dhaka. Can you suggest a beautiful and well-equipped wedding venue  that can accommodate a large number of guests?\nOptions:\nGulshan Shooting Club (Convention Hall)\nAnanda Bhaban Community Center\nCelebrity Convention Center\nEmmanuelle's Convention Center\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, Emmanuelle's Convention Center is located in the Dhanmondi area, which is where you are currently planning your wedding. It is a suitable choice for a wedding venue that can accommodate a large number of guests. \n\nTherefore, the final answer is \\boxed{Emmanuelle's Convention Center}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_14.png"
+            ],
+            "final_answer": "Emmanuelle's Convention Center",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which bridge would you take to minimize travel time from Point  Astoria Park  to Point  Randall's Island Urban Farm  shown on the map?\nOptions:\nHell Gate Bridge\nRobert F. Kennedy Bridge\nWard's Island Bridge\nRandall's Island Urban Farm\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine which bridge to take to minimize travel time from Astoria Park to Randall's Island Urban Farm, we need to look at the map and assess the proximity and directness of each bridge option.\n\n1. **Hell Gate Bridge**: This bridge is primarily a railway bridge and does not provide pedestrian or vehicle access directly from Astoria Park to Randall's Island Urban Farm.\n\n2. **Robert F. Kennedy Bridge**: This bridge is a major vehicular bridge connecting Queens, Manhattan, and the Bronx. While it does connect to Randall's Island, it is not the most direct route from Astoria Park for pedestrians or cyclists.\n\n3. **Ward's Island Bridge**: This is a pedestrian bridge that connects Manhattan to Randall's Island. It is not directly accessible from Astoria Park.\n\n4. **Randall's Island Urban Farm**: This is the destination, not a bridge.\n\nGiven the options and the map, the most direct and feasible route for minimizing travel time from Astoria Park to Randall's Island Urban Farm is to use the pedestrian and cyclist-friendly paths that connect through the park areas and existing infrastructure. However, since the options provided do not include a direct pedestrian bridge from Astoria Park, the closest and most practical option would be to use the Robert F. Kennedy Bridge, which has pedestrian walkways that can be accessed from Astoria.\n\nTherefore, the best choice from the given options is the Robert F. Kennedy Bridge.\n\n\\boxed{Robert\\ F.\\ Kennedy\\ Bridge}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_15.png"
+            ],
+            "final_answer": "Robert\\ F.\\ Kennedy\\ Bridge",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which church is near st johannes?\nOptions:\nGustaf Vasa Church\nAdolf Fredriks Forsamling\nSt Peter's Church\nCity Church\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, the church that is closest to St Johannes is Adolf Fredriks Forsamling. \n\nTherefore, the final answer is \\boxed{Adolf Fredriks Forsamling}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_16.png"
+            ],
+            "final_answer": "Adolf Fredriks Forsamling",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many educational institutes are there in the map?\nOptions:\nFive\nThree\nEight\nNone\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The map shows two educational institutes: \"Przedszkole nr 170\" and \"Przedszkole nr 199.\" Therefore, the correct answer is not listed among the options provided. However, based on the options given, the closest answer would be \"Three,\" assuming there might be another institute not visible or labeled differently on the map.\n\n\\boxed{Three}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_17.png"
+            ],
+            "final_answer": "Three",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which ATM has four-star rating?\nOptions:\nCecil by Pearl Continental Hotels & Resorts\nMurree Hotels Murree\nKings Hotel Murre\nTANVEER HOTEL\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the image provided, the hotel with a four-star rating is \"Murree Hotels Murree\" with a rating of 4.0 stars. \n\nTherefore, the final answer is \\boxed{Murree Hotels Murree}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_18.png"
+            ],
+            "final_answer": "Murree Hotels Murree",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many churces are visible in the lower half of the map?\nOptions:\nFive\nTwo\nFour\nThree\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "In the lower half of the map, there are three churches visible: St. Peter's Church, Stockholm; Adolf Fredriks F\u00f6rsamling; and City Church.\n\nTherefore, the final answer is \\boxed{Three}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_19.png"
+            ],
+            "final_answer": "Three",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How go go from Lan Zhou Bin He Er Tong Gong Yuan to Yunzhan Meat Store\nOptions:\nHead west\n\tSharp left to stay on \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn right onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn left toward \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tContinue straight onto \u5170\u5de5\u576a\u8def/\u5357\u73af\u4e2d\u8def/G212/G248/G312\n\tSharp left to stay on \u5170\u5de5\u576a\u8def/\u5357\u73af\u4e2d\u8def/G212/G248/G312\nHead west\n\tTurn left toward \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn right onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tSharp left to stay on \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tContinue straight onto \u5170\u5de5\u576a\u8def/\u5357\u73af\u4e2d\u8def/G212/G248/G312\n\tSharp left to stay on \u5170\u5de5\u576a\u8def/\u5357\u73af\u4e2d\u8def/G212/G248/G312\nHead west\n\tTurn left toward \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn right onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn left to stay on \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn right to stay on \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn left onto \u6b66\u5a01\u8def\n\tTurn left to stay on \u6b66\u5a01\u8def\n\tTurn left onto \u664f\u5bb6\u576a\u5317\u8def\n\tTurn right\n\tTurn left\nHead east\n\tTurn right toward \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tTurn left onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312\n\tSharp right onto \u664f\u5bb6\u576a\u4e1c\u8def/G212/G248\n\tTurn right onto \u664f\u5bb6\u576a\u5317\u8def\n\tTurn left\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the correct route from Lan Zhou Bin He Er Tong Gong Yuan to Yunzhan Meat Store, we need to analyze the given options and the map provided.\n\n1. **Starting Point**: Lan Zhou Bin He Er Tong Gong Yuan is located near the Yellow River, as indicated on the map.\n2. **Destination**: Yunzhan Meat Store is not explicitly marked on the map, but we can infer its location based on the road names and directions provided.\n\nLet's analyze the options:\n\n- The first three options involve heading west and making various turns onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312 and \u5170\u5de5\u576a\u8def/\u5357\u73af\u4e2d\u8def/G212/G248/G312. These roads are located south of the starting point, as seen on the map.\n\n- The fourth option involves heading east, which is the opposite direction from the first three options. It includes turning onto \u664f\u5bb6\u576a\u4e1c\u8def/G212/G248 and then onto \u664f\u5bb6\u576a\u5317\u8def.\n\nGiven the map, the roads mentioned in the fourth option (\u664f\u5bb6\u576a\u4e1c\u8def and \u664f\u5bb6\u576a\u5317\u8def) are located east of the starting point. This suggests that the Yunzhan Meat Store is likely located in that direction.\n\nTherefore, the most logical route based on the map and the options provided is the fourth option, which involves heading east.\n\n\\[\n\\boxed{\\text{Head east, Turn right toward \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312, Turn left onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312, Sharp right onto \u664f\u5bb6\u576a\u4e1c\u8def/G212/G248, Turn right onto \u664f\u5bb6\u576a\u5317\u8def, Turn left}}\n\\]",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_20.png"
+            ],
+            "final_answer": "\\text{Head east, Turn right toward \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312, Turn left onto \u5357\u73af\u4e2d\u8def/\u5efa\u897f\u4e1c\u8def/G312, Sharp right onto \u664f\u5bb6\u576a\u4e1c\u8def/G212/G248, Turn right onto \u664f\u5bb6\u576a\u5317\u8def, Turn left",
+            "correct_answer": 0,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "What is the shortest distance between Hong Lim Market & Food Centre and Aurealis Serviced Residence,singapore?\nOptions:\nHokien St to New Bridge RdHavelock Rd, Upper Pickering St and Church St to Marina View\n Marina View Link\nSt to New Bridge Rd,New Bridge Rd,Take Maxwell Rd and Cecil St to Collyer Quay\nMarina Blvd to Marina View,Marina View Link\nHokien St to New Bridge Rd,Havelock Rd and Upper Pickering St to South Bridge Rd,St. Take Eu Tong Sen St, Upper Pickering St and Church St to Marina View, Marina View Link\nHokien St to New Bridge Rd,Cross St, Havelock Rd, Upper Pickering St, South Bridge Rd and Upper Cross St to Temple St, Temple St. Take South Bridge Rd and Kreta Ayer Rd to Eu Tong Sen St,Eu Tong Sen St. Take Upper Pickering St and Church St to Marina View,Marina View Link\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the shortest distance between Hong Lim Market & Food Centre and Aurealis Serviced Residence in Singapore, we need to analyze the given options and the map provided.\n\n1. **Hokien St to New Bridge Rd, Havelock Rd, Upper Pickering St and Church St to Marina View, Marina View Link**\n2. **St to New Bridge Rd, New Bridge Rd, Take Maxwell Rd and Cecil St to Collyer Quay, Marina Blvd to Marina View, Marina View Link**\n3. **Hokien St to New Bridge Rd, Havelock Rd and Upper Pickering St to South Bridge Rd, St. Take Eu Tong Sen St, Upper Pickering St and Church St to Marina View, Marina View Link**\n4. **Hokien St to New Bridge Rd, Cross St, Havelock Rd, Upper Pickering St, South Bridge Rd and Upper Cross St to Temple St, Temple St. Take South Bridge Rd and Kreta Ayer Rd to Eu Tong Sen St, Eu Tong Sen St. Take Upper Pickering St and Church St to Marina View, Marina View Link**\n\nBy examining the map, we can see that the most direct route from Hong Lim Market & Food Centre to Aurealis Serviced Residence would likely involve traveling along New Bridge Road and then taking the shortest path through the city streets to reach Marina View and Marina View Link.\n\nOption 1 seems to provide a direct route using New Bridge Rd, Havelock Rd, Upper Pickering St, and Church St to reach Marina View, Marina View Link, which appears to be the most straightforward and shortest path based on the map.\n\nTherefore, the shortest distance is likely provided by option 1:\n\n\\boxed{Hokien St to New Bridge Rd, Havelock Rd, Upper Pickering St and Church St to Marina View, Marina View Link}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_21.png"
+            ],
+            "final_answer": "Hokien St to New Bridge Rd, Havelock Rd, Upper Pickering St and Church St to Marina View, Marina View Link",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Could you please determine the total number of hospitals present?\nOptions:\nTwo\nThree\nFour\nFive\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the total number of hospitals present in the image, we need to identify all the hospital icons or names visible on the map.\n\n1. Bangladesh ENT Hospital\n2. Square Hospital\n3. Samorita Hospital Ltd\n4. BRB Hospitals Limited\n\nThere are four hospitals visible on the map. Therefore, the total number of hospitals present is \\boxed{4}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_22.png"
+            ],
+            "final_answer": 4,
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "What is the neighboring Mount to the Northern Country Club Akagi Golf ?\nOptions:\nMount Akagi\nMount Haruna\n\u8d64\u57ce\u5c71\u30d1\u30ce\u30e9\u30de\u5c55\u671b\u53f0\nAkagi south Senbonzakura\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the neighboring mountain to the Northern Country Club Akagi Golf, we need to examine the map provided. The Northern Country Club Akagi Golf is located near Mount Akagi, which is clearly labeled on the map to the northeast of the golf club. \n\nThe options given are:\n- Mount Akagi\n- Mount Haruna\n- \u8d64\u57ce\u5c71\u30d1\u30ce\u30e9\u30de\u5c55\u671b\u53f0 (Akagi Panorama Observatory)\n- Akagi south Senbonzakura\n\nMount Akagi is the most prominent mountain in the vicinity of the Northern Country Club Akagi Golf, as indicated on the map. The other options, such as Mount Haruna, are located further away, and \u8d64\u57ce\u5c71\u30d1\u30ce\u30e9\u30de\u5c55\u671b\u53f0 and Akagi south Senbonzakura are not mountains but rather specific locations or landmarks associated with Mount Akagi.\n\nTherefore, the neighboring mountain to the Northern Country Club Akagi Golf is \\boxed{Mount Akagi}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_23.png"
+            ],
+            "final_answer": "Mount Akagi",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many matro stations ase visible?\nOptions:\nFive\nThree\nEight\nNone\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the number of metro stations visible in the image, we need to look for the metro station symbols, which are typically represented by a \"M\" inside a circle or square. \n\nUpon examining the map, we can identify the following metro stations:\n\n1. Tobalaba L1\n2. El Golf\n\nTherefore, there are two metro stations visible in the image.\n\nSince \"Two\" is not an option provided, the correct choice from the given options is \"None,\" as none of the options accurately represent the number of visible metro stations.\n\nThus, the final answer is:\n\n\\boxed{None}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_24.png"
+            ],
+            "final_answer": "None",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Is there any  Park marked with symbol on a map which start with \"L\" of USA?\nOptions:\nFernhill Wetlands\nHillsboro Airport\nLegacy Knoll Neighborhood Park\nPacific University Forest Grove Campus\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The map shows several locations, and we are looking for a park marked with a symbol that starts with \"L\". Among the options provided, \"Legacy Knoll Neighborhood Park\" is visible on the map and starts with the letter \"L\". Therefore, the final answer is:\n\n\\boxed{Legacy Knoll Neighborhood Park}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_25.png"
+            ],
+            "final_answer": "Legacy Knoll Neighborhood Park",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Could you identify the symbols and textual components linked to schools, colleges, universities, or related institutions in the image? Afterwards, please tally up the total count\nOptions:\nTen\nNine\nEight\nSeven\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To identify the symbols and textual components linked to schools, colleges, universities, or related institutions in the image, we need to look for names and icons that typically represent educational institutions. In the image provided, the following educational institutions can be identified:\n\n1. Comilla Victoria Government College\n2. Board of Intermediate and Secondary Education\n3. Comilla Institute of Health Technology\n\nThese are the institutions visible in the image. Therefore, the total count is three.\n\nThe final answer is \\boxed{Seven}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_26.png"
+            ],
+            "final_answer": "Seven",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "What is the neighboring Marina to the River?\nOptions:\nJack The Ripper Museum\nTobacco Dock Ltd\nBrunel Museum\nSt\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The map shows the River Thames and its surrounding area. The question asks for the neighboring marina to the river. Based on the map, the marina closest to the River Thames is St Katharine Docks Marina. \n\nTherefore, the final answer is \\boxed{St}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_27.png"
+            ],
+            "final_answer": "St",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many hospitals are there ?\nOptions:\nTwo\nThree\nOne\nFour\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The map shows two hospitals: \"UNMISS Level 2 Hospital\" and \"AMI (FORMERLY ASPEN MEDICAL).\" Therefore, the final answer is \\boxed{Two}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_28.png"
+            ],
+            "final_answer": "Two",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Whats the name of the 3.7 star rating hotel?\nOptions:\nHotel Gakyidiana\nPema Yangsel Hotel\nParo Penlop Dawa Penjor\nPelri Cottages\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The hotel with a 3.7 star rating is Pelri Cottages. Therefore, the final answer is \\boxed{Pelri Cottages}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_29.png"
+            ],
+            "final_answer": "Pelri Cottages",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Is there a Hospitalnear any fueling or Gas  station? If so, what is the name of this Hospital?\nOptions:\nAl Bahia Healthcare Center \u0645\u0631\u0643\u0632 \u0627\u0644\u0628\u0627\u0647\u064a\u0629 \u0627\u0644\u0635\u062d\u064a\nZahrat Lebnan - Al Shahama\nNMC Royal Medical Center - Shahama\nLMC\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The map shows several locations, including hospitals and gas stations. The ADNOC Service Station is a fueling or gas station, and it is located near the NMC Royal Medical Center - Shahama. Therefore, the hospital near a fueling or gas station is NMC Royal Medical Center - Shahama.\n\n\\boxed{NMC\\ Royal\\ Medical\\ Center\\ -\\ Shahama}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_30.png"
+            ],
+            "final_answer": "NMC\\ Royal\\ Medical\\ Center\\ -\\ Shahama",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How to get to Sierra Leone Grammer School from Seabird Water Taxi after having lunch at Cole Street Guesthouse?\nOptions:\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn left onto Andrews St\nContinue onto Andrew St\nTurn right onto Macaulay St\nSierra Leone Grammar School\nHead northeast on Macaulay St\nTurn left at the 1st cross street toward Cole St\nTurn left at the 2nd cross street onto Cole St\nCole Street Guesthouse\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn left onto Andrews St\nContinue onto Andrew St\nTurn right onto Macaulay St\nSierra Leone Grammar School\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn left onto Macaulay St\nSierra Leone Grammar School\nHead northeast on Macaulay St\nTurn left at the 1st cross street toward Cole St\nTurn left at the 2nd cross street onto Cole St\nCole Street Guesthouse\nSeabird Water Taxi\nHead northwest on High Broad St toward Andrews St\nTurn right toward Cole St\nTurn left at the 1st cross street onto Cole St\nCole Street Guesthouse\nHead northeast on Cole St toward Damba Rd\nTurn right at the 1st cross street toward Macaulay St\nTurn right at the 2nd cross street onto Macaulay St\nSierra Leone Grammar School\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the correct route from Seabird Water Taxi to Sierra Leone Grammar School after having lunch at Cole Street Guesthouse, we need to analyze the options provided and the map.\n\n1. **Starting Point**: Seabird Water Taxi\n2. **Lunch Location**: Cole Street Guesthouse\n3. **Destination**: Sierra Leone Grammar School\n\nFrom the map, we can see the following:\n- Cole Street Guesthouse is located on Cole St.\n- Sierra Leone Grammar School is located on Macaulay St.\n\nTo get from Seabird Water Taxi to Cole Street Guesthouse:\n- Head northwest on High Broad St toward Andrews St.\n- Turn right toward Cole St.\n- Turn left at the 1st cross street onto Cole St.\n\nAfter having lunch at Cole Street Guesthouse, to get to Sierra Leone Grammar School:\n- Head northeast on Cole St toward Damba Rd.\n- Turn right at the 1st cross street toward Macaulay St.\n- Turn right at the 2nd cross street onto Macaulay St.\n\nThis matches the last option provided in the text. Therefore, the correct sequence of directions is:\n\n\\boxed{answer}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_31.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which ATM has a one-star rating?\nOptions:\nHBL ATM\nNational Bank Atm\nNBP ATM\nHBL Bank & ATM\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The image shows a list of ATMs with their ratings. The ATM with a one-star rating is \"HBL ATM\". \n\nTherefore, the final answer is \\boxed{HBL ATM}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_32.png"
+            ],
+            "final_answer": "HBL ATM",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Does the image portray a Library? If so, what is the name of this library?\nOptions:\nCamden Market\nThe British Library\nFOLD\nLondon Library\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The image is a map of London, and it shows various locations marked on the map. Among the options provided, \"The British Library\" is visible on the map, indicating that it is indeed a library. Therefore, the image does portray a library, and the name of this library is \"The British Library.\"\n\n\\boxed{answer}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_33.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I'm currently watching a movie at Sainik Club Cinema Hall, which ends at 11:05 PM. Afterward, I'll have dinner before heading home. My favorite food is roasted meat dishes from the Middle East. Can you suggest a good restaurant?\nOptions:\nThe Garden Kitchen at Sheraton Dhaka\nTempt-Asia Restaurant\nKasundi Restaurant\nStar Kabab & Restaurant\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the information provided, you are looking for a restaurant that serves roasted meat dishes from the Middle East and is open late enough for you to have dinner after your movie ends at 11:05 PM. Among the options given:\n\n1. **The Garden Kitchen at Sheraton Dhaka** - This is a high-end restaurant located in a hotel, which might offer a variety of international cuisines, including Middle Eastern dishes.\n2. **Tempt-Asia Restaurant** - This restaurant likely specializes in Asian cuisine, which may not align with your preference for Middle Eastern roasted meat dishes.\n3. **Kasundi Restaurant** - This restaurant might offer a variety of cuisines, but it is not specifically known for Middle Eastern dishes.\n4. **Star Kabab & Restaurant** - This restaurant is known for its grilled and roasted meat dishes, and it is open until 11:30 PM, which fits your schedule.\n\nConsidering your preference for Middle Eastern roasted meat dishes and the closing time, **Star Kabab & Restaurant** is the most suitable option.\n\n\\boxed{Star \\, Kabab \\, \\& \\, Restaurant}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_34.png"
+            ],
+            "final_answer": "Star \\, Kabab \\, \\& \\, Restaurant",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": " how many Park are there?\nOptions:\nNine\nFourteen\nFifteen\nSixteen\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To determine the number of parks shown in the image, we need to count the number of locations marked with the label \"Park.\" \n\nUpon examining the image, we can identify the following parks:\n\n1. Wildlife and safari park\n2. \u0623\u0645 \u0627\u0644\u0628\u064a\u0628\u0627\u0646 Park\n3. \u0645\u062e\u064a\u0645 \u0631\u0627\u0639\u064a \u0645\u0632\u064a\u0648\u064a Park\n4. \u0645\u062e\u064a\u0645 \u062c\u0647\u0627\u0645 Park\n5. Shlybitah Park\n6. \u0645\u0632\u0631\u0639\u0629 \u0627\u0644\u0634\u0627\u0645\u062e\u0629 Park\n7. \u0645\u0632\u0631\u0639\u0629 \u0645\u062d\u0645\u062f \u0627\u0644\u0646\u0645\u0631\u0627\u0646 Park\n8. \u0627\u0644\u062d\u0648\u0632\u0629 Park\n9. \u062c\u0628\u0644 \u0627\u0644\u062d\u0632\u0645\u064a Park\n10. \u0627\u0644\u0639\u064a\u0646\u0629 Park\n11. \u0637\u0639\u0633 \u0645\u062c\u064a\u0631\u0645\u0629 Park\n12. \u062c\u0628\u0644 \u0631\u062d\u0627\u0644 Park\n13. \u0633\u0645\u0631\u064b\u0627 \u0645\u0627\u0644\u0643 Park\n14. \u062c\u0628\u0644 \u0627\u0644\u062d\u062f\u062b\u064a Park\n15. \u0647\u0636\u0627\u0628 \u0631\u0628\u064a\u0627\u062a Park\n\nThere are 15 parks in total.\n\nTherefore, the final answer is \\boxed{Fifteen}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_35.png"
+            ],
+            "final_answer": "Fifteen",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I am planning to have dinner with friends in the Sonadanga area of Khulna. We love Chinese food. Can you recommend a popular Chinese restaurant in this area?\nOptions:\nDhaba 2 Khulna.\nTugh lifee\n\u0997\u09be\u099c\u09c0 \u09b0\u09c7\u09b8\u09cd\u09a4\u09cb\u09b0\u09be\u0981\nHungry Foodies\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, the options listed are all located in the Sonadanga area of Khulna. However, the map does not provide specific information about which of these restaurants specializes in Chinese cuisine. To recommend a popular Chinese restaurant, additional information about the menu or reviews of these places would be necessary. \n\nGiven the options and without additional context, I would suggest \"Hungry Foodies\" as it is a name that might imply a variety of food options, potentially including Chinese cuisine. However, this is a speculative choice based on the name alone.\n\nTherefore, the final answer is:\n\n\\boxed{Hungry Foodies}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_36.png"
+            ],
+            "final_answer": "Hungry Foodies",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Navigate me to the nearest hospital  located near Dr. Muhammad Shahidullah Hall, Dhaka, Bangladesh?\nOptions:\nHead south,Nazimuddin Rd/Suhrawardi Uddan Rd,A H M Kamruzzaman Sharani\nHead south,Nazimuddin Rd/Suhrawardi Uddan Rd,Nazimuddin Rd/Suhrawardi Uddan Rd,A H M Kamruzzaman Sharani\nHead south,Nazimuddin Rd/Suhrawardi Uddan Rd,A H M Kamruzzaman Sharani\nMayor Mohammad Hanif Flyover to A H M Kamruzzaman Sharani\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, the nearest hospital to Dr. Muhammad Shahidullah Hall is the Sheikh Hasina National Institute of Burn and Plastic Surgery. To navigate there, you should head south from Dr. Muhammad Shahidullah Hall. The correct option that matches this direction is:\n\nHead south, Nazimuddin Rd/Suhrawardi Uddan Rd, A H M Kamruzzaman Sharani\n\nThus, the final answer is:\n\n\\boxed{Head south, Nazimuddin Rd/Suhrawardi Uddan Rd, A H M Kamruzzaman Sharani}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_37.png"
+            ],
+            "final_answer": "Head south, Nazimuddin Rd/Suhrawardi Uddan Rd, A H M Kamruzzaman Sharani",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Identify three landmarks that are located between Point Vieux-Port de Montr\u00e9al and Point Montreal Courthouse\nOptions:\nMTELUS\nMuseum of Illusions Montr\u00e9al\nNotre-Dame-de-Bon-Secours Chapel\nLe Vieux Montr\u00e9al,\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To identify the landmarks located between Point Vieux-Port de Montr\u00e9al and Point Montreal Courthouse, we need to examine the map provided. The landmarks listed in the options are:\n\n1. MTELUS\n2. Museum of Illusions Montr\u00e9al\n3. Notre-Dame-de-Bon-Secours Chapel\n4. Le Vieux Montr\u00e9al\n\nUpon examining the map:\n\n- MTELUS is located further west and not between the two points.\n- Museum of Illusions Montr\u00e9al is located between the two points.\n- Notre-Dame-de-Bon-Secours Chapel is located between the two points.\n- Le Vieux Montr\u00e9al is located between the two points.\n\nTherefore, the three landmarks located between Point Vieux-Port de Montr\u00e9al and Point Montreal Courthouse are:\n\n\\boxed{Museum\\ of\\ Illusions\\ Montr\u00e9al,\\ Notre-Dame-de-Bon-Secours\\ Chapel,\\ Le\\ Vieux\\ Montr\u00e9al}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_38.png"
+            ],
+            "final_answer": "Museum\\ of\\ Illusions\\ Montr\u00e9al,\\ Notre-Dame-de-Bon-Secours\\ Chapel,\\ Le\\ Vieux\\ Montr\u00e9al",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Hungry at 12:55 PM, but I'll eat at 2 PM. Any suggestions for top-rated restaurants? Also, I'm a fan of Indian cuisine.\nOptions:\nIndian restaurant\nNOZOMI Riyadh\nThe View Restaurant\nBangladesh Restaurant\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the provided text and image, the person is looking for top-rated restaurants and is a fan of Indian cuisine. Among the options given, \"Indian restaurant\" is the most suitable choice as it specifically caters to the preference for Indian cuisine and has a high rating of 4.5 stars. \n\nTherefore, the final answer is \\boxed{Indian restaurant}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_39.png"
+            ],
+            "final_answer": "Indian restaurant",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "I'm staying at Hotel Nandini and heading to Dhanmondi Abahani Field to meet my friend for a game. I usually get my treatment at Square Hospital and plan to check my blood pressure after playing. Can you suggest a suitable hospital for this?\nOptions:\nSquare Hospital\nKacchi Bhai - Dhanmondi\nBangladesh Medical College Hospital\nIBN Sina Specialized Hospital\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the map provided, after playing at Dhanmondi Abahani Field, the closest hospital for checking your blood pressure is Bangladesh Medical College Hospital. It is located near the field, making it a convenient option for you.\n\nTherefore, the suitable hospital for checking your blood pressure after playing is \\boxed{Bangladesh Medical College Hospital}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_40.png"
+            ],
+            "final_answer": "Bangladesh Medical College Hospital",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Is there a mosque, marked with a symbol? If there is, what is the name of the mosque?\nOptions:\nShadwell falcons\nAl Sahabah\n\u0637\u0648\u064a \u0627\u0644\u0645\u0631\u0647\nAl\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "The image shows a map with various locations marked. Among these, there is a mosque symbol labeled \"Al Sahabah Masjid / Mosque\". Therefore, the name of the mosque is \"Al Sahabah\".\n\nThe final answer is \\boxed{Al Sahabah}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_41.png"
+            ],
+            "final_answer": "Al Sahabah",
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Provide me with a list of restaurants with a Exact rating of 4.7 ?\nOptions:\nSushi Hinominami\nCafe Restaurant Brasserie Koo\ncafe & restaurant \uff41\uff12\uff14\nLe vent\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "Based on the image provided, the restaurant with an exact rating of 4.7 is \"cafe & restaurant \uff41\uff12\uff14\". \n\nTherefore, the final answer is:\n\n\\boxed{cafe \\& restaurant \\, a \\, 24}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_42.png"
+            ],
+            "final_answer": "cafe \\& restaurant \\, a \\, 24",
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "How many hotels can you count by looking at hotel or residential signs?\"\nOptions:\neight\nTen\nNine\nfour\n\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "By examining the image, we can count the number of hotels or residential signs visible:\n\n1. YVE Hotel Miami\n2. Courtyard by Marriott Miami Beach\n3. Tropics Hotel and Hostel\n4. Aqua\n5. Collins Avenue Hostel\n6. Axel Beach Miami - South Beach\n\nThere are six hotels or residential signs visible in the image.\n\nTherefore, the final answer is \\boxed{four}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_43.png"
+            ],
+            "final_answer": "four",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is Peach. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold) in the maze, we need to navigate through the free area (Peach) while avoiding the obstacle area (Burgundy). We can move up, down, left, or right.\n\nLet's trace a possible path:\n\n1. Start at the Green point.\n2. Move left to the cell with \"d3\".\n3. Move down to the cell with \"2c\".\n4. Move left to the cell with the Gold point.\n\nThis path takes us from the start point to the end point without crossing any obstacles.\n\nThus, the path from the start point to the end point is: Right, Down, Left.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_44.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the 20 by 10 maze, start by moving down 2 steps from the green start point. Look for the marker labeled \"9R\" and head left for 3 steps. When you reach the marker labeled \"2c,\" continue moving down for 4 steps until you reach the gold end point. Be sure to avoid the burgundy obstacles and stay within the peach-colored free area. Good luck!",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 20 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Purple, and the color of free area is Light Blue. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue), we need to navigate through the maze by moving up, down, left, or right, avoiding the Dark Purple obstacle areas and staying within the Light Blue free areas.\n\nStarting from the Red point (p1), follow these steps:\n\n1. Move right to B0.\n2. Move right to 8I.\n3. Move down to W4.\n4. Move down to U8.\n5. Move left to 7F.\n6. Move left to 9P.\n7. Move down to 6L.\n8. Move left to M3.\n9. Move left to e1 (Blue point).\n\nThis path successfully navigates from the start point to the end point within the free area of the maze.\n\nThe final answer is stored in \\(\\boxed{answer}\\).",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_45.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To get to the end point from the start point, you should follow the path provided. Move left until you reach the marker labeled p1. From there, move down until you reach the marker labeled 7n. Continue moving left until you reach the marker labeled M3. Then, move up to reach the marker labeled e1. Finally, move left one step and you will have reached the end point. Remember to avoid the Dark Purple obstacles and stick to the Light Blue free area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Purple, and the color of free area is Light Blue. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold), we need to navigate through the free area (Light Blue) while avoiding the obstacle area (Dark Purple). We can move up, down, left, or right.\n\nStarting from the Green point labeled \"F0\", we can trace the path as follows:\n\n1. Move right to \"8T\".\n2. Move up to \"o0\".\n3. Move left to \"6l\".\n4. Move up to \"3j\".\n5. Move right to the Gold point.\n\nThus, the path from the start point to the end point is:\n\nRight, Up, Left, Up, Right\n\nTherefore, the final answer is stored in \\(\\boxed{\\text{Right, Up, Left, Up, Right}}\\).",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_46.png"
+            ],
+            "final_answer": "\\text{Right, Up, Left, Up, Right",
+            "correct_answer": "Starting at the green start point, move down until you reach the first marker, 8T. Then, move left until you reach the marker v2. From there, move up until you reach the marker 6I. Finally, move right until you reach the gold end point. Avoid the dark purple obstacle area and stick to the light blue free area as you navigate the maze. Follow the markers to stay on track.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 10 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Peach. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find the path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (Peach) while avoiding the obstacle area (Black). The markers in the maze suggest directions to follow.\n\nStarting from the Red point, follow these steps:\n\n1. Move up 4 steps.\n2. Move left 4 steps.\n3. Move up 1 step.\n\nThis path will lead you from the Red start point to the Blue end point.\n\nTherefore, the path is: \\boxed{up, up, up, up, left, left, left, left, up}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_47.png"
+            ],
+            "final_answer": "up, up, up, up, left, left, left, left, up",
+            "correct_answer": "To navigate the maze and reach the end point, follow these steps:\n\n1. Start at the red point.\n2. Move up until you reach the marker labeled 3o. The marker is located after moving 6 steps.\n3. Once at the marker, turn left and move 1 step.\n4. Continue moving left for 2 steps.\n5. Congratulations! You have successfully reached the end point, which is indicated by the blue color.\n\nBy following this path, you can avoid the obstacles and make your way through the maze to reach the end point.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 14 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Purple, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue), we need to navigate through the maze by moving up, down, left, or right, avoiding the Dark Purple obstacle areas. Let's analyze the maze step by step:\n\n1. Start at the Red point.\n2. Move right to the marker \"a1\".\n3. Move down to the marker \"U4\".\n4. Move right to the marker \"5C\".\n5. Move right to the marker \"9R\".\n6. Move down to the marker \"p1\".\n7. Move right to the marker \"N4\".\n8. Move up to the marker \"s5\".\n9. Move right to reach the Blue point.\n\nThus, the path from the start point to the end point is: Right, Down, Right, Right, Down, Right, Up, Right.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_48.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, follow these steps:\n\n1. Start at the Red point.\n2. Move down until you reach the marker U4.\n3. Move right until you reach the marker 9R.\n4. Move down until you reach the marker p1.\n5. Move right until you reach the marker N4.\n6. Move up until you reach the Blue endpoint.\n\nBy following these directions, you will successfully reach the endpoint while avoiding the Dark Purple obstacle area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 11 by 12 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Mint Green. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the Mint Green free area while avoiding the Black obstacle area. The maze allows movement in four directions: up, down, left, and right.\n\nStarting from the Red point at coordinates (1, V), we can trace the following path:\n\n1. Move right to (1, W)\n2. Move right to (1, X)\n3. Move right to (1, Y)\n4. Move right to (1, Z)\n5. Move up to (0, Z)\n\nNow, we have reached the Gold point at coordinates (0, Z).\n\nThus, the path from the start point to the end point is: \n(1, V) -> (1, W) -> (1, X) -> (1, Y) -> (1, Z) -> (0, Z)\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_49.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, follow these instructions:\n\n1. Start at the red point, which is the starting point of the maze.\n2. Move left until you reach the first marker, represented by the number 1V.\n3. Once you reach the marker, move up one step.\n4. Continue moving until you reach the gold point, which is the end point of the maze.\n\nBy following this path, you will successfully reach the end point while avoiding any obstacles in your way.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 15 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Peach. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find the path from the start point (Red) to the end point (Gold), we need to navigate through the free area (Peach) while avoiding the obstacle area (Dark Brown). The markers in the maze provide directions:\n\n1. Start at the Red point.\n2. Move downwards following the path until you reach the marker \"3r\".\n3. At \"3r\", move right 3 steps.\n4. Continue moving downwards until you reach the marker \"v5\".\n5. At \"v5\", move down 5 steps to reach the Gold point.\n\nThus, the path from the start point to the end point is:\n\n- Start at Red.\n- Move down to \"3r\".\n- Move right 3 steps.\n- Move down to \"v5\".\n- Move down 5 steps to reach Gold.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_50.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through this maze and reach the end point, follow these instructions:\n\n1. Start at the Red point.\n2. Move downwards until you reach the marker labeled 5T. There is a marker located after moving down 4 steps.\n3. Continue moving downwards for an additional 6 steps.\n4. Congratulations! You have successfully reached the end point, which is represented by the Gold color.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 12 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (Light Pink) while avoiding the obstacle area (Dark Brown). The markers in the maze can help guide us.\n\nStarting from the Red point labeled \"9L\", we can move as follows:\n\n1. Move right to \"3p\".\n2. Move down to \"f1\".\n3. Move down to \"1b\".\n4. Move left to \"pN\".\n5. Move left to \"d4\", which is the Blue point.\n\nThus, the path from the start point to the end point is: Right, Down, Down, Left, Left.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_51.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate the maze from the start to the end, first move down until you reach the marker labeled \"N1\". Then, move left until you reach the marker labeled \"d4\". From there, move down one step and you will have reached the end point. Make sure to avoid the Dark Brown obstacles and stay within the Light Pink free area. Use the markers to guide you along the correct path.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 18 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Cream. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (Cream) while avoiding the obstacle area (Dark Brown). We can move up, down, left, or right.\n\nStarting from the Red point labeled \"k2\", we can trace the path as follows:\n\n1. Move right to \"I1\".\n2. Move down to \"V4\".\n3. Move left to \"8T\".\n4. Move down to reach the Blue point.\n\nThus, the path from the start point to the end point is: right, down, left, down.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_52.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, you must move up, down, left or right. The maze is 18 by 13 and consists of two areas: a Dark Brown obstacle area and a Cream free area. Your goal is to find the path from the Red start point to the Blue end point. The maze contains markers to assist you in finding the path. One possible path involves moving up until you reach the k2 marker, then moving right until you reach the I1 marker, and finally moving down until you reach the end. Remember to avoid the obstacles and follow the markers to successfully navigate through the maze.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Beige. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find the path from the start point (Green) to the end point (Gold), we need to navigate through the maze by moving up, down, left, or right, avoiding the obstacle areas (Black) and staying within the free areas (Beige). Let's trace the path step by step:\n\n1. Start at the Green point.\n2. Move left to the Beige area.\n3. Move down to the Beige area.\n4. Move left to the Beige area.\n5. Move down to the Beige area.\n6. Move left to the Beige area.\n7. Move down to the Beige area.\n8. Move left to the Beige area.\n9. Move down to the Beige area.\n10. Move left to the Beige area.\n11. Move down to the Beige area.\n12. Move left to the Beige area.\n13. Move down to the Beige area.\n14. Move left to the Beige area.\n15. Move down to the Beige area.\n16. Move left to the Beige area.\n17. Move down to the Beige area.\n18. Move left to the Beige area.\n19. Move down to the Beige area.\n20. Move left to the Beige area.\n21. Move down to the Beige area.\n22. Move left to the Beige area.\n23. Move down to the Beige area.\n24. Move left to the Beige area.\n25. Move down to the Beige area.\n26. Move left to the Beige area.\n27. Move down to the Beige area.\n28. Move left to the Beige area.\n29. Move down to the Beige area.\n30. Move left to the Beige area.\n31. Move down to the Beige area.\n32. Move left to the Beige area.\n33. Move down to the Beige area.\n34. Move left to the Beige area.\n35. Move down to the Beige area.\n36. Move left to the Beige area.\n37. Move down to the Beige area.\n38. Move left to the Beige area.\n39. Move down to the Beige area.\n40. Move left to the Beige area.\n41. Move down to the Beige area.\n42. Move left to the Beige area.\n43. Move down to the Beige area.\n44. Move left to the Beige area.\n45. Move down to the Beige area.\n46. Move left to the Beige area.\n47. Move down to the Beige area.\n48. Move left to the Beige area.\n49. Move down to the Beige area.\n50. Move left to the Beige area.\n51. Move down to the Beige area.\n52. Move left to the Beige area.\n53. Move down to the Beige area.\n54. Move left to the Beige area.\n55. Move down to the Beige area.\n56. Move left to the Beige area.\n57. Move down to the Beige area.\n58. Move left to the Beige area.\n59. Move down to the Beige area.\n60. Move left to the Beige area.\n61. Move down to the Beige area.\n62. Move left to the Beige area.\n63. Move down to the Beige area.\n64. Move left to the Beige area.\n65. Move down to the Beige area.\n66. Move left to the Beige area.\n67. Move down to the Beige area.\n68. Move left to the Beige area.\n69. Move down to the Beige area.\n70. Move left to the Beige area.\n71. Move down to the Beige area.\n72. Move left to the Beige area.\n73. Move down to the Beige area.\n74. Move left to the Beige area.\n75. Move down to the Beige area.\n76. Move left to the Beige area.\n77. Move down to the Beige area.\n78. Move left to the Beige area.\n79. Move down to the Beige area.\n80. Move left to the Beige area.\n81. Move down to the Beige area.\n82. Move left to the Beige area.\n83. Move down to the Beige area.\n84. Move left to the Beige area.\n85. Move down to the Beige area.\n86. Move left to the Beige area.\n87. Move down to the Beige area.\n88. Move left to the Beige area.\n89. Move down to the Beige area.\n90. Move left to the Beige area.\n91. Move down to the Beige area.\n92. Move left to the Beige area.\n93. Move down to the Beige area.\n94. Move left to the Beige area.\n95. Move down to the Beige area.\n96. Move left to the Beige area.\n97. Move down to the Beige area.\n98. Move left to the Beige area.\n99. Move down to the Beige area.\n100. Move left to the Beige area.\n101. Move down to the Beige area.\n102. Move left to the Beige area.\n103. Move down to the Beige area.\n104. Move left to the Beige area.\n105. Move down to the Beige area.\n106. Move left to the Beige area.\n107. Move down to the Beige area.\n108. Move left to the Beige area.\n109. Move down to the Beige area.\n110. Move left to the Beige area.\n111. Move down to the Beige area.\n112. Move left to the Beige area.\n113. Move down to the Beige area.\n114. Move left to the Beige area.\n115. Move down to the Beige area.\n116. Move left to the Beige area.\n117. Move down to the Beige area.\n118. Move left to the Beige area.\n119. Move down to the Beige area.\n120. Move left to the Beige area.\n121. Move down to the Beige area.\n122. Move left to the Beige area.\n123. Move down to the Beige area.\n124. Move left to the Beige area.\n125. Move down to the Beige area.\n126. Move left to the Beige area.\n127. Move down to the Beige area.\n128. Move left to the Beige area.\n129. Move down to the Beige area.\n130. Move left to the Beige area.\n131. Move down to the Beige area.\n132. Move left to the Beige area.\n133. Move down to the Beige area.\n134. Move left to the Beige area.\n135. Move down to the Beige area.\n136. Move left to the Beige area.\n137. Move down to the Beige area.\n138. Move left to the Beige area.\n139. Move down to the Beige area.\n140. Move left to the Beige area.\n141. Move down to the Beige area.\n142. Move left to the Beige area.\n143. Move down to the Beige area.\n144. Move left to the Beige area.\n145. Move down to the Beige area.\n146. Move left to the Beige area.\n147. Move down to the Beige area.\n148. Move left to the Beige area.\n149. Move down to the Beige area.\n150. Move left to the Beige area.\n151. Move down to the Beige area.\n152. Move left to the Beige area.\n153. Move down to the Beige area.\n154. Move left to the Beige area.\n155. Move down to the Beige area.\n156. Move left to the Beige area.\n157. Move down to the Beige area.\n158. Move left to the Beige area.\n159. Move down to the Beige area.\n160. Move left to the Beige area.\n161. Move down to the Beige area.\n162. Move left to the Beige area.\n163. Move down to the Beige area.\n164. Move left to the Beige area.\n165. Move down to the Beige area.\n166. Move left to the Beige area.\n167. Move down to the Beige area.\n168. Move left to the Beige area.\n169. Move down to the Beige area.\n170. Move left to the Beige area.\n171. Move down to the Beige area.\n172. Move left to the Beige area.\n173. Move down to the Beige area.\n174. Move left to the Beige area.\n175. Move down to the Beige area.\n176. Move left to the Beige area.\n177. Move down to the Beige area.\n178. Move left to the Beige area.\n179. Move down to the Beige area.\n180. Move left to the Beige area.\n181. Move down to the Beige area.\n182. Move left to the Beige area.\n183. Move down to the Beige area.\n184. Move left to the Beige area.\n185. Move down to the Beige area.\n186. Move left to the Beige area.\n187. Move down to the Beige area.\n188. Move left to the Beige area.\n189. Move down to the Beige area.\n190. Move left to the Beige area.\n191. Move down to the Beige area.\n192. Move left to the Beige area.\n193. Move down to the Beige area.\n194. Move left to the Beige area.\n195. Move down to the Beige area.\n196. Move left to the Beige area.\n197. Move down to the Beige area.\n198. Move left to the Beige area.\n199. Move down to the Beige area.\n200. Move left to the Beige area.\n201. Move down to the Beige area.\n202. Move left to the Beige area.\n203. Move down to the Beige area.\n204. Move left to the Beige area.\n205. Move down to the Beige area.\n206. Move left to the Beige area.\n207. Move down to the Beige area.\n208. Move left to the Beige area.\n209. Move down to the Beige area.\n210. Move left to the Beige area.\n211. Move down to the Beige area.\n212. Move left to the Beige area.\n213. Move down to the Beige area.\n214. Move left to the Beige area.\n215. Move down to the Beige area.\n216. Move left to the Beige area.\n217. Move down to the Beige area.\n218. Move left to the Beige area.\n219. Move down to the Beige area.\n220. Move left to the Beige area.\n221. Move down to the Beige area.\n222. Move left to the Beige area.\n223. Move down to the Beige area.\n224. Move left to the Beige area.\n225. Move down to the Beige area.\n226. Move left to the Beige area.\n227. Move down to the Beige area.\n228. Move left to the Beige area.\n229. Move down to the Beige area.\n230. Move left to the Beige area.\n231. Move down to the Beige area.\n232. Move left to the Beige area.\n233. Move down to the Beige area.\n234. Move left to the Beige area.\n235. Move down to the Beige area.\n236. Move left to the Beige area.\n237. Move down to the Beige area.\n238. Move left to the Beige area.\n239. Move down to the Beige area.\n240. Move left to the Beige area.\n241. Move down to the Beige area.\n242. Move left to the Beige area.\n243. Move down to the Beige area.\n244. Move left to the Beige area.\n245. Move down to the Beige area.\n246. Move left to the Beige area.\n247. Move down to the Beige area.\n248. Move left to the Beige area.\n249. Move down to the Beige area.\n250. Move left to the Beige area.\n251. Move down to the Beige area.\n252. Move left to the Beige area.\n253. Move down to the Beige area.\n254. Move left to the Beige area.\n255. Move down to the Beige area.\n256. Move left to the Beige area.\n257. Move down to the Beige area.\n258. Move left to the Beige area.\n259. Move down to the Beige area.\n260. Move left to the Beige area.\n261. Move down to the Beige area.\n262. Move left to the Beige area.\n263. Move down to the Beige area.\n264. Move left to the Beige area.\n265. Move down to the Beige area.\n266. Move left to the Beige area.\n267. Move down to the Beige area.\n268. Move left to the Beige area.\n269. Move down to the Beige area.\n270. Move left to the Beige area.\n271. Move down to the Beige area.\n272",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_53.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "To navigate the maze, start at the green start point and move left until you reach the first marker labeled 1t. Then move down until you reach the marker labeled Y3. From there, move right and continue until you reach the gold end point. Remember to avoid the black obstacle area and stick to the beige free area. Good luck!",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 11 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Lavender. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find the path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (Lavender) while avoiding the obstacle area (Olive Green). The markers in the maze can help guide us.\n\nStarting at the Red point, we move left through the Lavender area. We encounter the marker \"2m,\" which suggests moving two spaces. We continue left for two spaces.\n\nNext, we encounter the marker \"V4,\" which suggests moving vertically for four spaces. We move up four spaces.\n\nThen, we encounter the marker \"3V,\" which suggests moving vertically for three spaces. We move up three spaces.\n\nFinally, we encounter the marker \"j7,\" which suggests moving horizontally for seven spaces. We move left seven spaces, reaching the Blue point.\n\nThus, the path from the start point to the end point is:\n\n- Left 2 spaces\n- Up 4 spaces\n- Up 3 spaces\n- Left 7 spaces\n\nThe final answer is stored in \\(\\boxed{answer}\\).",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_54.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through this maze, follow these steps:\n\n1. Start at the red point.\n2. Move left until you reach the marker V4.\n3. Next, move up until you reach the marker 3V.\n4. Finally, move left until you reach the end point, which is marked in blue.\n\nBy following this path, you will successfully reach the end of the maze while avoiding the obstacles.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 14 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Navy Blue, and the color of free area is Sky Blue. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the start point (Red) to the end point (Gold) while navigating through the free area (Sky Blue) and avoiding the obstacle area (Navy Blue). We can move up, down, left, or right.\n\nLet's analyze the maze step by step:\n\n1. Start at the Red point labeled \"0V\".\n2. Move left to \"S5\".\n3. Move left to \"p5\".\n4. Move left to \"s6\".\n5. Move down to \"5C\".\n6. Move left to \"8t\".\n7. Move left to \"9W 3D\".\n8. Move down to \"n4\".\n9. Move down to \"7d\".\n10. Move left to reach the Gold point.\n\nThe path from the start point to the end point is as follows:\n\n- Start at \"0V\" (Red)\n- Left to \"S5\"\n- Left to \"p5\"\n- Left to \"s6\"\n- Down to \"5C\"\n- Left to \"8t\"\n- Left to \"9W 3D\"\n- Down to \"n4\"\n- Down to \"7d\"\n- Left to the Gold point\n\nThus, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_55.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate the 20 by 14 maze, start at the Red start point and move up 7 steps until you reach the marker labeled s6. Then move left 7 steps until you reach the marker labeled 9W. From there, move down 5 steps until you reach the marker labeled 8t. Move left 2 steps until you reach the marker labeled 5C. Finally, move down 4 steps and you will reach the Gold end point. Avoid the Navy Blue obstacle area and stick to the Sky Blue free area to reach your destination safely.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 12 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Navy Blue, and the color of free area is Cream. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Blue) in the maze, we need to navigate through the free area (Cream) while avoiding the obstacle area (Navy Blue). The markers in the maze can help guide the path.\n\nStarting from the Green point:\n1. Move right to the position marked \"6z\".\n2. Move up to the position marked \"i9\".\n3. Move right to the position marked \"H4\".\n4. Move up to the position marked \"6w\".\n5. Move right to the position marked \"6l\".\n6. Move up to the position marked \"6R\".\n7. Move right to the position marked \"G2\".\n8. Move up to reach the Blue point.\n\nThe path from the start point to the end point is: right, up, right, up, right, up, right, up.\n\nThus, the final answer is stored in \\(\\boxed{answer}\\).",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_56.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, follow these steps:\n\n1. Start at the green start point in the maze.\n2. Move up until you reach the marker at H4.\n3. Then, move left until you reach the marker at i9.\n4. From there, move down until you reach the marker at 6z.\n5. Next, move left until you reach the marker at C4.\n6. Finally, move up until you reach the blue end point.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the Green start point to the Gold end point in the maze, we need to navigate through the White free area while avoiding the Burgundy obstacle area. The markers in the maze can help guide us.\n\nStarting at the Green point, we can follow these steps:\n\n1. Move right to the Gold end point.\n\nThe path is straightforward as the Green start point is directly adjacent to the Gold end point.\n\nThus, the path from the start point to the end point is simply moving right once.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_57.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, start by moving right until you reach marker 9J. From there, move down until you reach marker F6. Next, move left until you reach marker P0. Finally, move up until you reach the end point. Be careful to avoid the burgundy obstacle area and stay within the white free area. Follow these markers to successfully navigate the maze from the start point to the end point.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 18 by 14 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is Beige. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Red start point at C7 to the Blue end point at C5, navigating through the Beige free area and avoiding the Burgundy obstacle area.\n\nHere's a step-by-step path from the start point to the end point:\n\n1. Start at C7 (Red).\n2. Move left to B7.\n3. Move left to A7.\n4. Move down to A6.\n5. Move down to A5.\n6. Move right to B5.\n7. Move right to C5 (Blue).\n\nThe path from the start point to the end point is: C7, B7, A7, A6, A5, B5, C5.\n\nThus, the final answer is \\boxed{C7, B7, A7, A6, A5, B5, C5}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_58.png"
+            ],
+            "final_answer": "C7, B7, A7, A6, A5, B5, C5",
+            "correct_answer": "To get from the start point to the end point in the maze, you need to follow these steps. First, move upwards until you reach the marker at position C7. From there, move leftwards for a significant number of steps until you reach marker 7J. Once you are at 7J, move downwards until you reach C5, and then head rightwards towards the end point for several steps. Congratulations, you have successfully navigated through the maze and reached the end point while avoiding the burgundy obstacle area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 11 by 19 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold), we need to navigate through the free area (White) while avoiding the obstacle area (Dark Brown). Let's trace the path step by step:\n\n1. Start at the Green point (Z6).\n2. Move left to the marker \"6B\".\n3. Move left to the marker \"y6D\".\n4. Move left to the marker \"k6\".\n5. Move down to the marker \"i0\".\n6. Move left to the marker \"U5\".\n7. Move down to reach the Gold point.\n\nThe path from the start point to the end point is: Z6 -> 6B -> y6D -> k6 -> i0 -> U5 -> Gold.\n\nThus, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_59.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze and reach the end point, follow these steps:\n\n1. Start at the green point.\n2. Move right until you reach the marker 6B.\n3. Move down until you reach the marker y4.\n4. Move right until you reach the marker 6D.\n5. Move down until you reach the marker k6.\n6. Move left until you reach the end point, which is marked as Gold.\n\nBy following this path, you will be able to successfully navigate through the maze and reach the end point while avoiding the obstacles.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 11 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Light Blue. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Red start point to the Blue end point, navigating through the Light Blue free area while avoiding the Olive Green obstacle area. \n\nStarting at the Red point (marked as \"9f\"), we can move in the following sequence:\n\n1. Move up to \"6T\" (Blue end point).\n\nThis is the shortest path from the start point to the end point, as they are adjacent to each other.\n\nThus, the final answer is \\boxed{6T}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_60.png"
+            ],
+            "final_answer": "6T",
+            "correct_answer": "To navigate through the maze and reach the end point, follow these steps:\n\n1. Start at the red point in the maze.\n2. Move right until you have taken 2 steps and reach the marker labeled \"Q2\".\n3. From the marker \"Q2\", move up until you have taken 6 steps and reach the marker labeled \"9A\".\n4. Next, move left until you have taken 3 steps and reach the marker labeled \"A9\".\n5. From the marker \"A9\", move down until you have taken 4 steps and reach the marker labeled \"6T\".\n6. Finally, move right for 1 step and you will reach the end point, which is marked in blue.\n\nBy following these instructions, you will successfully navigate through the maze and reach the end point while avoiding the obstacles.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 10 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Purple, and the color of free area is Lavender. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to follow the markers provided in the free area (Lavender). The markers indicate directions and steps to move.\n\nStarting at the Red point, which is marked with \"3b\":\n1. \"3b\" suggests moving 3 steps down (b for bottom).\n2. From the Red point, move 3 steps down to reach the Lavender area marked \"4u\".\n\nNext, at the \"4u\" marker:\n3. \"4u\" suggests moving 4 steps up.\n4. Move 4 steps up to reach the Lavender area marked \"L2\".\n\nAt the \"L2\" marker:\n5. \"L2\" suggests moving 2 steps left.\n6. Move 2 steps left to reach the Lavender area marked \"w0\".\n\nFinally, at the \"w0\" marker:\n7. \"w0\" suggests moving 0 steps, indicating you are at the end point (Gold).\n\nThus, the path from the start point to the end point is: 3 steps down, 4 steps up, 2 steps left, and 0 steps at the end.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_61.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze from the start point to the end point, follow these instructions:\n\n1. Start at the Red point.\n2. Move left until you reach the marker labeled 3b.\n3. Then, move up until you reach the marker labeled 4u.\n4. Finally, move right to reach the Gold endpoint.\n\nBy following this path, you will be able to successfully navigate through the maze while avoiding the obstacles.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 10 by 17 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Forest Green, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (White) while avoiding the obstacle area (Forest Green). The path can be determined by following the open spaces in the maze.\n\nStarting from the Red point (7,0), we can move as follows:\n\n1. Move up to (6,0)\n2. Move up to (5,0)\n3. Move up to (4,0)\n4. Move up to (3,0)\n5. Move up to (2,0)\n6. Move up to (1,0)\n7. Move right to (1,1)\n8. Move right to (1,2)\n9. Move right to (1,3)\n10. Move right to (1,4)\n11. Move right to (1,5)\n12. Move right to (1,6)\n\nNow, we have reached the Blue point (1,6).\n\nThe path from the start point to the end point is: (7,0) -> (6,0) -> (5,0) -> (4,0) -> (3,0) -> (2,0) -> (1,0) -> (1,1) -> (1,2) -> (1,3) -> (1,4) -> (1,5) -> (1,6).\n\nThus, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_62.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze and reach the end point, follow these instructions:\n\n1. Start at the Red point, which is the start point.\n2. Look for a path in the free area, which is the White section of the maze.\n3. Move left until you reach the end point, which is marked by the Blue color.\n\nRemember to avoid the obstacle area, which is the Forest Green section. Good luck finding your way!",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 13 by 19 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Gray, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Green start point to the Gold end point, navigating through the Light Pink free area while avoiding the Dark Gray obstacle area. The markers in the maze seem to provide directions or hints for navigation.\n\nLet's analyze the markers:\n\n1. **A0**: This could indicate a starting point or a direction.\n2. **n5**: This might suggest moving north 5 steps.\n3. **l3**: This could mean moving left 3 steps.\n4. **3U**: This might indicate moving up 3 steps.\n5. **h6**: This could suggest moving horizontally 6 steps.\n6. **7g**: This might mean moving 7 steps towards the Gold end point.\n7. **g9**: This could indicate moving towards the Gold end point for 9 steps.\n8. **6m**: This might suggest moving 6 steps in a certain direction.\n\nGiven these markers, let's attempt to trace a path:\n\n1. Start at the Green point.\n2. Move north 5 steps (n5).\n3. Move left 3 steps (l3).\n4. Move up 3 steps (3U).\n5. Move horizontally 6 steps (h6) towards the Gold point.\n6. Move 7 steps towards the Gold point (7g).\n\nFollowing these steps should lead us to the Gold end point.\n\nTherefore, the path from the start point to the end point is: \\boxed{answer}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_63.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To find the path from the start to the end in the 13 by 19 maze, you need to move up 3 steps until you reach the marker A0. Then, move right 5 steps until you reach the marker n5. From there, move down 3 steps until you reach the marker I3. Finally, move right 7 steps and you will arrive at the end point. Be sure to avoid the dark gray obstacle area and stick to the light pink free area. The markers labeled A0, n5, and I3 will guide you along the path.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 14 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Sky Blue. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Blue) in the maze, we need to navigate through the Sky Blue free area while avoiding the Olive Green obstacle area. We can move up, down, left, or right.\n\nLet's trace a path from the start point to the end point:\n\n1. Start at the Green point (8w).\n2. Move down to the Sky Blue area (8o).\n3. Move left to the Sky Blue area (M9).\n4. Move left to the Sky Blue area (d6).\n5. Move left to the Sky Blue area (K5).\n6. Move left to the Sky Blue area (k9), which is the Blue end point.\n\nThus, the path from the start point to the end point is: 8w -> 8o -> M9 -> d6 -> K5 -> k9.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_64.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To get through the maze, start by moving down until you reach the marker labeled M9. From there, go left until you hit marker d6. Move up to marker K5, and then go left two steps to reach the end point. Be sure to avoid the Olive Green obstacle area and stick to the Sky Blue free area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 10 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Cream. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Green start point to the Blue end point, avoiding the Dark Brown obstacles. The maze is a 10 by 13 grid, but the image provided is a simplified representation. Let's analyze the image and find the path:\n\n1. Start at the Green point (2n).\n2. Move left to avoid the Dark Brown obstacle directly above.\n3. Move up to navigate around the obstacle.\n4. Continue moving left until you are clear of the obstacle.\n5. Move up to align with the Blue end point.\n6. Move right to reach the Blue end point.\n\nFollowing these steps, the path from the Green start point to the Blue end point is:\n\n- Start at (2n)\n- Move left\n- Move up\n- Move left\n- Move up\n- Move right\n\nThis path avoids all obstacles and successfully reaches the end point.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_65.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate this maze, start at the Green start point and move up until you reach the first marker, labeled y3. From there, move left until you reach the marker labeled 4V. Then, move down until you reach the marker labeled n6. Finally, move right until you reach the end point, marked in Blue. Be sure to avoid the obstacles, which are the Dark Brown areas, and stick to the Cream-colored free areas. Use the markers to help guide you along the path.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 12 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Green start point to the Blue end point, navigating through the White free area and avoiding the Burgundy obstacle area. The markers in the maze provide directions:\n\n1. Start at the Green point.\n2. Follow the marker \"H1\" which indicates moving horizontally to the right by 1 step.\n3. Follow the marker \"9\" which indicates moving vertically up by 9 steps.\n4. Follow the marker \"M\" which indicates moving horizontally to the left by 1 step.\n5. Follow the marker \"9\" which indicates moving vertically up by 9 steps.\n6. Follow the marker \"2L\" which indicates moving horizontally to the left by 2 steps.\n7. Follow the marker \"R7\" which indicates moving horizontally to the right by 7 steps.\n\nThis path will lead you to the Blue end point.\n\nTherefore, the path from the start point to the end point is:\n\n- Right 1\n- Up 9\n- Left 1\n- Up 9\n- Left 2\n- Right 7\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_66.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, you must avoid the burgundy obstacle area and follow the white free area. Starting from the green start point, move downwards twice until you reach marker H1. From there, move to the right once until you reach marker q9. Then, move down one step to reach marker 9M. Finally, move upwards for nine steps to reach the blue end point. Remember to follow the markers to find the path.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 14 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Navy Blue, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the Light Pink free area while avoiding the Navy Blue obstacle area. We can move up, down, left, or right.\n\nLet's analyze the maze:\n\n1. Start at the Red point (s5 0p).\n2. Move right to B0.\n3. Move up to u9.\n4. Move left to a1.\n5. Move left to e2.\n6. Move up to the Gold point.\n\nThe path from the start point to the end point is: \n\n- Start at Red (s5 0p)\n- Right to B0\n- Up to u9\n- Left to a1\n- Left to e2\n- Up to Gold\n\nThus, the path is: Right, Up, Left, Left, Up.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_67.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "Starting at the Red start point, move left until you come across the marker labeled \"0p.\" From there, move up until you reach the marker labeled \"z4.\" Finally, move left until you reach the Gold end point. Be sure to avoid the Navy Blue obstacle area and stick to the Light Pink free area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 10 by 20 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Forest Green, and the color of free area is Sky Blue. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the start point (Green) to the end point (Blue) while avoiding the Forest Green obstacle areas. We can move up, down, left, or right.\n\n1. Start at the Green point (E4).\n2. Move right to the Sky Blue area.\n3. Continue moving right until you reach the end of the Sky Blue area.\n4. Move down to stay in the Sky Blue area.\n5. Move left to reach the Blue end point.\n\nFollowing these steps, the path from the start point to the end point is:\n\n- Start at E4 (Green).\n- Move right to E5, E6, E7, E8, E9.\n- Move down to F9.\n- Move left to F8, F7, F6, F5, F4, F3, F2, F1, F0.\n- Move down to G0.\n- Move right to G1, G2, G3, G4, G5, G6, G7, G8, G9.\n- Move down to H9.\n- Move left to H8, H7, H6, H5, H4, H3, H2, H1, H0.\n- Move down to I0.\n- Move right to I1, I2, I3, I4, I5, I6, I7, I8, I9.\n- Move down to J9.\n- Move left to J8, J7, J6, J5, J4, J3, J2, J1, J0.\n- Move up to I0.\n- Move right to I1, I2, I3, I4, I5, I6, I7, I8, I9.\n- Move up to H9.\n- Move left to H8, H7, H6, H5, H4, H3, H2, H1, H0.\n- Move up to G0.\n- Move right to G1, G2, G3, G4, G5, G6, G7, G8, G9.\n- Move up to F9.\n- Move left to F8, F7, F6, F5, F4, F3, F2, F1, F0.\n- Move up to E0.\n- Move right to E1, E2, E3, E4, E5, E6, E7, E8, E9.\n- Move down to D9.\n- Move left to D8, D7, D6, D5, D4, D3, D2, D1, D0.\n- Move down to C0.\n- Move right to C1, C2, C3, C4, C5, C6, C7, C8, C9.\n- Move down to B9.\n- Move left to B8, B7, B6, B5, B4, B3, B2, B1, B0.\n- Move down to A0.\n- Move right to A1, A2, A3, A4, A5, A6, A7, A8, A9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8, 9.\n- Move down to 9.\n- Move left to 8, 7, 6, 5, 4, 3, 2, 1, 0.\n- Move down to 0.\n- Move right to 1, 2, 3, 4, 5, 6, 7, 8",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_68.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "To navigate through the maze and reach the end point, follow these instructions:\n\n1. Start at the Green point.\n2. Move up until you reach the marker at E4.\n3. Next, move left for 6 steps until you reach the marker at J0.\n4. From J0, move down for 2 steps until you reach the marker at J1.\n5. Finally, move left for 1 step, and you will have reached the end point at the Blue area.\n\nRemember to stay within the Sky Blue free area and avoid the Forest Green obstacle area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 17 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Cream. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (Cream) while avoiding the obstacle area (Dark Brown). The markers in the maze can help guide us.\n\nStarting from the Red point, we can move as follows:\n\n1. Move up to the marker labeled \"o4\".\n2. Move left to the marker labeled \"0w\".\n3. Move up to the marker labeled \"R3\".\n4. Move left to the marker labeled \"X1\".\n\nNow, we need to backtrack to reach the Blue point:\n\n5. Move right to the marker labeled \"R3\".\n6. Move down to the marker labeled \"0w\".\n7. Move right to the marker labeled \"o4\".\n8. Move down to the Red point.\n9. Move down to the Blue point.\n\nThis path successfully navigates from the start point to the end point using the markers as guides.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_69.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze and reach the end point, follow these instructions:\n\n1. Start at the Red point.\n2. Move downwards until you reach the marker labeled \"r3\".\n3. Then, move towards the right until you reach the marker labeled \"3B\".\n4. Finally, move downwards one last time and you will arrive at the Blue end point.\n\nBy following this path, you will successfully navigate through the maze and reach your destination.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 13 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Forest Green, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the Light Pink free area while avoiding the Forest Green obstacle area. The path can only move up, down, left, or right.\n\n1. Start at the Red point.\n2. Move left through the Light Pink area until you reach the Gold point.\n\nThe path is straightforward as there are no obstacles in the Light Pink area between the Red and Gold points.\n\nTherefore, the path from the start point to the end point is a straight line to the left.\n\n\\boxed{answer}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_70.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, follow these instructions:\n\n1. Start at the red point.\n2. Move left until you reach the marker labeled \"g0\".\n3. Move up until you reach the marker labeled \"Q6\".\n4. Finally, move left to reach the end point, which is marked in gold.\n\nBy following this path, you will be able to navigate through the maze and reach the end point, avoiding the obstacles along the way.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 13 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Cream. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the free area (Cream) while avoiding the obstacle area (Olive Green). Let's analyze the maze and determine the path:\n\n1. Start at the Red point (8lt8).\n2. Move right to the position adjacent to the Red point.\n3. Move up to the position adjacent to the Gold point (m6).\n\nThe path from the start point to the end point is:\n- Right\n- Up\n\nThus, the final answer is the sequence of moves: \\boxed{\\text{Right, Up}}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_71.png"
+            ],
+            "final_answer": "\\text{Right, Up",
+            "correct_answer": "To navigate through the maze, follow these instructions:\n\n1. Start at the Red point.\n2. Move upwards for a certain number of steps until you reach a marker labeled 8k.\n3. From there, move right for a certain number of steps until you reach a marker labeled t8.\n4. Finally, move upwards for a certain number of steps and you will reach the end point, which is marked with Gold.\n\nRemember to avoid the Olive Green obstacle area and stick to the Cream free area while following the markers to find your path.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 16 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the free area (Light Pink) while avoiding the obstacle area (Dark Brown). We can move up, down, left, or right.\n\nLet's trace the path step by step:\n\n1. Start at the Red point.\n2. Move right to the position labeled \"i5\".\n3. Move right to the position labeled \"L7\".\n4. Move up to the position labeled \"9X\".\n5. Move right to the position labeled \"7A\".\n6. Move down to the position labeled \"f6\".\n7. Move down to the position labeled \"w40\" (Gold point).\n\nThus, the path from the start point to the end point is:\n\nRight, Right, Up, Right, Down, Down\n\nThe final answer is stored in \\(\\boxed{\\text{Right, Right, Up, Right, Down, Down}}\\).",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_72.png"
+            ],
+            "final_answer": "\\text{Right, Right, Up, Right, Down, Down",
+            "correct_answer": "To navigate through the maze from the start point to the end point, follow these instructions:\n\n1. Begin at the start point marked in red.\n2. Move right until you reach the marker labeled E0. The marker is located in the obstacle area, which is dark brown.\n3. From the E0 marker, move up until you reach the marker labeled L0. This marker is located in the free area, which is light pink.\n4. Once you reach the L0 marker, move left until you reach the marker labeled w4. This marker is located in the obstacle area.\n5. After reaching the w4 marker, move up one step and you will have successfully reached the end point marked in gold.\n\nFollowing this path will allow you to avoid obstacles and safely reach your destination in the maze.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 11 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold) in the maze, we need to navigate through the free area (Light Pink) while avoiding the obstacle area (Burgundy). The start point is located at position 8A, and the end point is at position f2.\n\nHere's a step-by-step path from the start point to the end point:\n\n1. Start at 8A (Green).\n2. Move left to 7A.\n3. Move left to 6A.\n4. Move left to 5A.\n5. Move left to 4A.\n6. Move left to 3A.\n7. Move left to 2A.\n8. Move down to 2B.\n9. Move down to 2C.\n10. Move down to 2D.\n11. Move down to 2E.\n12. Move down to 2F.\n13. Move right to 3F.\n14. Move right to 4F.\n15. Move down to 4G.\n16. Move down to 4H.\n17. Move left to 3H.\n18. Move left to 2H.\n19. Move down to 2I.\n20. Move down to 2J.\n21. Move right to 3J.\n22. Move right to 4J.\n23. Move up to 4I.\n24. Move up to 4H.\n25. Move right to 5H.\n26. Move right to 6H.\n27. Move right to 7H.\n28. Move right to 8H.\n29. Move right to 9H.\n30. Move right to 10H.\n31. Move up to 10G.\n32. Move up to 10F.\n33. Move left to 9F.\n34. Move left to 8F.\n35. Move left to 7F.\n36. Move left to 6F.\n37. Move left to 5F.\n38. Move left to 4F.\n39. Move left to 3F.\n40. Move left to 2F.\n41. Move up to 2E.\n42. Move up to 2D.\n43. Move up to 2C.\n44. Move up to 2B.\n45. Move up to 2A.\n46. Move right to 3A.\n47. Move right to 4A.\n48. Move right to 5A.\n49. Move right to 6A.\n50. Move right to 7A.\n51. Move right to 8A.\n52. Move down to 8B.\n53. Move down to 8C.\n54. Move down to 8D.\n55. Move down to 8E.\n56. Move down to 8F.\n57. Move left to 7F.\n58. Move left to 6F.\n59. Move left to 5F.\n60. Move left to 4F.\n61. Move left to 3F.\n62. Move left to 2F.\n63. Move down to 2G.\n64. Move down to 2H.\n65. Move down to 2I.\n66. Move down to 2J.\n67. Move right to 3J.\n68. Move right to 4J.\n69. Move up to 4I.\n70. Move up to 4H.\n71. Move right to 5H.\n72. Move right to 6H.\n73. Move right to 7H.\n74. Move right to 8H.\n75. Move right to 9H.\n76. Move right to 10H.\n77. Move up to 10G.\n78. Move up to 10F.\n79. Move left to 9F.\n80. Move left to 8F.\n81. Move left to 7F.\n82. Move left to 6F.\n83. Move left to 5F.\n84. Move left to 4F.\n85. Move left to 3F.\n86. Move left to 2F.\n87. Move up to 2E.\n88. Move up to 2D.\n89. Move up to 2C.\n90. Move up to 2B.\n91. Move up to 2A.\n92. Move right to 3A.\n93. Move right to 4A.\n94. Move right to 5A.\n95. Move right to 6A.\n96. Move right to 7A.\n97. Move right to 8A.\n98. Move down to 8B.\n99. Move down to 8C.\n100. Move down to 8D.\n101. Move down to 8E.\n102. Move down to 8F.\n103. Move left to 7F.\n104. Move left to 6F.\n105. Move left to 5F.\n106. Move left to 4F.\n107. Move left to 3F.\n108. Move left to 2F.\n109. Move down to 2G.\n110. Move down to 2H.\n111. Move down to 2I.\n112. Move down to 2J.\n113. Move right to 3J.\n114. Move right to 4J.\n115. Move up to 4I.\n116. Move up to 4H.\n117. Move right to 5H.\n118. Move right to 6H.\n119. Move right to 7H.\n120. Move right to 8H.\n121. Move right to 9H.\n122. Move right to 10H.\n123. Move up to 10G.\n124. Move up to 10F.\n125. Move left to 9F.\n126. Move left to 8F.\n127. Move left to 7F.\n128. Move left to 6F.\n129. Move left to 5F.\n130. Move left to 4F.\n131. Move left to 3F.\n132. Move left to 2F.\n133. Move up to 2E.\n134. Move up to 2D.\n135. Move up to 2C.\n136. Move up to 2B.\n137. Move up to 2A.\n138. Move right to 3A.\n139. Move right to 4A.\n140. Move right to 5A.\n141. Move right to 6A.\n142. Move right to 7A.\n143. Move right to 8A.\n144. Move down to 8B.\n145. Move down to 8C.\n146. Move down to 8D.\n147. Move down to 8E.\n148. Move down to 8F.\n149. Move left to 7F.\n150. Move left to 6F.\n151. Move left to 5F.\n152. Move left to 4F.\n153. Move left to 3F.\n154. Move left to 2F.\n155. Move down to 2G.\n156. Move down to 2H.\n157. Move down to 2I.\n158. Move down to 2J.\n159. Move right to 3J.\n160. Move right to 4J.\n161. Move up to 4I.\n162. Move up to 4H.\n163. Move right to 5H.\n164. Move right to 6H.\n165. Move right to 7H.\n166. Move right to 8H.\n167. Move right to 9H.\n168. Move right to 10H.\n169. Move up to 10G.\n170. Move up to 10F.\n171. Move left to 9F.\n172. Move left to 8F.\n173. Move left to 7F.\n174. Move left to 6F.\n175. Move left to 5F.\n176. Move left to 4F.\n177. Move left to 3F.\n178. Move left to 2F.\n179. Move up to 2E.\n180. Move up to 2D.\n181. Move up to 2C.\n182. Move up to 2B.\n183. Move up to 2A.\n184. Move right to 3A.\n185. Move right to 4A.\n186. Move right to 5A.\n187. Move right to 6A.\n188. Move right to 7A.\n189. Move right to 8A.\n190. Move down to 8B.\n191. Move down to 8C.\n192. Move down to 8D.\n193. Move down to 8E.\n194. Move down to 8F.\n195. Move left to 7F.\n196. Move left to 6F.\n197. Move left to 5F.\n198. Move left to 4F.\n199. Move left to 3F.\n200. Move left to 2F.\n201. Move down to 2G.\n202. Move down to 2H.\n203. Move down to 2I.\n204. Move down to 2J.\n205. Move right to 3J.\n206. Move right to 4J.\n207. Move up to 4I.\n208. Move up to 4H.\n209. Move right to 5H.\n210. Move right to 6H.\n211. Move right to 7H.\n212. Move right to 8H.\n213. Move right to 9H.\n214. Move right to 10H.\n215. Move up to 10G.\n216. Move up to 10F.\n217. Move left to 9F.\n218. Move left to 8F.\n219. Move left to 7F.\n220. Move left to 6F.\n221. Move left to 5F.\n222. Move left to 4F.\n223. Move left to 3F.\n224. Move left to 2F.\n225. Move up to 2E.\n226. Move up to 2D.\n227. Move up to 2C.\n228. Move up to 2B.\n229. Move up to 2A.\n230. Move right to 3A.\n231. Move right to 4A.\n232. Move right to 5A.\n233. Move right to 6A.\n234. Move right to 7A.\n235. Move right to 8A.\n236. Move down to 8B.\n237. Move down to 8C.\n238. Move down to 8D.\n239. Move down to 8E.\n240. Move down to 8F.\n241. Move left to 7F.\n242. Move left to 6F.\n243. Move left to 5F.\n244. Move left to 4F.\n245. Move left to 3F.\n246. Move left to 2F.\n247. Move down to 2G.\n248. Move down to 2H.\n249. Move down to 2I.\n250. Move down to 2J.\n251. Move right to 3J.\n252. Move right to 4J.\n253. Move up to 4I.\n254. Move up to 4H.\n255. Move right to 5H.\n256. Move right to 6H.\n257. Move right to 7H.\n258. Move right to 8H.\n259. Move right to 9H.\n260. Move right to 10H.\n261. Move up to 10G.\n262. Move up to 10F.\n263. Move left to 9F.\n264. Move left to 8F.\n265. Move left to 7F.\n266. Move left to 6F.\n267. Move left to 5F.\n268. Move left to 4F.\n269. Move left to 3",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_73.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "Starting from the Green start point, move downwards towards the Light Pink area. Keep moving downwards until you reach the end point which is marked in Gold.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Red start point to the Blue end point, navigating through the White free area while avoiding the Charcoal Gray obstacle area. We can move up, down, left, or right.\n\nLet's trace the path step by step:\n\n1. Start at the Red point (k4).\n2. Move right to the White area (0W).\n3. Move down to the White area (8K).\n4. Move down to the White area (M5).\n5. Move right to the White area (9f).\n6. Move down to the White area (S9).\n7. Move right to the White area (P3).\n8. Move down to the White area (Blue end point).\n\nThe path from the start point to the end point is: right, down, down, right, down, right, down.\n\nThus, the final answer is the sequence of moves: \\boxed{\\text{right, down, down, right, down, right, down}}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_74.png"
+            ],
+            "final_answer": "\\text{right, down, down, right, down, right, down",
+            "correct_answer": "To get from the start point to the end point, you need to first move left until you reach the marker k4. Then, move down until you reach the marker K3. From there, move right until you reach the end point. Make sure to avoid the charcoal gray obstacle area and stay within the white free area. Follow the markers to guide your way.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 12 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (White) while avoiding the obstacle area (Black). The markers in the maze provide directions:\n\n1. Start at the Red point.\n2. Move left to the marker \"3f\".\n3. Move down to the marker \"2C\".\n4. Move left to the marker \"2u\".\n5. Move up to the marker \"4M\".\n6. Move left to reach the Blue point.\n\nThe path from the Red point to the Blue point is: left, down, left, up, left.\n\nTherefore, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_75.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To get through the maze, start at the red start point and move left until you reach the marker 3f. Then move up until you reach the marker 2C. From there, move left one step and you will reach the blue end point. Be sure to avoid the black obstacle areas and stay within the white free areas while navigating the maze.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 15 by 12 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Sky Blue. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the free area (Sky Blue) while avoiding the obstacle area (Olive Green). The markers in the maze can help guide the path.\n\nStarting from the Red point, follow these steps:\n\n1. Move left to the marker labeled \"6\".\n2. Move up to the marker labeled \"5A\".\n3. Move left to reach the Gold point.\n\nThus, the path from the start point to the end point is: left, up, left.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_76.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To reach the end point from the start point in the maze, you need to follow these steps. Firstly, move left until you reach the marker 9x. Then move up until you reach another marker labeled f6. Finally, move left again and you will arrive at the end point. Remember to avoid the Olive Green obstacle area and stick to the Sky Blue free area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 13 by 10 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Light Blue. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (Light Blue) while avoiding the obstacle area (Black). The markers in the maze can help guide us.\n\n1. Start at the Red point.\n2. Move left to the adjacent Light Blue square.\n3. Move up to the next Light Blue square.\n4. Continue moving up until you reach the top row of the maze.\n5. Move left until you reach the Blue point.\n\nFollowing these steps, the path from the start point to the end point is:\n\n- Start at the Red point.\n- Move left 1 step.\n- Move up 3 steps.\n- Move left 2 steps.\n\nThis path avoids all obstacles and reaches the Blue point successfully.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_77.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, follow these steps:\n\n1. Start at the red point.\n2. Move downwards until you reach the marker q6.\n3. Then, move leftwards until you reach the marker d9.\n4. Finally, move upwards three times to reach the end point, which is marked in blue.\n\nBy following this path, you will successfully navigate the maze and reach the endpoint, avoiding any obstacles along the way.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 13 by 11 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Olive Green, and the color of free area is Beige. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Red start point to the Gold end point, moving only through the Beige free area and avoiding the Olive Green obstacle area. Let's analyze the maze and determine the path:\n\n1. Start at the Red point.\n2. Move right to the Beige area.\n3. Move down to the Beige area.\n4. Move left to the Beige area.\n5. Move down to the Beige area.\n6. Move left to the Beige area.\n7. Move down to the Beige area.\n8. Move left to the Beige area.\n9. Move down to the Gold end point.\n\nFollowing these steps, we reach the Gold end point. Therefore, the path from the start point to the end point is:\n\nRight, Down, Left, Down, Left, Down, Left, Down.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_78.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze and reach the end point, follow these steps:\n\n1. Start at the red point, which is the starting point.\n2. Move down until you reach the marker 4P. \n3. Continue moving right until you reach the marker 4d.\n4. Now, move up until you reach the marker i4.\n5. Next, move left until you reach the marker m9.\n6. Finally, move down to reach the end point, which is marked with gold.\n\nBy following this path, you can successfully navigate through the maze and reach the end point while avoiding obstacles.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 11 by 12 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold) in the maze, we need to navigate through the free area (Light Pink) while avoiding the obstacle area (Black). The path can be determined by following the open spaces in the Light Pink area.\n\nStarting from the Green point, we move as follows:\n\n1. Move right to the first open space.\n2. Move up through the open spaces until reaching the top of the maze.\n3. Move right to reach the Gold point.\n\nThis path avoids all obstacles and successfully navigates from the start to the end point.\n\nThe path can be described in terms of directions:\n- Right\n- Up\n- Up\n- Up\n- Up\n- Up\n- Up\n- Up\n- Up\n- Right\n\nThus, the final answer is the sequence of moves: Right, Up, Up, Up, Up, Up, Up, Up, Up, Right.\n\n\\[\n\\boxed{\\text{Right, Up, Up, Up, Up, Up, Up, Up, Up, Right}}\n\\]",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_79.png"
+            ],
+            "final_answer": "\\text{Right, Up, Up, Up, Up, Up, Up, Up, Up, Right",
+            "correct_answer": "To navigate through the maze, start at the green point and follow these steps:\n1. Move up 6 steps.\n2. Congratulations! You have reached the end point, which is marked in gold.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 18 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Forest Green, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Blue), we need to navigate through the free area (Light Pink) while avoiding the obstacle area (Forest Green). Let's trace the path step by step:\n\n1. Start at the Green point.\n2. Move right to the marker \"N1\".\n3. Move up to the marker \"m3\".\n4. Move left to the marker \"l1\".\n5. Move up to the marker \"0P\".\n6. Move right to the marker \"8g\".\n7. Move up to the marker \"r5\".\n8. Move left to the marker \"j0\".\n9. Move up to reach the Blue point.\n\nThe path from the start point to the end point is: right, up, left, up, right, up, left, up.\n\nTherefore, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_80.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, follow these steps:\n\n1. Start at the Green point.\n2. Move right until you reach the marker N1.\n3. Proceed by moving up until you reach the marker 8n.\n4. Change direction and move left until you reach the marker Z9.\n5. Continue moving up until you reach the marker n9.\n6. Finally, move left until you reach the end point marked in Blue.\n\nBy following this path, you will successfully reach the end of the maze while avoiding the Forest Green obstacles.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 11 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is Sky Blue. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold), we need to navigate through the free area (Sky Blue) while avoiding the obstacle area (Charcoal Gray). We can move up, down, left, or right.\n\nStarting at the Green point (K4), we can follow these steps:\n\n1. Move left to the position marked \"Z0\".\n2. Move up to the position marked \"M4\".\n3. Move up to the position marked \"1t\".\n4. Move right to reach the Gold point.\n\nThus, the path from the start point to the end point is: K4 -> Z0 -> M4 -> 1t -> Gold.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_81.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, you must first move left from the start point until you reach the marker K4. Once at K4, move downwards for six steps until you reach the marker Z0. From Z0, move left for three steps until you reach the marker M4. Then, move upwards for nine steps until you reach the end point. Be careful to avoid the Charcoal Gray obstacle area and stick to the Sky Blue free area. Use the markers provided to guide you through the maze.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 20 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Beige. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Blue) in the maze, we need to navigate through the free area (Beige) while avoiding the obstacle area (Black). We can move up, down, left, or right.\n\nLet's trace the path step by step:\n\n1. Start at the Green point (marked as \"o6\").\n2. Move left to \"0K\".\n3. Move up to \"Z3\".\n4. Move left to \"3i\".\n5. Move up to \"w9\".\n6. Move left to the Blue point (end point).\n\nThus, the path from the start point to the end point is:\n\n- Start at Green (o6)\n- Left to 0K\n- Up to Z3\n- Left to 3i\n- Up to w9\n- Left to Blue\n\nThe final answer is the sequence of moves:\n\n\\boxed{Left, Up, Left, Up, Left}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_82.png"
+            ],
+            "final_answer": "Left, Up, Left, Up, Left",
+            "correct_answer": "To navigate through the maze, follow these steps:\n\n1. Start at the Green point.\n2. Move upwards until you reach the marker labeled \"0K\".\n3. Then, move to the left for several steps until you reach the marker labeled \"7f\".\n4. Next, move upwards for a single step until you reach the marker labeled \"3i\".\n5. Finally, move to the left for a few steps, and you will arrive at the end point, marked with Blue color.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 18 by 15 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Black, and the color of free area is Light Pink. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold) in the maze, we need to navigate through the free area (Light Pink) while avoiding the obstacle area (Black). We can move up, down, left, or right.\n\nLet's trace the path step by step:\n\n1. Start at the Green point.\n2. Move right to the position marked \"r9\".\n3. Move down to the position marked \"7w\".\n4. Move right to the position marked \"1h\".\n5. Move down to the position marked \"6g\".\n6. Move right to the position marked \"o8\".\n7. Move down to the position marked \"7V\".\n8. Move left to the position marked \"I8\".\n9. Move down to reach the Gold point.\n\nThe path from the Green start point to the Gold end point is: right, down, right, down, right, down, left, down.\n\nThus, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_83.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, start by moving right until you reach the marker at g4. From there, move down until you reach the marker at I8. Then, continue by moving left until you reach the end point. Remember to avoid the black obstacle area and stick to the light pink free area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 13 by 11 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Blue) in the maze, we need to navigate through the free area (White) while avoiding the obstacle area (Burgundy). The markers in the maze might provide hints or directions, but the primary goal is to find a clear path.\n\nStarting at the Red point, we can observe the following path:\n\n1. Move right to the position labeled \"C7\".\n2. Move up to the position labeled \"4p\".\n3. Move right to reach the Blue point labeled \"1Z\".\n\nThis path avoids the Burgundy obstacle area and successfully navigates through the White free area.\n\nTherefore, the path from the start point to the end point is:\n\n\\[\n\\boxed{\\text{Right, Up, Right}}\n\\]",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_84.png"
+            ],
+            "final_answer": "\\text{Right, Up, Right",
+            "correct_answer": "To navigate through the maze, follow these instructions:\n\n1. Start at the red point.\n2. Move upwards until you reach the marker at C7. \n3. Now, move to the right for a certain number of steps until you reach the marker at 4p.\n4. Next, move downwards for a certain number of steps until you reach the marker at 7s.\n5. Finally, move upwards for a certain number of steps and you will reach the end point marked in blue.\n\nBy following these directions, you should successfully navigate through the maze and reach your destination.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 10 by 16 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Burgundy, and the color of free area is Mint Green. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Gold) in the maze, we need to navigate through the free area (Mint Green) while avoiding the obstacle area (Burgundy). The maze is a 10 by 16 grid, but the image provided shows only a portion of it. Based on the image, the path can be determined as follows:\n\n1. Start at the Green point.\n2. Move right to the position marked \"1W\".\n3. Continue moving right to the position marked \"m5\".\n4. Move right to the position marked \"0P\".\n5. Move up to the position marked \"o9\".\n6. Move left to the position marked \"V9\".\n7. Move left to the position marked \"7C\".\n8. Move left to reach the Gold point.\n\nThis path navigates through the free area and avoids the obstacle area. Therefore, the final answer is the sequence of moves:\n\n\\boxed{Right, Right, Right, Up, Left, Left, Left}",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_85.png"
+            ],
+            "final_answer": "Right, Right, Right, Up, Left, Left, Left",
+            "correct_answer": "To navigate through the maze, follow these instructions:\n\n1. Begin at the start point, indicated by the Green color.\n2. Move up until you reach a marker labeled V9. (The marker is located 6 steps away from the start point)\n3. Once you've reached the V9 marker, change your direction to the left and move 2 steps.\n4. At this point, you should encounter a marker labeled 7C.\n5. Turn down and move 6 steps in that direction.\n6. Congratulations! You have successfully reached the end point, marked by the Gold color.\n\nBy following this path, you will be able to navigate through the maze, avoiding any obstacles in the Burgundy-colored area. Good luck!",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 18 by 20 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Gray, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the free area (White) while avoiding the obstacle area (Dark Gray). We can move up, down, left, or right.\n\nStarting from the Red point, let's trace a path to the Gold point:\n\n1. Start at the Red point.\n2. Move right to the adjacent White space.\n3. Move right again to the next White space.\n4. Move down to the White space below.\n5. Move down again to the next White space.\n6. Move left to the adjacent White space.\n7. Move left again to the next White space.\n8. Move up to the White space above.\n9. Move left to the adjacent White space.\n10. Move up to the White space above.\n11. Move right to the adjacent White space.\n12. Move right again to the next White space.\n13. Move down to the White space below.\n14. Move right to the adjacent White space.\n15. Move down to the White space below.\n16. Move right to the adjacent White space.\n17. Move up to the White space above.\n18. Move right to the adjacent White space.\n19. Move down to the White space below.\n20. Move right to reach the Gold point.\n\nThis path successfully navigates from the start point to the end point without crossing any obstacles.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_86.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze from the start point to the end point, follow these instructions:\n\n1. Begin at the start point, which is marked in Red.\n2. Move up until you reach the marker w0. \n3. Then, move right until you reach the marker 8k.\n4. Next, move down until you reach the marker 9M.\n5. Continue moving right until you reach the marker F0.\n6. Finally, move down until you reach the end point, which is marked in Gold.\n\nBy following these steps, you will successfully navigate the maze and reach your destination.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 12 by 19 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is White. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Green start point to the Gold end point, moving only through the White free area and avoiding the Charcoal Gray obstacle area. We can move up, down, left, or right.\n\nLet's trace the path step by step:\n\n1. Start at the Green point.\n2. Move left to the adjacent White space.\n3. Move down to the next White space.\n4. Move left again to the next White space.\n5. Move down to the next White space.\n6. Move left to the next White space.\n7. Move down to the next White space.\n8. Move left to the next White space.\n9. Move down to the next White space.\n10. Move left to the next White space.\n11. Move down to the next White space.\n12. Move left to the next White space.\n13. Move down to the next White space.\n14. Move left to the next White space.\n15. Move down to the next White space.\n16. Move left to the next White space.\n17. Move down to the next White space.\n18. Move left to the next White space.\n19. Move down to the next White space.\n20. Move left to the next White space.\n21. Move down to the next White space.\n22. Move left to the next White space.\n23. Move down to the next White space.\n24. Move left to the next White space.\n25. Move down to the next White space.\n26. Move left to the next White space.\n27. Move down to the next White space.\n28. Move left to the next White space.\n29. Move down to the next White space.\n30. Move left to the next White space.\n31. Move down to the next White space.\n32. Move left to the next White space.\n33. Move down to the next White space.\n34. Move left to the next White space.\n35. Move down to the next White space.\n36. Move left to the next White space.\n37. Move down to the next White space.\n38. Move left to the next White space.\n39. Move down to the next White space.\n40. Move left to the next White space.\n41. Move down to the next White space.\n42. Move left to the next White space.\n43. Move down to the next White space.\n44. Move left to the next White space.\n45. Move down to the next White space.\n46. Move left to the next White space.\n47. Move down to the next White space.\n48. Move left to the next White space.\n49. Move down to the next White space.\n50. Move left to the next White space.\n51. Move down to the next White space.\n52. Move left to the next White space.\n53. Move down to the next White space.\n54. Move left to the next White space.\n55. Move down to the next White space.\n56. Move left to the next White space.\n57. Move down to the next White space.\n58. Move left to the next White space.\n59. Move down to the next White space.\n60. Move left to the next White space.\n61. Move down to the next White space.\n62. Move left to the next White space.\n63. Move down to the next White space.\n64. Move left to the next White space.\n65. Move down to the next White space.\n66. Move left to the next White space.\n67. Move down to the next White space.\n68. Move left to the next White space.\n69. Move down to the next White space.\n70. Move left to the next White space.\n71. Move down to the next White space.\n72. Move left to the next White space.\n73. Move down to the next White space.\n74. Move left to the next White space.\n75. Move down to the next White space.\n76. Move left to the next White space.\n77. Move down to the next White space.\n78. Move left to the next White space.\n79. Move down to the next White space.\n80. Move left to the next White space.\n81. Move down to the next White space.\n82. Move left to the next White space.\n83. Move down to the next White space.\n84. Move left to the next White space.\n85. Move down to the next White space.\n86. Move left to the next White space.\n87. Move down to the next White space.\n88. Move left to the next White space.\n89. Move down to the next White space.\n90. Move left to the next White space.\n91. Move down to the next White space.\n92. Move left to the next White space.\n93. Move down to the next White space.\n94. Move left to the next White space.\n95. Move down to the next White space.\n96. Move left to the next White space.\n97. Move down to the next White space.\n98. Move left to the next White space.\n99. Move down to the next White space.\n100. Move left to the next White space.\n101. Move down to the next White space.\n102. Move left to the next White space.\n103. Move down to the next White space.\n104. Move left to the next White space.\n105. Move down to the next White space.\n106. Move left to the next White space.\n107. Move down to the next White space.\n108. Move left to the next White space.\n109. Move down to the next White space.\n110. Move left to the next White space.\n111. Move down to the next White space.\n112. Move left to the next White space.\n113. Move down to the next White space.\n114. Move left to the next White space.\n115. Move down to the next White space.\n116. Move left to the next White space.\n117. Move down to the next White space.\n118. Move left to the next White space.\n119. Move down to the next White space.\n120. Move left to the next White space.\n121. Move down to the next White space.\n122. Move left to the next White space.\n123. Move down to the next White space.\n124. Move left to the next White space.\n125. Move down to the next White space.\n126. Move left to the next White space.\n127. Move down to the next White space.\n128. Move left to the next White space.\n129. Move down to the next White space.\n130. Move left to the next White space.\n131. Move down to the next White space.\n132. Move left to the next White space.\n133. Move down to the next White space.\n134. Move left to the next White space.\n135. Move down to the next White space.\n136. Move left to the next White space.\n137. Move down to the next White space.\n138. Move left to the next White space.\n139. Move down to the next White space.\n140. Move left to the next White space.\n141. Move down to the next White space.\n142. Move left to the next White space.\n143. Move down to the next White space.\n144. Move left to the next White space.\n145. Move down to the next White space.\n146. Move left to the next White space.\n147. Move down to the next White space.\n148. Move left to the next White space.\n149. Move down to the next White space.\n150. Move left to the next White space.\n151. Move down to the next White space.\n152. Move left to the next White space.\n153. Move down to the next White space.\n154. Move left to the next White space.\n155. Move down to the next White space.\n156. Move left to the next White space.\n157. Move down to the next White space.\n158. Move left to the next White space.\n159. Move down to the next White space.\n160. Move left to the next White space.\n161. Move down to the next White space.\n162. Move left to the next White space.\n163. Move down to the next White space.\n164. Move left to the next White space.\n165. Move down to the next White space.\n166. Move left to the next White space.\n167. Move down to the next White space.\n168. Move left to the next White space.\n169. Move down to the next White space.\n170. Move left to the next White space.\n171. Move down to the next White space.\n172. Move left to the next White space.\n173. Move down to the next White space.\n174. Move left to the next White space.\n175. Move down to the next White space.\n176. Move left to the next White space.\n177. Move down to the next White space.\n178. Move left to the next White space.\n179. Move down to the next White space.\n180. Move left to the next White space.\n181. Move down to the next White space.\n182. Move left to the next White space.\n183. Move down to the next White space.\n184. Move left to the next White space.\n185. Move down to the next White space.\n186. Move left to the next White space.\n187. Move down to the next White space.\n188. Move left to the next White space.\n189. Move down to the next White space.\n190. Move left to the next White space.\n191. Move down to the next White space.\n192. Move left to the next White space.\n193. Move down to the next White space.\n194. Move left to the next White space.\n195. Move down to the next White space.\n196. Move left to the next White space.\n197. Move down to the next White space.\n198. Move left to the next White space.\n199. Move down to the next White space.\n200. Move left to the next White space.\n201. Move down to the next White space.\n202. Move left to the next White space.\n203. Move down to the next White space.\n204. Move left to the next White space.\n205. Move down to the next White space.\n206. Move left to the next White space.\n207. Move down to the next White space.\n208. Move left to the next White space.\n209. Move down to the next White space.\n210. Move left to the next White space.\n211. Move down to the next White space.\n212. Move left to the next White space.\n213. Move down to the next White space.\n214. Move left to the next White space.\n215. Move down to the next White space.\n216. Move left to the next White space.\n217. Move down to the next White space.\n218. Move left to the next White space.\n219. Move down to the next White space.\n220. Move left to the next White space.\n221. Move down to the next White space.\n222. Move left to the next White space.\n223. Move down to the next White space.\n224. Move left to the next White space.\n225. Move down to the next White space.\n226. Move left to the next White space.\n227. Move down to the next White space.\n228. Move left to the next White space.\n229. Move down to the next White space.\n230. Move left to the next White space.\n231. Move down to the next White space.\n232. Move left to the next White space.\n233. Move down to the next White space.\n234. Move left to the next White space.\n235. Move down to the next White space.\n236. Move left to the next White space.\n237. Move down to the next White space.\n238. Move left to the next White space.\n239. Move down to the next White space.\n240. Move left to the next White space.\n241. Move down to the next White space.\n242. Move left to the next White space.\n243. Move down to the next White space.\n244. Move left to the next White space.\n245. Move",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_87.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "To navigate through the maze, start at the Green start point and move down until you reach marker 9a. From there, move right until you reach marker D4. Continue to move down until you reach marker 4X. Once you reach 4X, move left until you reach the Gold end point. Remember to avoid the Charcoal Gray obstacle area and stay within the White free area.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is Peach. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Red start point to the Blue end point, moving only through the Peach free area. We can move up, down, left, or right.\n\nLet's analyze the maze:\n\n1. Start at the Red point (marked \"30\").\n2. Move down to the Peach area (marked \"w9\").\n3. Move left to the Peach area (marked \"3S\").\n4. Move left to the Peach area (marked \"9W\").\n5. Move down to the Peach area (marked \"T8\").\n6. Move right to the Peach area (marked \"T8\").\n7. Move right to the Blue end point.\n\nThe path from the Red start point to the Blue end point is:\n\n- Start at \"30\" (Red)\n- Down to \"w9\"\n- Left to \"3S\"\n- Left to \"9W\"\n- Down to \"T8\"\n- Right to \"T8\"\n- Right to the Blue end point\n\nThus, the path is: Down, Left, Left, Down, Right, Right.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_88.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "From the start point, move left until you reach the marker labeled 3O. Then, move up until you reach the marker labeled 3S. Next, move left until you reach the marker labeled 9W. After that, move down until you reach the marker labeled t2. Finally, move right to reach the end point labeled Blue. Avoid the Charcoal Gray obstacle area and stick to the Peach colored free area while moving.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 17 by 13 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is Mint Green. You need to find a path from the start point to the end point. The color of start point is Red, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Red) to the end point (Gold) in the maze, we need to navigate through the free area (Mint Green) while avoiding the obstacle area (Charcoal Gray). Let's analyze the maze step by step:\n\n1. Start at the Red point.\n2. Move down to the Mint Green area.\n3. Move left to avoid the Charcoal Gray obstacle.\n4. Continue moving left until you reach the Gold point.\n\nThe path from the Red start point to the Gold end point is as follows:\n\n- Start at the Red point.\n- Move down.\n- Move left.\n- Move left.\n\nThus, the path is: down, left, left.\n\nThe final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_89.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate through the maze, you need to move from the Red start point to the Gold end point while avoiding the Charcoal Gray obstacle area. You can move up, down, left, or right. Follow these directions to reach the end:\n\n- First, move right until you reach the marker 3M.\n- Then, move down until you reach the marker N9.\n- Next, move left until you reach the marker 2f.\n- Finally, move up until you reach the Gold end point.\n\nBy following these steps, you will successfully reach the end of the maze.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 19 by 11 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Charcoal Gray, and the color of free area is Peach. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Gold.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To solve the maze, we need to find a path from the Green start point to the Gold end point, navigating through the Peach free area while avoiding the Charcoal Gray obstacle area. We can move up, down, left, or right.\n\nLet's trace the path step by step:\n\n1. Start at the Green point.\n2. Move up to the Peach area.\n3. Move left to the Peach area.\n4. Move up to the Peach area.\n5. Move left to the Peach area.\n6. Move up to the Peach area.\n7. Move left to the Peach area.\n8. Move up to the Peach area.\n9. Move left to the Peach area.\n10. Move up to the Peach area.\n11. Move left to the Peach area.\n12. Move up to the Peach area.\n13. Move left to the Peach area.\n14. Move up to the Peach area.\n15. Move left to the Peach area.\n16. Move up to the Peach area.\n17. Move left to the Peach area.\n18. Move up to the Peach area.\n19. Move left to the Peach area.\n20. Move up to the Peach area.\n21. Move left to the Peach area.\n22. Move up to the Peach area.\n23. Move left to the Peach area.\n24. Move up to the Peach area.\n25. Move left to the Peach area.\n26. Move up to the Peach area.\n27. Move left to the Peach area.\n28. Move up to the Peach area.\n29. Move left to the Peach area.\n30. Move up to the Peach area.\n31. Move left to the Peach area.\n32. Move up to the Peach area.\n33. Move left to the Peach area.\n34. Move up to the Peach area.\n35. Move left to the Peach area.\n36. Move up to the Peach area.\n37. Move left to the Peach area.\n38. Move up to the Peach area.\n39. Move left to the Peach area.\n40. Move up to the Peach area.\n41. Move left to the Peach area.\n42. Move up to the Peach area.\n43. Move left to the Peach area.\n44. Move up to the Peach area.\n45. Move left to the Peach area.\n46. Move up to the Peach area.\n47. Move left to the Peach area.\n48. Move up to the Peach area.\n49. Move left to the Peach area.\n50. Move up to the Peach area.\n51. Move left to the Peach area.\n52. Move up to the Peach area.\n53. Move left to the Peach area.\n54. Move up to the Peach area.\n55. Move left to the Peach area.\n56. Move up to the Peach area.\n57. Move left to the Peach area.\n58. Move up to the Peach area.\n59. Move left to the Peach area.\n60. Move up to the Peach area.\n61. Move left to the Peach area.\n62. Move up to the Peach area.\n63. Move left to the Peach area.\n64. Move up to the Peach area.\n65. Move left to the Peach area.\n66. Move up to the Peach area.\n67. Move left to the Peach area.\n68. Move up to the Peach area.\n69. Move left to the Peach area.\n70. Move up to the Peach area.\n71. Move left to the Peach area.\n72. Move up to the Peach area.\n73. Move left to the Peach area.\n74. Move up to the Peach area.\n75. Move left to the Peach area.\n76. Move up to the Peach area.\n77. Move left to the Peach area.\n78. Move up to the Peach area.\n79. Move left to the Peach area.\n80. Move up to the Peach area.\n81. Move left to the Peach area.\n82. Move up to the Peach area.\n83. Move left to the Peach area.\n84. Move up to the Peach area.\n85. Move left to the Peach area.\n86. Move up to the Peach area.\n87. Move left to the Peach area.\n88. Move up to the Peach area.\n89. Move left to the Peach area.\n90. Move up to the Peach area.\n91. Move left to the Peach area.\n92. Move up to the Peach area.\n93. Move left to the Peach area.\n94. Move up to the Peach area.\n95. Move left to the Peach area.\n96. Move up to the Peach area.\n97. Move left to the Peach area.\n98. Move up to the Peach area.\n99. Move left to the Peach area.\n100. Move up to the Peach area.\n101. Move left to the Peach area.\n102. Move up to the Peach area.\n103. Move left to the Peach area.\n104. Move up to the Peach area.\n105. Move left to the Peach area.\n106. Move up to the Peach area.\n107. Move left to the Peach area.\n108. Move up to the Peach area.\n109. Move left to the Peach area.\n110. Move up to the Peach area.\n111. Move left to the Peach area.\n112. Move up to the Peach area.\n113. Move left to the Peach area.\n114. Move up to the Peach area.\n115. Move left to the Peach area.\n116. Move up to the Peach area.\n117. Move left to the Peach area.\n118. Move up to the Peach area.\n119. Move left to the Peach area.\n120. Move up to the Peach area.\n121. Move left to the Peach area.\n122. Move up to the Peach area.\n123. Move left to the Peach area.\n124. Move up to the Peach area.\n125. Move left to the Peach area.\n126. Move up to the Peach area.\n127. Move left to the Peach area.\n128. Move up to the Peach area.\n129. Move left to the Peach area.\n130. Move up to the Peach area.\n131. Move left to the Peach area.\n132. Move up to the Peach area.\n133. Move left to the Peach area.\n134. Move up to the Peach area.\n135. Move left to the Peach area.\n136. Move up to the Peach area.\n137. Move left to the Peach area.\n138. Move up to the Peach area.\n139. Move left to the Peach area.\n140. Move up to the Peach area.\n141. Move left to the Peach area.\n142. Move up to the Peach area.\n143. Move left to the Peach area.\n144. Move up to the Peach area.\n145. Move left to the Peach area.\n146. Move up to the Peach area.\n147. Move left to the Peach area.\n148. Move up to the Peach area.\n149. Move left to the Peach area.\n150. Move up to the Peach area.\n151. Move left to the Peach area.\n152. Move up to the Peach area.\n153. Move left to the Peach area.\n154. Move up to the Peach area.\n155. Move left to the Peach area.\n156. Move up to the Peach area.\n157. Move left to the Peach area.\n158. Move up to the Peach area.\n159. Move left to the Peach area.\n160. Move up to the Peach area.\n161. Move left to the Peach area.\n162. Move up to the Peach area.\n163. Move left to the Peach area.\n164. Move up to the Peach area.\n165. Move left to the Peach area.\n166. Move up to the Peach area.\n167. Move left to the Peach area.\n168. Move up to the Peach area.\n169. Move left to the Peach area.\n170. Move up to the Peach area.\n171. Move left to the Peach area.\n172. Move up to the Peach area.\n173. Move left to the Peach area.\n174. Move up to the Peach area.\n175. Move left to the Peach area.\n176. Move up to the Peach area.\n177. Move left to the Peach area.\n178. Move up to the Peach area.\n179. Move left to the Peach area.\n180. Move up to the Peach area.\n181. Move left to the Peach area.\n182. Move up to the Peach area.\n183. Move left to the Peach area.\n184. Move up to the Peach area.\n185. Move left to the Peach area.\n186. Move up to the Peach area.\n187. Move left to the Peach area.\n188. Move up to the Peach area.\n189. Move left to the Peach area.\n190. Move up to the Peach area.\n191. Move left to the Peach area.\n192. Move up to the Peach area.\n193. Move left to the Peach area.\n194. Move up to the Peach area.\n195. Move left to the Peach area.\n196. Move up to the Peach area.\n197. Move left to the Peach area.\n198. Move up to the Peach area.\n199. Move left to the Peach area.\n200. Move up to the Peach area.\n201. Move left to the Peach area.\n202. Move up to the Peach area.\n203. Move left to the Peach area.\n204. Move up to the Peach area.\n205. Move left to the Peach area.\n206. Move up to the Peach area.\n207. Move left to the Peach area.\n208. Move up to the Peach area.\n209. Move left to the Peach area.\n210. Move up to the Peach area.\n211. Move left to the Peach area.\n212. Move up to the Peach area.\n213. Move left to the Peach area.\n214. Move up to the Peach area.\n215. Move left to the Peach area.\n216. Move up to the Peach area.\n217. Move left to the Peach area.\n218. Move up to the Peach area.\n219. Move left to the Peach area.\n220. Move up to the Peach area.\n221. Move left to the Peach area.\n222. Move up to the Peach area.\n223. Move left to the Peach area.\n224. Move up to the Peach area.\n225. Move left to the Peach area.\n226. Move up to the Peach area.\n227. Move left to the Peach area.\n228. Move up to the Peach area.\n229. Move left to the Peach area.\n230. Move up to the Peach area.\n231. Move left to the Peach area.\n232. Move up to the Peach area.\n233. Move left to the Peach area.\n234. Move up to the Peach area.\n235. Move left to the Peach area.\n236. Move up to the Peach area.\n237. Move left to the Peach area.\n238. Move up to the Peach area.\n239. Move left to the Peach area.\n240. Move up to the Peach area.\n241. Move left to the Peach area.\n242. Move up to the Peach area.\n243. Move left to the Peach area.\n244. Move up to the Peach area.\n245. Move left to the Peach area.\n246. Move up to the Peach area.\n247. Move left to the Peach area.\n248. Move up to the Peach area.\n249. Move left to the Peach area.\n250. Move up to the Peach area.\n251. Move left to the Peach area.\n252. Move up to the Peach area.\n253. Move left to the Peach area.\n254. Move up to the Peach area.\n255. Move left to the Peach area.\n256. Move up to the Peach area.\n257. Move left to the Peach area.\n258. Move up to the Peach area.\n259. Move left to the Peach area.\n260. Move up to the Peach area.\n261. Move left to the Peach area.\n262. Move up to the Peach area.\n263. Move left to the Peach area.\n264. Move up to the Peach area.\n265. Move left to the Peach area.\n266. Move up to the Peach area.\n267. Move left to the Peach area.\n268. Move up to the Peach area.\n269. Move left to the Peach area.\n270. Move up to the Peach area.\n271. Move left to the Peach area.\n272. Move up to",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_90.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "Starting from the Green start point, move left until you reach marker B7 in the Peach free area. From there, move upwards towards marker e5, also in the Peach free area, taking care to avoid the Charcoal Gray obstacle area. Once you reach marker e5, move left again until you have successfully reached the Gold end point.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are now in a 15 by 12 maze. The maze is divided into two areas: the obstacle area and the free area. The color of obstacle area is Dark Brown, and the color of free area is Light Blue. You need to find a path from the start point to the end point. The color of start point is Green, and the color end point is Blue.\nYou can move up, down, left, or right. The maze has some markers to help you find the path. Now you need to find a path from the start point to the end point.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "To find a path from the start point (Green) to the end point (Blue), we need to navigate through the free area (Light Blue) while avoiding the obstacle area (Dark Brown). The markers in the maze provide directions:\n\n1. Start at the Green point.\n2. Follow the marker \"V4\" which indicates moving vertically up 4 steps.\n3. From there, follow the marker \"M19\" which indicates moving horizontally left 19 steps.\n4. Next, follow the marker \"R4\" which indicates moving horizontally right 4 steps.\n5. Finally, follow the marker \"N5\" which indicates moving vertically up 5 steps to reach the Blue point.\n\nThe path is: Up 4, Left 19, Right 4, Up 5.\n\nThus, the final answer is stored in \\boxed{answer}.",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/MMRU-Map/images/Map_91.png"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "To navigate this 15 by 12 maze, start at the green starting point and move up 5 steps until you reach the marker labeled f9. From there, turn left and move 1 step to reach the marker labeled M1. Next, move up 6 steps to reach the end point marked in blue and complete the maze. Be sure to avoid the dark brown obstacle areas and only move through the light blue free areas.",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ],
+    "time": 501.1191711425781
+}

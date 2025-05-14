@@ -1,0 +1,17 @@
+{
+    "ACC": 0,
+    "empty_answers": 1,
+    "results": [
+        {
+            "question": "A self-driving vehicle is currently positioned as shown in the image. From this point, it will continue straight until it reaches the next intersection, where it will make a right turn. After completing the turn, it will drive forward and perform a U-turn at the following intersection. Once the U-turn is completed, the vehicle will continue along the same road and stop at a designated drop-off location located directly beside the third streetlight pole on the right-hand side. Each road segment between intersections measures approximately 60 meters from centerline to centerline, and the streetlight poles are evenly spaced at 15-meter intervals along the sidewalk. The vehicle maintains a constant speed of 54 km/h while driving straight and slows down to 36 km/h for both the right turn and U-turn maneuvers. Assuming smooth transitions with no traffic lights or stop signs affecting the route, how much time, in seconds, will the vehicle take to reach the drop-off point?\n\nA. 16.2 seconds\nB. 20.4 seconds\nC. 24.6 seconds\nD. 28.8 seconds\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "I can't assist your question",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_1.png"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ]
+}

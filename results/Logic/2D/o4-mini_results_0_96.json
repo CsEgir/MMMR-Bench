@@ -1,0 +1,1056 @@
+{
+    "ACC": 0.2,
+    "empty_answers": 61,
+    "results": [
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('After analyzing the cycle through rows and columns, you find:\\n\\n\u2013 The three \u201cweights\u201d (round, square, arrow-headed) cycle across each row.  \\n\u2013 Each weight\u2010type goes with a fixed arm posture:  \\n\\u2003\u2022 round ends \u21d2 arms up (overhead)  \\n\\u2003\u2022 square ends \u21d2 arms angled  \\n\\u2003\u2022 arrow heads \u21d2 arms straight out (horizontal)  \\n\\nRow 3 entries are square\u2192round\u2192(arrow), so the missing cell must show the arrow-headed bar with the arms held horizontally.  \\nThat matches choice C.  \\n\\n\\\\boxed{answer=C}', 38.30911874771118)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_1.jpg"
+            ],
+            "final_answer": "answer=C",
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "( )\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 40.399879932403564)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_2.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.6911838054657)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_3.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence?Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E \n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The circle steps clockwise through the quadrants (BL \u2192 BR \u2192 TR \u2192 TL \u2192 BL \u2192 \u2026), and a rectangle appears in the top\u2010right on every 2nd figure (positions 2, 4, 6\u2026). The 6th figure therefore has the circle in BR plus a rectangle in TR, which is choice B.  \\n\\n\\\\boxed{answer = B}', 17.978633165359497)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_4.jpg"
+            ],
+            "final_answer": "answer = B",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The missing cell must be a black (solid) circle. Hence the correct choice is A.  \\n\\\\boxed{answer = A}', 38.69564414024353)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_5.jpg"
+            ],
+            "final_answer": "answer = A",
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key is that in each slot you have two identical \u201catomic\u201d shapes, one rotated 180\u00b0 relative to the other:\\n\\n\u2013 Frame 1: two regular pentagons, one flipped  \\n\u2013 Frame 2: two identical semicircles (arcs), one flipped  \\n\\nWe need another pair of identical shapes, one flipped, as in the first two frames. Examining the four choices:\\n\\n1. Two identical triangles, one flipped (fits)  \\n2. Two non-identical quadrilaterals (no)  \\n3. Two crescents, one flipped (superficially close to Frame 2 but duplicating the same motif)  \\n4. Two hearts, one flipped (but a heart flipped end-for-end doesn\u2019t read as the same \u201catomic\u201d shape in the way pentagon\u2192pentagon and triangle\u2192triangle do)\\n\\nOnly choice 1 cleanly gives \u201cshape X\u201d and \u201cshape X rotated 180\u00b0.\u201d Hence the missing panel must be\\n\\n\\\\boxed{1}', 43.72155475616455)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_6.jpg"
+            ],
+            "final_answer": 1,
+            "correct_answer": 1,
+            "correct": true
+        },
+        {
+            "question": "Among the following options, the one that conforms to the change rule of the given graph is: ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 111.08163666725159)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_7.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the given options, select the most suitable one and fill in the question mark to make it show a certain regularity ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 55.46465826034546)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_8.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 39.37648129463196)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_9.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity.\uff08\uff09\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 54.13360238075256)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_10.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('I had to infer a \u201cdot\u2010count\u201d arithmetic in each column: in col 1 the counts go 5 \u2192 3 (\u22122) \u2192 2 (\u22121), in col 2 they go 6 \u2192 4 (\u22122) \u2192 3 (\u22121), so in col 3 they must go 7 \u2192 5 (\u22122) \u2192 4 (\u22121). Thus the missing cell has 4 dots \u2013 only choice 2 shows exactly four dots.  \\n\\n\\\\boxed{answer=2}', 157.66787886619568)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_11.jpg"
+            ],
+            "final_answer": "answer=2",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 57.160874128341675)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_12.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The matrix is governed by two interlocking cycles:\\n\\n1.  Each row must contain one circle, one square, and one triangle.  \\n2.  The \u201cborder style\u201d (dashed-outline, solid fill, continuous outline) shifts one step to the right each row:\\n    - Row 1: \u2981 dashed, \u2b1b solid, \u25b3 outline  \\n    - Row 2: \u25b3 solid, \u2981 outline, \u2b1b dashed  \\n    - Row 3: \u2b1b outline, \u25b3 dashed, \u2981 solid  \\n\\nIn the bottom\u2010right cell (Row 3, Col 3) we therefore need a solid (filled) circle. That corresponds to choice B.  \\n\\n\\\\boxed{answer\\\\ =\\\\ B}', 17.214895009994507)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_13.jpg"
+            ],
+            "final_answer": "answer\\\\ =\\\\ B",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence? Select answers from A-E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.85052680969238)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_14.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The figure filled in at the question mark according to the rule is ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 43.51202630996704)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_15.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence? Select answers from A-E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The sequence cycles through combinations of  \\n1. Filled square + triangle (ST)  \\n2. Filled square only (S)  \\n3. Filled square + triangle + outline (STO)  \\n4. Filled square + outline (SO)  \\nand then back to ST, S, \u2026  \\nAt position 6 we expect \u201cS only\u201d with the square at the center (just as in step 2).  That is choice B.  \\n\\n\\\\boxed{answer=B}', 27.830599784851074)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_16.jpg"
+            ],
+            "final_answer": "answer=B",
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 34.30651545524597)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_17.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 40.68236970901489)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_18.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 108.69672703742981)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_19.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Please choose the most suitable one from the four options given and fill in the question mark to make it show a certain pattern ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 111.2702202796936)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_20.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 109.36604762077332)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_21.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The matrix is \u201cshape by row\u201d (circle, hexagon, diamond) and \u201csize by column\u201d (large\u2013medium\u2013small), with the fill/lightness flowing from left to right.  \\n- Row 3 is therefore the diamond\u2010row, going large\u2013medium\u2013small, and the small one must be the unfilled (outline) diamond.  \\n- Among the choices, only F is the small outline diamond.  \\n\\n\\\\boxed{F}', 29.304262399673462)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_22.jpg"
+            ],
+            "final_answer": "F",
+            "correct_answer": "F",
+            "correct": true
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.67149806022644)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_23.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The most appropriate way to fill in the question mark is ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 51.04184865951538)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_24.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The sequence alternates \u201cacute\u2010angle\u201d pairs (panels 1,3,5) with \u201cright\u2010angle\u201d groups (2,4).  Moreover, each odd panel\u2019s V\u2013pairs rotate by +90\u00b0 each time: panel 1\u2019s Vs, then panel 3\u2019s Vs rotated 90\u00b0, so panel 5\u2019s must be another 90\u00b0 further.  Of the choices only (1) shows two acute\u2013angle pairs at the correct orientation.  \\n\\nTherefore the missing panel is choice 1, so\\n\\n\\\\boxed{answer=1}', 40.877355337142944)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_25.jpg"
+            ],
+            "final_answer": "answer=1",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.58938717842102)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_26.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 50.45228314399719)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_27.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('\\\\boxed{2}', 39.71272397041321)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_28.jpg"
+            ],
+            "final_answer": 2,
+            "correct_answer": 2,
+            "correct": true
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 1 by 5 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 53.28515553474426)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_29.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.506253480911255)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_30.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "G",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 54.71194791793823)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_31.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The pattern is that each row uses the three shapes (circle, hexagon, triangle) with the three tones (dark, medium, light) cyclically shifted, and the missing cell in row 3, column 3 must therefore be a medium-grey triangle (inverted like its row\u2010mates).  Among the choices, only B is a medium-grey inverted triangle of the correct relative size.  \\n\\n\\\\boxed{answer=B}', 22.562655448913574)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_32.jpg"
+            ],
+            "final_answer": "answer=B",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 52.509888648986816)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_33.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "According to the following graph rule, the question mark is filled in with ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('\\\\boxed{answer} = D', 9.20008111000061)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_34.jpg"
+            ],
+            "final_answer": "answer",
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Among the following options, the one that conforms to the change rule of the given graph is ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 52.33714723587036)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_35.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key is that in each row the inner figure shrinks and its fill\u2010tone lightens from left to right.  In the bottom row the inner pentagon must therefore be the smallest and palest of the lot.  Among the choices only C has the tiniest, lightest pentagon.  \\n\\n\\\\boxed{answer = C}', 18.07253670692444)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_36.jpg"
+            ],
+            "final_answer": "answer = C",
+            "correct_answer": "F",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key observation is that the first two panels contain 1 shape in the first, 3 shapes in the second; the \u201codd\u2010number\u201d progression (1 \u2192 3 \u2192 5) strongly suggests that the missing third panel must contain 5 discrete figures. Among the four options only choice 1 is made up of exactly five separate elements (the arrow, the \u201cY,\u201d and the three small blocks), so it alone continues the 1, 3, 5 pattern.  \\n\\n\\\\boxed{1}', 28.183366298675537)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_37.jpg"
+            ],
+            "final_answer": 1,
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Choose the most reasonable answer based on the existing rules of the given graph.\uff08\uff09\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('Each character in the row can be viewed as successive \u201cbuild\u2010ups\u201d (and \u201ctear\u2010downs\u201d) of the simple cross shape.  After \u53e3 the cycle returns to the cross, and the only choice that is just a cross is \u5341.  \\n\\n\\\\boxed{\u5341}', 44.3393657207489)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_38.jpg"
+            ],
+            "final_answer": "\u5341",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence? Select answers from A-E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.76007294654846)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_39.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The cloud is a \u201ccurves\u2010only\u201d outline, the star is a \u201cstraight\u2010only\u201d outline, so the next in the 3\u2010step sequence must combine curves and straight segments.  Of the four choices only #4 (the rounded rectangle) has both straight sides and curved corners.  \\n\\nHence  \\n\\\\boxed{answer=4}', 40.44912910461426)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_40.jpg"
+            ],
+            "final_answer": "answer=4",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 106.08859992027283)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_41.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 52.34865951538086)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_42.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.72790455818176)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_43.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 2,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('Following the \u201cdouble\u2010up\u201d pattern in columns 1 and 2 (1 top shape becomes 2 of the same shape below), column 3 must likewise turn the single top\u2013row diamond into two identical diamonds.  Among the answer\u2010figures, only choice 1 has two identical symbols in it \u2013 so even though they are drawn with an \u201c\u00d7\u201d inside, it is the only choice that obeys the 1\u21922 rule.  \\n\\nHence the missing cell is choice 1.  \\n\\n\\\\boxed{answer=1}', 45.364595890045166)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_44.jpg"
+            ],
+            "final_answer": "answer=1",
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.38813066482544)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_45.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key is that in each row the left\u2010hand polygon minus the right\u2010hand polygon equals the middle one (by number of sides).  \\n\\nRow 1: 8 sides (octagon) \u2013 3 sides (triangle) = 5 sides (pentagon)  \\nRow 2: 7 sides (heptagon) \u2013 3 sides (triangle) = 4 sides (quadrilateral)  \\nRow 3: 6 sides (hexagon) \u2013 X = 3 sides (triangle) \u27f9 X = 3 sides  \\n\\nSo the missing shape is a triangle, which is choice E.  \\n\\n\\\\boxed{answer=E}', 40.02369403839111)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_46.jpg"
+            ],
+            "final_answer": "answer=E",
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('After examining rows and columns, we see that in each \u201ccolumn 3\u201d the frame is square\u2013diamond\u2013square, and in all three of its cells the smaller triangles hug the right\u2010hand edge. The only choice that is a square with its three triangles along the right side is option C.  \\n\\n\\\\boxed{answer\\\\;=\\\\;C}', 45.489928007125854)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_47.jpg"
+            ],
+            "final_answer": "answer\\\\;=\\\\;C",
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The only choice that completes the 3\u00d73 so that the bottom row\u2019s squares mirror the shading\u2010progression seen in the circles is the medium\u2010grey square (option H).  \\n\\n\\\\boxed{answer=H}', 33.82050609588623)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_48.jpg"
+            ],
+            "final_answer": "answer=H",
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Among the four figures below, only one is made up of the four figures above (only by panning up, down, left and right). Please find it.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 50.30563306808472)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_49.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The missing cell must be a dark (fully filled) circle of the same size as the others \u2013 which corresponds to choice A.  \\n\\n\\\\boxed{A}', 109.08590912818909)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_50.jpg"
+            ],
+            "final_answer": "A",
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 43.33827447891235)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_51.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Please select the most appropriate one from the four options and fill it in the question mark to make the graph appear regular.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.69870066642761)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_52.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 173.93021845817566)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_53.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the following four figures, find one figure with different patterns from the other three ().\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.950185775756836)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_54.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('I find that in each row the \u201cring\u201d around the inner symbol loses one segment as you move left\u2192right (full ring\u2192two\u2010arc ring\u2192no ring), while the inner symbol stays the same down a row (row 2 all dots, row 3 all hexagons). So the missing bottom\u2010right must be \u201cno ring + hexagon,\u201d which is choice A.  \\n\\n\\\\boxed{A}', 35.17870545387268)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_55.jpg"
+            ],
+            "final_answer": "A",
+            "correct_answer": "A",
+            "correct": true
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 46.98705005645752)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_56.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 167.61486840248108)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_57.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The top row shows 3 nested C-shapes, then 2, then 1.  The bottom row shows 3 nested \u201c7\u201d outlines, then 2, so the missing cell must be a single \u201c7\u201d outline.  That corresponds to choice 4.  \\n\\n\\\\boxed{4}', 16.14233088493347)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_58.jpg"
+            ],
+            "final_answer": 4,
+            "correct_answer": 4,
+            "correct": true
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.93637180328369)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_59.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 45.62800741195679)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_60.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 104.75713992118835)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_61.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "F",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity:\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 52.93881058692932)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_62.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "From the four options given, choose the most suitable one and fill in the question mark to make it show a certain regularity.\uff08\uff09\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key is that the figures alternate \u201cshape on white\u201d / \u201cshape on black,\u201d and in each step the shape becomes more symmetric until step 4 is a white \u201cplus\u201d on black.  In step 5 we must have the inverted (black \u201cplus\u201d on white) \u2013 which is option D. \\n\\nTherefore\\n\\n\\\\boxed{D}', 109.18014311790466)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_63.jpg"
+            ],
+            "final_answer": "D",
+            "correct_answer": "D",
+            "correct": true
+        },
+        {
+            "question": "<image>The image displays an intelligence test question in the form of a matrix pattern puzzle. There are eight shapes provided, with one space left blank, indicated by a question mark. The shapes are organized into three rows, each containing three boxes. Your task is to select the correct shape from six options (labeled A to F) to fill the empty box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 44.00340390205383)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_64.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": " Which of the boxes comes next in the sequence? Select from A, B,  C, D, and E.  (A) A (B) B (C) C (D) D (E) E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The simplest way is to note that each shape follows an independent \u201cup\u2010down\u201d cycle:\\n\\n1. The small square appears only on even steps.  \\n2. The semicircle toggles between \u201cbottom of the bottom cell\u201d (steps 1, 3, 5) and \u201ctop of the bottom cell\u201d (steps 2, 4, 6).  \\n3. The black triangle cycles Top \u2192 Bottom \u2192 Both \u2192 Top \u2192 Bottom \u2192 Both \u2192 \u2026  \\n\\nSo at step 6 we must have\\n \u2022 a square (since 6 is even),  \\n \u2022 the triangle in both top and bottom,  \\n \u2022 the semicircle at the top of the bottom cell.  \\n\\nOnly choice D shows exactly that.  \\n\\n\\\\boxed{answer = D}', 30.831360578536987)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_65.jpg"
+            ],
+            "final_answer": "answer = D",
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 53.661425828933716)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_66.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "<image>The image displays an intelligence test question featuring a 3x3 grid with nine boxes, where the 9th box is marked with a question mark (?). Your task is to select the correct shape from eight options (labeled A to H) to fill the 9th box, completing the pattern that links all the shapes together.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 55.785330057144165)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_67.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices part in the bottom. The question part on the top is a set of visual panels arranged in a 2 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 50.47885751724243)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_68.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 1,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 1 sequence, with the last piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Based on a specific pattern, one option in the choice section can be classified into the same group as the question part, while the other three options are categorized into a different group. Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key is that in the \u201cContext\u201d both shapes are built from two circles (one circle plus a smaller circle inside for the first, the overlap of two circles producing a crescent for the second).  Of the four answer\u2010choices only #4 is likewise two circles (concentric), whereas the others use triangles or rectangles.  Hence the correct choice is 4, so\\n\\n\\\\boxed{answer = 4}', 58.347437143325806)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_69.jpg"
+            ],
+            "final_answer": "answer = 4",
+            "correct_answer": 4,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "You are given a puzzle. The puzzle consists of a question part on the top and the choices in the bottom. The question part on the top is a set of visual grids arranged in a 3 by 3 matrix, with the bottom right piece missing. Choices part on the bottom contains 4 choices (marked by 1, 2, 3, or 4). Which choice (either 1, 2, 3, or 4) is the most appropriate answer to fill the missing part?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 101.66335558891296)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_70.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": 3,
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Identify the pattern and work out which one of the suggested images would complete the sequence. Select answers from A-D\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The key is that both square\u2010size and triangle\u2010orientation \u201cflip\u201d on every step, and odd\u2010numbered panels always have the large square + upright triangle.  In panel 3 (an odd position) the triangle must be upright and the square large.  Only choice A has a large square with an upright triangle in the correct dot\u2010locations.  \\n\\nTherefore the missing panel is A.  \\n\\n\\\\boxed{answer=A}', 43.15095400810242)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_71.jpg"
+            ],
+            "final_answer": "answer=A",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which option from A-E should replace the question mark to follow the pattern present above the separating line? (select from A-E)\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.647929191589355)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_72.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which figure is a rotation of the object? Select from A, B, C, and D. (A) (B) (C) (D)\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 45.963310956954956)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_73.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which set does the Figure belong to? Select from A, B, and C. (A) Set A (B) Set B (C) Neither set A nor set B\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The given figure is an inverted\u2010T (a long horizontal bar with a shorter vertical bar attached at its midpoint), which matches the second member of Set A.  Hence the figure belongs to Set A.  \\n\\n\\\\boxed{answer = A}', 106.71104288101196)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_74.jpg"
+            ],
+            "final_answer": "answer = A",
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "What diagram replaces the question mark? Select from A, B, C, and D. (A) (B) (C) (D)\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 40.18996262550354)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_75.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E \n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 43.134936809539795)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_76.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E \n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The pattern alternates between a large outlined triangle and a small filled\u2010in triangle, while the diagonal line alternates from the top\u2010right to the top\u2010left. The next figure must therefore be a large outlined triangle with a diagonal in the top\u2010right. That corresponds to choice A.  \\n\\n\\\\boxed{answer = A}', 39.73900008201599)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_77.jpg"
+            ],
+            "final_answer": "answer = A",
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the boxes comes next in the sequence? Select from A, B, C, D, and E. (A) A (B) B (C) C (D) D (E) E \n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 56.439637422561646)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_78.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which of the 4 figures presented (A, B, C, D) is a rotation of the first?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 48.814013719558716)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_79.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Which figure is a rotation of the object?\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 46.915632486343384)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_80.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "C",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Each one of the four keys locks exactly one padlock. Every letter on a padlock stands for exactly one digit. Same letters mean same digits.\nWhich letters must be written on the fourth padlock?\n<image1> Options: A. GDA, B. ADG, C. GAD, D. GAG, E. DAD\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 45.63827633857727)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_81.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Tom has these nine cards:\n<image1>\nHe places these cards on the board next to each other so that each horizontal line and each vertical line has three cards with the three different shapes and the three different amounts of drawings. He has already placed three cards, as shown in the picture. Which card should he place in the colored box?\n<image2>\n<image3> Options: A. A, B. B, C. C, D. D, E. E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.69577169418335)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_82.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Carl writes down a five-digit number.\nHe then places a shape on each of the five digits (see picture).\nHe places different shapes on different digits.\nHe places the same shape on the same digits.\nWhich number did Carl hide?\n<image1>\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 43.05787444114685)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_83.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "34426",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "There are four cards on the table as in the picture. Every card has a letter on one side and a number on the other side. Peter said: \"For every card on the table it is true that if there is a vowel on one side, there is an even number on the other side.\" What is the smallest number of cards Alice must turn in order to check whether Peter said the truth?\n<image1>\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('Alice must turn over 2 cards (the \u201cE\u201d card and the \u201c7\u201d card).  \\n\\nHence, \\\\boxed{answer=2}.', 6.351327657699585)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_84.jpg"
+            ],
+            "final_answer": "answer=2",
+            "correct_answer": "2",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Adam and Bruna try to find out which is Carla's favorite figure, amongst the figures beside. Adam knows that Carla told Bruna what the shape of the figure was. Bruna knows that Carla told Adam what color the figure was. The following conversation takes place. Adam: \"I don't know what Carla's favorite figure is and I know that Bruna doesn't know either\". Bruna: \"At first I didn't know what Carla's favorite figure was, but now I know\". Adam: \"Now I know too\". What is Carla's favorite figure?\n<image1>\n<image2> Options: A. A, B. B, C. C, D. D, E. E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The only consistent choice is the pink triangle.  In particular, Adam\u2019s second remark forces the color to be non\u2010white; Bruna\u2019s ability to pinpoint the figure next forces the shape to be one that no longer has two colored versions once white is ruled out (square, star or triangle); and Adam\u2019s final \u201cNow I know\u201d then pins it down to the unique pink triangle.  \\n\\nTherefore, Carla\u2019s favorite figure is E.  \\n\\n\\\\boxed{answer = E}', 35.9877450466156)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_85.jpg"
+            ],
+            "final_answer": "answer = E",
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Maria describes one of these five shapes in the following way: \"It is not a square. It is grey. It is either round or three sided.\" Which shape did she describe?\n<image1> Options: A. A, B. B, C. C, D. D, E. E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('Maria\u2019s clues point uniquely to the grey, three\u2010sided figure \u2013 namely the triangle.  \\nThus she described shape B.  \\n\\n\\\\boxed{B}', 29.7306649684906)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_86.jpg"
+            ],
+            "final_answer": "B",
+            "correct_answer": "B",
+            "correct": true
+        },
+        {
+            "question": "Wanda chooses some of the following shapes. She says: \"I have chosen exactly 2 grey, 2 big and 2 round shapes.\" What is the minimum number of shapes Wanda has chosen?\n<image1>\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 55.49262738227844)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_87.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "3",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Maria colours exactly 5 cells of this grid <image1> in grey. Then she has her 5 friends guess which cells she has coloured in and their answers are the five patterns $A, B, C, D$ and $E$. Maria looks at the patterns and says: \"One of you is right. The others have each guessed exactly four cells correctly.\" Which pattern did Maria paint?\n<image2> Options: A. A, B. B, C. C, D. D, E. E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 46.51492953300476)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_88.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "There are 5 boxes and each box contains some cards labeled K, M, H, P, T, as shown below. Peter wants to remove cards out of each box so that at the end each box contained only one card, and different boxes contained cards with different letters. Which card remains in the first box?\n<image1> Options: A. It is impossible to do this, B. T, C. M, D. H, E. P\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The only consistent way to give each box a different single letter is\\n\\nBox 5 \u2192 M  \\nBox 2 \u2192 T  \\nBox 4 \u2192 K  \\nBox 3 \u2192 P  \\nBox 1 \u2192 H\\n\\nHence the card left in the first box is H.  \\n\\n\\\\boxed{answer=H}', 15.754759073257446)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_89.jpg"
+            ],
+            "final_answer": "answer=H",
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Sofie wants to write the word KENGU by using letters from the boxes. She can only take one letter from each box. What letter must Sofie take from box 4?\n<image1> Options: A. K, B. E, C. N, D. G, E. U\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('Sofie must take G from box 4.  \\nTherefore, \\\\boxed{answer = G}.', 13.331728458404541)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_90.jpg"
+            ],
+            "final_answer": "answer = G",
+            "correct_answer": "D",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "There are rectangular cards divided into 4 equal cells with different shapes <image1> drawn in each cell. Cards can be placed side by side only if the same shapes appear in adjacent cells on their common side. 9 cards are used to form a rectangle as shown in the figure. Which of the following cards was definitely NOT used to form this rectangle?\n<image2>\n<image3> Options: A. A, B. B, C. C, D. D, E. E\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 49.34216094017029)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_91.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "E",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "All vehicles in the garage can only drive forwards or backwards. The black car wants to leave the garage (see diagram). What is the minimum number of grey vehicles that need to move at least a little bit so that this is possible?\n<image1>\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 56.49425721168518)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_92.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "4",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Each area in the picture on the right should be coloured using one of the colours, red (R), green (G), blue (B) or orange (O). Areas which touch must be different colours. Which colour is the area marked $X$?\n<image1> Options: A. red, B. blue, C. green, D. orange, E. The colour cannot definitely be determined.\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 53.04147696495056)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_93.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Each region in the figure is to be coloured with one of four colours: red $(\\mathrm{R})$, green $(\\mathrm{G})$, orange $(\\mathrm{O})$ or yellow $(\\mathrm{Y})$. The colours of only three regions are shown. Any two regions that touch must have different colours. <image1> The colour of the region $\\mathrm{X}$ is: Options: A. red, B. orange, C. green, D. yellow, E. impossible to determine\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 42.76166391372681)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_94.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "A",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "The diagram below shows five rectangles, each containing some of the letters $\\mathrm{P}, \\mathrm{R}, \\mathrm{I}, \\mathrm{S}$ and $\\mathrm{M}$.\n<image1>\nHarry wants to cross out letters so that each rectangle contains only one letter and each rectangle contains a different letter. Which letter does he not cross out in rectangle 2? Options: A. P, B. R, C. I, D. S, E. M\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('The only consistent way to choose one distinct letter per box is\\r\\n\\r\\nBox 4 \u2192 S  \\r\\nBox 1 \u2192 P  \\r\\nBox 3 \u2192 I  \\r\\nBox 2 \u2192 R  \\r\\nBox 5 \u2192 M  \\r\\n\\r\\nHence in rectangle 2 the letter that remains is R.  \\r\\n\\r\\n\\\\boxed{answer=R}', 15.03158450126648)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_95.jpg"
+            ],
+            "final_answer": "answer=R",
+            "correct_answer": "B",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "In the grid on the right, there are eight kangaroos. A kangaroo may jump into any empty square. Find the least number of the kangaroos which have to jump into an empty square so that in each row and column there are exactly two kangaroos. <image1>\n\nPlease provide the final answer and store it in \\boxed{answer}.",
+            "output": "('', 47.09104061126709)",
+            "img_url": [
+                "/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/MMRU-Logic/images/2D/2D_96.jpg"
+            ],
+            "final_answer": null,
+            "correct_answer": "1",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ],
+    "time": 5968.227305173874
+}
