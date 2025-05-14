@@ -1,0 +1,490 @@
+[
+  {
+    "id": 1,
+    "question": "A self-driving vehicle is currently positioned as shown in the image. From this point, it will continue straight until it reaches the next intersection, where it will make a right turn. After completing the turn, it will drive forward and perform a U-turn at the following intersection. Once the U-turn is completed, the vehicle will continue along the same road and stop at a designated drop-off location located directly beside the third streetlight pole on the right-hand side. Each road segment between intersections measures approximately 60 meters from centerline to centerline, and the streetlight poles are evenly spaced at 15-meter intervals along the sidewalk. The vehicle maintains a constant speed of 54 km/h while driving straight and slows down to 36 km/h for both the right turn and U-turn maneuvers. Assuming smooth transitions with no traffic lights or stop signs affecting the route, how much time, in seconds, will the vehicle take to reach the drop-off point?\n\nA. 16.2 seconds\nB. 20.4 seconds\nC. 24.6 seconds\nD. 28.8 seconds",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_1.png"
+    ],
+    "source": ""
+},
+{
+    "id": 2,
+    "question": "A self-driving vehicle is currently located as shown in the image. From this position, it will proceed forward and make a left turn at the next major intersection. After the turn, it will continue straight for one segment, then turn right onto a narrower road running parallel to its original direction. Along this road, the vehicle will stop at a designated delivery point located between the second and third lamp posts on the right-hand side, beside a group of closely planted trees. The road segments between intersections are 70 meters long, and lamp posts are spaced 20 meters apart. The vehicle travels at 50 km/h on straight segments and slows to 30 km/h while turning. There are no stoplights or pauses during the journey. Based on these conditions and visual clues in the image, how long, in seconds, will it take the vehicle to reach the delivery point?\n\nA. 19.2 seconds\nB. 23.6 seconds\nC. 26.8 seconds\nD. 31.4 seconds",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_2.png"
+    ],
+    "source": ""
+},
+{
+    "id": 3,
+    "question": "The autonomous vehicle is traveling along a straight, tree-lined road as observed in the forward view, with its position confirmed by the top-view image. It is currently in the rightmost lane, heading toward a mild curve visible in the top-down layout, which leads to a road split with a wide island area. Based on the pole spacing of 15 meters (visible in both the left-back and right-back views) and the visible segment length of approximately 90 meters before the island, the vehicle must execute the following maneuver: continue forward through the curve, shift to the left lane within 45 meters to prepare for a controlled U-turn at the start of the island, and then return to the original direction using the adjacent lane on the opposite side. The U-turn maneuver spans 30 meters and must be performed at a reduced speed of 36 km/h, while the straight segments are driven at 54 km/h. Lane changes take 3 seconds to complete safely at 54 km/h. Considering these constraints, how much total time, in seconds, will the vehicle take to complete the entire maneuver and return to its original orientation? A. 9.3 seconds B. 10.8 seconds C. 12.2 seconds D. 13.5 seconds",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_3.png"
+    ],
+    "source": ""
+},
+{
+    "id": 4,
+    "question": "The self-driving vehicle is currently moving along a narrow two-lane road flanked by buildings and open areas, as observed in the synchronized top, forward, and rear views. From the top-view, a perpendicular intersecting road is visible approximately 25 meters ahead of the vehicle’s current position, aligning with the gap between buildings seen in the forward image. The road the vehicle is traveling on is constrained by construction material on the right and limited sidewalk space on the left, which is further confirmed by the left-back view showing the road curving slightly after the intersection. The vehicle's goal is to make a left turn at the upcoming intersection, proceed straight for 60 meters, then perform a three-point turn using a clear patch of open ground visible on the right-back view beside a utility pole, and finally return to the original road heading in the opposite direction. If the vehicle maintains 36 km/h before the turn, reduces to 18 km/h during turning and maneuvering, and requires 7 seconds to complete the three-point turn, how much time, in seconds, will this entire maneuver sequence take? A. 20.0 seconds B. 23.5 seconds C. 26.0 seconds D. 29.0 seconds",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_4.png"
+    ],
+    "source": ""
+},
+{
+    "id": 5,
+    "question": "The autonomous vehicle is navigating a two-lane mountain road with guardrails and elevation changes, as shown in the synchronized views. From the top-view, a long rightward curve is clearly visible ahead. The forward view confirms this trajectory, with trees lining the curve and a clear view of the vanishing point in the distance. The left-back and right-back views reveal recent navigation through a similar left curve. The vehicle is currently traveling at a constant speed of 54 km/h. It must maintain a safe lateral clearance of 1.5 meters from the right-side vegetation wall while negotiating the upcoming curve, which has a radius of approximately 80 meters. The lane is 3.5 meters wide, and the vehicle width is 2 meters. Taking into account the lateral centripetal forces and road geometry, what is the **maximum safe speed** (in km/h) at which the vehicle can enter the curve without breaching the required clearance, assuming dry asphalt with a lateral friction coefficient of 0.4? A. 39 km/h B. 45 km/h C. 51 km/h D. 57 km/h",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_5.png"
+    ],
+    "source": ""
+},
+{
+    "id": 6,
+    "question": "The autonomous vehicle is currently traveling on a straight rural road lined with evenly spaced trees on both sides, as evident in all four synchronized views. According to the top-view, the tree spacing appears consistent, with approximately 12 meters between each pair. The vehicle must identify a safe location to perform a roadside drop-off maneuver at a designated point near the tenth tree on the right from its current location. This maneuver requires slowing down from 54 km/h to 18 km/h over a 30-meter deceleration zone and stopping precisely adjacent to the tree, while maintaining a 1-meter offset from the road edge for safety. Once the drop-off is complete, the vehicle must resume motion and accelerate back to 54 km/h over a 50-meter acceleration zone. What is the total time, in seconds, required to perform this entire operation — including the deceleration phase, a 5-second stationary drop-off, and the acceleration phase? A. 13.8 seconds B. 16.2 seconds C. 19.6 seconds D. 22.4 seconds",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_6.png"
+    ],
+    "source": ""
+},
+{
+    "id": 7,
+    "question": "The autonomous vehicle is currently navigating a curved, two-lane mountain road bordered by a guardrail on the right and dense vegetation on the left, as confirmed in all views. The top-view reveals a constant-radius right curve, with evenly spaced light poles on the right-hand side, visible in both the forward and right-back perspectives. These light poles are spaced approximately 30 meters apart. The vehicle’s objective is to align itself to stop adjacent to the **fifth pole ahead** without overshooting, for a roadside inspection operation. Due to the tight curvature and roadside constraints, the vehicle must shift slightly to the right lane edge over the course of this maneuver to maintain a 0.5-meter clearance from the centerline while avoiding contact with the guardrail. The vehicle is currently moving at 36 km/h and must reduce to 18 km/h starting 60 meters before the stop point to meet stability and sensor calibration requirements. Accounting for a uniform deceleration, precise positioning tolerance of ±1 meter, and the angular deviation caused by the curve (estimated at 45 degrees over the full arc), which of the following stopping strategies will allow the vehicle to meet all spatial and kinematic constraints while minimizing lateral deviation and braking distance? A. Begin decelerating at the third pole and apply a uniform brake curve B. Maintain constant speed until the fourth pole, then decelerate sharply C. Initiate early deceleration just after the second pole and use a long braking curve D. Begin deceleration midway between the second and third poles, followed by steady braking",
+    "answer": "D",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_7.png"
+    ],
+    "source": ""
+},
+{
+    "id": 8,
+    "question": "The autonomous vehicle is traveling in the middle lane of a wide, multi-lane urban road as seen in the synchronized views. The top-view confirms three lanes in each direction, with evenly spaced streetlights and utility poles on the right-hand side. The right-back view reveals a gantry structure overhead and a branching lane ahead. The vehicle must switch to the rightmost lane within the next 120 meters in order to exit onto a ramp positioned near the second gantry, visible far in the forward view. Each lane is approximately 3.5 meters wide, and the distance between two consecutive light poles is 30 meters. The vehicle is currently moving at 54 km/h and must perform a smooth lane change sequence without exceeding a lateral shift rate of 0.7 m/s. Accounting for the lane spacing, road geometry, and pole intervals as reference landmarks, how far ahead (in meters) from the current position should the vehicle **initiate** the lane change to complete the maneuver precisely by the time it reaches the ramp entrance? A. 65 meters B. 75 meters C. 85 meters D. 95 meters",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_8.png"
+    ],
+    "source": ""
+},
+{
+    "id": 9,
+    "question": "The autonomous vehicle is currently in the center lane of a six-lane divided urban road, as verified from the forward and top-down views. The visible arrow markings indicate that this lane supports only forward motion, while the adjacent right lane supports both straight and right-turn maneuvers. The vehicle is approaching a signal-controlled intersection approximately 80 meters ahead, where a right turn is required for route compliance. However, the right lane currently has a motorcycle and another vehicle positioned closely, potentially creating a dynamic obstacle during the lane-change maneuver. The surrounding environment features consistently spaced trees and streetlights, confirming lane widths of approximately 3.5 meters and indicating symmetrical roadside geometry, as seen in the left-back and right-back views. The autonomous system must decide whether to immediately initiate a right lane change or maintain position temporarily. Given that lane changes require a minimum gap of 20 meters in the target lane and take 4 seconds to complete safely at 36 km/h, which of the following is the most contextually appropriate **decision-making strategy** for this scenario? A. Initiate lane change immediately to secure position before potential blockage B. Wait until within 30 meters of the intersection, then merge quickly C. Slow down to create a gap and merge once rear vehicle clears D. Proceed forward and reroute at the next available legal right turn",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_9.png"
+    ],
+    "source": ""
+},
+{
+    "id": 10,
+    "question": "The autonomous vehicle is approaching an urban development zone featuring newly paved roads with planted trees and cleared construction banks on both sides, as shown in the synchronized multi-view images. The top-view highlights a wide, divided road with four total lanes and offset planting zones on both edges. The forward view confirms that the road subtly curves to the left, with a motorcyclist traveling ahead in the same lane. The left-back and right-back views expose symmetrical terrain with soft shoulders and no immediate sidewalk obstructions. Due to planned municipal restrictions, the vehicle must prepare to merge into the inner-left lane before reaching a construction control point positioned approximately 100 meters ahead, behind the motorcyclist. The vehicle travels at 36 km/h and must maintain a 1.2-second safety buffer from the motorcyclist during the maneuver. Given that the vehicle must initiate the merge within a 30-meter merging window and has a maximum lateral shift rate of 0.9 m/s, which of the following merging **strategies best guarantees compliance with safety, timing, and geometric constraints**? A. Immediately overtake the motorcyclist and merge left at full lateral speed B. Begin a gradual merge now and pass the motorcyclist from the inner lane C. Reduce speed to increase following distance, then merge behind the motorcyclist D. Maintain current speed and delay merge until past the 100-meter point",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_10.png"
+    ],
+    "source": ""
+},
+{
+    "id": 11,
+    "question": "The autonomous vehicle is driving on a narrow, rural mountain road with no lane markings, as observed from all four views. The top-down view reveals a moderate leftward curve ahead, and both side views confirm the absence of shoulders or guardrails on either side. On the left, a rock wall rises steeply, while the right view exposes a descending slope with power lines overhead. The forward-facing camera shows the sun low on the horizon, directly in the vehicle’s line of sight, which significantly impacts visibility and may reduce sensor reliability. To safely navigate the curve under these lighting conditions, the system must calculate a minimum travel speed that ensures (1) the vehicle stays within the lane boundaries assuming a maximum safe lateral deviation of 0.4 meters, (2) the camera field of view remains sufficient to detect upcoming obstacles within a 20-meter range, and (3) braking can be completed safely if an obstacle is detected at the limit of perception. Given these parameters and a deceleration rate of 5 m/s², what is the **maximum safe speed** the vehicle can maintain under these conditions? A. 25 km/h B. 32 km/h C. 38 km/h D. 42 km/h",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_11.png"
+    ],
+    "source": ""
+},
+{
+    "id": 12,
+    "question": "The autonomous vehicle is currently inside a tunnel with low ambient lighting and a sharp lighting gradient visible at the tunnel exit, as shown in all four synchronized perspectives. The top-down LiDAR image confirms a straight multi-lane segment, and the forward view indicates significant glare at the tunnel exit caused by external sunlight. This lighting transition poses a hazard due to temporary visual and sensor overexposure. Assuming the vehicle is moving at 54 km/h and the tunnel exit is 40 meters ahead, the system must execute a visual recalibration pause just after the exit to resume reliable sensor perception. The recalibration protocol requires the vehicle to stop in a fully illuminated zone for at least 3 seconds and must occur within 10 meters after the exit. Given these constraints and a maximum deceleration rate of 5 m/s², which of the following is the most viable execution plan? A. Continue at current speed and stop immediately upon exiting B. Start decelerating now to stop precisely 5 meters past the tunnel exit C. Maintain speed and apply full brakes at the tunnel exit D. Decelerate to 36 km/h within the tunnel, then coast 10 meters after exit before stopping",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_12.png"
+    ],
+    "source": ""
+},
+{
+    "id": 13,
+    "question": "The autonomous vehicle is navigating a busy urban road with multiple lanes and adjacent parked vehicles, as seen from the forward and top-view perspectives. A large truck is occupying the leftmost lane just ahead, while smaller vehicles are parked intermittently along the right edge. The right-back and left-back views show consistent commercial storefronts and trees lining both sides of the road, suggesting pedestrian presence and moderate traffic complexity. The goal is to proceed forward for approximately 150 meters and then execute a lane change to the rightmost lane for a scheduled passenger pickup adjacent to a storefront. However, the autonomous system must avoid blind spots created by the parked vehicles and the long truck on the left, maintain a 1-meter clearance buffer, and complete the lane change within 60 meters prior to the pickup point. Given a traffic speed of 36 km/h and a maximum lateral shift rate of 0.8 m/s, what is the earliest **safe and compliant lane-change strategy** the vehicle should adopt? A. Immediately shift right behind the truck and maintain right lane until stop B. Continue in the current lane for 90 meters, then shift quickly over 3.5 meters C. Slow down to match surrounding flow, wait for a safe gap, then merge gradually over 5 seconds D. Accelerate slightly to overtake the parked car cluster and cut into the right lane at the midpoint",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_13.png"
+    ],
+    "source": ""
+},
+{
+    "id": 14,
+    "question": "The autonomous vehicle is driving along a landscaped multi-lane boulevard divided by a planted median, as clearly seen in all four synchronized views. According to the top-down view, the road segment ahead is straight and unobstructed for at least 200 meters. The forward view shows high-rise residential buildings to the left and a tree-lined sidewalk to the right. The vehicle must perform a mid-block U-turn using the first available opening in the planted median, located approximately 90 meters ahead. However, the U-turn maneuver must be completed without encroaching into the far-right lane of the opposite direction to avoid collision with potentially oncoming traffic. The vehicle is currently traveling at 36 km/h and requires a turning radius of at least 6.5 meters, with the median opening width estimated from the LiDAR view to be approximately 7.5 meters. Given that a U-turn at 36 km/h would exceed lateral limits, and safe turning speed is 18 km/h, at what distance from the median opening should the vehicle begin decelerating in order to execute the U-turn accurately and compliantly? A. 20 meters B. 30 meters C. 40 meters D. 50 meters",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_14.png"
+    ],
+    "source": ""
+},
+{
+    "id": 15,
+    "question": "The autonomous vehicle is traveling on a straight, two-lane rural road bordered by dense vegetation on both sides, as observed in the synchronized views. The top-view confirms a low-traffic environment with no visible intersections or lane markings beyond the central divide. A white sedan, seen in the left-back view, has recently overtaken the autonomous vehicle and is now ahead in the same lane. The road is framed by utility poles and trees at regular intervals, providing useful visual anchors. The system has been instructed to maintain a following distance of at least 2.5 seconds behind the lead vehicle while cruising at 54 km/h. If the white vehicle ahead slows down to 36 km/h over the next 5 seconds, and the autonomous vehicle does not begin deceleration for 2 seconds, at what minimum deceleration rate (in m/s²) must the autonomous vehicle apply to maintain the safe following gap by the time both vehicles are moving at the same speed? A. 0.8 m/s² B. 1.2 m/s² C. 1.6 m/s² D. 2.0 m/s²",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_15.png"
+    ],
+    "source": ""
+},
+{
+    "id": 16,
+    "question": "The autonomous vehicle is moving through a semi-urban residential area with small commercial buildings closely aligned to the road, as shown in the synchronized top-view and forward-facing camera. The top-down LiDAR reveals a two-lane undivided road with narrow shoulders and periodic street trees spaced about 20 meters apart. A few parked vehicles and access ramps are visible in front of buildings, and there is minimal separation between pedestrian walkways and the road. The navigation task requires the vehicle to perform a roadside delivery operation 80 meters ahead, near the third building past the next tree. The delivery zone is marked on the curb and is 8 meters long. To perform the stop legally and safely, the vehicle must decelerate smoothly from 54 km/h to a full stop without blocking driveway access or disrupting nearby traffic. If the vehicle begins decelerating now and must come to a complete stop exactly 2 meters into the delivery zone, what is the **maximum constant deceleration** it can apply (rounded to the nearest 0.1 m/s²) while remaining within the delivery range? A. 1.1 m/s² B. 1.6 m/s² C. 2.2 m/s² D. 2.7 m/s²",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_16.png"
+    ],
+    "source": ""
+},
+{
+    "id": 17,
+    "question": "The autonomous vehicle is approaching an intersection in a low-speed urban environment, as shown in the multi-view composite. The top-view LiDAR data indicates clearly painted left-turn and straight-ahead arrows in the center lane, suggesting a multi-option maneuver zone. From the forward and left-back views, several vehicles are parked along the right and left curbside respectively, and a scooter is actively passing the vehicle on the right, visible in the right-back view. The vehicle’s intended route is to turn left at the intersection using the designated lane. However, because of the dense tree cover and overhanging traffic lights, the left-turn signal may be occluded or appear late to sensors. Given that the vehicle is traveling at 27 km/h, needs at least 2.5 seconds to identify the turn signal, and must begin slowing to 18 km/h prior to entering the intersection zone 25 meters ahead, which of the following left-turn **maneuver strategies** best ensures both signal compliance and safety with dynamic nearby agents? A. Immediately decelerate and prepare for the left turn before signal visibility B. Maintain current speed and commit to turn only once the scooter clears fully C. Begin deceleration now and continue monitoring for turn signal and scooter behavior D. Slightly accelerate to clear the scooter quickly, then stop and wait for full signal confirmation",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_17.png"
+    ],
+    "source": ""
+},
+{
+    "id": 18,
+    "question": "The autonomous vehicle is navigating a high-traffic, multi-lane arterial road under bright sunlight conditions, as shown in all four synchronized views. The top-down LiDAR reveals five lanes in the current direction, with a solid median on the left and a merging lane on the right. In the forward view, traffic density is moderate, and the vehicle is in the middle lane. The left-back and right-back views reveal fast-moving traffic on both adjacent lanes, including a delivery van closely tailing in the left lane. The navigation module requires the vehicle to prepare for a right exit ramp approximately 250 meters ahead, with the merge lane visible in the top view. Given that a minimum of 60 meters is required for a safe lane change at 54 km/h and the lateral shift rate must not exceed 0.9 m/s to avoid abrupt maneuvers, what is the latest point (in meters from the ramp) at which the vehicle can begin the lane change while still ensuring a compliant and safe merge? A. 90 meters B. 100 meters C. 120 meters D. 150 meters",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_18.png"
+    ],
+    "source": ""
+},
+{
+    "id": 19,
+    "question": "The autonomous vehicle is currently traveling on an elevated expressway segment with three clearly marked lanes and solid concrete side barriers, as visible in the synchronized views. The forward view reveals an upcoming orange-arched bridge, approximately 250 meters ahead, and the top-down LiDAR confirms a straight, unobstructed path until that point. The vehicle must prepare for an off-ramp located just before the bridge, which curves sharply to the right and descends to a parallel surface road. Based on traffic regulations and curvature limits, the vehicle must reduce speed from 72 km/h to 45 km/h before entering the off-ramp. The ramp entrance becomes visible at a distance of 80 meters from the current position. Assuming uniform deceleration and that lane change must be completed before deceleration begins due to lane restriction barriers, what is the **minimum distance prior to the ramp** where the vehicle should initiate its deceleration to achieve the target speed in time? A. 25 meters B. 35 meters C. 45 meters D. 55 meters",
+    "answer": "D",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_19.png"
+    ],
+    "source": ""
+},
+{
+    "id": 20,
+    "question": "The autonomous vehicle is currently driving through a semi-rural residential area along a two-lane road with clear centerline markings and roadside vegetation, as observed in all synchronized views. The top-down LiDAR shows an upcoming yellow box junction painted on the road surface, which is used to regulate vehicle entry when the exit is not clear. The forward-facing camera confirms the junction is directly ahead, while the left-back view reveals a vehicle recently passed in the opposite direction. The right-back view shows a clear stretch of road with no obstruction. The traffic policy requires that the vehicle only enter the yellow box if it can completely exit it without stopping. Given the vehicle's current speed of 36 km/h, a box length of approximately 9 meters, and a braking distance of 7 meters at this speed, which of the following describes the **correct decision-making action** the autonomous system should take as it approaches the box junction? A. Proceed into the box immediately to maintain flow B. Decelerate now and stop just before the box if exit is not guaranteed C. Maintain speed and monitor until halfway through the box, then decide to stop or go D. Accelerate slightly to clear the box before other vehicles approach",
+    "answer": "B",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_20.png"
+    ],
+    "source": ""
+},
+{
+    "id": 21,
+    "question": "The autonomous vehicle is traveling on a divided urban road with metal fencing separating the main lanes from the service lanes on either side, as clearly observed in all four synchronized views. The top-down LiDAR confirms the presence of fences and an uninterrupted two-lane path in the current direction. The right-back view shows a row of parked motorcycles within the service lane, and the forward view reveals an upcoming opening in the fence, approximately 50 meters ahead, that allows access to a right-side parking bay. The vehicle has received an instruction to turn into the service lane and park near the motorcycles, but can only make the maneuver through the designated opening. If the vehicle is moving at 36 km/h and the width of the service lane entry requires a 3.5-meter lateral shift over a longitudinal span of 12 meters, which of the following describes the most **compliant and smooth transition plan**? A. Maintain current speed and begin the turn 10 meters before the gap B. Slightly accelerate and complete the lateral shift in under 1 second C. Begin a gradual turn 15 meters ahead of the opening and complete at a 0.7 m/s lateral rate D. Reduce speed to 18 km/h, then execute an abrupt lane change over 5 meters",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_21.png"
+    ],
+    "source": ""
+},
+{
+    "id": 22,
+    "question": "The autonomous vehicle is navigating a slightly curved urban road with roadside parking, as observed in the synchronized multi-view images. The top-down LiDAR view reveals marked parking spaces on both sides of the road, and several vehicles are already parked. The forward and left-back views show a large orange truck partially obstructing the left lane, while the right-back view confirms the right lane is mostly clear, except for parked vehicles. The vehicle must perform a curbside delivery maneuver into the available parking space just behind a white box truck visible on the right side, located approximately 20 meters ahead. Given that the available space between two parked vehicles is about 7 meters, the autonomous vehicle is 4.3 meters long, and needs a minimum clearance of 1.2 meters at both ends to safely parallel park, which of the following decisions best describes the **correct tactical maneuver** for a compliant and efficient parking attempt? A. Continue at current speed and attempt to reverse into the space directly B. Stop adjacent to the space and begin parallel parking using two-stage correction C. Slow down, pass the space slightly, then reverse into it with a single maneuver D. Switch to the left lane to gain a wider approach angle before reversing into the right-side spot",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_22.png"
+    ],
+    "source": ""
+},
+{
+    "id": 23,
+    "question": "An autonomous vehicle is traveling along a forest-lined rural highway with mild curves, as seen in the multi-view images. The top-view LiDAR data reveals no intersections or branching roads nearby, and the road markings confirm a two-lane bidirectional road. The forward and left-back views show a vehicle approximately 30 meters ahead traveling at a similar speed. The right-back view reveals sparse roadside vegetation and no immediate obstacles or other vehicles. The autonomous vehicle's current cruise speed is 72 km/h, and its overtaking maneuver requires a minimum clear forward stretch of 100 meters and a 6-second window with no oncoming traffic. If the road ahead curves slightly to the left and visibility is partially obscured by trees, which of the following strategies should the vehicle employ to ensure safety and compliance with standard autonomous navigation protocols?\n\nA. Immediately begin the overtaking maneuver before entering the curve to reduce time behind the slower vehicle\nB. Maintain current speed and closely follow the lead vehicle until it exits the curve, then reassess visibility\nC. Slow down to 54 km/h, increase following distance, and monitor sensor fusion confidence for oncoming traffic\nD. Initiate lane change once lateral radar detects no curbside edge within 2 meters and forward LiDAR shows clear path",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_23.png"
+    ],
+    "source": ""
+},
+{
+    "id": 24,
+    "question": "An autonomous vehicle is driving through a well-lit tunnel, as observed from the provided multi-view images. The top-down LiDAR view indicates a continuous dual-lane road with a mild leftward curve. The forward and backward camera views show vehicles moving in the same direction within their lanes, and no emergency bays or exits are visible. The tunnel's lighting and concrete walls may interfere with GPS accuracy, and signal loss is expected. The vehicle's current speed is 65 km/h. According to standard autonomous driving protocols in tunnels, which of the following actions is most appropriate to ensure safe operation and localization continuity?\n\nA. Reduce speed to 40 km/h and switch to manual mode immediately\nB. Maintain current speed and rely solely on GPS fallback data until the tunnel exit\nC. Switch to LiDAR-based SLAM (Simultaneous Localization and Mapping) and keep lane center\nD. Change lane to the left for better camera visibility and recalculate map matching",
+    "answer": "C",
+    "image_url": [
+        "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_24.png"
+    ],
+    "source": ""
+},
+{
+  "id": 25,
+  "question": "Based on the top-down LiDAR and multi-view camera images, the autonomous vehicle is traveling on a straight and clear multi-lane road with minimal surrounding traffic. There are power lines and street lights visible, and the visibility is moderately reduced due to sun glare in the forward direction. Given this situation, which sensor fusion strategy should the perception system prioritize to ensure robust lane tracking and forward object detection?\n\nA. Rely solely on RGB camera input since the road is straight\nB. Increase reliance on LiDAR intensity gradients and IMU odometry for lane detection\nC. Use ultrasonic sensors to measure lane boundaries\nD. Disregard forward camera due to glare and stop the vehicle immediately",
+  "answer": "B",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_25.png"
+  ],
+  "source": ""
+},
+{
+  "id": 26,
+  "question": "The multi-view image shows an autonomous vehicle approaching a large city intersection, as evidenced by the crosswalk and lane markings in the TOP-VIEW. The vehicle's system evaluates the reliability of the traffic light detection using the following scoring model:\n\n- If the traffic light in the FORWARD view is affected by sun glare, its visual confidence score is reduced to `V = max(0, 1 - G)`, where `G` is the glare intensity factor, ranging from 0 to 1.\n- If the traffic light is visible in the LEFT-BACK or RIGHT-BACK view, an additional clarity boost `L = 0.3` is added to the visual score `V`.\n- The final reliability score is computed as `S = 0.7 × V + 0.3 × N`, where `N` is the navigation confidence (set as 0.6).\n\nIf the glare factor `G = 0.8` and the traffic light is partially visible in the LEFT-BACK view, what is the final traffic light reliability score `S` approximately?\n\nA. 0.10  B. 0.25  C. 0.35  D. 0.55",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_26.png"
+  ],
+  "source": ""
+},
+{
+  "id": 27,
+  "question": "An autonomous vehicle is approaching a multi-lane urban road, as shown in the TOP-VIEW and FORWARD view. The road has two straight lanes and one left-turn lane. The vehicle must choose a lane using the following lane-selection utility model:\n\nLet each lane `L_i` (i ∈ {1, 2, 3}) have a utility `U_i = T_i × W_i - R_i`, where:\n- `T_i` is the target direction score (1.0 for straight, 0.7 for left-turn);\n- `W_i` is the traffic density weight (estimated visually: low=1.2, medium=1.0, high=0.6);\n- `R_i` is the relative road obstruction penalty (0 if clear, 0.5 if partially blocked, 1.0 if obstructed).\n\nFrom the FORWARD and SIDE views, assume:\n- Lane 1 (left-turn): medium traffic, partially blocked;\n- Lane 2 (straight): low traffic, clear;\n- Lane 3 (straight): high traffic, clear.\n\nWhich lane should the vehicle choose to maximize utility?\n\nA. Lane 1  B. Lane 2  C. Lane 3  D. All lanes are equal",
+  "answer": "B",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_27.png"
+  ],
+  "source": ""
+},
+{
+  "id": 28,
+  "question": "The autonomous vehicle is about to enter a construction zone (see FORWARD and SIDE views). According to the operational safety protocol, it must compute a dynamic risk factor `R_total`, defined as:\n\n`R_total = (N_v / 3) + 1.5 × C_block + 2 × D_margin`\n\nWhere:\n- `N_v` = number of visible vehicles/motorcycles within 30 meters ahead;\n- `C_block` = 1 if there is any road construction equipment or material near the vehicle's trajectory, else 0;\n- `D_margin` = 0 if road edge is safe, 0.5 if partially covered, 1.0 if no clear margin.\n\nFrom the FORWARD and RIGHT-BACK views, estimate:\n- 4 vehicles or motorcycles are visible within the critical range.\n- Construction equipment is present on the right edge.\n- The road margin is partially covered with debris.\n\nWhat is the computed `R_total`?\n\nA. 4.0  B. 5.0  C. 6.0  D. 6.5",
+  "answer": "D",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_28.png"
+  ],
+  "source": ""
+},
+{
+  "id": 29,
+  "question": "The vehicle is currently traveling on an elevated roadway, as seen in the FORWARD and SIDE views. The TOP-VIEW shows a road marking indicating a maximum speed limit of 40 km/h. The road ahead shows sparse traffic, and the LEFT-BACK view shows diverging lanes marked with directional arrows.\n\nAccording to local navigation policy, the vehicle computes a recommended speed `S` using:\n\n`S = min(V_limit, V_base + 10 × ln(D_clear + 1) - 3 × N_adj)`\n\nWhere:\n- `V_limit` is the posted speed limit in km/h;\n- `V_base` is 25 km/h if road is elevated and clear, 20 otherwise;\n- `D_clear` is the number of visible lane segments ahead that are unobstructed (each ≈ 10m);\n- `N_adj` is the number of adjacent vehicles visible in the RIGHT-BACK view within 30 meters.\n\nGiven:\n- `V_limit = 40` (from road marking);\n- `D_clear = 6` (from FORWARD lane visibility);\n- `N_adj = 2` (two adjacent vehicles visible on the right lane);\n- The road is elevated and dry.\n\nWhat is the recommended speed `S`, rounded to the nearest whole number?\n\nA. 36  B. 32  C. 30  D. 28",
+  "answer": "B",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_29.png"
+  ],
+  "source": ""
+},
+{
+  "id": 30,
+  "question": "From the TOP-VIEW, the current lane has three options marked by arrows: left-turn, straight, and right-turn. The vehicle is aligned with the center lane (marked for going straight). The LEFT-BACK and RIGHT-BACK views confirm this is a six-lane bidirectional road with a median divider.\n\nAt the upcoming intersection (seen in FORWARD view), the traffic light is red, but no cars are present in any direction. A delivery policy dictates that if:\n\n- `T = (α × L) + β` is less than `D × 1.5`, the vehicle may proceed to the intersection and stop just before the stop line.\n\nWhere:\n- `α = 1.2`, `β = 5`\n- `L` is the number of lanes in the vehicle's direction (3 here)\n- `D` is the distance to the stop line in meters (≈ 20m, estimated visually)\n\nShould the vehicle proceed under this policy?\n\nA. Yes, because `T < D × 1.5`  B. No, because `T = D × 1.5`  C. No, because `T > D × 1.5`  D. Not enough data",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_30.png"
+  ],
+  "source": ""
+},
+{
+  "id": 31,
+  "question": "You are navigating a mountainous road segment shown in the multi-view image. Based on the TOP-VIEW and FORWARD views:\n\n- You are traveling at 60 km/h.\n- The curve has an approximate radius of 25 meters.\n- The vehicle ahead is coming in the opposite direction and encroaching into your lane by approximately 0.5 meters.\n- Your vehicle's width is 1.8 meters, and the road lane width is 3.5 meters.\n\nIf your reaction time is 1.5 seconds and braking deceleration is 6 m/s², what is the minimum **additional lateral clearance** you must maintain (beyond staying in-lane) to avoid a collision, **assuming the opposing vehicle does not adjust its trajectory**?\n\nA. 0.25 meters  \nB. 0.5 meters  \nC. 0.8 meters  \nD. 1.2 meters",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_31.png"
+  ],
+  "source": ""
+},
+{
+  "id": 32,
+  "question": "You are driving along the road shown. You notice:\n\n- A motorcycle is parked partially on the road ahead near the right curb (see TOP-VIEW and FORWARD).\n- There are two pedestrians approximately 5 meters ahead of the motorcycle.\n- A vehicle is approaching from the opposite direction at approximately 40 km/h (from LEFT-BACK).\n- You are currently driving at 30 km/h and your lane is 3.5 m wide.\n\nYou must decide whether to:\n1. Slow down and stop, \n2. Carefully overtake the motorcycle while remaining in your lane, or \n3. Slightly steer left to overtake and re-enter your lane before the oncoming vehicle passes.\n\nIf your vehicle’s width is 1.8 m, the motorcycle is occupying 0.8 m of the lane, and you require at least 0.6 m of safety margin from both sides while overtaking, what is the **safest and feasible maneuver** given the constraints?\n\nA. Stop and wait for the oncoming car to pass before overtaking.  \nB. Overtake without lane departure, using existing lane margin.  \nC. Slightly steer left into opposing lane and complete pass before the oncoming vehicle arrives.  \nD. Continue at current speed, ignoring the obstacle.",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_32.png"
+  ],
+  "source": ""
+},
+{
+  "id": 33,
+  "question": "You are driving at 35 km/h in the lane closest to the curb (as seen in the FORWARD view). A cement truck is moving slowly ahead of you in the same lane at 15 km/h. To the left, two lanes are occupied by a mixture of fast-moving and slow-moving vehicles, with a white van overtaking on your left rear side (see LEFT-BACK). You must choose the safest and most efficient next maneuver.\n\n**Constraints:**\n- Your lane is 3.5 meters wide.\n- Your car is 1.8 meters wide.\n- The truck is 2.5 meters wide and blocks your lane.\n- Your braking distance at 35 km/h is approximately 12.5 meters.\n- The nearest gap in the left lane is 3 seconds away.\n- The intersection with a red light is 60 meters ahead, currently red for at least 6 more seconds.\n\nWhat is the most **efficient and safe decision**?\n\nA. Immediately brake and follow the truck until after the intersection.\nB. Quickly change lanes to the left before the white van blocks you.\nC. Maintain speed and attempt to merge into the left lane in the 3-second gap.\nD. Brake gently, maintain distance from the truck, and change lanes after the intersection.",
+  "answer": "D",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_33.png"
+  ],
+  "source": ""
+},
+{
+  "id": 34,
+  "question": "You're driving straight at 45 km/h on a three-lane road (see FORWARD view). A slow-moving truck carrying oversized cargo is occupying your lane and partially blocking the adjacent lane. In the LEFT-BACK view, a car is quickly approaching in the left lane, and the RIGHT-BACK view shows the right lane is clear. The traffic sign above indicates a mandatory left or straight direction for your lane, while the right lane leads to a bus-only zone after 150 meters.\n\nYou must choose your action to avoid being stuck behind the truck and to continue toward your straight destination without violating traffic rules.\n\nAdditional information:\n- The truck is traveling at 25 km/h.\n- You are 20 meters behind the truck.\n- The approaching car in the left lane is moving at 55 km/h and is currently 15 meters behind your rear.\n- Your car is 4.5 meters long and lane change requires 4 seconds.\n- The bus-only sign begins enforcement 150 meters ahead and you must not be in the bus lane at that point.\n\nWhat is the most efficient and legal decision?\n\nA. Stay behind the truck until it clears the intersection.\nB. Accelerate and change to the right lane briefly before returning left.\nC. Attempt to merge into the left lane immediately before the fast car reaches.\nD. Decelerate slightly, wait for the fast car to pass, then merge into the left lane.",
+  "answer": "D",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_34.png"
+  ],
+  "source": ""
+},
+{
+  "id": 35,
+  "question": "In the FORWARD view, you are heading westbound at 50 km/h. The sun is low and shining directly ahead, making visibility challenging. A silver sedan is switching into your lane 20 meters ahead. Based on the LEFT-BACK and RIGHT-BACK views, the left lane has slightly faster-moving traffic, while the right lane is open but has a bus lane that starts 80 meters ahead.\n\nTraffic rules:\n- The bus lane is restricted from 7:00 to 9:00 AM (current time is 8:48 AM).\n- Changing lanes requires at least 25 meters of clearance ahead and 5 meters of lateral space.\n- You're 4.5 meters long, and your lane-change maneuver takes 3.5 seconds.\n- Your car’s acceleration is limited to 3 m/s².\n\n**Compute whether a lane change to the left is feasible before reaching the bus lane, considering the sedan’s movement and current vehicle dynamics. If not, identify the most legal and efficient option.**\n\nA. Stay in lane and decelerate to maintain a 10-meter gap from the merging sedan.\nB. Attempt to accelerate and pass the sedan in the same lane before it merges.\nC. Change to the right lane temporarily, then return left after 80 meters.\nD. Calculate a controlled lane change to the left using relative velocities.",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_35.png"
+  ],
+  "source": ""
+},
+{
+  "id": 36,
+  "question": "You are currently positioned in the middle lane at a red light, as shown in the FORWARD view. According to the TOP-VIEW, this lane allows either going straight or turning left. However, the LEFT-BACK view reveals a police vehicle stopped partially in the left-turn lane, and the RIGHT-BACK view shows an emergency response vehicle with flashing lights in the rightmost lane preparing to bypass traffic.\n\nGiven the following conditions:\n- Your destination is straight ahead.\n- You must not obstruct emergency vehicles.\n- You have 6 seconds before the light turns green.\n- It takes 4 seconds to safely switch lanes.\n\n**Which is the optimal and legal maneuver to prepare for the green light?**\n\nA. Switch to the right lane quickly and proceed straight with the emergency vehicle.\nB. Stay in the current lane and go straight when the light turns green.\nC. Move to the left lane before green and prepare to turn, then merge forward.\nD. Wait for the emergency vehicle to pass, then perform a u-turn via the left-turn lane.",
+  "answer": "B",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_36.png"
+  ],
+  "source": ""
+},
+{
+  "id": 37,
+  "question": "You are driving on a rural two-lane road as shown in the FORWARD view. There is a slow-moving truck 70 meters ahead of you, moving at 30 km/h. Your car is currently traveling at 60 km/h. According to the TOP-VIEW and REAR views, the road is straight with no intersections for 400 meters, and there is an oncoming vehicle detected in the LEFT-BACK view, 300 meters away, moving at 50 km/h toward you.\n\nGiven that:\n- Your car needs 6 seconds and 110 meters to overtake safely.\n- Your braking distance at 60 km/h is 45 meters.\n\n**Should you initiate the overtake maneuver now?**\n\nA. Yes, because the distance is sufficient before the oncoming vehicle arrives.\nB. No, because the oncoming vehicle would reach the conflict zone before you complete overtaking.\nC. Yes, but only if the truck accelerates to match your speed.\nD. No, because your braking distance overlaps with the truck's tail clearance.",
+  "answer": "B",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_37.png"
+  ],
+  "source": ""
+},
+{
+  "id": 38,
+  "question": "You are driving on a three-lane road as shown in the TOP-VIEW and FORWARD view. You are currently in the center lane, which is marked with a diamond symbol. The LEFT lane and RIGHT lane both have straight arrows, but only the center lane has a special marking.\n\nIn the RIGHT-BACK view, a bus is approaching fast in the right lane, and in the LEFT-BACK view, the left lane is currently clear. According to local regulations:\n- Diamond lane is reserved for public transport and carpools.\n- You are not part of a carpool or public transport.\n- You need to make a right turn 150 meters ahead.\n\n**Given the situation, what is the most compliant and safe decision you should make?**\n\nA. Stay in your current lane and make the right turn from the diamond lane.\nB. Immediately merge into the right lane before the bus reaches you.\nC. Move into the left lane temporarily, then wait for a safe gap to merge into the right lane.\nD. Speed up to stay ahead of the bus and cut into the right lane last-minute before turning.",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_38.png"
+  ],
+  "source": ""
+},
+{
+  "id": 39,
+  "question": "You are driving in a two-lane rural road, as shown in the FORWARD and TOP-VIEW. Your car is traveling at 60 km/h in the right lane. In the FORWARD view, a black SUV in the opposite direction is attempting to overtake a slow truck.\n\nFrom the LEFT-BACK view, your left lane is clear, and in the RIGHT-BACK view, a car is merging from a driveway ahead. You estimate the black SUV will complete its overtake in about 4 seconds, while your car will reach the merging point in 3 seconds.\n\nGiven safety constraints and right-of-way rules, what is the best course of action?\n\nA. Maintain your speed and position; the merging car will yield.\nB. Accelerate slightly to pass the merging point before the SUV gets in your lane.\nC. Decelerate to allow both the merging vehicle and the SUV to safely complete their maneuvers.\nD. Move to the left lane immediately to avoid interaction with the merging car.",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_39.png"
+  ],
+  "source": ""
+},
+{
+  "id": 40,
+  "question": "You are driving at a speed of 72 km/h (20 m/s) in the rightmost lane, as shown in the FORWARD and TOP-VIEW images. A black car visible in the RIGHT-BACK view is trying to merge into your lane from the adjacent lane at 54 km/h (15 m/s), and it is currently 10 meters behind your car.\n\nAssuming both vehicles maintain constant speeds and directions:\n\nHow many seconds will it take before the black car's front bumper aligns exactly with your rear bumper?\n\nA. 1 second\nB. 2 seconds\nC. 5 seconds\nD. It will never align because your speed is greater",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_40.png"
+  ],
+  "source": ""
+},
+{
+  "id": 41,
+  "question": "In the current scene, you are driving straight on a two-way urban road. A scooter in front of you is moving slowly near the centerline, while a white sedan is parked partially in your lane, as seen in the FORWARD and TOP-VIEW images.\n\nGiven that there is a large truck approaching from the opposite direction (visible in the RIGHT-BACK view), and a row of parked cars on the left (LEFT-BACK view), what is the **safest immediate decision** you should make to avoid collision and maintain legal driving behavior?\n\nA. Quickly overtake the scooter by crossing into the opposite lane before the truck arrives\nB. Honk to alert the scooter and wait for it to move to the right\nC. Move slightly left to pass between the scooter and the parked car, ignoring the truck\nD. Slow down and maintain position behind the scooter until it’s safe to overtake",
+  "answer": "D",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_41.png"
+  ],
+  "source": ""
+},
+{
+  "id": 42,
+  "question": "You are driving at 40 km/h in the middle lane. According to the TOP-VIEW and FORWARD views, you are approaching a signal-controlled intersection located approximately 100 meters ahead. The traffic light currently shows green but is expected to turn yellow in 4 seconds.\n\nThere are two motorcycles ahead in your lane, moving at approximately 20 km/h, and a white car visible in the LEFT-BACK mirror traveling at 45 km/h. You intend to go straight.\n\nShould you accelerate, maintain speed, or brake to handle the situation safely and legally?\n\nA. Accelerate to 60 km/h to pass before the light turns yellow\nB. Maintain speed and follow the motorcycles through the intersection\nC. Change to the left lane and pass the motorcycles before the signal\nD. Slow down and prepare to stop before entering the intersection",
+  "answer": "D",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_42.png"
+  ],
+  "source": ""
+},
+{
+  "id": 43,
+  "question": "You are driving at 60 km/h on a two-lane road as shown in the FORWARD and TOP-VIEW images. You see a directional sign indicating a split: Qingliu Middle Rd (straight) and Qingdongyi Rd (left turn). According to road markings and traffic signs, the left lane must turn left, and the right lane continues straight.\n\nThere is a slow-moving truck (~40 km/h) visible in your current lane ahead. The lane to the left is currently clear (LEFT-BACK view), and the signalized intersection is 200 meters away.\n\nYou want to go straight and avoid unnecessary delay.\n\nWhat is the best course of action?\n\nA. Stay in your current lane and follow the truck at reduced speed\nB. Change to the left lane, then quickly return to the right before reaching the intersection\nC. Overtake the truck by using the shoulder briefly, then merge back\nD. Reduce speed to match the truck and prepare to stop behind it before the intersection",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_43.png"
+  ],
+  "source": ""
+},
+{
+  "id": 44,
+  "question": "You're traveling at 50 km/h in the rightmost lane of a two-lane road as seen in the FORWARD and TOP-VIEW images. A minivan is merging into your lane from the right at approximately 30 km/h (see RIGHT-BACK). The gap between you and the minivan is approximately 20 meters. The traffic light ahead (FORWARD view) is green, and the intersection is 150 meters away.\n\nAssuming the minivan maintains its speed, and you don't change speed:\n\nHow much time do you have to safely overtake or slow down before the gap closes completely?\n\nChoose the correct reasoning outcome:\n\nA. You will catch up in approximately 2.88 seconds, so braking is necessary to avoid a collision\nB. You will maintain a constant gap and can safely proceed\nC. The gap will close in over 5 seconds, so you can change lanes instead\nD. There is no need to react because the minivan is in a different lane",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_44.png"
+  ],
+  "source": ""
+},
+{
+  "id": 45,
+  "question": "You are driving at 54 km/h (~15 m/s) on a curved rural road, as seen in the FORWARD and TOP-VIEW images. A warning sign ahead indicates a sharp left turn in 300 meters. You also notice another vehicle ahead traveling at approximately 36 km/h (~10 m/s). You must maintain a safe distance of 40 meters when entering the curve.\n\nAssume constant speeds and no braking assistance from the car ahead.\n\nHow many seconds do you have to either overtake or start slowing down before entering the curve too closely behind the vehicle?\n\nA. 10 seconds — plenty of time to overtake before the curve\nB. 6 seconds — borderline safe for overtaking if no cars are oncoming\nC. 3 seconds — immediate braking required to maintain safe distance\nD. No risk — the other vehicle will accelerate in the curve and increase the gap",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_45.png"
+  ],
+  "source": ""
+},
+{
+  "id": 46,
+  "question": "At this busy multi-lane intersection, your vehicle (center of the FORWARD view) is in the second lane from the left, heading straight through a green light. The RIGHT-BACK view shows a white SUV starting a right turn at the same time.\n\nThe SUV is traveling at 25 km/h, and you are moving at 50 km/h. The intersection is 30 meters wide, and your paths intersect in the middle.\n\nAssuming both vehicles maintain constant speeds and no priority is enforced by road markings, who reaches the conflict point first, and what should you do?\n\nA. You reach the intersection center first; proceed as planned\nB. SUV reaches first; you must yield to avoid a collision\nC. Both reach simultaneously; you must honk and accelerate\nD. Unclear priority; both should brake and wait",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_46.png"
+  ],
+  "source": ""
+},
+{
+  "id": 47,
+  "question": "Your vehicle is currently driving in the rightmost lane at 60 km/h. A silver car, seen in the RIGHT-BACK view, is emerging from a residential exit to merge into your lane.\n\nYou are 40 meters ahead of the merging point, and the silver car just started moving, accelerating at 2.5 m/s² from a standstill.\n\nIf both vehicles continue their motion, will there be a collision? What is the best response?\n\nA. You pass the merge point before the other car enters – maintain speed\nB. You both reach the merge point together – slow down to yield\nC. The other car enters first – honk and overtake from the middle lane\nD. The situation is ambiguous – both vehicles should brake",
+  "answer": "A",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_47.png"
+  ],
+  "source": ""
+},
+{
+  "id": 48,
+  "question": "You are approaching a toll station with three visible lanes. According to the top view and side views:\n\n- Lane 1 (leftmost): 4 cars ahead\n- Lane 2 (your current lane): 2 cars ahead\n- Lane 3 (rightmost): 3 cars ahead\n\nEach car takes on average 8 seconds to process at the booth.\n\nYour car can switch lanes safely. What is the **minimum expected time** to pass the toll station, and which lane should you choose?\n\nA. Lane 1 – total wait ~32 s\nB. Lane 2 – total wait ~16 s\nC. Lane 3 – total wait ~24 s\nD. All are the same – stay in current lane",
+  "answer": "B",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_48.png"
+  ],
+  "source": ""
+},
+{
+  "id": 49,
+  "question": "You are driving on a narrow two-way road. From the images:\n\n- You are traveling at 36 km/h\n- An oncoming silver minivan is driving toward you at 27 km/h\n- The visible road section ahead is about 90 meters long\n- The road is too narrow for both cars to pass at the same time, and you must yield if the vehicle reaches the narrow point before you\n\nHow many seconds do you have **at most** to reach the narrow segment before the silver van does?\n\nA. 4.5\nB. 6.0\nC. 7.2\nD. 9.0",
+  "answer": "C",
+  "image_url": [
+    "/mnt/zeli/LRM_Benchmark/dataset/MAP/Map_data/multi-view-map_49.png"
+  ],
+  "source": ""
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

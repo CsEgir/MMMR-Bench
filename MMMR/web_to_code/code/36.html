@@ -1,0 +1,268 @@
+
+> Reasoned for 10 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Web Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+        }
+        .main-content {
+            width: 70%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .table-wrapper {
+            margin-bottom: 20px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        .dropdown {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="checkbox"],
+        .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+        .slider {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .multi-column {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .multi-column div {
+            width: 32%;
+            background-color: #f9f9f9;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .nested-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Web Design Showcase</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="sidebar">
+        <h3>Sidebar</h3>
+        <p>This sidebar contains various elements and widgets.</p>
+        <div class="form-group">
+            <label for="dropdown">Choose a Category</label>
+            <select id="dropdown" class="dropdown">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="slider">Adjust Slider</label>
+            <input type="range" id="slider" class="slider" min="0" max="100" step="1" value="50">
+        </div>
+        <div class="form-group">
+            <label>Choose Options</label><br>
+            <input type="checkbox" id="checkbox1" name="checkbox1"> Option 1<br>
+            <input type="checkbox" id="checkbox2" name="checkbox2"> Option 2<br>
+            <input type="checkbox" id="checkbox3" name="checkbox3"> Option 3<br>
+        </div>
+        <div class="form-group">
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h3>Main Content Area</h3>
+        <p>This section contains the core content of the website. Below are tables with different structures.</p>
+
+        <div class="table-wrapper">
+            <h4>Simple Table</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john@example.com</td>
+                        <td>123-456-7890</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>jane@example.com</td>
+                        <td>987-654-3210</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-wrapper">
+            <h4>Table with Complex Data</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Widget A</td>
+                        <td>High-quality widget</td>
+                        <td>$10.99</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Widget B</td>
+                        <td>Premium widget</td>
+                        <td>$25.99</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Widget C</td>
+                        <td>Standard widget</td>
+                        <td>$15.99</td>
+                        <td>In Stock</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="multi-column">
+            <div>
+                <h4>Column 1</h4>
+                <p>Details for the first column. Can be a list or any other content.</p>
+            </div>
+            <div>
+                <h4>Column 2</h4>
+                <p>Details for the second column. More information here.</p>
+            </div>
+            <div>
+                <h4>Column 3</h4>
+                <p>Content for the third column. Text and data can go here.</p>
+            </div>
+        </div>
+
+        <div class="nested-grid">
+            <div>
+                <h4>Nested Grid 1</h4>
+                <p>This is a nested section inside a grid layout.</p>
+            </div>
+            <div>
+                <h4>Nested Grid 2</h4>
+                <p>This section also belongs to the grid layout.</p>
+            </div>
+            <div>
+                <h4>Nested Grid 3</h4>
+                <p>Another section in the grid. Each section can have its own content.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Complex Web Design Showcase</p>
+</footer>
+
+</body>
+</html>
+```

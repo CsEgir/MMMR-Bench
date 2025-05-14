@@ -1,0 +1,281 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Showcase Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #283e4a;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { margin: 0; font-size: 1.8rem; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    aside {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    main {
+      display: grid;
+      grid-template-rows: auto auto;
+      gap: 2rem;
+    }
+    section.card {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    form select, form input[type="text"], form input[type="number"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #bbb;
+      border-radius: 0.25rem;
+    }
+    .form-row {
+      display: flex;
+      gap: 1rem;
+    }
+    .form-col {
+      flex: 1;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+    footer {
+      background: #283e4a;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Complex Showcase</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Reports</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+
+  <aside>
+    <section class="card">
+      <h2>Filters</h2>
+      <form>
+        <label for="category">Category</label>
+        <select id="category">
+          <option>All</option>
+          <option>Sales</option>
+          <option>Marketing</option>
+          <option>Finance</option>
+          <option>Operations</option>
+        </select>
+        <label for="date-range">Date Range</label>
+        <div class="form-row">
+          <div class="form-col">
+            <input type="text" id="start-date" placeholder="Start Date">
+          </div>
+          <div class="form-col">
+            <input type="text" id="end-date" placeholder="End Date">
+          </div>
+        </div>
+        <label for="status">Status</label>
+        <select id="status">
+          <option>All</option>
+          <option>Active</option>
+          <option>Pending</option>
+          <option>Closed</option>
+        </select>
+        <label>Options</label>
+        <div class="controls">
+          <div>
+            <input type="checkbox" id="opt1"><label for="opt1">Option 1</label>
+          </div>
+          <div>
+            <input type="checkbox" id="opt2"><label for="opt2">Option 2</label>
+          </div>
+          <div>
+            <input type="checkbox" id="opt3"><label for="opt3">Option 3</label>
+          </div>
+          <div>
+            <input type="checkbox" id="opt4"><label for="opt4">Option 4</label>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="card">
+      <h2>Quick Controls</h2>
+      <div class="controls">
+        <button>Refresh</button>
+        <button>Export</button>
+        <button>Help</button>
+        <button>Profile</button>
+      </div>
+    </section>
+  </aside>
+
+  <main>
+
+    <section class="card">
+      <h2>Overview Metrics</h2>
+      <div class="grid-3">
+        <div>
+          <h3>Users</h3>
+          <p>1,234</p>
+        </div>
+        <div>
+          <h3>Revenue</h3>
+          <p>$56,789</p>
+        </div>
+        <div>
+          <h3>Conversion</h3>
+          <p>12.5%</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Data Tables</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Sales by Region</h3>
+          <table>
+            <thead>
+              <tr><th>Region</th><th>Sales</th><th>Growth</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>North</td><td>$12,000</td><td>8%</td></tr>
+              <tr><td>South</td><td>$9,500</td><td>5%</td></tr>
+              <tr><td>East</td><td>$14,300</td><td>12%</td></tr>
+              <tr><td>West</td><td>$10,200</td><td>7%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3>Performance Metrics</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Metric</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Revenue</td><td>$10k</td><td>$15k</td><td>$12k</td><td>$18k</td></tr>
+              <tr><td>Expenses</td><td>$6k</td><td>$7k</td><td>$5k</td><td>$8k</td></tr>
+              <tr><td>Profit</td><td>$4k</td><td>$8k</td><td>$7k</td><td>$10k</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Interactive Controls</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-col">
+            <label for="slider1">Volume</label>
+            <input type="range" id="slider1" min="0" max="100" value="50">
+          </div>
+          <div class="form-col">
+            <label for="slider2">Brightness</label>
+            <input type="range" id="slider2" min="0" max="100" value="75">
+          </div>
+        </div>
+        <fieldset>
+          <legend>Preferences</legend>
+          <div>
+            <input type="radio" id="pref1" name="preference" checked><label for="pref1">Option A</label>
+          </div>
+          <div>
+            <input type="radio" id="pref2" name="preference"><label for="pref2">Option B</label>
+          </div>
+          <div>
+            <input type="radio" id="pref3" name="preference"><label for="pref3">Option C</label>
+          </div>
+        </fieldset>
+        <label for="comments">Comments</label>
+        <textarea id="comments" rows="4" style="width:100%; padding:0.5rem; border:1px solid #bbb; border-radius:0.25rem;"></textarea>
+      </form>
+    </section>
+
+  </main>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Complex Showcase. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

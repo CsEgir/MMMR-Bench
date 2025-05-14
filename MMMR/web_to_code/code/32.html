@@ -1,0 +1,261 @@
+
+> Reasoned for 10 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .side-bar {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .side-bar h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        .side-bar select,
+        .side-bar input[type="checkbox"],
+        .side-bar input[type="radio"],
+        .side-bar input[type="range"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .side-bar label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .content {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .dropdown-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .dropdown-container select {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .slider-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .checkbox-group,
+        .radio-group {
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group label,
+        .radio-group label {
+            font-weight: normal;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Webpage Design</h1>
+</header>
+
+<div class="container">
+    <div class="main-content">
+        <div class="side-bar">
+            <h3>Filters</h3>
+
+            <div class="dropdown-container">
+                <div>
+                    <label for="dropdown1">Category</label>
+                    <select id="dropdown1">
+                        <option value="1">Technology</option>
+                        <option value="2">Science</option>
+                        <option value="3">Arts</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="dropdown2">Location</label>
+                    <select id="dropdown2">
+                        <option value="1">New York</option>
+                        <option value="2">London</option>
+                        <option value="3">Tokyo</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="slider-container">
+                <label for="range">Price Range</label>
+                <input type="range" id="range" min="0" max="1000" value="500">
+            </div>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Accept Terms and Conditions</label>
+                <label><input type="checkbox"> Subscribe to Newsletter</label>
+            </div>
+
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Recent Data</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>john@example.com</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>jane@example.com</td>
+                            <td>25</td>
+                            <td>London</td>
+                        </tr>
+                        <tr>
+                            <td>Jim Brown</td>
+                            <td>jim@example.com</td>
+                            <td>40</td>
+                            <td>Tokyo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Smartphone</td>
+                            <td>$499</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>$999</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Headphones</td>
+                            <td>$199</td>
+                            <td>300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Complex Webpage Design. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

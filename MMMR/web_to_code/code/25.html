@@ -1,0 +1,300 @@
+
+> Reasoned for 9 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Website Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #283593;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1976D2;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #0d47a1;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .grid-item {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .card h3 {
+            color: #1976D2;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #1976D2;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #283593;
+            color: white;
+        }
+
+        .dropdown-container {
+            margin-bottom: 30px;
+        }
+
+        .dropdown-container select {
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        .multi-dropdown {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .multi-dropdown select {
+            flex: 1;
+        }
+
+        .slider-container {
+            margin-top: 30px;
+        }
+
+        .slider {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .checkbox-container,
+        .radio-container {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #283593;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Complex Website Design Showcase</h1>
+        <p>Featuring a variety of controls and layouts</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Information Card</h3>
+                    <p>This section contains detailed information about the website design. We focus on delivering a user-friendly, feature-rich interface.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Data Table</h3>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>John Doe</td>
+                                    <td>Active</td>
+                                    <td><button>Update</button></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jane Smith</td>
+                                    <td>Inactive</td>
+                                    <td><button>Update</button></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Mike Johnson</td>
+                                    <td>Active</td>
+                                    <td><button>Update</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Form Controls</h3>
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="dropdown">Select your country</label>
+                            <select id="dropdown" class="form-control">
+                                <option value="usa">USA</option>
+                                <option value="uk">UK</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="slider">Choose a value</label>
+                            <input type="range" id="slider" class="form-control slider" min="1" max="100" value="50">
+                        </div>
+                        <div class="checkbox-container">
+                            <label>
+                                <input type="checkbox" id="terms"> Accept Terms and Conditions
+                            </label>
+                        </div>
+                        <div class="radio-container">
+                            <label>
+                                <input type="radio" name="color" value="red"> Red
+                            </label>
+                            <label>
+                                <input type="radio" name="color" value="blue"> Blue
+                            </label>
+                        </div>
+                        <button type="submit" class="form-control">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown-container">
+            <h3>Multiple Dropdowns</h3>
+            <div class="multi-dropdown">
+                <select>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <select>
+                    <option value="optionA">Option A</option>
+                    <option value="optionB">Option B</option>
+                    <option value="optionC">Option C</option>
+                </select>
+                <select>
+                    <option value="choice1">Choice 1</option>
+                    <option value="choice2">Choice 2</option>
+                    <option value="choice3">Choice 3</option>
+                </select>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Complex Website Design | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
+```

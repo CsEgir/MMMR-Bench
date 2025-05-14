@@ -1,0 +1,379 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complex Dashboard Prototype</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --secondary: #ecf0f1;
+      --accent: #3498db;
+      --light: #ffffff;
+      --dark: #34495e;
+      --spacing: 1rem;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--secondary);
+      color: var(--primary);
+      line-height: 1.5;
+    }
+    .container {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+      grid-template-columns: 250px 1fr;
+      grid-template-rows: auto 1fr auto;
+      gap: var(--spacing);
+      max-width: 1440px;
+      margin: var(--spacing) auto;
+    }
+    header {
+      grid-area: header;
+      background: var(--light);
+      padding: var(--spacing);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--dark);
+    }
+    header h1 { font-size: 1.5rem; color: var(--accent); }
+    header nav select,
+    header nav input[type="text"] {
+      margin-left: var(--spacing);
+      padding: 0.5em;
+      border: 1px solid var(--dark);
+      border-radius: 4px;
+    }
+    aside {
+      grid-area: sidebar;
+      background: var(--light);
+      padding: var(--spacing);
+      border-right: 1px solid var(--dark);
+    }
+    aside nav ul {
+      list-style: none;
+    }
+    aside nav li {
+      margin: 0.5rem 0;
+    }
+    aside nav a {
+      text-decoration: none;
+      color: var(--primary);
+      padding: 0.5em;
+      display: block;
+      border-radius: 4px;
+    }
+    aside nav a:hover {
+      background: var(--accent);
+      color: var(--light);
+    }
+    main {
+      grid-area: main;
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      gap: var(--spacing);
+    }
+    .filters, .cards, .tables, .form-section, .nested-grid {
+      background: var(--light);
+      padding: var(--spacing);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing);
+    }
+    .filters label {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9rem;
+    }
+    .filters select, .filters input {
+      margin-top: 0.25rem;
+      padding: 0.5em;
+      border: 1px solid var(--dark);
+      border-radius: 4px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: var(--spacing);
+    }
+    .card {
+      background: var(--secondary);
+      padding: var(--spacing);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .tables table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: var(--spacing);
+    }
+    .tables th, .tables td {
+      border: 1px solid var(--dark);
+      padding: 0.5em;
+      text-align: left;
+    }
+    .tables th {
+      background: var(--accent);
+      color: var(--light);
+      position: sticky;
+      top: 0;
+    }
+    .tables tr:nth-child(even) {
+      background: var(--secondary);
+    }
+    .form-section form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing);
+    }
+    .form-section fieldset {
+      border: 1px solid var(--dark);
+      border-radius: 4px;
+      padding: var(--spacing);
+    }
+    .form-section legend {
+      font-weight: bold;
+      padding: 0 0.25em;
+    }
+    .form-section label {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      margin-bottom: var(--spacing);
+    }
+    .nested-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: var(--spacing);
+    }
+    .nested-grid .sub-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: var(--spacing);
+    }
+    footer {
+      grid-area: footer;
+      text-align: center;
+      padding: var(--spacing);
+      background: var(--light);
+      border-top: 1px solid var(--dark);
+      font-size: 0.85rem;
+    }
+    .range-control {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Acme Pro Dashboard</h1>
+      <nav>
+        <input type="text" placeholder="Search..." />
+        <select>
+          <option>EN</option>
+          <option>FR</option>
+          <option>ES</option>
+        </select>
+      </nav>
+    </header>
+
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="#">Overview</a></li>
+          <li>
+            <a href="#">Analytics ▾</a>
+            <ul>
+              <li><a href="#">Traffic</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Conversions</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Users</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <!-- Filter Section -->
+      <section class="filters">
+        <label>
+          Category
+          <select>
+            <option>All</option>
+            <option>Marketing</option>
+            <option>Development</option>
+            <option>Design</option>
+          </select>
+        </label>
+        <label>
+          Status
+          <select>
+            <option>Active</option>
+            <option>Pending</option>
+            <option>Completed</option>
+          </select>
+        </label>
+        <label>
+          Priority
+          <select>
+            <optgroup label="High">
+              <option>Critical</option>
+              <option>Urgent</option>
+            </optgroup>
+            <optgroup label="Normal">
+              <option>Medium</option>
+              <option>Low</option>
+            </optgroup>
+          </select>
+        </label>
+        <label>
+          Date Range
+          <input type="date" />
+        </label>
+        <label>
+          Search Keyword
+          <input type="text" placeholder="Enter keyword" />
+        </label>
+      </section>
+
+      <!-- Cards Section -->
+      <section class="cards">
+        <div class="card">
+          <h3>Total Users</h3>
+          <p>12,345</p>
+        </div>
+        <div class="card">
+          <h3>New Sales</h3>
+          <p>1,234</p>
+        </div>
+        <div class="card">
+          <h3>Active Projects</h3>
+          <p>56</p>
+        </div>
+        <div class="card">
+          <h3>Server Uptime</h3>
+          <p>99.9%</p>
+        </div>
+      </section>
+
+      <!-- Tables Section -->
+      <section class="tables">
+        <h2>User Data</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th><th>Name</th><th>Email</th><th>Role</th><th>Joined</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Alice</td><td>alice@example.com</td><td>Admin</td><td>2024-10-12</td></tr>
+            <tr><td>2</td><td>Bob</td><td>bob@example.com</td><td>Editor</td><td>2025-01-03</td></tr>
+            <tr><td>3</td><td>Charlie</td><td>charlie@example.com</td><td>Viewer</td><td>2023-07-21</td></tr>
+            <tr><td>4</td><td>Dana</td><td>dana@example.com</td><td>Editor</td><td>2022-05-30</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Quarterly Sales</h2>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Region</th>
+              <th colspan="2">Q1</th>
+              <th colspan="2">Q2</th>
+            </tr>
+            <tr>
+              <th>Online</th><th>Offline</th><th>Online</th><th>Offline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>North</td><td>$12,000</td><td>$8,500</td><td>$15,000</td><td>$9,200</td>
+            </tr>
+            <tr>
+              <td>South</td><td>$10,500</td><td>$7,300</td><td>$13,400</td><td>$8,800</td>
+            </tr>
+            <tr>
+              <td>East</td><td>$11,200</td><td>$6,900</td><td>$14,100</td><td>$7,600</td>
+            </tr>
+            <tr>
+              <td>West</td><td>$9,800</td><td>$5,700</td><td>$12,300</td><td>$6,400</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Form Section -->
+      <section class="form-section">
+        <h2>Advanced Controls</h2>
+        <form>
+          <fieldset>
+            <legend>Preferences</legend>
+            <label><input type="checkbox" name="email_updates" /> Email Updates</label>
+            <label><input type="checkbox" name="sms_alerts" /> SMS Alerts</label>
+            <label><input type="checkbox" name="push_notifications" /> Push Notifications</label>
+          </fieldset>
+          <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="male" /> Male</label>
+            <label><input type="radio" name="gender" value="female" /> Female</label>
+            <label><input type="radio" name="gender" value="other" /> Other</label>
+          </fieldset>
+          <fieldset class="range-control">
+            <legend>Volume</legend>
+            <label for="volumeRange">Adjust Volume:</label>
+            <input type="range" id="volumeRange" name="volume" min="0" max="100" />
+          </fieldset>
+          <fieldset>
+            <legend>Select Items</legend>
+            <label>
+              Item A
+              <select multiple size="4">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+              </select>
+            </label>
+          </fieldset>
+        </form>
+      </section>
+
+      <!-- Nested Grid Section -->
+      <section class="nested-grid">
+        <div class="sub-grid">
+          <div class="card"><h4>Chart Area 1</h4><p>Placeholder</p></div>
+          <div class="card"><h4>Chart Area 2</h4><p>Placeholder</p></div>
+          <div class="card"><h4>Chart Area 3</h4><p>Placeholder</p></div>
+          <div class="card"><h4>Chart Area 4</h4><p>Placeholder</p></div>
+        </div>
+        <div>
+          <h3>Summary</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae purus nec lectus bibendum tincidunt.</p>
+          <p>Praesent vulputate justo non nisi faucibus, a facilisis turpis cursus.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 Acme Pro. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms</a>
+    </footer>
+  </div>
+</body>
+</html>
+```

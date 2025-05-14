@@ -1,0 +1,246 @@
+
+> Reasoned for 11 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Web Page Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin: 0 1em;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2em;
+            padding: 2em;
+        }
+        .table-container {
+            background-color: white;
+            padding: 1em;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1em;
+        }
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 1em;
+            text-align: left;
+        }
+        table th {
+            background-color: #f5f5f5;
+        }
+        .form-container {
+            background-color: white;
+            padding: 1.5em;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        .form-container input, .form-container select, .form-container textarea {
+            width: 100%;
+            padding: 0.8em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container input[type="checkbox"], .form-container input[type="radio"] {
+            width: auto;
+            margin-right: 0.5em;
+        }
+        .dropdown-group {
+            display: flex;
+            gap: 1em;
+        }
+        .slider-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .slider-container input[type="range"] {
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Web Page Design</h1>
+    <p>Explore various elements, layouts, and controls integrated into a single page.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <div class="table-container">
+        <h2>Sample Table 1</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>28</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Anna Smith</td>
+                    <td>34</td>
+                    <td>Canada</td>
+                </tr>
+                <tr>
+                    <td>James Brown</td>
+                    <td>45</td>
+                    <td>UK</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h2>Sample Table 2</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Laptop</td>
+                    <td>$1200</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>$800</td>
+                    <td>Out of Stock</td>
+                </tr>
+                <tr>
+                    <td>Headphones</td>
+                    <td>$150</td>
+                    <td>In Stock</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-container">
+        <h2>Form Elements</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="us">USA</option>
+                <option value="ca">Canada</option>
+                <option value="uk">UK</option>
+                <option value="au">Australia</option>
+            </select>
+
+            <div class="dropdown-group">
+                <label for="color">Color Preferences:</label>
+                <select id="color" name="color">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                <select id="size" name="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+
+            <label>Choose your interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <label for="bio">Biography:</label>
+            <textarea id="bio" name="bio" rows="4"></textarea>
+
+            <div class="slider-container">
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Complex Web Design. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

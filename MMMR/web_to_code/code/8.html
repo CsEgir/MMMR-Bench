@@ -1,0 +1,335 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Interface Showcase</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #ecf0f1;
+      --accent-color: #3498db;
+      --highlight-color: #e74c3c;
+      --text-color: #34495e;
+      --bg-color: #f8f9fa;
+      --border-radius: 8px;
+      --gap: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text-color);
+      background: var(--bg-color);
+      line-height: 1.5;
+    }
+    .container {
+      display: grid;
+      grid-template-areas:
+        "header header header"
+        "sidebar main extra"
+        "footer footer footer";
+      grid-template-columns: 250px 1fr 250px;
+      grid-template-rows: auto 1fr auto;
+      height: 100vh;
+      gap: var(--gap);
+      padding: var(--gap);
+    }
+    header {
+      grid-area: header;
+      background: var(--primary-color);
+      color: var(--secondary-color);
+      padding: var(--gap);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: var(--border-radius);
+    }
+    header nav a {
+      color: var(--secondary-color);
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    aside.sidebar {
+      grid-area: sidebar;
+      background: var(--secondary-color);
+      padding: var(--gap);
+      border-radius: var(--border-radius);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: var(--gap);
+    }
+    aside.sidebar .filters {
+      display: grid;
+      gap: var(--gap);
+    }
+    .filters label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+    .filters select,
+    .filters input[type="range"],
+    .filters input[type="text"] {
+      width: 100%;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .filters .checkbox-group,
+    .filters .radio-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filters .checkbox-group label,
+    .filters .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    main {
+      grid-area: main;
+      overflow-y: auto;
+      padding: var(--gap);
+      display: grid;
+      grid-template-rows: auto auto auto;
+      gap: var(--gap);
+    }
+    .overview {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto;
+      gap: var(--gap);
+    }
+    .card {
+      background: var(--secondary-color);
+      padding: var(--gap);
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary-color);
+    }
+    .multi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      gap: var(--gap);
+    }
+    .column-list {
+      columns: 2;
+      column-gap: var(--gap);
+      background: var(--secondary-color);
+      padding: var(--gap);
+      border-radius: var(--border-radius);
+    }
+    .column-list p {
+      margin: 0 0 1em;
+    }
+    .tables-section {
+      display: grid;
+      gap: var(--gap);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--secondary-color);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+    }
+    table th,
+    table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    table th {
+      background: var(--primary-color);
+      color: var(--secondary-color);
+    }
+    table.striped tr:nth-child(even) {
+      background: #fafafa;
+    }
+    .complex-table thead tr:first-child th {
+      background: var(--accent-color);
+    }
+    .complex-table thead tr:nth-child(2) th {
+      background: var(--highlight-color);
+    }
+    aside.extra {
+      grid-area: extra;
+      background: var(--secondary-color);
+      padding: var(--gap);
+      border-radius: var(--border-radius);
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap);
+    }
+    .extra h4 {
+      margin: 0;
+      color: var(--primary-color);
+    }
+    .footer {
+      grid-area: footer;
+      text-align: center;
+      padding: var(--gap);
+      background: var(--primary-color);
+      color: var(--secondary-color);
+      border-radius: var(--border-radius);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dashboard Pro</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Analytics</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <div class="search">
+        <label for="search">Search</label>
+        <input type="text" id="search" placeholder="Search...">
+      </div>
+      <div class="filters">
+        <div>
+          <label for="category">Category</label>
+          <select id="category">
+            <option>All</option>
+            <option>Finance</option>
+            <option>Marketing</option>
+            <option>Development</option>
+          </select>
+        </div>
+        <div>
+          <label for="date-range">Date Range</label>
+          <input type="range" id="date-range" min="1" max="30" value="15">
+        </div>
+        <div class="checkbox-group">
+          <label><input type="checkbox"> Email Alerts</label>
+          <label><input type="checkbox"> SMS Alerts</label>
+          <label><input type="checkbox"> Push Notifications</label>
+        </div>
+        <div class="radio-group">
+          <label><input type="radio" name="mode"> Basic</label>
+          <label><input type="radio" name="mode"> Advanced</label>
+          <label><input type="radio" name="mode"> Expert</label>
+        </div>
+      </div>
+      <button>Apply Filters</button>
+    </aside>
+
+    <main>
+      <section class="overview">
+        <div class="card">
+          <h3>Revenue</h3>
+          <p>$12,345</p>
+        </div>
+        <div class="card">
+          <h3>New Users</h3>
+          <p>1,234</p>
+        </div>
+        <div class="card">
+          <h3>Server Load</h3>
+          <p>72%</p>
+        </div>
+        <div class="card">
+          <h3>Conversions</h3>
+          <p>4.5%</p>
+        </div>
+      </section>
+
+      <section class="multi-grid">
+        <div class="card"><h3>Widget A</h3><p>Details...</p></div>
+        <div class="card"><h3>Widget B</h3><p>Details...</p></div>
+        <div class="card"><h3>Widget C</h3><p>Details...</p></div>
+        <div class="card"><h3>Widget D</h3><p>Details...</p></div>
+        <div class="card"><h3>Widget E</h3><p>Details...</p></div>
+        <div class="card"><h3>Widget F</h3><p>Details...</p></div>
+      </section>
+
+      <section class="column-list">
+        <h3>Latest News</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        <p>Cras placerat ultricies urna, vitae feugiat nulla fermentum nec. Nulla facilisi.</p>
+        <p>Fusce hendrerit vehicula nisi, eu pretium velit.</p>
+        <p>Praesent sit amet ligula non nulla scelerisque tincidunt.</p>
+      </section>
+
+      <section class="tables-section">
+        <h3>Simple Table</h3>
+        <table>
+          <thead>
+            <tr><th>Item</th><th>Quantity</th><th>Price</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Apples</td><td>50</td><td>$0.50</td></tr>
+            <tr><td>Oranges</td><td>75</td><td>$0.65</td></tr>
+            <tr><td>Bananas</td><td>100</td><td>$0.30</td></tr>
+          </tbody>
+        </table>
+
+        <h3 class="striped">Striped Table</h3>
+        <table class="striped">
+          <thead>
+            <tr><th>User</th><th>Email</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Alice</td><td>alice@example.com</td><td>Active</td></tr>
+            <tr><td>Bob</td><td>bob@example.com</td><td>Pending</td></tr>
+            <tr><td>Charlie</td><td>charlie@example.com</td><td>Inactive</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Complex Header Table</h3>
+        <table class="complex-table">
+          <thead>
+            <tr>
+              <th rowspan="2">Region</th>
+              <th colspan="2">Sales Q1</th>
+              <th colspan="2">Sales Q2</th>
+            </tr>
+            <tr>
+              <th>Units</th><th>Revenue</th><th>Units</th><th>Revenue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>North</td><td>120</td><td>$1,200</td><td>150</td><td>$1,500</td></tr>
+            <tr><td>South</td><td>95</td><td>$950</td><td>110</td><td>$1,100</td></tr>
+            <tr><td>East</td><td>130</td><td>$1,300</td><td>140</td><td>$1,400</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <aside class="extra">
+      <h4>Notifications</h4>
+      <ul>
+        <li>You have 5 new messages.</li>
+        <li>System maintenance scheduled.</li>
+        <li>New version available.</li>
+      </ul>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Billing</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </aside>
+
+    <footer class="footer">
+      &copy; 2025 Company Name. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
+```

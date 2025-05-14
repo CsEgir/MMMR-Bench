@@ -1,0 +1,253 @@
+
+> Reasoned for 9 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 20px;
+            gap: 20px;
+        }
+        .left-column, .right-column {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .right-column {
+            background-color: #f9f9f9;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .form-row .form-group {
+            width: 48%;
+        }
+        .form-row input[type="range"] {
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Complex Website Layout</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+    </nav>
+
+    <main>
+        <div class="left-column">
+            <section>
+                <h2 class="section-title">User Information</h2>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td>John Doe</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>johndoe@example.com</td>
+                    </tr>
+                    <tr>
+                        <th>Phone</th>
+                        <td>+1 234 567 890</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2 class="section-title">Actions</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="user-selection">Select an Action:</label>
+                        <select id="user-selection">
+                            <option value="action1">Action 1</option>
+                            <option value="action2">Action 2</option>
+                            <option value="action3">Action 3</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="text-input">Input Text:</label>
+                        <input type="text" id="text-input" placeholder="Enter text here">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="textarea">Message:</label>
+                        <textarea id="textarea" rows="5" placeholder="Type your message..."></textarea>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <section>
+                <h2 class="section-title">Data Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Product A</td>
+                            <td>$20</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Product B</td>
+                            <td>$30</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Product C</td>
+                            <td>$25</td>
+                            <td>40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2 class="section-title">Settings</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="slider">Adjust Value:</label>
+                            <input type="range" id="slider" min="1" max="100" value="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="color-picker">Choose Color:</label>
+                            <input type="color" id="color-picker" value="#ff0000">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Choose Options:</label>
+                        <div>
+                            <input type="checkbox" id="option1" name="option1" value="Option 1">
+                            <label for="option1">Option 1</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="option2" name="option2" value="Option 2">
+                            <label for="option2">Option 2</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Pick a Setting:</label>
+                        <div>
+                            <input type="radio" id="setting1" name="settings" value="Setting 1">
+                            <label for="setting1">Setting 1</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="setting2" name="settings" value="Setting 2">
+                            <label for="setting2">Setting 2</label>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Complex Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```

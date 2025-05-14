@@ -1,0 +1,296 @@
+
+> Reasoned for 7 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Complex and Beautiful Website Design</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fc;
+    }
+
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .container {
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="number"], select {
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .slider-container {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .slider-container input {
+      width: 70%;
+      margin-right: 15px;
+    }
+
+    .checkbox-group, .radio-group {
+      margin-top: 15px;
+    }
+
+    .checkbox-group input, .radio-group input {
+      margin-right: 10px;
+    }
+
+    .dropdown {
+      margin-top: 10px;
+    }
+
+    .dropdown select {
+      width: 100%;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+
+    .nested-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .nested-grid .column {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Complex Website Layout</h1>
+    <p>A highly detailed, optimized, and beautiful website design</p>
+  </header>
+
+  <div class="container">
+    <!-- Section 1: Data Table -->
+    <section>
+      <h2>Data Table 1: Employee Information</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Department</th>
+              <th>Salary</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>Software Engineer</td>
+              <td>Development</td>
+              <td>$85,000</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>Product Manager</td>
+              <td>Marketing</td>
+              <td>$92,000</td>
+            </tr>
+            <tr>
+              <td>Chris Johnson</td>
+              <td>UX Designer</td>
+              <td>Design</td>
+              <td>$77,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 2: Nested Grid Layout -->
+    <section>
+      <h2>Nested Grid Layout Example</h2>
+      <div class="nested-grid">
+        <div class="column">
+          <h3>Column 1</h3>
+          <p>This column contains some nested sections with controls and inputs.</p>
+          <div class="input-group">
+            <input type="text" placeholder="Enter Name">
+            <input type="number" placeholder="Enter Age">
+          </div>
+          <div class="checkbox-group">
+            <label><input type="checkbox"> Subscribe to newsletter</label>
+            <label><input type="checkbox"> Accept Terms & Conditions</label>
+          </div>
+        </div>
+        <div class="column">
+          <h3>Column 2</h3>
+          <p>Another column with additional options.</p>
+          <div class="radio-group">
+            <label><input type="radio" name="options" value="Option 1"> Option 1</label>
+            <label><input type="radio" name="options" value="Option 2"> Option 2</label>
+          </div>
+          <div class="dropdown">
+            <select>
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Form with Slider -->
+    <section>
+      <h2>Form with Sliders and Controls</h2>
+      <div class="input-group">
+        <input type="text" placeholder="Username">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="slider-container">
+        <label for="slider">Adjust Volume</label>
+        <input type="range" id="slider" name="volume" min="0" max="100" value="50">
+        <span id="sliderValue">50</span>
+      </div>
+    </section>
+
+    <!-- Section 4: Multiple Tables -->
+    <section>
+      <h2>Data Table 2: Product Inventory</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Category</th>
+              <th>Stock</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Product A</td>
+              <td>Electronics</td>
+              <td>100</td>
+              <td>$150</td>
+            </tr>
+            <tr>
+              <td>Product B</td>
+              <td>Furniture</td>
+              <td>50</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>Product C</td>
+              <td>Clothing</td>
+              <td>200</td>
+              <td>$50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 5: Final Control Arrangement -->
+    <section>
+      <h2>Advanced Control Layout</h2>
+      <div class="input-group">
+        <input type="text" placeholder="Search">
+        <select>
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <option value="category3">Category 3</option>
+        </select>
+      </div>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> Enable Notifications</label>
+        <label><input type="checkbox"> Receive Updates</label>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p style="text-align: center; padding: 10px 0; background-color: #343a40; color: white;">© 2025 Complex Website Layout</p>
+  </footer>
+
+  <script>
+    const slider = document.getElementById('slider');
+    const sliderValue = document.getElementById('sliderValue');
+
+    slider.oninput = function() {
+      sliderValue.textContent = slider.value;
+    }
+  </script>
+</body>
+</html>
+```

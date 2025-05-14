@@ -1,0 +1,230 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Dashboard Interface</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --accent-color: #e74c3c;
+      --bg-color: #ecf0f1;
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-family); background: var(--bg-color); color: var(--primary-color); }
+    header, nav, section, article, aside, footer { padding: 1rem; }
+    header { background: var(--primary-color); color: white; }
+    nav ul { list-style: none; display: flex; gap: 1rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; padding: 1rem; }
+    .card { background: white; padding: 1rem; border-radius: 0.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .grid-2x2 { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; gap: 1rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    table, th, td { border: 1px solid #bdc3c7; }
+    th, td { padding: 0.5rem; text-align: left; }
+    .form-group { margin-bottom: 1rem; }
+    label { display: block; margin-bottom: 0.25rem; }
+    select, input[type="text"], input[type="range"] { width: 100%; padding: 0.5rem; border: 1px solid #bdc3c7; border-radius: 0.25rem; }
+    .controls { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .controls > div { flex: 1; }
+    footer { text-align: center; background: var(--primary-color); color: white; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Complex Dashboard Interface</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Overview</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- Multi-column Section -->
+  <section class="card">
+    <h2>Filters & Controls</h2>
+    <form>
+      <div class="controls">
+        <div class="form-group">
+          <label for="categorySelect">Category</label>
+          <select id="categorySelect">
+            <option>All Categories</option>
+            <option>Performance</option>
+            <option>Usage</option>
+            <option>Errors</option>
+            <option>Revenue</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dateRange">Date Range</label>
+          <select id="dateRange">
+            <option>Last 7 days</option>
+            <option>Last 30 days</option>
+            <option>This Month</option>
+            <option>Last Month</option>
+            <option>Custom</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="valueSlider">Threshold</label>
+          <input type="range" id="valueSlider" min="0" max="100" value="50">
+        </div>
+      </div>
+      <div class="controls">
+        <div>
+          <label><input type="checkbox" name="opt[]" checked> Show Active</label>
+          <label><input type="checkbox" name="opt[]"> Show Inactive</label>
+          <label><input type="checkbox" name="opt[]"> Show Pending</label>
+        </div>
+        <div>
+          <label>View Mode:</label>
+          <label><input type="radio" name="view" checked> Table</label>
+          <label><input type="radio" name="view"> Chart</label>
+          <label><input type="radio" name="view"> Map</label>
+        </div>
+      </div>
+      <button type="submit">Apply Filters</button>
+    </form>
+  </section>
+
+  <!-- Nested Grid Section -->
+  <section class="card grid-2x2">
+    <div>
+      <h3>Key Metric A</h3>
+      <p>Value: 1,234</p>
+    </div>
+    <div>
+      <h3>Key Metric B</h3>
+      <p>Value: 567</p>
+    </div>
+    <div>
+      <h3>Key Metric C</h3>
+      <p>Value: 89%</p>
+    </div>
+    <div>
+      <h3>Key Metric D</h3>
+      <p>Value: 42</p>
+    </div>
+  </section>
+
+  <!-- Multi-row Section -->
+  <article class="card">
+    <h2>Data Overview Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Status</th>
+          <th>Count</th>
+          <th>Change</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Server Uptime</td>
+          <td>Online</td>
+          <td>99.9%</td>
+          <td>+0.1%</td>
+        </tr>
+        <tr>
+          <td>Error Rate</td>
+          <td>2.3%</td>
+          <td>23</td>
+          <td>-0.5%</td>
+        </tr>
+        <tr>
+          <td>Requests</td>
+          <td>Successful</td>
+          <td>15,432</td>
+          <td>+5.2%</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+  <!-- Complex Table with rowspan/colspan -->
+  <article class="card">
+    <h2>Revenue Breakdown</h2>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Region</th>
+          <th colspan="2">Q1</th>
+          <th colspan="2">Q2</th>
+        </tr>
+        <tr>
+          <th>Revenue</th><th>Growth</th>
+          <th>Revenue</th><th>Growth</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>North America</td>
+          <td>$1,200,000</td><td>+8%</td>
+          <td>$1,300,000</td><td>+8.3%</td>
+        </tr>
+        <tr>
+          <td>Europe</td>
+          <td>$950,000</td><td>+6%</td>
+          <td>$1,010,000</td><td>+6.3%</td>
+        </tr>
+        <tr>
+          <td>Asia</td>
+          <td>$780,000</td><td>+10%</td>
+          <td>$860,000</td><td>+10.3%</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+  <!-- Nested Table Section -->
+  <aside class="card">
+    <h2>Nested Details</h2>
+    <table>
+      <thead>
+        <tr><th>Category</th><th>Details</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Users</td>
+          <td>
+            <table>
+              <tr><th>Name</th><th>Role</th></tr>
+              <tr><td>Alice</td><td>Admin</td></tr>
+              <tr><td>Bob</td><td>Editor</td></tr>
+              <tr><td>Charlie</td><td>Viewer</td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>Servers</td>
+          <td>
+            <table>
+              <tr><th>Host</th><th>Status</th></tr>
+              <tr><td>Server-01</td><td>Online</td></tr>
+              <tr><td>Server-02</td><td>Offline</td></tr>
+              <tr><td>Server-03</td><td>Maintenance</td></tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </aside>
+
+</main>
+
+<footer>
+  <p>© 2025 Your Company Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complex Web Page</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4d4d4d;
+      color: #fff;
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      position: relative;
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 7px 12px;
+      display: inline-block;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 35px;
+      left: 0;
+      background-color: #666;
+      min-width: 150px;
+      padding: 0;
+      list-style: none;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul li {
+      margin: 0;
+    }
+    nav ul li ul li a {
+      display: block;
+      width: 100%;
+      padding: 8px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .left-section, .right-section {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .grid-nested {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .nested-box {
+      background-color: #eee;
+      padding: 10px;
+    }
+    .section-title {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .tables-area {
+      margin-top: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+    table thead {
+      background-color: #ccc;
+    }
+    table th, table td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    .form-section {
+      margin-bottom: 30px;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .multi-input-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    .multi-input-group label {
+      margin-right: 5px;
+    }
+    .multi-column-row {
+      display: flex;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    .multi-column-row div {
+      flex: 1;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    footer {
+      background-color: #4d4d4d;
+      color: #ccc;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+    footer ul li {
+      margin-bottom: 8px;
+    }
+    .spacer {
+      height: 40px;
+    }
+    .dropdown-select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .controls-area input[type="range"] {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">ComplexWeb</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Services ▼</a>
+          <ul>
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Design</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Products ▼</a>
+          <ul>
+            <li><a href="#">Software</a></li>
+            <li><a href="#">Hardware</a></li>
+            <li><a href="#">Subscriptions</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Contact ▼</a>
+          <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Sales</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="left-section">
+      <h2 class="section-title">Nested Grid and Overview</h2>
+      <div class="grid-nested">
+        <div class="nested-box">Nested Box 1</div>
+        <div class="nested-box">Nested Box 2</div>
+        <div class="nested-box">Nested Box 3</div>
+        <div class="nested-box">Nested Box 4</div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <h2 class="section-title">Additional Layout</h2>
+      <div class="multi-column-row">
+        <div style="background-color: #f2f2f2; padding: 10px;">Column A</div>
+        <div style="background-color: #f2f2f2; padding: 10px;">Column B</div>
+        <div style="background-color: #f2f2f2; padding: 10px;">Column C</div>
+      </div>
+
+      <div class="multi-column-row">
+        <div style="background-color: #f2f2f2; padding: 10px;">Row Segment 1</div>
+        <div style="background-color: #f2f2f2; padding: 10px;">Row Segment 2</div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <h2 class="section-title">Multiple Tables</h2>
+      <div class="tables-area">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Stock</th>
+              <th>Available</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Widget A</td>
+              <td>$10</td>
+              <td>100</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Widget B</td>
+              <td>$15</td>
+              <td>200</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Widget C</td>
+              <td>$20</td>
+              <td>50</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Email</th>
+              <th>Extension</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Smith</td>
+              <td>Finance</td>
+              <td>john.smith@example.com</td>
+              <td>2345</td>
+            </tr>
+            <tr>
+              <td>Jane Doe</td>
+              <td>Engineering</td>
+              <td>jane.doe@example.com</td>
+              <td>5678</td>
+            </tr>
+            <tr>
+              <td>Robert Brown</td>
+              <td>Marketing</td>
+              <td>robert.brown@example.com</td>
+              <td>9101</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="form-section">
+        <h2 class="section-title">User Preferences</h2>
+        <div class="form-grid">
+          <div>
+            <label for="country-select">Select Country:</label>
+            <select id="country-select" class="dropdown-select">
+              <option value="us">United States</option>
+              <option value="ca">Canada</option>
+              <option value="uk">United Kingdom</option>
+              <option value="fr">France</option>
+            </select>
+
+            <label for="language-select">Preferred Language:</label>
+            <select id="language-select" class="dropdown-select">
+              <option value="en">English</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="de">German</option>
+            </select>
+
+            <label for="timezone-select">Time Zone:</label>
+            <select id="timezone-select" class="dropdown-select">
+              <option value="est">EST</option>
+              <option value="cst">CST</option>
+              <option value="pst">PST</option>
+              <option value="gmt">GMT</option>
+            </select>
+          </div>
+          <div>
+            <div class="multi-input-group">
+              <label><input type="checkbox" name="notify" value="email"> Email Notifications</label>
+              <label><input type="checkbox" name="notify" value="sms"> SMS Notifications</label>
+            </div>
+            <div class="multi-input-group">
+              <label><input type="radio" name="theme" value="light" checked> Light Theme</label>
+              <label><input type="radio" name="theme" value="dark"> Dark Theme</label>
+            </div>
+            <div class="multi-input-group controls-area">
+              <label for="volume">Volume:</label>
+              <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2 class="section-title">Account Settings</h2>
+        <div>
+          <div class="multi-input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username">
+          </div>
+          <div class="multi-input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter email address">
+          </div>
+          <div>
+            <label for="plan-select">Subscription Plan:</label>
+            <select id="plan-select" class="dropdown-select">
+              <option value="basic">Basic</option>
+              <option value="standard">Standard</option>
+              <option value="premium">Premium</option>
+            </select>
+          </div>
+          <div class="multi-input-group">
+            <label>Notifications:</label>
+            <label><input type="checkbox" name="notifType" value="push"> Push</label>
+            <label><input type="checkbox" name="notifType" value="email2"> Email</label>
+            <label><input type="checkbox" name="notifType" value="sms2"> SMS</label>
+          </div>
+          <div>
+            <button style="padding: 8px 16px; margin-right: 10px;">Save</button>
+            <button style="padding: 8px 16px;">Cancel</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>About Us</h3>
+        <ul>
+          <li>Company Info</li>
+          <li>Leadership</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li>Blog</li>
+          <li>Documentation</li>
+          <li>Community Forum</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Support</h3>
+        <ul>
+          <li>Contact Us</li>
+          <li>FAQ</li>
+          <li>Service Status</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

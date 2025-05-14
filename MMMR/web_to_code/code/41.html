@@ -1,0 +1,257 @@
+
+> Reasoned for 9 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Web Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1rem;
+        }
+        .grid-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            font-weight: bold;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        .table-responsive {
+            overflow-x: auto;
+            margin-top: 2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .multi-column {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        .checkbox-group input, .radio-group input {
+            margin-right: 10px;
+        }
+        .slider {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .dropdown {
+            margin: 1rem 0;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Complex Web Interface</h1>
+        <p>Rich Design with Multiple Sections, Forms, and Tables</p>
+    </header>
+
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="card-header">Section 1</div>
+                <p>This section contains various form controls such as dropdowns, checkboxes, and sliders.</p>
+                <div class="dropdown">
+                    <label for="dropdown1">Select Option 1</label>
+                    <select id="dropdown1" class="form-control">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+                <div class="checkbox-group">
+                    <label>Select Preferences</label><br>
+                    <input type="checkbox" id="check1"> <label for="check1">Preference 1</label><br>
+                    <input type="checkbox" id="check2"> <label for="check2">Preference 2</label><br>
+                    <input type="checkbox" id="check3"> <label for="check3">Preference 3</label><br>
+                </div>
+                <div class="radio-group">
+                    <label>Choose Gender</label><br>
+                    <input type="radio" name="gender" id="male"> <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="female"> <label for="female">Female</label><br>
+                </div>
+                <div class="slider">
+                    <label for="slider1">Volume</label><br>
+                    <input type="range" id="slider1" class="form-control" min="0" max="100" value="50">
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-header">Section 2: Multi-column Form</div>
+                <div class="multi-column">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" class="form-control">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" class="form-control">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control">
+                    </div>
+                    <div>
+                        <label for="address">Address</label>
+                        <textarea id="address" class="form-control" rows="4"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-header">Section 3: Data Table</div>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>John Doe</td>
+                                <td>28</td>
+                                <td>john.doe@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jane Smith</td>
+                                <td>34</td>
+                                <td>jane.smith@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Mike Johnson</td>
+                                <td>40</td>
+                                <td>mike.johnson@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="card-header">Section 4: Data Table 2</div>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Widget</td>
+                                <td>$19.99</td>
+                                <td>Available</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Gadget</td>
+                                <td>$29.99</td>
+                                <td>Out of stock</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Tool</td>
+                                <td>$49.99</td>
+                                <td>Available</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-header">Section 5: Controls</div>
+                <div>
+                    <label for="dropdown2">Choose a Color</label>
+                    <select id="dropdown2" class="form-control">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="dropdown3">Select a Range</label>
+                    <input type="range" id="dropdown3" class="form-control" min="1" max="10" step="1" value="5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Complex Web Interface. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+```

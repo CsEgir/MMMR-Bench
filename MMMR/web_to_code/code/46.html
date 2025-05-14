@@ -1,0 +1,341 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complex Web Interface Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4a90e2;
+      --secondary: #50e3c2;
+      --light-bg: #f7f9fc;
+      --dark-text: #333;
+      --card-bg: #fff;
+      --border-radius: 0.5rem;
+      --gap: 1rem;
+      --font: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background: var(--light-bg);
+      color: var(--dark-text);
+      line-height: 1.6;
+    }
+    header, footer {
+      background: var(--primary);
+      color: #fff;
+      padding: var(--gap);
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: var(--gap);
+      justify-content: center;
+    }
+    nav li {
+      position: relative;
+    }
+    nav li:hover > ul {
+      display: block;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem;
+      display: block;
+    }
+    nav ul ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: var(--primary);
+      display: none;
+      flex-direction: column;
+      min-width: 150px;
+    }
+    .container {
+      display: grid;
+      grid-template-areas:
+        "sidebar main"
+        "sidebar footer";
+      grid-template-columns: 250px 1fr;
+      grid-template-rows: auto 60px;
+      gap: var(--gap);
+      padding: var(--gap);
+    }
+    aside.sidebar {
+      grid-area: sidebar;
+      background: var(--card-bg);
+      padding: var(--gap);
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    main.main-content {
+      grid-area: main;
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap);
+    }
+    footer {
+      grid-area: footer;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: var(--gap);
+      border-radius: var(--border-radius);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    h2 { margin-bottom: 0.5rem; font-weight: 600; }
+    /* Grids */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--gap);
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--gap);
+    }
+    .nested-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: var(--gap);
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--gap);
+    }
+    label { display: block; margin-bottom: 0.25rem; font-weight: 500; }
+    select, input[type="range"], input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: var(--border-radius);
+    }
+    .controls-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .controls-inline {
+      display: flex;
+      gap: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: var(--gap);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background: var(--secondary);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Acme Analytics Dashboard</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Reports ▾</a>
+          <ul>
+            <li><a href="#">Daily</a></li>
+            <li><a href="#">Weekly</a></li>
+            <li><a href="#">Monthly</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <aside class="sidebar card">
+      <h2>Filters & Options</h2>
+      <form>
+        <div class="controls-group">
+          <label for="region-select">Region</label>
+          <select id="region-select">
+            <option>North America</option>
+            <option>Europe</option>
+            <option>Asia</option>
+            <option>South America</option>
+          </select>
+        </div>
+        <div class="controls-group">
+          <label for="category-select">Category</label>
+          <select id="category-select">
+            <option>All Categories</option>
+            <option>Electronics</option>
+            <option>Apparel</option>
+            <option>Home Goods</option>
+          </select>
+        </div>
+        <div class="controls-group">
+          <label for="language-select">Language</label>
+          <select id="language-select">
+            <option>English</option>
+            <option>Spanish</option>
+            <option>French</option>
+            <option>German</option>
+          </select>
+        </div>
+        <div class="controls-group">
+          <label for="date-range">Date Range</label>
+          <input type="range" id="date-range" min="1" max="30" value="15"/>
+          <small>Last <span id="range-value">15</span> days</small>
+        </div>
+        <fieldset class="controls-group">
+          <legend>Notifications</legend>
+          <div class="controls-inline">
+            <label><input type="checkbox" checked/> Email</label>
+            <label><input type="checkbox"/> SMS</label>
+            <label><input type="checkbox"/> In-App</label>
+          </div>
+        </fieldset>
+        <fieldset class="controls-group">
+          <legend>Plan</legend>
+          <label><input type="radio" name="plan" value="basic" checked/> Basic</label>
+          <label><input type="radio" name="plan" value="pro"/> Pro</label>
+          <label><input type="radio" name="plan" value="enterprise"/> Enterprise</label>
+        </fieldset>
+      </form>
+    </aside>
+
+    <main class="main-content">
+      <section class="card">
+        <h2>Key Metrics</h2>
+        <div class="grid-3">
+          <div>
+            <h3>Total Users</h3>
+            <p>1,245,678</p>
+          </div>
+          <div>
+            <h3>Active Sessions</h3>
+            <p>58,912</p>
+          </div>
+          <div>
+            <h3>Revenue</h3>
+            <p>$4,783,290</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card nested-grid">
+        <div>
+          <h2>Monthly Sales</h2>
+          <table>
+            <thead>
+              <tr><th>Month</th><th>Units Sold</th><th>Revenue</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Jan</td><td>12,345</td><td>$123,450</td></tr>
+              <tr><td>Feb</td><td>11,230</td><td>$110,230</td></tr>
+              <tr><td>Mar</td><td>14,567</td><td>$145,670</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h2>Top Regions</h2>
+          <ul>
+            <li>North America - 45%</li>
+            <li>Europe - 30%</li>
+            <li>Asia - 20%</li>
+            <li>Other - 5%</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Yearly Comparison</h2>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Year</th>
+              <th colspan="2">Q1</th>
+              <th colspan="2">Q2</th>
+            </tr>
+            <tr>
+              <th>Units</th><th>Rev</th><th>Units</th><th>Rev</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023</td><td>30,000</td><td>$300k</td><td>35,000</td><td>$350k</td>
+            </tr>
+            <tr>
+              <td>2024</td><td>32,500</td><td>$325k</td><td>38,000</td><td>$380k</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card form-grid">
+        <div>
+          <h2>User Statistics</h2>
+          <table>
+            <thead>
+              <tr><th>User ID</th><th>Name</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>001</td><td>Alice</td><td>Active</td></tr>
+              <tr><td>002</td><td>Bob</td><td>Inactive</td></tr>
+              <tr><td>003</td><td>Carol</td><td>Pending</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h2>Advanced Controls</h2>
+          <div class="controls-group">
+            <label for="search">Search Users</label>
+            <input type="text" id="search" placeholder="Enter user name..."/>
+          </div>
+          <div class="controls-group">
+            <label for="sort-select">Sort By</label>
+            <select id="sort-select">
+              <option>Name</option>
+              <option>Status</option>
+              <option>Join Date</option>
+            </select>
+          </div>
+          <fieldset class="controls-group">
+            <legend>Display Options</legend>
+            <label><input type="checkbox" checked/> Show Avatars</label>
+            <label><input type="checkbox"/> Show Emails</label>
+            <label><input type="checkbox" checked/> Show Signup Date</label>
+          </fieldset>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Acme Corp. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <script>
+    const range = document.getElementById('date-range');
+    const val = document.getElementById('range-value');
+    range.addEventListener('input', () => val.textContent = range.value);
+  </script>
+
+</body>
+</html>
+```

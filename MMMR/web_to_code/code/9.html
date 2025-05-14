@@ -1,0 +1,283 @@
+
+> Reasoned for 8 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-container div {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        select,
+        input[type="text"],
+        input[type="number"],
+        input[type="range"],
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-row div {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .form-row div:last-child {
+            margin-right: 0;
+        }
+
+        .table-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f1f1f1;
+        }
+
+        .multi-column-table th {
+            width: 200px;
+        }
+
+        .multi-row-table th {
+            width: 150px;
+        }
+
+        .form-control {
+            display: flex;
+            align-items: center;
+        }
+
+        .form-control label {
+            margin-left: 10px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Complex Web Page Design
+    </header>
+
+    <div class="container">
+
+        <section>
+            <div class="section-header">Form Section</div>
+            <div class="grid-container">
+                <div>
+                    <div class="form-group">
+                        <label for="dropdown1" class="form-label">Dropdown Selection 1</label>
+                        <select id="dropdown1">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dropdown2" class="form-label">Dropdown Selection 2</label>
+                        <select id="dropdown2">
+                            <option value="option1">Option A</option>
+                            <option value="option2">Option B</option>
+                            <option value="option3">Option C</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form-group">
+                        <label for="text-input" class="form-label">Text Input</label>
+                        <input type="text" id="text-input" placeholder="Enter text">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="number-input" class="form-label">Number Input</label>
+                        <input type="number" id="number-input" placeholder="Enter number">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form-group">
+                        <label for="range-slider" class="form-label">Range Slider</label>
+                        <input type="range" id="range-slider" min="0" max="100" value="50">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Checkboxes</label>
+                        <div class="form-control">
+                            <input type="checkbox" id="checkbox1">
+                            <label for="checkbox1">Option 1</label>
+                        </div>
+                        <div class="form-control">
+                            <input type="checkbox" id="checkbox2">
+                            <label for="checkbox2">Option 2</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Radio Buttons</label>
+                        <div class="form-control">
+                            <input type="radio" name="radio1" id="radio1" value="option1">
+                            <label for="radio1">Option 1</label>
+                        </div>
+                        <div class="form-control">
+                            <input type="radio" name="radio1" id="radio2" value="option2">
+                            <label for="radio2">Option 2</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header">Table Section</div>
+
+            <div class="table-container">
+                <h3>Multi-Column Table</h3>
+                <table class="multi-column-table">
+                    <thead>
+                        <tr>
+                            <th>Column 1</th>
+                            <th>Column 2</th>
+                            <th>Column 3</th>
+                            <th>Column 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                            <td>Data 3</td>
+                            <td>Data 4</td>
+                        </tr>
+                        <tr>
+                            <td>Data 5</td>
+                            <td>Data 6</td>
+                            <td>Data 7</td>
+                            <td>Data 8</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Multi-Row Table</h3>
+                <table class="multi-row-table">
+                    <thead>
+                        <tr>
+                            <th>Row 1</th>
+                            <th>Row 2</th>
+                            <th>Row 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data A</td>
+                            <td>Data B</td>
+                            <td>Data C</td>
+                        </tr>
+                        <tr>
+                            <td>Data D</td>
+                            <td>Data E</td>
+                            <td>Data F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Complex Web Page Design | All rights reserved
+    </footer>
+</body>
+
+</html>
+```

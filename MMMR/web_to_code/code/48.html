@@ -1,0 +1,253 @@
+
+> Reasoned for 9 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .sidebar {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.6em;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .dropdowns,
+        .controls,
+        .tables {
+            margin-bottom: 40px;
+        }
+
+        .dropdowns select,
+        .controls input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .controls input[type="range"] {
+            width: 100%;
+        }
+
+        .tables table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .tables th,
+        .tables td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        .tables th {
+            background-color: #4CAF50;
+            color: white;
+            text-align: left;
+        }
+
+        .tables tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .tables tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nested-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .nested-grid div {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Complex Website Design
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <div class="dropdowns">
+                <div class="section-title">Dropdowns</div>
+                <select>
+                    <option>Select Option 1</option>
+                    <option>Select Option 2</option>
+                    <option>Select Option 3</option>
+                </select>
+                <select>
+                    <option>Select Category A</option>
+                    <option>Select Category B</option>
+                    <option>Select Category C</option>
+                </select>
+            </div>
+
+            <div class="controls">
+                <div class="section-title">Controls</div>
+                <input type="range" min="0" max="100" value="50" />
+                <input type="checkbox" id="checkbox1" /> Checkbox 1
+                <input type="checkbox" id="checkbox2" /> Checkbox 2
+                <div>
+                    <input type="radio" name="group1" /> Radio 1
+                    <input type="radio" name="group1" /> Radio 2
+                    <input type="radio" name="group1" /> Radio 3
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="nested-grid">
+                <div>
+                    <h3>Item 1</h3>
+                    <p>Details of item 1 with some description.</p>
+                </div>
+                <div>
+                    <h3>Item 2</h3>
+                    <p>Details of item 2 with some description.</p>
+                </div>
+                <div>
+                    <h3>Item 3</h3>
+                    <p>Details of item 3 with some description.</p>
+                </div>
+                <div>
+                    <h3>Item 4</h3>
+                    <p>Details of item 4 with some description.</p>
+                </div>
+                <div>
+                    <h3>Item 5</h3>
+                    <p>Details of item 5 with some description.</p>
+                </div>
+                <div>
+                    <h3>Item 6</h3>
+                    <p>Details of item 6 with some description.</p>
+                </div>
+            </div>
+
+            <div class="tables">
+                <div class="section-title">Table 1: User Information</div>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>john@example.com</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>jane@example.com</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sam Green</td>
+                        <td>sam@example.com</td>
+                        <td>35</td>
+                    </tr>
+                </table>
+
+                <div class="section-title">Table 2: Product List</div>
+                <table>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>Smartphone</td>
+                        <td>$499</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Laptop</td>
+                        <td>$999</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Smartwatch</td>
+                        <td>$199</td>
+                        <td>150</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Complex Website Design. All Rights Reserved.
+    </footer>
+</body>
+</html>
+```

@@ -1,0 +1,357 @@
+
+> Reasoned for 9 seconds
+
+Here is the HTML code for a complex, beautifully designed website that incorporates various elements as per your request:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex and Beautiful Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .table, .form-section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table h2, .form-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .form-section {
+            margin-top: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        input[type="text"], input[type="number"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .checkbox-group, .radio-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .checkbox-group input, .radio-group input {
+            margin-right: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Complex Web Page Design</h1>
+    </header>
+
+    <nav>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+        <a href="#section4">Section 4</a>
+    </nav>
+
+    <div class="container">
+        <section id="section1" class="grid-container">
+            <div class="table">
+                <h2>Table 1: Basic Data</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>john@example.com</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jane Smith</td>
+                            <td>jane@example.com</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table">
+                <h2>Table 2: Product List</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Product A</td>
+                            <td>$100</td>
+                            <td>50</td>
+                            <td>Electronics</td>
+                        </tr>
+                        <tr>
+                            <td>Product B</td>
+                            <td>$200</td>
+                            <td>20</td>
+                            <td>Furniture</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table">
+                <h2>Table 3: Sales Data</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Sales</th>
+                            <th>Profit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>$5000</td>
+                            <td>$1200</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>$6000</td>
+                            <td>$1500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="section2" class="grid-container">
+            <div class="form-section">
+                <h2>Form: User Information</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" placeholder="Enter your age">
+                    </div>
+                    <div class="form-group">
+                        <label for="dropdown">Select your Country</label>
+                        <select id="dropdown" name="country">
+                            <option value="usa">United States</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label>Interests</label>
+                        <input type="checkbox" id="interest1" name="interest1"> Music
+                        <input type="checkbox" id="interest2" name="interest2"> Movies
+                        <input type="checkbox" id="interest3" name="interest3"> Sports
+                    </div>
+                    <div class="form-group radio-group">
+                        <label>Gender</label>
+                        <input type="radio" id="male" name="gender" value="male"> Male
+                        <input type="radio" id="female" name="gender" value="female"> Female
+                    </div>
+                    <div class="form-group">
+                        <label for="range">Select Age Range</label>
+                        <input type="range" id="range" name="age-range" min="0" max="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message here"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="section3" class="grid-container">
+            <div class="table">
+                <h2>Advanced Table: Employee Data</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Employee ID</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Salary</th>
+                            <th>Department</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>101</td>
+                            <td>Alice Brown</td>
+                            <td>Manager</td>
+                            <td>$5000</td>
+                            <td>Sales</td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>Bob White</td>
+                            <td>Developer</td>
+                            <td>$4000</td>
+                            <td>IT</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="section4" class="grid-container">
+            <div class="form-section">
+                <h2>Feedback Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="feedback">Your Feedback</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="We value your feedback!"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit Feedback</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Complex Web Design. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+This code creates a large, complex, and detailed web page layout, incorporating various tables, forms, and control elements like dropdowns, checkboxes, radio buttons, and sliders, with a multi-column layout for responsiveness.

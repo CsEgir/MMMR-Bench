@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complex Website Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #495057;
+      padding: 15px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 15px;
+      display: inline-block;
+      padding: 5px 10px;
+    }
+    nav a:hover {
+      background-color: #343a40;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      grid-gap: 20px;
+      margin: 20px;
+    }
+    .sidebar {
+      background-color: #e9ecef;
+      padding: 20px;
+    }
+    .sidebar h2 {
+      margin-top: 0;
+    }
+    .main-content {
+      background-color: #fff;
+      padding: 20px;
+    }
+    .main-content h2 {
+      margin-top: 0;
+    }
+    .section-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background-color: #f1f3f5;
+      padding: 20px;
+      border-radius: 4px;
+    }
+    .section-columns {
+      column-count: 2;
+      column-gap: 30px;
+      margin-bottom: 20px;
+    }
+    .section-columns p {
+      margin-bottom: 1em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #e9ecef;
+    }
+    .form-section {
+      margin-bottom: 20px;
+    }
+    .form-section form {
+      background-color: #f1f3f5;
+      padding: 20px;
+      border-radius: 4px;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    select,
+    input[type="range"] {
+      width: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    .check-radio-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .large-spacer {
+      margin-bottom: 40px;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .footer-links {
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: #fff;
+      margin: 0 8px;
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Complex Demonstration Website</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <aside class="sidebar">
+    <h2>Sidebar Navigation</h2>
+    <ul>
+      <li><a href="#option1">Option 1</a></li>
+      <li><a href="#option2">Option 2</a></li>
+      <li><a href="#option3">Option 3</a></li>
+      <li><a href="#option4">Option 4</a></li>
+      <li><a href="#option5">Option 5</a></li>
+    </ul>
+    <div class="large-spacer"></div>
+    <h2>Extra Links</h2>
+    <ul>
+      <li><a href="#more1">More 1</a></li>
+      <li><a href="#more2">More 2</a></li>
+      <li><a href="#more3">More 3</a></li>
+    </ul>
+  </aside>
+
+  <div class="main-content">
+    <h2>Main Content Area</h2>
+    <p>This is a complex layout showcasing various HTML elements. Explore the sections below to see diverse layouts, tables, forms, and more.</p>
+
+    <div class="section-grid">
+      <div class="card">
+        <h3>Nested Grid 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan enim vel facilisis congue.</p>
+      </div>
+      <div class="card">
+        <h3>Nested Grid 2</h3>
+        <p>Vestibulum facilisis eros in mattis tempus. Donec in ex at justo pretium fermentum.</p>
+      </div>
+    </div>
+
+    <div class="section-columns">
+      <p><strong>Two-column text:</strong> Fusce nec tellus feugiat, euismod ex eget, tincidunt arcu. Nam euismod tempus lectus, et bibendum mauris ornare id. Etiam consectetur, sem a cursus finibus, purus nisl viverra lacus, ac accumsan mi velit non urna. Curabitur at mi sem. Vivamus gravida lectus ac sapien ultrices ultricies. Vestibulum diam diam, tristique eget nulla at, convallis maximus dui.</p>
+      <p>Suspendisse nisl ante, volutpat id scelerisque ac, rutrum non dui. Pellentesque tincidunt lacus ac ante blandit molestie. Ut tellus mi, laoreet at hendrerit in, efficitur quis velit. Praesent nec rhoncus mi. Maecenas feugiat risus ante, eget dignissim sem facilisis id.</p>
+    </div>
+
+    <table>
+      <caption>Simple Table</caption>
+      <thead>
+        <tr>
+          <th>Header A</th>
+          <th>Header B</th>
+          <th>Header C</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row1 Col1</td>
+          <td>Row1 Col2</td>
+          <td>Row1 Col3</td>
+        </tr>
+        <tr>
+          <td>Row2 Col1</td>
+          <td>Row2 Col2</td>
+          <td>Row2 Col3</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <caption>Complex Table with Merged Cells</caption>
+      <thead>
+        <tr>
+          <th colspan="2">Merged Header 1</th>
+          <th>Header 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Rowspan Cell</td>
+          <td>Row2 Col2</td>
+          <td>Row2 Col3</td>
+        </tr>
+        <tr>
+          <td>Row3 Col2</td>
+          <td>Row3 Col3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Full-width cell</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="form-section">
+      <form>
+        <div>
+          <label for="txtName">Name</label>
+          <input type="text" id="txtName" name="txtName" placeholder="Enter your name">
+        </div>
+        <div>
+          <label for="slcOptionA">Select Option A</label>
+          <select id="slcOptionA" name="slcOptionA">
+            <option value="">Choose an option</option>
+            <option value="val1">Value 1</option>
+            <option value="val2">Value 2</option>
+            <option value="val3">Value 3</option>
+          </select>
+        </div>
+        <div>
+          <label for="slcOptionB">Select Option B</label>
+          <select id="slcOptionB" name="slcOptionB">
+            <option value="">Choose an option</option>
+            <option value="valA">Value A</option>
+            <option value="valB">Value B</option>
+            <option value="valC">Value C</option>
+          </select>
+        </div>
+        <div class="check-radio-group">
+          <div>
+            <input type="checkbox" id="check1" name="checkGroup" value="one">
+            <label for="check1">Checkbox 1</label>
+          </div>
+          <div>
+            <input type="checkbox" id="check2" name="checkGroup" value="two">
+            <label for="check2">Checkbox 2</label>
+          </div>
+        </div>
+        <div class="check-radio-group">
+          <div>
+            <input type="radio" id="radio1" name="radioGroup" value="option1">
+            <label for="radio1">Radio 1</label>
+          </div>
+          <div>
+            <input type="radio" id="radio2" name="radioGroup" value="option2">
+            <label for="radio2">Radio 2</label>
+          </div>
+        </div>
+        <div>
+          <label for="slideControl">Slider Control</label>
+          <input type="range" id="slideControl" name="slideControl" min="0" max="100" value="50">
+        </div>
+      </form>
+    </div>
+
+    <div class="large-spacer"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="#privacy">Privacy Policy</a> | 
+    <a href="#terms">Terms &amp; Conditions</a> | 
+    <a href="#help">Help &amp; Support</a>
+  </div>
+  <p>© 2023 Complex Website Demo</p>
+</footer>
+
+</body>
+</html>

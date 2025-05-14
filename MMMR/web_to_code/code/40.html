@@ -1,0 +1,253 @@
+
+> Reasoned for 8 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Website Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 30px 0;
+            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .grid-two {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f1f1f1;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        select, input[type="range"], input[type="checkbox"], input[type="radio"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+        }
+        .multi-column-layout {
+            display: flex;
+            gap: 20px;
+        }
+        .multi-column-layout > div {
+            flex: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Complex Website Design
+</header>
+
+<div class="container">
+
+    <!-- Section 1: Overview -->
+    <div class="section">
+        <h2>Website Overview</h2>
+        <p>This website showcases a range of interactive and complex elements, including grids, tables, forms, and dropdowns, to demonstrate a dynamic and visually rich user experience.</p>
+    </div>
+
+    <!-- Section 2: Multi-column layout -->
+    <div class="section multi-column-layout">
+        <div>
+            <h3>Left Column</h3>
+            <div class="card">
+                <h4>Card 1</h4>
+                <p>Some content inside the card.</p>
+            </div>
+        </div>
+        <div>
+            <h3>Middle Column</h3>
+            <div class="card">
+                <h4>Card 2</h4>
+                <p>Some content inside the card.</p>
+            </div>
+        </div>
+        <div>
+            <h3>Right Column</h3>
+            <div class="card">
+                <h4>Card 3</h4>
+                <p>Some content inside the card.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: Grid Layout -->
+    <div class="section">
+        <h2>Data Tables</h2>
+
+        <!-- Table 1 -->
+        <h3>Product Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Product A</td>
+                    <td>$10</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Product B</td>
+                    <td>$15</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Product C</td>
+                    <td>$20</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Table 2 -->
+        <h3>Employee Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Alice</td>
+                    <td>HR</td>
+                    <td>$50,000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bob</td>
+                    <td>Finance</td>
+                    <td>$60,000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Charlie</td>
+                    <td>Marketing</td>
+                    <td>$55,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 4: Form with controls -->
+    <div class="section">
+        <h2>Interactive Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="dropdown">Select Product:</label>
+                <select id="dropdown">
+                    <option value="product_a">Product A</option>
+                    <option value="product_b">Product B</option>
+                    <option value="product_c">Product C</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="slider">Set Quantity:</label>
+                <input type="range" id="slider" min="1" max="100" value="50">
+            </div>
+
+            <div class="form-group">
+                <label for="checkbox1">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="checkbox1">
+            </div>
+
+            <div class="form-group">
+                <label for="radio1">Payment Option:</label><br>
+                <input type="radio" id="radio1" name="payment" value="credit_card"> Credit Card<br>
+                <input type="radio" id="radio2" name="payment" value="paypal"> PayPal
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Complex Web Designs. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

@@ -1,0 +1,356 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Showcase Website</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #ecf0f1;
+      --accent-color: #3498db;
+      --text-color: #34495e;
+      --light-text: #7f8c8d;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: var(--text-color);
+      background: var(--secondary-color);
+      line-height: 1.6;
+    }
+    header, footer {
+      background: var(--primary-color);
+      color: white;
+      padding: 1rem 2rem;
+    }
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .sidebar {
+      background: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .sidebar h2 {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      color: var(--accent-color);
+    }
+    .sidebar ul {
+      list-style: none;
+    }
+    .sidebar li {
+      margin: 0.5rem 0;
+    }
+    .sidebar a {
+      color: var(--text-color);
+      text-decoration: none;
+    }
+    .main {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      gap: 2rem;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+      color: white;
+      padding: 4rem 2rem;
+      border-radius: 0.5rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 1rem;
+    }
+    .card h3 {
+      color: var(--accent-color);
+    }
+    .card p {
+      color: var(--light-text);
+      font-size: 0.95rem;
+    }
+    .card button {
+      justify-self: start;
+      padding: 0.5rem 1rem;
+      background: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 0.3rem;
+      cursor: pointer;
+    }
+    .data-section {
+      background: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      display: grid;
+      grid-template-rows: auto auto auto;
+      gap: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .data-section h2 {
+      color: var(--primary-color);
+      font-size: 1.5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background: var(--accent-color);
+      color: white;
+    }
+    .striped tbody tr:nth-child(odd) {
+      background: var(--secondary-color);
+    }
+    .form-section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .form-section fieldset {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+    .form-section legend {
+      padding: 0 0.5rem;
+      font-weight: bold;
+      color: var(--accent-color);
+    }
+    .form-group {
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .form-group label {
+      margin-bottom: 0.3rem;
+      font-size: 0.9rem;
+    }
+    .form-group input[type="text"],
+    .form-group select {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.3rem;
+    }
+    .form-group input[type="range"] {
+      width: 100%;
+    }
+    .form-group .options {
+      display: flex;
+      gap: 1rem;
+    }
+    .form-group .options label {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    footer {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><h2>Showcase</h2></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Data</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <aside class="sidebar">
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="#hero">Hero Section</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#data">Data Tables</a></li>
+      <li><a href="#form">Complex Form</a></li>
+    </ul>
+  </aside>
+
+  <main class="main">
+    <section id="hero" class="hero">
+      <h1>Welcome to the Complex Showcase</h1>
+      <p>This page demonstrates a rich, detailed layout with multiple grids, tables, and form controls.</p>
+    </section>
+
+    <section id="features" class="features">
+      <div class="card">
+        <h3>Feature One</h3>
+        <p>A nested grid example inside this card to show structure:</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+          <div style="background:#ecf0f1; padding:0.5rem; border-radius:0.3rem;">Item A</div>
+          <div style="background:#ecf0f1; padding:0.5rem; border-radius:0.3rem;">Item B</div>
+        </div>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <h3>Feature Two</h3>
+        <p>Multi-column text layout inside this card:</p>
+        <div style="column-count: 2; column-gap: 1rem; font-size:0.9rem; color:#555;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec urna eget nisl aliquam tincidunt.
+        </div>
+        <button>Discover</button>
+      </div>
+      <div class="card">
+        <h3>Feature Three</h3>
+        <p>Combine images and text in a flexible container.</p>
+        <div style="display:flex; gap:0.5rem; align-items:center;">
+          <img src="https://via.placeholder.com/50" alt="Icon">
+          <p style="margin:0; font-size:0.95rem;">Responsive and dynamic.</p>
+        </div>
+        <button>Explore</button>
+      </div>
+    </section>
+
+    <section id="data" class="data-section">
+      <h2>Data Tables</h2>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Status</th><th>Progress</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Alice</td><td>Active</td><td>80%</td></tr>
+          <tr><td>2</td><td>Bob</td><td>Pending</td><td>45%</td></tr>
+          <tr><td>3</td><td>Charlie</td><td>Inactive</td><td>0%</td></tr>
+        </tbody>
+      </table>
+      <table class="striped">
+        <thead>
+          <tr><th>Product</th><th>Category</th><th>Price</th><th>Stock</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Widget A</td><td>Widgets</td><td>$25.00</td><td>120</td></tr>
+          <tr><td>Gadget B</td><td>Gadgets</td><td>$45.50</td><td>80</td></tr>
+          <tr><td>Tool C</td><td>Tools</td><td>$15.75</td><td>200</td></tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr><th rowspan="2">Region</th><th colspan="2">Q1 2025</th><th colspan="2">Q2 2025</th></tr>
+          <tr><th>Sales</th><th>Growth</th><th>Sales</th><th>Growth</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>North</td><td>$150k</td><td>5%</td><td>$160k</td><td>6.7%</td></tr>
+          <tr><td>South</td><td>$130k</td><td>4%</td><td>$140k</td><td>7.7%</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="form" class="form-section">
+      <fieldset>
+        <legend>Selection Controls</legend>
+        <div class="form-group">
+          <label for="dropdown1">Choose Option</label>
+          <select id="dropdown1">
+            <option>Option A</option>
+            <option>Option B</option>
+            <option>Option C</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dropdown2">Multi-Select</label>
+          <select id="dropdown2" multiple size="4">
+            <option>Item 1</option>
+            <option>Item 2</option>
+            <option>Item 3</option>
+            <option>Item 4</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="range1">Adjust Value</label>
+          <input type="range" id="range1" min="0" max="100" value="50">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Check & Radio</legend>
+        <div class="form-group">
+          <label>Preferences</label>
+          <div class="options">
+            <label><input type="checkbox"> Enable Feature X</label>
+            <label><input type="checkbox"> Enable Feature Y</label>
+            <label><input type="checkbox"> Enable Feature Z</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Choose Mode</label>
+          <div class="options">
+            <label><input type="radio" name="mode" checked> Mode 1</label>
+            <label><input type="radio" name="mode"> Mode 2</label>
+            <label><input type="radio" name="mode"> Mode 3</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="text1">Your Comment</label>
+          <input type="text" id="text1" placeholder="Type here...">
+        </div>
+      </fieldset>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <p>&copy; 2025 Complex Showcase. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

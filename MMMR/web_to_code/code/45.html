@@ -1,0 +1,293 @@
+
+> Reasoned for 9 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Web Page Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 20px;
+        }
+        .left-column {
+            width: 30%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .right-column {
+            width: 65%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #0044cc;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        .dropdown, .input-control, .checkbox-group, .radio-group, .slider-group {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .checkbox-group label, .radio-group label {
+            margin-right: 15px;
+        }
+        .slider-group input {
+            width: 100%;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Web Page Design</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="left-column">
+        <div class="section-title">Form Section</div>
+        <div class="form-section">
+            <label for="dropdown1">Select an Option:</label>
+            <select id="dropdown1" class="dropdown">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <label for="textInput">Text Input:</label>
+            <input type="text" id="textInput" class="input-control" placeholder="Enter some text">
+        </div>
+
+        <div class="form-section">
+            <label>Checkboxes:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox1"><label for="checkbox1">Checkbox 1</label>
+                <input type="checkbox" id="checkbox2"><label for="checkbox2">Checkbox 2</label>
+                <input type="checkbox" id="checkbox3"><label for="checkbox3">Checkbox 3</label>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label>Radio Buttons:</label>
+            <div class="radio-group">
+                <input type="radio" name="radioGroup" id="radio1"><label for="radio1">Radio 1</label>
+                <input type="radio" name="radioGroup" id="radio2"><label for="radio2">Radio 2</label>
+                <input type="radio" name="radioGroup" id="radio3"><label for="radio3">Radio 3</label>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label for="slider">Slider:</label>
+            <div class="slider-group">
+                <input type="range" id="slider" min="0" max="100" value="50">
+            </div>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="section-title">Tables Section</div>
+
+        <div class="table-container">
+            <h3>Basic Data Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>29</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>34</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Robert Brown</td>
+                        <td>40</td>
+                        <td>Chicago</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h3>Nested Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Team Members</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Website Redesign</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>Alice</td>
+                                    <td>Lead Designer</td>
+                                </tr>
+                                <tr>
+                                    <td>Bob</td>
+                                    <td>Developer</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>App Development</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>Charlie</td>
+                                    <td>Project Manager</td>
+                                </tr>
+                                <tr>
+                                    <td>David</td>
+                                    <td>QA Tester</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h3>Advanced Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item 1</td>
+                        <td>$50</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>Item 2</td>
+                        <td>$30</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td>$60</td>
+                    </tr>
+                    <tr>
+                        <td>Item 3</td>
+                        <td>$20</td>
+                        <td><input type="number" value="3" min="1"></td>
+                        <td>$60</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Complex Web Design. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```

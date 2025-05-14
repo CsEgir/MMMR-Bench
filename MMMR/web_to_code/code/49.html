@@ -1,0 +1,297 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complex Showcase Page</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #ecf0f1;
+      --accent-color: #3498db;
+      --highlight-color: #e74c3c;
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+    }
+    body {
+      font-family: var(--font-family);
+      color: var(--primary-color);
+      background-color: var(--secondary-color);
+      line-height: 1.5;
+    }
+    header, nav, main, aside, footer, section {
+      padding: 1rem;
+      margin: 1rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto auto;
+      gap: 1rem;
+    }
+    .grid-item {
+      background-color: var(--secondary-color);
+      padding: 1rem;
+      border-radius: 6px;
+    }
+    .nested-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 0.5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--accent-color);
+      color: #fff;
+    }
+    .form-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+    label {
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+    }
+    select, input[type="text"], input[type="number"], input[type="range"], input[type="email"] {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .controls > div {
+      flex: 1 1 200px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Complex UI Showcase</h1>
+  <nav>
+    <ul>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#forms">Forms</a></li>
+      <li><a href="#controls">Controls</a></li>
+      <li><a href="#summary">Summary</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="tables">
+    <h2>Multiple Table Structures</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <h3>Simple Data Table</h3>
+        <table>
+          <thead>
+            <tr><th>ID</th><th>Name</th><th>Role</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>001</td><td>Alice</td><td>Designer</td></tr>
+            <tr><td>002</td><td>Bob</td><td>Developer</td></tr>
+            <tr><td>003</td><td>Charlie</td><td>Manager</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid-item">
+        <h3>Complex Table with Merged Cells</h3>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Category</th>
+              <th colspan="2">Q1</th>
+              <th colspan="2">Q2</th>
+            </tr>
+            <tr>
+              <th>Sales</th><th>Expenses</th><th>Sales</th><th>Expenses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Product A</td><td>$10k</td><td>$4k</td><td>$12k</td><td>$5k</td></tr>
+            <tr><td>Product B</td><td>$8k</td><td>$3k</td><td>$9k</td><td>$3.5k</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid-item">
+        <h3>Striped Table</h3>
+        <table>
+          <thead>
+            <tr><th>Date</th><th>Event</th><th>Location</th></tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:#f9f9f9;"><td>2025-01-15</td><td>Conference</td><td>New York</td></tr>
+            <tr><td>2025-02-10</td><td>Workshop</td><td>London</td></tr>
+            <tr style="background-color:#f9f9f9;"><td>2025-03-05</td><td>Webinar</td><td>Online</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid-item">
+        <h3>Responsive Nested Table</h3>
+        <div class="nested-grid">
+          <div>
+            <table>
+              <thead><tr><th>Item</th><th>Qty</th></tr></thead>
+              <tbody>
+                <tr><td>Apples</td><td>30</td></tr>
+                <tr><td>Oranges</td><td>50</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <table>
+              <thead><tr><th>Item</th><th>Price</th></tr></thead>
+              <tbody>
+                <tr><td>Apples</td><td>$1.2</td></tr>
+                <tr><td>Oranges</td><td>$0.8</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="forms">
+    <h2>Forms with Dropdowns & Inputs</h2>
+    <form class="form-section">
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="">Select...</option>
+          <option>USA</option>
+          <option>Canada</option>
+          <option>Germany</option>
+          <option>India</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="">Select...</option>
+          <option>New York</option>
+          <option>Toronto</option>
+          <option>Berlin</option>
+          <option>Bangalore</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com"/>
+      </div>
+      <div class="form-group">
+        <label for="age">Age (years)</label>
+        <input type="number" id="age" name="age" min="1" max="120"/>
+      </div>
+      <div class="form-group">
+        <label for="feedback">Feedback</label>
+        <select id="feedback" name="feedback" multiple size="4">
+          <option>Design</option>
+          <option>Performance</option>
+          <option>Usability</option>
+          <option>Features</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="4" style="padding:0.5rem;border:1px solid #ccc;border-radius:4px;"></textarea>
+      </div>
+    </form>
+  </section>
+
+  <section id="controls">
+    <h2>Complex Control Arrangements</h2>
+    <div class="controls">
+      <div>
+        <label>Volume</label>
+        <input type="range" min="0" max="100" />
+      </div>
+      <div>
+        <label>Notifications</label>
+        <div>
+          <input type="checkbox" id="emailNotif" /><label for="emailNotif"> Email</label><br/>
+          <input type="checkbox" id="smsNotif" /><label for="smsNotif"> SMS</label><br/>
+          <input type="checkbox" id="pushNotif" /><label for="pushNotif"> Push</label>
+        </div>
+      </div>
+      <div>
+        <label>Gender</label>
+        <div>
+          <input type="radio" id="male" name="gender" /><label for="male"> Male</label><br/>
+          <input type="radio" id="female" name="gender" /><label for="female"> Female</label><br/>
+          <input type="radio" id="other" name="gender" /><label for="other"> Other</label>
+        </div>
+      </div>
+      <div>
+        <label>Rating</label>
+        <div>
+          <input type="radio" id="rate1" name="rating" /><label for="rate1"> 1</label>
+          <input type="radio" id="rate2" name="rating" /><label for="rate2"> 2</label>
+          <input type="radio" id="rate3" name="rating" /><label for="rate3"> 3</label>
+          <input type="radio" id="rate4" name="rating" /><label for="rate4"> 4</label>
+          <input type="radio" id="rate5" name="rating" /><label for="rate5"> 5</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="summary">
+    <h2>Summary & Next Steps</h2>
+    <p>This page demonstrates a variety of HTML structures: nested grids, multi-column layouts, multiple tables with different complexity levels, forms with single and multi-select dropdowns, and complex input controls such as sliders, checkboxes, and radio buttons. It is fully responsive and organized for readability and maintainability.</p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Complex UI Showcase. All rights reserved.
+</footer>
+
+</body>
+</html>
+```

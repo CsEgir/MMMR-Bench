@@ -1,0 +1,236 @@
+
+> Reasoned for 7 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex and Beautiful Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            float: left;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .table-container, .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-container table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-container th, .table-container td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        .table-container th {
+            background-color: #f2f2f2;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container input[type="text"], .form-container select, .form-container input[type="range"], .form-container input[type="radio"], .form-container input[type="checkbox"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .form-container input[type="radio"], .form-container input[type="checkbox"] {
+            width: auto;
+            margin-left: 0;
+        }
+
+        .multi-column {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .multi-column div {
+            flex: 1 1 45%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .nested-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .nested-grid div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Complex & Beautiful Website Design
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="table-container">
+            <h2>Data Table 1</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>johndoe@example.com</td>
+                        <td>123-456-7890</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>janesmith@example.com</td>
+                        <td>987-654-3210</td>
+                    </tr>
+                    <tr>
+                        <td>Mark Johnson</td>
+                        <td>markj@example.com</td>
+                        <td>555-444-3333</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="form-container">
+            <h2>User Input Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email">
+
+                <label for="age">Age:</label>
+                <input type="range" id="age" name="age" min="0" max="100" step="1">
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+
+                <label>Preferences:</label>
+                <input type="checkbox" id="option1" name="preference" value="news"> Receive Newsletters<br>
+                <input type="checkbox" id="option2" name="preference" value="updates"> Receive Updates<br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="multi-column">
+        <div>
+            <h3>Column 1</h3>
+            <p>This is a simple column with text and some information.</p>
+        </div>
+        <div>
+            <h3>Column 2</h3>
+            <p>This is another column showcasing more information.</p>
+        </div>
+    </div>
+
+    <div class="nested-grid">
+        <div>
+            <h3>Nested Grid 1</h3>
+            <p>This grid has multiple smaller sections nested inside.</p>
+        </div>
+        <div>
+            <h3>Nested Grid 2</h3>
+            <p>This grid also contains multiple components.</p>
+        </div>
+        <div>
+            <h3>Nested Grid 3</h3>
+            <p>This section completes the nested layout structure.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Complex Website Design. All rights reserved.
+    </footer>
+</body>
+</html>
+```

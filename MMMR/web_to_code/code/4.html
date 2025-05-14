@@ -1,0 +1,256 @@
+
+> Reasoned for 11 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Web Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .grid-layout > div {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .multi-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .dropdown, .checkbox-group, .radio-group, .slider {
+            width: 100%;
+        }
+
+        .slider input {
+            width: 100%;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Web Design Showcase</h1>
+</header>
+
+<div class="container">
+
+    <section class="grid-layout">
+        <div>
+            <h2>Section 1: Tables</h2>
+            <div class="table-wrapper">
+                <h3>Table 1: Employee Details</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Location</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>Software Engineer</td>
+                            <td>New York</td>
+                            <td>$100,000</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>Project Manager</td>
+                            <td>London</td>
+                            <td>$120,000</td>
+                        </tr>
+                        <tr>
+                            <td>Sam Johnson</td>
+                            <td>Designer</td>
+                            <td>San Francisco</td>
+                            <td>$90,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <h3>Table 2: Project Overview</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Deadline</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Website Redesign</td>
+                            <td>July 2025</td>
+                            <td>In Progress</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile App</td>
+                            <td>November 2025</td>
+                            <td>Not Started</td>
+                        </tr>
+                        <tr>
+                            <td>Branding Project</td>
+                            <td>June 2025</td>
+                            <td>Completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h2>Section 2: Forms & Controls</h2>
+            <div class="form-group">
+                <label for="dropdown1">Select a Country:</label>
+                <select id="dropdown1" class="dropdown">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Choose your preferences:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox1" name="preference" value="option1">
+                    <label for="checkbox1">Option 1</label><br>
+                    <input type="checkbox" id="checkbox2" name="preference" value="option2">
+                    <label for="checkbox2">Option 2</label><br>
+                    <input type="checkbox" id="checkbox3" name="preference" value="option3">
+                    <label for="checkbox3">Option 3</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Choose a category:</label>
+                <div class="radio-group">
+                    <input type="radio" id="radio1" name="category" value="technology">
+                    <label for="radio1">Technology</label><br>
+                    <input type="radio" id="radio2" name="category" value="design">
+                    <label for="radio2">Design</label><br>
+                    <input type="radio" id="radio3" name="category" value="marketing">
+                    <label for="radio3">Marketing</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="slider">Adjust your budget:</label>
+                <input type="range" id="slider" class="slider" min="0" max="100" value="50">
+            </div>
+        </div>
+    </section>
+
+    <section class="multi-column-layout">
+        <div>
+            <h2>Section 3: Nested Grids</h2>
+            <div class="grid-layout">
+                <div>
+                    <h3>Nested Grid 1</h3>
+                    <p>This is a nested grid layout with content inside. It demonstrates how multiple grids can be nested within each other.</p>
+                </div>
+                <div>
+                    <h3>Nested Grid 2</h3>
+                    <p>This section can contain various content types like text, images, and forms, organized in a structured way.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Section 4: Additional Content</h2>
+            <p>Here, additional content can be placed such as text, images, or even additional controls and tables, based on the design needs.</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Complex Web Design. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

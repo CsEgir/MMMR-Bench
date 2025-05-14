@@ -1,0 +1,310 @@
+
+> Reasoned for 10 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Layout</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item h3 {
+            margin-top: 0;
+        }
+
+        .form-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .form-section h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .form-group input[type="checkbox"], .form-group input[type="radio"] {
+            width: auto;
+        }
+
+        .form-group .slider {
+            width: 100%;
+        }
+
+        .form-group .multi-select {
+            width: 100%;
+            height: 120px;
+        }
+
+        .table-container {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .dropdown {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Website Layout</h1>
+</header>
+
+<div class="container">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3>Product Information</h3>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>Product A</td>
+                    <td>$30.00</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Product B</td>
+                    <td>$25.00</td>
+                    <td>Out of Stock</td>
+                </tr>
+                <tr>
+                    <td>Product C</td>
+                    <td>$50.00</td>
+                    <td>In Stock</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="grid-item">
+            <h3>Recent News</h3>
+            <ul>
+                <li><strong>April 22, 2025:</strong> New product launch!</li>
+                <li><strong>April 21, 2025:</strong> Company expansion announcement.</li>
+                <li><strong>April 20, 2025:</strong> Spring Sale starting next week!</li>
+            </ul>
+        </div>
+
+        <div class="grid-item">
+            <h3>Services</h3>
+            <ul>
+                <li>Web Design</li>
+                <li>SEO Optimization</li>
+                <li>App Development</li>
+                <li>Digital Marketing</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h3>Contact Us</h3>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message here" rows="5"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="reason">Reason for Contact</label>
+                <select id="reason" name="reason" class="dropdown">
+                    <option value="support">Support</option>
+                    <option value="sales">Sales</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="general">General Inquiry</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Newsletter Subscription</label><br>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Subscribe to our newsletter
+            </div>
+
+            <div class="form-group">
+                <label>Preferred Contact Time</label><br>
+                <input type="radio" id="morning" name="contact_time" value="morning">
+                <label for="morning">Morning</label><br>
+                <input type="radio" id="afternoon" name="contact_time" value="afternoon">
+                <label for="afternoon">Afternoon</label><br>
+                <input type="radio" id="evening" name="contact_time" value="evening">
+                <label for="evening">Evening</label>
+            </div>
+
+            <div class="form-group">
+                <label for="priority">Priority Level</label>
+                <select id="priority" name="priority" class="dropdown">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="range">Budget Range</label><br>
+                <input type="range" id="range" name="range" min="1000" max="10000" step="500" value="5000" class="slider">
+                <span id="rangeValue">$5000</span>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="table-container">
+        <h3>Team Members</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Experience</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>Project Manager</td>
+                <td>5 Years</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>Lead Developer</td>
+                <td>7 Years</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Emily Smith</td>
+                <td>Designer</td>
+                <td>3 Years</td>
+                <td>San Francisco</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+    <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a> |
+        <a href="#">Contact Us</a>
+    </p>
+</footer>
+
+<script>
+    document.getElementById("range").oninput = function() {
+        document.getElementById("rangeValue").textContent = "$" + this.value;
+    }
+</script>
+
+</body>
+</html>
+```

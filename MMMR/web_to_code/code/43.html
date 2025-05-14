@@ -1,0 +1,256 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Web Interface</title>
+  <style>
+    :root {
+      --gap: 1rem;
+      --primary-color: #2a9d8f;
+      --secondary-color: #264653;
+      --accent-color: #e9c46a;
+      --bg-color: #f4f4f9;
+      --text-color: #333;
+      --border-radius: 0.5rem;
+      --padding: 1rem;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.5;
+    }
+    .page-grid {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav    main"
+        "footer footer";
+      grid-template-columns: 250px 1fr;
+      grid-template-rows: auto 1fr auto;
+      gap: var(--gap);
+      min-height: 100vh;
+    }
+    header { grid-area: header; background: var(--primary-color); color: #fff; padding: var(--padding); border-radius: var(--border-radius); }
+    nav { grid-area: nav; background: #fff; padding: var(--padding); border-radius: var(--border-radius); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    nav ul { list-style: none; }
+    nav li { margin-bottom: 0.5rem; }
+    nav a { color: var(--secondary-color); text-decoration: none; }
+    main { grid-area: main; padding: var(--padding); display: flex; flex-direction: column; gap: var(--gap); }
+    footer { grid-area: footer; background: var(--secondary-color); color: #fff; text-align: center; padding: var(--padding); border-radius: var(--border-radius); }
+    section { background: #fff; padding: var(--padding); border-radius: var(--border-radius); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    h2 { margin-bottom: 0.5rem; color: var(--secondary-color); }
+    .controls form { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--gap); }
+    fieldset { border: 1px solid #ddd; padding: var(--padding); border-radius: var(--border-radius); }
+    legend { font-weight: bold; color: var(--primary-color); }
+    label { display: block; margin-bottom: 0.25rem; }
+    input[type="range"] { width: 100%; }
+    .nested-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+    .nested-grid .card { background: var(--accent-color); padding: var(--padding); border-radius: var(--border-radius); color: #fff; }
+    .multi-col {
+      column-count: 3;
+      column-gap: var(--gap);
+    }
+    table { width: 100%; border-collapse: collapse; margin-bottom: var(--gap); }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    thead { background: var(--primary-color); color: #fff; }
+    tfoot { background: var(--secondary-color); color: #fff; }
+    .striped tbody tr:nth-child(even) { background: #f9f9f9; }
+    .data-table input { width: 100%; padding: 0.25rem; }
+  </style>
+</head>
+<body>
+  <div class="page-grid">
+    <header>
+      <h1>Acme Corp Dashboard</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Analytics</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Controls Section -->
+      <section class="controls">
+        <h2>Controls & Inputs</h2>
+        <form>
+          <fieldset>
+            <legend>Dropdowns</legend>
+            <label for="sel-country">Country</label>
+            <select id="sel-country">
+              <optgroup label="Europe">
+                <option>France</option>
+                <option>Germany</option>
+              </optgroup>
+              <optgroup label="Asia">
+                <option>China</option>
+                <option>India</option>
+              </optgroup>
+            </select>
+            <label for="sel-city">City</label>
+            <select id="sel-city">
+              <option>Paris</option>
+              <option>Berlin</option>
+              <option>Beijing</option>
+              <option>New Delhi</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Sliders</legend>
+            <label for="range-volume">Volume</label>
+            <input type="range" id="range-volume" min="0" max="100" value="50">
+            <label for="range-brightness">Brightness</label>
+            <input type="range" id="range-brightness" min="0" max="100" value="75">
+          </fieldset>
+          <fieldset>
+            <legend>Checkboxes</legend>
+            <label><input type="checkbox" name="features" value="search"> Search</label>
+            <label><input type="checkbox" name="features" value="export"> Export</label>
+            <label><input type="checkbox" name="features" value="notifications"> Notifications</label>
+          </fieldset>
+          <fieldset>
+            <legend>Radio Buttons</legend>
+            <label><input type="radio" name="theme" value="light" checked> Light Theme</label>
+            <label><input type="radio" name="theme" value="dark"> Dark Theme</label>
+            <label><input type="radio" name="theme" value="auto"> Auto</label>
+          </fieldset>
+          <fieldset>
+            <legend>Mixed Controls</legend>
+            <label for="sel-mode">Mode</label>
+            <select id="sel-mode">
+              <option>Automatic</option>
+              <option>Manual</option>
+            </select>
+            <label><input type="checkbox" name="enable-logs"> Enable Logs</label>
+            <label for="range-speed">Speed</label>
+            <input type="range" id="range-speed" min="1" max="10" value="5">
+          </fieldset>
+        </form>
+      </section>
+
+      <!-- Tables Section -->
+      <section class="tables">
+        <h2>Data Tables</h2>
+        <!-- Basic Table -->
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Age</th><th>Role</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Alice</td><td>30</td><td>Engineer</td></tr>
+            <tr><td>Bob</td><td>25</td><td>Designer</td></tr>
+            <tr><td>Charlie</td><td>35</td><td>Manager</td></tr>
+          </tbody>
+        </table>
+        <!-- Complex Table -->
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Region</th>
+              <th colspan="2">Q1</th>
+              <th colspan="2">Q2</th>
+            </tr>
+            <tr>
+              <th>Sales</th><th>Growth</th><th>Sales</th><th>Growth</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>North America</td><td>1.2M</td><td>5%</td><td>1.4M</td><td>7%</td></tr>
+            <tr><td>Europe</td><td>900K</td><td>4%</td><td>950K</td><td>6%</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td>Total</td><td>2.1M</td><td>—</td><td>2.35M</td><td>—</td></tr>
+          </tfoot>
+        </table>
+        <!-- Striped Table -->
+        <table class="striped">
+          <thead>
+            <tr><th>Item</th><th>Price</th><th>Stock</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Widget A</td><td>$10.00</td><td>120</td></tr>
+            <tr><td>Widget B</td><td>$12.50</td><td>80</td></tr>
+            <tr><td>Widget C</td><td>$8.75</td><td>200</td></tr>
+            <tr><td>Widget D</td><td>$11.20</td><td>50</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Nested Grid Section -->
+      <section class="nested-grid">
+        <h2>Feature Highlights</h2>
+        <div class="card">
+          <h3>Analytics</h3>
+          <p>Real-time data visualization tools.</p>
+        </div>
+        <div class="card">
+          <h3>Reporting</h3>
+          <p>Customizable export options.</p>
+        </div>
+        <div class="card">
+          <h3>Security</h3>
+          <p>Advanced encryption protocols.</p>
+        </div>
+        <div class="card">
+          <h3>Integration</h3>
+          <p>Connect with multiple APIs.</p>
+        </div>
+        <div class="card">
+          <h3>Support</h3>
+          <p>24/7 customer assistance.</p>
+        </div>
+        <div class="card">
+          <h3>Customization</h3>
+          <p>Adjust settings to your needs.</p>
+        </div>
+      </section>
+
+      <!-- Multi-column Article Section -->
+      <section class="multi-col">
+        <h2>Latest Insights</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+        <p>Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+        <p>In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.</p>
+      </section>
+
+      <!-- Data Entry Table with Inputs -->
+      <section class="data-entry">
+        <h2>Data Entry</h2>
+        <table class="data-table">
+          <thead>
+            <tr><th>Parameter</th><th>Value</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Threshold</td>
+              <td><input type="number" value="10" min="0" max="100"></td>
+              <td><input type="text" placeholder="Enter note"></td>
+            </tr>
+            <tr>
+              <td>Timeout (ms)</td>
+              <td><input type="number" value="500" min="100" max="5000"></td>
+              <td><input type="text" placeholder="Enter note"></td>
+            </tr>
+            <tr>
+              <td>Retries</td>
+              <td><input type="number" value="3" min="0" max="10"></td>
+              <td><input type="text" placeholder="Enter note"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Acme Corp. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
+```

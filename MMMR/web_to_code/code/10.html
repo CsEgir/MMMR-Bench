@@ -1,0 +1,312 @@
+
+> Reasoned for 10 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Layout</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .left-column {
+            grid-column: span 1;
+        }
+
+        .middle-column {
+            grid-column: span 2;
+        }
+
+        .right-column {
+            grid-column: span 1;
+        }
+
+        .table-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .dropdown, .slider, .checkbox-group, .radio-group {
+            margin: 10px 0;
+        }
+
+        .dropdown select, .slider input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .checkbox-group label, .radio-group label {
+            display: block;
+            margin: 5px 0;
+        }
+
+        .checkbox-group input, .radio-group input {
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .complex-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .complex-section .box {
+            width: 32%;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Webpage Layout</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="main-content">
+    <div class="left-column">
+        <div class="table-container">
+            <h2>Employee Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>John Doe</td>
+                        <td>HR</td>
+                        <td>$50,000</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Jane Smith</td>
+                        <td>Engineering</td>
+                        <td>$75,000</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Michael Johnson</td>
+                        <td>Marketing</td>
+                        <td>$60,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="middle-column">
+        <div class="complex-section">
+            <div class="box">
+                <h3>Form Controls</h3>
+                <div class="dropdown">
+                    <label for="dropdown1">Select Option:</label>
+                    <select id="dropdown1">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+                <div class="slider">
+                    <label for="slider1">Adjust Value:</label>
+                    <input type="range" id="slider1" min="0" max="100" value="50">
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="checkbox1"> Option A</label>
+                    <label><input type="checkbox" name="checkbox2"> Option B</label>
+                </div>
+                <div class="radio-group">
+                    <label><input type="radio" name="radio1" value="1"> Radio 1</label>
+                    <label><input type="radio" name="radio1" value="2"> Radio 2</label>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Team Information</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team ID</th>
+                            <th>Leader</th>
+                            <th>Project</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>201</td>
+                            <td>Emma Brown</td>
+                            <td>Website Redesign</td>
+                        </tr>
+                        <tr>
+                            <td>202</td>
+                            <td>Daniel Lee</td>
+                            <td>Mobile App Development</td>
+                        </tr>
+                        <tr>
+                            <td>203</td>
+                            <td>Olivia Green</td>
+                            <td>Marketing Campaign</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="box">
+                <h3>Project Timeline</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Phase</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Planning</td>
+                            <td>2025-01-01</td>
+                            <td>2025-01-15</td>
+                        </tr>
+                        <tr>
+                            <td>Development</td>
+                            <td>2025-02-01</td>
+                            <td>2025-04-01</td>
+                        </tr>
+                        <tr>
+                            <td>Testing</td>
+                            <td>2025-04-02</td>
+                            <td>2025-04-30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="table-container">
+            <h2>Recent Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#4532</td>
+                        <td>Lucas Gray</td>
+                        <td>Laptop</td>
+                        <td>Shipped</td>
+                    </tr>
+                    <tr>
+                        <td>#4533</td>
+                        <td>Charlotte Green</td>
+                        <td>Smartphone</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>#4534</td>
+                        <td>Ethan Harris</td>
+                        <td>Headphones</td>
+                        <td>Delivered</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Complex Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```

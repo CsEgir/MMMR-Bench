@@ -1,0 +1,311 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complex Web Page Demo</title>
+  <style>
+    :root {
+      --primary: #3498db;
+      --secondary: #2ecc71;
+      --light: #ecf0f1;
+      --dark: #2c3e50;
+      --accent: #e74c3c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.5;
+    }
+    header, footer {
+      background: var(--dark);
+      color: var(--light);
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: var(--primary);
+      color: var(--light);
+      padding: 0.75rem 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: var(--light);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+    nav a:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .container {
+      display: grid;
+      grid-template-areas: "sidebar main";
+      grid-template-columns: 250px 1fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .sidebar {
+      grid-area: sidebar;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .main {
+      grid-area: main;
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      gap: 1rem;
+    }
+    .section {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .grid-2col {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .grid-3col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      text-align: center;
+    }
+    .grid-nested {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
+    }
+    .card {
+      background: var(--secondary);
+      color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .form-group input[type="range"] {
+      width: 100%;
+    }
+    .table-responsive {
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    .multi-col {
+      column-count: 2;
+      column-gap: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Complex Web Page Demo</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Dashboard</a>
+    <a href="#">Reports</a>
+    <a href="#">Settings</a>
+    <a href="#">Profile</a>
+  </nav>
+
+  <div class="container">
+
+    <aside class="sidebar">
+      <h2>Filters & Controls</h2>
+      <form>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select id="category" name="category">
+            <optgroup label="Products">
+              <option value="prod1">Product 1</option>
+              <option value="prod2">Product 2</option>
+              <option value="prod3">Product 3</option>
+            </optgroup>
+            <optgroup label="Services">
+              <option value="serv1">Service 1</option>
+              <option value="serv2">Service 2</option>
+              <option value="serv3">Service 3</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="status">Status</label>
+          <select id="status" name="status">
+            <option>Active</option>
+            <option>Pending</option>
+            <option>Archived</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="year">Year</label>
+          <select id="year" name="year">
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="price">Price Range: <span id="priceValue">$50</span></label>
+          <input type="range" id="price" name="price" min="0" max="1000" value="50"
+            oninput="document.getElementById('priceValue').textContent='$'+this.value">
+        </div>
+        <div class="form-group">
+          <label>Features:</label>
+          <input type="checkbox" id="feat1" name="feature"><label for="feat1">Feature 1</label><br>
+          <input type="checkbox" id="feat2" name="feature"><label for="feat2">Feature 2</label><br>
+          <input type="checkbox" id="feat3" name="feature"><label for="feat3">Feature 3</label>
+        </div>
+        <div class="form-group">
+          <label>View Type:</label>
+          <input type="radio" id="viewList" name="view" checked><label for="viewList">List</label><br>
+          <input type="radio" id="viewGrid" name="view"><label for="viewGrid">Grid</label>
+        </div>
+        <button type="submit">Apply Filters</button>
+      </form>
+    </aside>
+
+    <main class="main">
+
+      <!-- KPI Cards -->
+      <section class="section grid-3col">
+        <div class="card">
+          <h3>Total Sales</h3>
+          <p>$120,000</p>
+        </div>
+        <div class="card">
+          <h3>New Users</h3>
+          <p>1,245</p>
+        </div>
+        <div class="card">
+          <h3>Active Sessions</h3>
+          <p>3,567</p>
+        </div>
+      </section>
+
+      <!-- Nested Grid: Table + Chart -->
+      <section class="section grid-nested">
+        <div>
+          <h2>Monthly Stats</h2>
+          <div class="table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>Month</th>
+                  <th>Visitors</th>
+                  <th>Orders</th>
+                  <th>Revenue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Jan</td><td>8,234</td><td>1,234</td><td>$23,450</td></tr>
+                <tr><td>Feb</td><td>7,890</td><td>1,120</td><td>$21,300</td></tr>
+                <tr><td>Mar</td><td>9,012</td><td>1,450</td><td>$26,780</td></tr>
+                <tr><td>Apr</td><td>9,500</td><td>1,500</td><td>$28,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h2>Revenue Chart</h2>
+          <div style="height:200px; background:#ddd; border-radius:8px; display:flex; align-items:center; justify-content:center;">
+            Chart Placeholder
+          </div>
+        </div>
+      </section>
+
+      <!-- Two-Column Text & Table -->
+      <section class="section grid-2col">
+        <div class="multi-col">
+          <h2>Overview</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis est tortor, et ultricies ex viverra et. Praesent purus lacus, suscipit nec luctus sit amet, pellentesque quis enim. Integer sit amet ligula sit amet dolor venenatis tincidunt.</p>
+          <p>Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.</p>
+        </div>
+        <div class="table-responsive">
+          <h2>Product Comparison</h2>
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Product</th>
+                <th colspan="2">Q1</th>
+                <th colspan="2">Q2</th>
+              </tr>
+              <tr>
+                <th>Sales</th><th>Returns</th>
+                <th>Sales</th><th>Returns</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Alpha</td><td>5,000</td><td>150</td><td>5,500</td><td>200</td></tr>
+              <tr><td>Beta</td><td>4,200</td><td>100</td><td>4,800</td><td>120</td></tr>
+              <tr><td>Gamma</td><td>6,100</td><td>180</td><td>6,400</td><td>210</td></tr>
+            </tbody>
+            <tfoot>
+              <tr><td>Total</td><td>15,300</td><td>430</td><td>16,700</td><td>530</td></tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+      <!-- Advanced Schedule Table -->
+      <section class="section">
+        <h2>Team Schedule</h2>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>Location</th>
+                <th>Time</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>May 1, 2025</td><td>Team A</td><td>Home</td><td>7:00 PM</td><td>Confirmed</td></tr>
+              <tr><td>May 5, 2025</td><td>Team B</td><td>Away</td><td>6:30 PM</td><td>Pending</td></tr>
+              <tr><td>May 10, 2025</td><td>Team C</td><td>Home</td><td>8:00 PM</td><td>Confirmed</td></tr>
+            </tbody>
+            <tfoot>
+              <tr><td colspan="4">Total Games</td><td>3</td></tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    © 2025 Example Company. All rights reserved.
+  </footer>
+
+</body>
+</html>
+```

@@ -1,0 +1,298 @@
+
+> Reasoned for 10 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Complex Web Page Design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .sidebar {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2, .sidebar h2 {
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table th, table td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    table th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="number"], select, input[type="range"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .range-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .multi-column {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .multi-row {
+      display: grid;
+      grid-template-rows: repeat(3, auto);
+      gap: 20px;
+    }
+
+    .multi-column select, .multi-row select {
+      width: auto;
+    }
+
+    .form-control {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .form-control input {
+      margin-right: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Complex Web Page Design</h1>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Sidebar Navigation</h2>
+      <div class="form-group">
+        <label for="dropdown1">Select Option:</label>
+        <select id="dropdown1">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="dropdown2">Choose Category:</label>
+        <select id="dropdown2">
+          <option value="a">Category A</option>
+          <option value="b">Category B</option>
+          <option value="c">Category C</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Checkboxes:</label>
+        <div class="form-control">
+          <input type="checkbox" id="checkbox1">
+          <label for="checkbox1">Checkbox 1</label>
+        </div>
+        <div class="form-control">
+          <input type="checkbox" id="checkbox2">
+          <label for="checkbox2">Checkbox 2</label>
+        </div>
+        <div class="form-control">
+          <input type="checkbox" id="checkbox3">
+          <label for="checkbox3">Checkbox 3</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Complex Content Section</h2>
+      
+      <!-- Table 1: Simple Data Table -->
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>jane@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Table 2: Product Table with Dropdown -->
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Product A</td>
+            <td>
+              <select>
+                <option value="cat1">Category 1</option>
+                <option value="cat2">Category 2</option>
+              </select>
+            </td>
+            <td>$10.00</td>
+          </tr>
+          <tr>
+            <td>Product B</td>
+            <td>
+              <select>
+                <option value="cat1">Category 1</option>
+                <option value="cat2">Category 2</option>
+              </select>
+            </td>
+            <td>$15.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Table 3: Form Input Table -->
+      <table>
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Input</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Name</td>
+            <td><input type="text" placeholder="Enter your name"></td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td><input type="number" placeholder="Enter your age"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="multi-column">
+        <div>
+          <h3>Dropdown Section</h3>
+          <select>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+        </div>
+        <div>
+          <h3>Range Slider</h3>
+          <div class="range-container">
+            <input type="range" min="1" max="100" value="50">
+            <span>50</span>
+          </div>
+        </div>
+        <div>
+          <h3>Radio Buttons</h3>
+          <label>
+            <input type="radio" name="option" value="yes"> Yes
+          </label>
+          <label>
+            <input type="radio" name="option" value="no"> No
+          </label>
+        </div>
+      </div>
+
+      <div class="multi-row">
+        <div>
+          <h3>Text Area</h3>
+          <textarea rows="4" placeholder="Type your message here..."></textarea>
+        </div>
+        <div>
+          <h3>File Upload</h3>
+          <input type="file">
+        </div>
+        <div>
+          <h3>Buttons</h3>
+          <button>Submit</button>
+          <button>Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Complex Web Page Design</p>
+  </footer>
+
+</body>
+</html>
+```

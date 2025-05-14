@@ -1,0 +1,280 @@
+
+> Reasoned for 15 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #34495e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .form-control {
+            margin-bottom: 20px;
+        }
+
+        .form-control input, .form-control select, .form-control button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            margin: 8px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .form-control input[type="range"] {
+            width: 100%;
+        }
+
+        .form-control input[type="checkbox"], .form-control input[type="radio"] {
+            width: auto;
+            margin-right: 8px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 20px;
+        }
+
+        .card .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Website Design</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Tables Overview</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Smartphone</td>
+                        <td>$999</td>
+                        <td>50</td>
+                        <td>Electronics</td>
+                    </tr>
+                    <tr>
+                        <td>Laptop</td>
+                        <td>$1299</td>
+                        <td>30</td>
+                        <td>Electronics</td>
+                    </tr>
+                    <tr>
+                        <td>Watch</td>
+                        <td>$199</td>
+                        <td>120</td>
+                        <td>Accessories</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Complex Forms</h2>
+        <form>
+            <div class="form-group">
+                <label for="category">Select Category:</label>
+                <select id="category" class="form-control">
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="books">Books</option>
+                    <option value="home">Home Appliances</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                <input type="range" id="rating" name="rating" min="1" max="5" value="3" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Preferences:</label>
+                <div>
+                    <input type="checkbox" id="email" name="preferences" value="email" class="form-control"> 
+                    <label for="email">Receive Email Notifications</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sms" name="preferences" value="sms" class="form-control">
+                    <label for="sms">Receive SMS Notifications</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="newsletter">Newsletter Subscription:</label>
+                <input type="radio" id="subscribe" name="newsletter" value="subscribe" class="form-control">
+                <label for="subscribe">Subscribe</label>
+                <input type="radio" id="unsubscribe" name="newsletter" value="unsubscribe" class="form-control">
+                <label for="unsubscribe">Unsubscribe</label>
+            </div>
+
+            <button type="submit" class="form-control">Submit</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>Data Cards</h2>
+        <div class="card">
+            <h3>Card 1</h3>
+            <div class="row">
+                <div>
+                    <p><strong>Title:</strong> Example Title</p>
+                    <p><strong>Price:</strong> $199</p>
+                </div>
+                <div>
+                    <p><strong>Status:</strong> Available</p>
+                    <p><strong>Category:</strong> Electronics</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Card 2</h3>
+            <div class="row">
+                <div>
+                    <p><strong>Title:</strong> Another Product</p>
+                    <p><strong>Price:</strong> $499</p>
+                </div>
+                <div>
+                    <p><strong>Status:</strong> Out of Stock</p>
+                    <p><strong>Category:</strong> Fashion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2025 Complex Website Design. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

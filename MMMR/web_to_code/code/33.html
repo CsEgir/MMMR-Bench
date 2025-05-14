@@ -1,0 +1,301 @@
+
+> Reasoned for 13 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Complex Website Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .nested-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 10px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    table th, table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"], select, input[type="range"], input[type="checkbox"], input[type="radio"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-top: 5px;
+    }
+
+    input[type="range"] {
+      width: 90%;
+    }
+
+    .checkbox-group, .radio-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .checkbox-group label, .radio-group label {
+      margin-left: 10px;
+    }
+
+    .dropdown-container {
+      display: flex;
+      gap: 15px;
+    }
+
+    .dropdown-container select {
+      width: 30%;
+    }
+
+    .section-header {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .controls {
+      margin-top: 30px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Complex Website Design
+  </header>
+  
+  <div class="container">
+    <!-- Grid Layout Section -->
+    <section>
+      <h2>Grid Layout with Nested Elements</h2>
+      <div class="grid-layout">
+        <div class="nested-grid">
+          <div>
+            <h3>Text Box and Dropdown</h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="dropdown">Select a Category:</label>
+                <select id="dropdown" name="dropdown">
+                  <option value="category1">Category 1</option>
+                  <option value="category2">Category 2</option>
+                  <option value="category3">Category 3</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div>
+            <h3>Slider Control</h3>
+            <div class="form-group">
+              <label for="slider">Adjust the value:</label>
+              <input type="range" id="slider" name="slider" min="0" max="100" value="50">
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Additional Form</h3>
+          <form>
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="text" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments" rows="4" placeholder="Leave your comments here"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data Table Section -->
+    <section>
+      <h2>Complex Table with Multiple Structures</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>New York</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Mary Smith</td>
+            <td>25</td>
+            <td>London</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Steve Brown</td>
+            <td>35</td>
+            <td>Toronto</td>
+            <td>Canada</td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Apple</td>
+            <td>$1.50</td>
+            <td>10</td>
+            <td>$15.00</td>
+          </tr>
+          <tr>
+            <td>Banana</td>
+            <td>$0.75</td>
+            <td>15</td>
+            <td>$11.25</td>
+          </tr>
+          <tr>
+            <td>Orange</td>
+            <td>$2.00</td>
+            <td>5</td>
+            <td>$10.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Controls and Dropdown Section -->
+    <section>
+      <h2>Controls & Dropdowns</h2>
+      <div class="dropdown-container">
+        <select>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+        <select>
+          <option value="option1">Option A</option>
+          <option value="option2">Option B</option>
+          <option value="option3">Option C</option>
+        </select>
+        <select>
+          <option value="option1">Choice X</option>
+          <option value="option2">Choice Y</option>
+          <option value="option3">Choice Z</option>
+        </select>
+      </div>
+
+      <div class="controls">
+        <h3>Multiple Checkboxes</h3>
+        <div class="checkbox-group">
+          <input type="checkbox" id="check1"><label for="check1">Option 1</label>
+          <input type="checkbox" id="check2"><label for="check2">Option 2</label>
+          <input type="checkbox" id="check3"><label for="check3">Option 3</label>
+        </div>
+
+        <h3>Multiple Radio Buttons</h3>
+        <div class="radio-group">
+          <input type="radio" id="radio1" name="choice"><label for="radio1">Choice A</label>
+          <input type="radio" id="radio2" name="choice"><label for="radio2">Choice B</label>
+          <input type="radio" id="radio3" name="choice"><label for="radio3">Choice C</label>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Complex Website Design. All rights reserved.
+  </footer>
+</body>
+</html>
+```

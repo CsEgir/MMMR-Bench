@@ -1,0 +1,334 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Interface Demo</title>
+  <style>
+    :root {
+      --primary: #3498db;
+      --secondary: #2ecc71;
+      --accent: #e74c3c;
+      --bg: #f5f5f5;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --border: #dddddd;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--primary);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+    }
+    section {
+      margin: 60px 0;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 0;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: var(--secondary);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .grid { display: grid; gap: 20px; }
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .nested-grid { grid-template-columns: 2fr 1fr; grid-auto-rows: auto; }
+    .card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--accent);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table th, table td {
+      border: 1px solid var(--border);
+      padding: 10px;
+      text-align: left;
+    }
+    table th {
+      background: var(--primary);
+      color: #fff;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="logo">MyComplexSite</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Welcome to the Complex Interface</h1>
+      <p>Explore a richly detailed, multi-layered web page with advanced controls and data displays.</p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Feature One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <select>
+            <option>Select Option A</option>
+            <option>Option A1</option>
+            <option>Option A2</option>
+            <option>Option A3</option>
+          </select>
+        </div>
+        <div class="card">
+          <h3>Feature Two</h3>
+          <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+          <select>
+            <option>Select Option B</option>
+            <option>Option B1</option>
+            <option>Option B2</option>
+            <option>Option B3</option>
+          </select>
+        </div>
+        <div class="card">
+          <h3>Feature Three</h3>
+          <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+          <select>
+            <option>Select Option C</option>
+            <option>Option C1</option>
+            <option>Option C2</option>
+            <option>Option C3</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid nested-grid">
+      <div class="card">
+        <h3>Data Table A</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alpha</td>
+              <td>10</td>
+              <td>$100</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>Beta</td>
+              <td>5</td>
+              <td>$50</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <td>Gamma</td>
+              <td>20</td>
+              <td>$200</td>
+              <td>Completed</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Summary</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">Totals</td>
+              <td>Sum</td>
+              <td>$350</td>
+            </tr>
+            <tr>
+              <td>Average</td>
+              <td>$116.67</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h3>Control Panel</h3>
+        <div class="form-group">
+          <label for="range1">Adjust Level:</label>
+          <input type="range" id="range1" min="0" max="100" value="50">
+        </div>
+        <div class="form-group">
+          <label>Choose Mode:</label>
+          <div class="controls">
+            <label><input type="radio" name="mode" value="auto" checked> Auto</label>
+            <label><input type="radio" name="mode" value="manual"> Manual</label>
+            <label><input type="radio" name="mode" value="semi"> Semi</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Select Features:</label>
+          <div class="controls">
+            <label><input type="checkbox" name="opt[]" value="f1"> F1</label>
+            <label><input type="checkbox" name="opt[]" value="f2" checked> F2</label>
+            <label><input type="checkbox" name="opt[]" value="f3"> F3</label>
+            <label><input type="checkbox" name="opt[]" value="f4"> F4</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="select1">Options:</label>
+          <select id="select1" multiple>
+            <option>Opt A</option>
+            <option>Opt B</option>
+            <option>Opt C</option>
+            <option>Opt D</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Advanced Settings</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Network Configuration</h3>
+          <div class="form-group">
+            <label for="ip">IP Address:</label>
+            <input type="text" id="ip" placeholder="192.168.1.1">
+          </div>
+          <div class="form-group">
+            <label for="subnet">Subnet Mask:</label>
+            <input type="text" id="subnet" placeholder="255.255.255.0">
+          </div>
+          <div class="form-group">
+            <label for="gateway">Gateway:</label>
+            <input type="text" id="gateway" placeholder="192.168.1.254">
+          </div>
+        </div>
+        <div class="card">
+          <h3>User Preferences</h3>
+          <div class="form-group">
+            <label for="theme">Theme:</label>
+            <select id="theme">
+              <option>Light</option>
+              <option>Dark</option>
+              <option>System</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="notify">Notifications:</label>
+            <select id="notify">
+              <option>All</option>
+              <option>Important Only</option>
+              <option>None</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="language">Language:</label>
+            <select id="language">
+              <option>English</option>
+              <option>Spanish</option>
+              <option>French</option>
+              <option>German</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 MyComplexSite. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
+```

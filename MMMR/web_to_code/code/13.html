@@ -1,0 +1,273 @@
+
+> Reasoned for 9 seconds
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Web Page Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+        }
+        .table-container, .form-container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .table-container h2, .form-container h2 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .form-group input[type="range"] {
+            width: 100%;
+        }
+        .form-group input[type="checkbox"], .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+        .multi-column-layout {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .multi-column-layout div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .nested-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .nested-grid div {
+            padding: 20px;
+            background-color: #eaeaea;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Complex Web Page Design</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Grid Layout with Tables and Forms -->
+    <div class="grid-layout">
+
+        <!-- Table Section -->
+        <div class="table-container">
+            <h2>Data Table 1</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>john.doe@example.com</td>
+                        <td>+123456789</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>jane.smith@example.com</td>
+                        <td>+987654321</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sam Brown</td>
+                        <td>sam.brown@example.com</td>
+                        <td>+555555555</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Form Section -->
+        <div class="form-container">
+            <h2>User Registration</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" placeholder="Enter your age" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="hobbies">Hobbies</label>
+                    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+                    <label for="traveling">Traveling</label>
+                </div>
+                <div class="form-group">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="preferences">Preferences</label>
+                    <select id="preferences" name="preferences" required>
+                        <option value="newsletter">Newsletter Subscription</option>
+                        <option value="alerts">Receive Alerts</option>
+                        <option value="offers">Special Offers</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <input type="range" id="rating" name="rating" min="1" max="5">
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Multi-column Layout Section -->
+    <div class="multi-column-layout">
+        <div>
+            <h3>Introduction</h3>
+            <p>This is an introductory section with rich content and detailed explanation.</p>
+        </div>
+        <div>
+            <h3>Features</h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <p>Feel free to get in touch with us through the provided details.</p>
+        </div>
+    </div>
+
+    <!-- Nested Grid Layout Section -->
+    <div class="nested-grid">
+        <div>
+            <h4>Sub-section 1</h4>
+            <p>Details about Sub-section 1. More content goes here.</p>
+        </div>
+        <div>
+            <h4>Sub-section 2</h4>
+            <p>Details about Sub-section 2. Additional information for context.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>&copy; 2025 Complex Web Page Design. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+```

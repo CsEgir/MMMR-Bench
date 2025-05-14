@@ -1,0 +1,283 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Web Interface</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #3498db;
+      --accent-color: #e74c3c;
+      --bg-color: #ecf0f1;
+      --text-color: #34495e;
+      --header-height: 60px;
+      --footer-height: 50px;
+      --gap: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Roboto', sans-serif; background: var(--bg-color); color: var(--text-color); }
+    header { grid-area: header; background: var(--primary-color); color: #fff; display: flex; align-items: center; padding: 0 var(--gap); height: var(--header-height); }
+    header h1 { font-weight: 500; font-size: 1.5rem; }
+    nav { grid-area: nav; background: #fff; border-bottom: 1px solid #ddd; }
+    nav ul { display: flex; list-style: none; }
+    nav li { margin-right: var(--gap); }
+    nav a { display: block; padding: 1rem; color: var(--primary-color); text-decoration: none; }
+    nav a:hover { background: var(--bg-color); }
+    .container { display: grid; grid-template-areas: "header header header"
+                                         "nav nav nav"
+                                         "aside main right"
+                                         "footer footer footer";
+                 grid-template-columns: 1fr 2fr 1fr;
+                 grid-template-rows: auto auto 1fr auto;
+                 height: 100vh; gap: var(--gap); }
+    aside.left { grid-area: aside; background: #fff; padding: var(--gap); overflow-y: auto; }
+    aside.right { grid-area: right; background: #fff; padding: var(--gap); overflow-y: auto; }
+    main { grid-area: main; background: #fff; padding: var(--gap); overflow-y: auto; display: flex; flex-direction: column; gap: var(--gap); }
+    footer { grid-area: footer; background: var(--primary-color); color: #fff; display: flex; align-items: center; justify-content: center; height: var(--footer-height); }
+    /* Filter Section */
+    .filter-section { background: #fff; padding: var(--gap); border: 1px solid #ddd; border-radius: 8px; }
+    .filter-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(150px,1fr)); gap: var(--gap); }
+    .filter-grid > div { display: flex; flex-direction: column; }
+    .filter-grid label { margin-bottom: 4px; font-weight: 500; }
+    .filter-grid select, .filter-grid input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    /* Tables */
+    table { width: 100%; border-collapse: collapse; margin-bottom: var(--gap); }
+    table th, table td { padding: 8px; border: 1px solid #ccc; text-align: left; }
+    table thead { background: var(--secondary-color); color: #fff; }
+    /* Pricing Table */
+    .pricing-table { text-align: center; }
+    .pricing-table th, .pricing-table td { text-align: center; }
+    /* Metrics Grid */
+    .metrics-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: var(--gap); }
+    .card { background: var(--bg-color); padding: var(--gap); border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    /* Article Cards */
+    .articles-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: var(--gap); }
+    .article-card { background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
+    .article-card img { width: 100%; height: 120px; object-fit: cover; }
+    .article-card .content { padding: var(--gap); flex: 1; }
+    .article-card h3 { margin-bottom: 8px; font-size: 1.1rem; }
+    .article-card p { font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Dashboard Interface</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Reports</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+  <aside class="left">
+    <section class="filter-section">
+      <h2>Filters</h2>
+      <form class="filter-grid">
+        <div>
+          <label for="category">Category</label>
+          <select id="category">
+            <optgroup label="Products">
+              <option>All Products</option>
+              <option>Hardware</option>
+              <option>Software</option>
+            </optgroup>
+            <optgroup label="Services">
+              <option>All Services</option>
+              <option>Consulting</option>
+              <option>Support</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label for="status">Status</label>
+          <select id="status">
+            <option>Active</option>
+            <option>Pending</option>
+            <option>Archived</option>
+          </select>
+        </div>
+        <div>
+          <label for="date-range">Date Range</label>
+          <input type="date" id="start-date">
+          <input type="date" id="end-date">
+        </div>
+        <div>
+          <label>Priority</label>
+          <div>
+            <input type="radio" id="high" name="priority" value="high">
+            <label for="high">High</label>
+          </div>
+          <div>
+            <input type="radio" id="medium" name="priority" value="medium">
+            <label for="medium">Medium</label>
+          </div>
+          <div>
+            <input type="radio" id="low" name="priority" value="low">
+            <label for="low">Low</label>
+          </div>
+        </div>
+        <div>
+          <label for="price-range">Price Range</label>
+          <input type="range" id="price-range" min="0" max="1000" step="50">
+        </div>
+        <div>
+          <label>Options</label>
+          <div>
+            <input type="checkbox" id="opt1" name="options">
+            <label for="opt1">Include Out of Stock</label>
+          </div>
+          <div>
+            <input type="checkbox" id="opt2" name="options">
+            <label for="opt2">Show Discounts</label>
+          </div>
+          <div>
+            <input type="checkbox" id="opt3" name="options">
+            <label for="opt3">Featured Only</label>
+          </div>
+        </div>
+        <div>
+          <label for="sort-by">Sort By</label>
+          <select id="sort-by">
+            <option>Relevance</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest</option>
+          </select>
+        </div>
+      </form>
+    </section>
+  </aside>
+  <main>
+    <section class="metrics-grid">
+      <div class="card">
+        <h3>Total Sales</h3>
+        <p>$125,000</p>
+      </div>
+      <div class="card">
+        <h3>New Users</h3>
+        <p>3,450</p>
+      </div>
+      <div class="card">
+        <h3>Active Subscriptions</h3>
+        <p>1,200</p>
+      </div>
+      <div class="card">
+        <h3>Server Uptime</h3>
+        <p>99.99%</p>
+      </div>
+    </section>
+    <section>
+      <h2>Product List</h2>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Category</th><th>Price</th><th>Stock</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>001</td><td>Widget A</td><td>Hardware</td><td>$50</td><td>120</td></tr>
+          <tr><td>002</td><td>Gadget B</td><td>Software</td><td>$85</td><td>75</td></tr>
+          <tr><td>003</td><td>Service C</td><td>Consulting</td><td>$200</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Pricing Comparison</h2>
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Basic</th>
+            <th>Pro</th>
+            <th>Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Users</td><td>1-10</td><td>10-100</td><td>Unlimited</td></tr>
+          <tr><td>Storage</td><td>10GB</td><td>100GB</td><td>1TB</td></tr>
+          <tr><td>Support</td><td>Email</td><td>24/7 Chat</td><td>Dedicated</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Weekly Schedule</h2>
+      <table>
+        <thead>
+          <tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>09:00</td><td>Meeting</td><td>Report</td><td>Design</td><td>Review</td><td>Planning</td></tr>
+          <tr><td>11:00</td><td>Development</td><td>Testing</td><td>Meeting</td><td>Support</td><td>Demo</td></tr>
+          <tr><td>14:00</td><td>Workshop</td><td>Client Call</td><td>Development</td><td>Testing</td><td>Wrap-up</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Latest Articles</h2>
+      <div class="articles-grid">
+        <div class="article-card">
+          <img src="https://via.placeholder.com/300x120" alt="Article 1">
+          <div class="content">
+            <h3>Design Trends 2025</h3>
+            <p>Explore the latest design trends shaping the web in 2025.</p>
+          </div>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/300x120" alt="Article 2">
+          <div class="content">
+            <h3>Optimizing Performance</h3>
+            <p>Techniques to speed up your web applications effectively.</p>
+          </div>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/300x120" alt="Article 3">
+          <div class="content">
+            <h3>Accessibility Best Practices</h3>
+            <p>Ensure your site is usable by everyone with these tips.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <aside class="right">
+    <section class="card">
+      <h3>Notifications</h3>
+      <ul>
+        <li>You have 5 new messages</li>
+        <li>Server maintenance at 02:00 AM</li>
+        <li>New user signup: john_doe</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h3>Quick Actions</h3>
+      <button>Add New Product</button>
+      <button>Generate Report</button>
+      <button>Send Newsletter</button>
+    </section>
+    <section class="card">
+      <h3>Settings</h3>
+      <div>
+        <label for="dark-mode">Dark Mode</label>
+        <input type="checkbox" id="dark-mode">
+      </div>
+      <div>
+        <label>Language</label>
+        <select>
+          <option>English</option>
+          <option>Spanish</option>
+          <option>French</option>
+        </select>
+      </div>
+    </section>
+  </aside>
+  <footer>
+    <p>&copy; 2025 Dashboard Interface. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
+```

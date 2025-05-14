@@ -1,0 +1,200 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complex Showcase Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4a90e2;
+      --secondary: #f5f7fa;
+      --accent: #50e3c2;
+      --text: #333;
+      --radius: 8px;
+      --gap: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--secondary); line-height: 1.6; }
+    header, nav, footer, section, aside { padding: var(--gap); }
+    header { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; align-items: center; justify-content: space-between; }
+    header h1 { font-weight: 600; color: var(--primary); }
+    nav ul { list-style: none; display: flex; gap: var(--gap); }
+    nav a { text-decoration: none; color: var(--text); font-weight: 500; }
+    .container { display: grid; grid-template-columns: 1fr 300px; gap: var(--gap); max-width: 1200px; margin: var(--gap) auto; }
+    .hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--gap); margin-bottom: var(--gap); }
+    .hero .card { background: #fff; padding: var(--gap); border-radius: var(--radius); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .filters { background: #fff; padding: var(--gap); border-radius: var(--radius); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .filters h2 { margin-bottom: var(--gap); font-size: 1.2rem; }
+    .filters label { display: block; margin-bottom: 8px; font-weight: 500; }
+    .filters select, .filters input[type="range"] { width: 100%; margin-bottom: var(--gap); }
+    .filters .checkbox-group, .filters .radio-group { margin-bottom: var(--gap); }
+    .filters .checkbox-group label, .filters .radio-group label { display: inline-block; margin-right: 12px; }
+    .tables section { margin-bottom: var(--gap); }
+    table { width: 100%; border-collapse: collapse; margin-bottom: var(--gap); }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background: var(--primary); color: #fff; }
+    .multicol { columns: 2 200px; column-gap: var(--gap); background: #fff; padding: var(--gap); border-radius: var(--radius); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    footer { text-align: center; background: #fff; box-shadow: 0 -2px 5px rgba(0,0,0,0.05); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Showcase</h1>
+  <nav>
+    <ul>
+      <li><a href="#hero">Overview</a></li>
+      <li><a href="#tables">Data</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <!-- Main Content -->
+  <div>
+    <section id="hero" class="hero">
+      <div class="card">
+        <h2>Card One</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="card">
+        <h2>Card Two</h2>
+        <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      </div>
+      <div class="card">
+        <h2>Card Three</h2>
+        <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+      </div>
+      <div class="card">
+        <h2>Card Four</h2>
+        <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+      </div>
+    </section>
+
+    <section id="tables" class="tables">
+      <section>
+        <h2>Employee Directory</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Location</th>
+              <th>Full Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">Alice Johnson</td>
+              <td>Engineering</td>
+              <td>New York</td>
+              <td><input type="checkbox" checked disabled></td>
+            </tr>
+            <tr>
+              <td>R&D</td>
+              <td>Boston</td>
+              <td><input type="checkbox" disabled></td>
+            </tr>
+            <tr>
+              <td>Bob Lee</td>
+              <td>Marketing</td>
+              <td>San Francisco</td>
+              <td><input type="checkbox" checked disabled></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Quarterly Sales</h2>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Region</th>
+              <th colspan="3">Q1</th>
+              <th colspan="3">Q2</th>
+            </tr>
+            <tr>
+              <th>Product A</th><th>Product B</th><th>Product C</th>
+              <th>Product A</th><th>Product B</th><th>Product C</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>North</td><td>120</td><td>80</td><td>60</td><td>130</td><td>90</td><td>70</td>
+            </tr>
+            <tr>
+              <td>South</td><td>100</td><td>60</td><td>40</td><td>110</td><td>70</td><td>50</td>
+            </tr>
+            <tr>
+              <td>West</td><td>140</td><td>100</td><td>80</td><td>150</td><td>110</td><td>90</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+
+    <section id="details" class="multicol">
+      <h2>Project Details</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula ex nec purus dapibus, eu aliquet magna facilisis. Nullam tempus, eros ac aliquet bibendum, purus justo ultricies arcu, nec fermentum lorem risus nec lectus. Fusce a lobortis dui. Suspendisse potenti. Integer fermentum venenatis nisl in aliquet. Proin auctor tellus id sapien sagittis, ac facilisis orci dictum.
+      </p>
+      <p>
+        Cras hendrerit libero ut tellus placerat, nec accumsan lacus tincidunt. Mauris lacinia, arcu eu tincidunt molestie, orci urna scelerisque sapien, eget facilisis nisl urna et metus. Suspendisse auctor dolor sed ante dignissim viverra. Sed eget urna sapien. Sed fringilla purus a purus feugiat viverra. Etiam vehicula ex sit amet lorem dignissim, in condimentum arcu consequat.
+      </p>
+    </section>
+  </div>
+
+  <!-- Sidebar Filters -->
+  <aside class="filters">
+    <h2>Filter Results</h2>
+    <form>
+      <label for="category">Category</label>
+      <select id="category" name="category">
+        <option value="">All</option>
+        <option value="alpha">Alpha</option>
+        <option value="beta">Beta</option>
+        <option value="gamma">Gamma</option>
+      </select>
+
+      <label for="price-range">Price Range</label>
+      <input type="range" id="price-range" name="price-range" min="0" max="1000" step="50">
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="feature" value="free-shipping"> Free Shipping</label>
+        <label><input type="checkbox" name="feature" value="in-stock"> In Stock</label>
+        <label><input type="checkbox" name="feature" value="on-sale"> On Sale</label>
+      </div>
+
+      <div class="radio-group">
+        <label><input type="radio" name="rating" value="4up"> 4★ & up</label>
+        <label><input type="radio" name="rating" value="3up"> 3★ & up</label>
+        <label><input type="radio" name="rating" value="all" checked> All Ratings</label>
+      </div>
+
+      <label for="sort-by">Sort By</label>
+      <select id="sort-by" name="sort-by">
+        <option value="relevance">Relevance</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="newest">Newest Arrivals</option>
+      </select>
+
+      <button type="submit" style="margin-top: var(--gap); padding: 8px 16px; background: var(--accent); border: none; color: #fff; border-radius: var(--radius); cursor: pointer;">
+        Apply Filters
+      </button>
+    </form>
+  </aside>
+</main>
+
+<footer>
+  <p>&copy; 2025 My Showcase. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```
