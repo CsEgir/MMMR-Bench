@@ -1,65 +1,33 @@
-# Connecting to a Server via VPN and VSCode Remote-SSH
-
-This guide will walk you through the process of connecting to a remote server using a VPN and Visual Studio Code with the Remote-SSH extension.
-
-## Prerequisites
-
-Before you begin, ensure you have the following:
-
-- Visual Studio Code installed on your local machine
-- The Remote-SSH extension for Visual Studio Code
-
-## Connect to the Server Using VSCode Remote-SSH
-
-After you are connected to the VPN, proceed with the following steps to connect to the server using VSCode:
-
-1. Open Visual Studio Code.
-2. Press `Ctrl+Shift+P` to open the Command Palette.
-3. Type `Remote-SSH: Add New SSH Host` and select it.
-4. You will be prompted to enter the SSH connection command. Use the following format:
-
-```bash
-ssh 1004hzeli@222.20.126.192
-```
-5. After entering the command, the system may prompt you to enter the password for the SSH connection. Use the following password:
-**SSH Password:** 123456789
-
-6. Once authenticated, VSCode will connect to the remote server, and you will be able to work on your projects as if you were working locally.
-# test.py README
 
 ## Overview
-`test.py` is a Python script located in the `/mnt/zeli/LRM_Benchmark/method` directory. This script is designed for the LRM-Benchmark project and performs a set of specific operations. Please follow the instructions below to ensure the script runs correctly.
+`Based_prompt.py` is a Python script located in the `/LRM_Benchmark/method` directory. This script is designed for the LRM-Benchmark project and performs a set of specific operations. Please follow the instructions below to ensure the script runs correctly.
 
 ## Prerequisites
-Before running `test.py`, make sure to meet the following prerequisites:
+Before running `Based_prompt.py`, make sure to meet the following prerequisites:
 
 - You have activate a Conda environment named `critic`.
 
 ## Running the Script
-To execute `test.py`, carefully follow these steps:
+To execute `Based_prompt.py`, carefully follow these steps:
 
 1. **Accessing the Directory**:
 Before you begin, ensure you are in the correct directory:
 
-```bash
-bash
-cd /mnt/zeli/LRM_Benchmark/method
-```
 2. **Activate the Conda Environment**:
    It is crucial to activate the Conda environment `critic` before running the script. This ensures that all necessary dependencies and environment variables are set correctly. Use the following command in your terminal:
 
 ```bash
-conda activate /mnt/zeli/miniconda3/envs/critic
+conda activate critic
 ```
 
 3. **Run the Script**:
-After activating the Conda environment, navigate to the directory containing `test.py` and run the script using Python.
+After activating the Conda environment, navigate to the directory containing `Based_prompt.py` and run the script using Python.
 Also, you need to set model_config and task_config_file to determine the model and the dataset we use.
 like:
 
 ```bash
 proxy_off ( make the network connected)
-python Based_prompt.py --model_config /mnt/zeli/LRM_Benchmark/config/model_config/api_qwen2.5_vl_32b_instruct_config.json --task_config_file /mnt/zeli/LRM_Benchmark/dataset/Space-Time/MME-CoT/Spatial-Temporal.json --test_num 2
+python Based_prompt.py --model_config /LRM_Benchmark/config/model_config/api_qwen2.5_vl_32b_instruct_config.json --task_config_file /LRM_Benchmark/dataset/Space-Time/MME-CoT/Spatial-Temporal.json --test_num 2
 ```
 The script will use model qwen2.5_vl_32b_instruct and MME-CoT Spatial-Temporal dataset to excute.
 Then, the script starts executing, and you may see various output messages in the terminal.
