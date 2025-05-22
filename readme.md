@@ -1,55 +1,94 @@
+# MMMR-Bench 🔍🧠
+**Benchmarking Massive Multi-Modal Reasoning Tasks**
 
-## Overview
-`Based_prompt.py` is a Python script located in the `/LRM_Benchmark/method` directory. This script is designed for the LRM-Benchmark project and performs a set of specific operations. Please follow the instructions below to ensure the script runs correctly.
+Official repository for **“Benchmarking Massive Multi-Modal Reasoning Tasks”**
 
-## Prerequisites
-Before running `Based_prompt.py`, make sure to meet the following prerequisites:
+---
 
-- You have activate a Conda environment named `critic`.
+## 📢 News
 
-## Running the Script
-To execute `Based_prompt.py`, carefully follow these steps:
+- **2025.05.21** 🎉 We are very proud to launch MME-CoT, a new benchmark designed to rigorously evaluate multi-modal reasoning with explicit thinking.
 
-1. **Accessing the Directory**:
-Before you begin, ensure you are in the correct directory:
+---
 
-2. **Activate the Conda Environment**:
-   It is crucial to activate the Conda environment `critic` before running the script. This ensures that all necessary dependencies and environment variables are set correctly. Use the following command in your terminal:
+## 📘 About MMMR-Bench
+
+Recent advances in Multi-Modal Large Language Models (MLLMs) have enabled unified processing of language, vision, and structured inputs, opening the door
+to complex tasks such as logical deduction, spatial reasoning, and scientific analysis. Despite their promise, the reasoning capabilities of MLLMs—particularly
+those augmented with intermediate thinking traces (MLLMs-T)—remain poorly understood and lack standardized evaluation benchmarks. Existing work focuses
+primarily on perception or final answer correctness, offering limited insight into how models reason or fail across modalities. To address this gap, we introduce the **MMMR**, a new benchmark designed to rigorously evaluate multi-modal reasoning with explicit thinking.
+
+<p align="center">
+    <img src="figs/teaser.jpg" width="90%"> <br>
+</p>
+
+Leveraging curated high-quality data and a unique evaluation strategy, we conduct an in-depth analysis of state-of-the-art LMMs, uncovering **several key insights**: **(1) Models with reflection mechanism demonstrate a superior CoT quality**, with Kimi k1.5 outperforming GPT-4o and demonstrating the highest quality results; **(2) CoT prompting often degrades LMM performance on perception-heavy tasks**, suggesting a potentially harmful overthinking behavior; **(3) Although the CoT quality is high, LMMs with reflection exhibit significant inefficiency in both normal response and self-correction phases**. We hope MME-CoT serves as a foundation for advancing multimodal reasoning in LMMs.
+
+<p align="center">
+    <img src="readme_imgs/overview.png" width="60%"> <br>
+</p>
+
+<p align="center">
+    <img src="readme_imgs/pipeline.png" width="90%"> <br>
+</p>
+
+The MMMR comprises 1) a high-difficulty dataset of 1,083 questions spanning six diverse reasoning types with symbolic depth and multi-hop demands and 2) a modular Reasoning Trace Evaluation Pipeline (RTEP) for assessing reasoning quality beyond accuracy through metrics like relevance, consistency, and structured error annotation.
+
+<p align="center">
+    <img src="readme_imgs/data.png" width="70%"> <br>
+</p>
+
+<p align="center">
+    <img src="readme_imgs/eval.png" width="70%"> <br>
+</p>
+
+---
+
+## Evaluation
+
+To calculate the precision, please follow the following steps:
+1. Install the required packages.
 
 ```bash
-conda activate critic
+pip install -r requirements.txt
 ```
 
-3. **Run the Script**:
-After activating the Conda environment, navigate to the directory containing `Based_prompt.py` and run the script using Python.
-Also, you need to set model_config and task_config_file to determine the model and the dataset we use.
-like:
+2. Fill the model config file
 
-```bash
-proxy_off ( make the network connected)
-python Based_prompt.py --model_config /LRM_Benchmark/config/model_config/api_qwen2.5_vl_32b_instruct_config.json --task_config_file /LRM_Benchmark/dataset/Space-Time/MME-CoT/Spatial-Temporal.json --test_num 2
+create your model config file as the form of sample.json.
+
+3. Run the evaluation scripts
+
+Run the evaluation with the based prompt
+'''
+cd code
+python Based_prompt.py --model_config <your model path> --task_config_file <the dataset json file path> --test_num <test number> --results_file <your results path>
+'''
+
+Run the evaluation with the reasoing prompt (with models who have reasoing content)
+'''
+cd code
+python Reasoning_prompt.py --model_config <your model path> --task_config_file <the dataset json file path> --test_num <test number> -results_file <your results path>
+'''
+
+Finally, you can fing your results in the results path.
+
+## 🏆 Leaderboard
+
+### Contributing to the Leaderboard
+
+🚨 The [Leaderboard] is continuously being updated, welcoming the contribution of your excellent LMMs!
+
+
+### Data Usage
+
+We release the MME-CoT data and evaluation prompts for benchmarking on the leaderboard.
+
+You can download the dataset from the [🤗 Huggingface](https://huggingface.co/datasets/csegirl/MMMR) by the following command (make sure that you have installed [related packages](https://huggingface.co/docs/datasets/quickstart)):
+
+```python
+from datasets import load_dataset
+
+# Login using e.g. `huggingface-cli login` to access this dataset
+ds = load_dataset("csegirl/MMMR")
 ```
-The script will use model qwen2.5_vl_32b_instruct and MME-CoT Spatial-Temporal dataset to excute.
-Then, the script starts executing, and you may see various output messages in the terminal.
-
-## How to introduce a dataset in right forms
-Firstly, you should put the dataset in right categories, such as the dataset MathVerse in category Math. Also remember a dataset has different parts and they may belong to different categories, such as MME-CoT Logic dataset in category Logic_puzzle and Math in category Math.
-
-Secondly, you should download the dataset from huggingface or github, and process the data in right forms. For example,in dataset Marvel, you should create the dir path:/mnt/zeli/LRM_Benchmark/dataset/Logic_puzzle/Marvel, and then create a json file and images dir in it. The json file should contain information about id, question, answer, image_url and other necessary information. The image_url should contain the path to the image, and the images should be put in the images dir.
-
-The pictures below are the forms example of one datset.(If you can not open the picture, just follow the url and find the picture)
-image.png![1742958839465](/mnt/zeli/LRM_Benchmark/readme_img/1742958839465.png)
-![1742958859742](/mnt/zeli/LRM_Benchmark/readme_img/1742958859742.png)
-
-Finally, you can test if the dataset is set in right forms by running the script, setting the task_config_file as your dataset config file. The results file is in /mnt/zeli/LRM_Benchmark/results.
-Also, you can set the test_num in test.py if want to test more examples in the dataset.
-
-![1742959114782](/mnt/zeli/LRM_Benchmark/readme_img/1742959114782.png)
-
-## MME-Cot Method
-The script is in path:/mnt/zeli/LRM_Benchmark/method/MME-CoT/generate.py.
-You should set the prompt path(/mnt/zeli/LRM_Benchmark/method/MME-CoT/prompt/prompt_precision.txt,/mnt/zeli/LRM_Benchmark/method/MME-CoT/prompt/prompt_reflection_quality.txt,/mnt/zeli/LRM_Benchmark/method/MME-CoT/prompt/prompt_relevance_rate.txt,these three prompt files are available) and the task_config_file, method, test_num, dataset.
-
-The task_config_file should be your results file.
-The method should be your prompt type(precison,reflection_quality,relevance_rate).
-The dataset should be your type of dataset(Math,Logical,etc)

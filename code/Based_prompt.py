@@ -184,7 +184,7 @@ def test_and_save(args):
     end_idx = min(end_idx, len(questions) - 1)
     test_num = end_idx - start_idx + 1  # 实际处理的数量
 
-    results_file = f'/LRM_Benchmark/results/{args.method}/{task_name}/{model.name}_results_{start_idx}_{end_idx}.json'
+    results_file = args.results_file
     os.makedirs(os.path.dirname(results_file), exist_ok=True)
 
     print(f"Making a new file {results_file} to save the result.")
@@ -249,7 +249,9 @@ def main():
     parser.add_argument('--method', type=str, default='Map-extra',
                         help='Method name to use.')
     parser.add_argument('--test_num', type=int, default=1,
-                        help='test number of the dataset.')                    
+                        help='test number of the dataset.')         
+    parser.add_argument('--results_file', type=str, default="",
+                        help='the results path.')              
     parser.add_argument('--start', type=int, default=0)
     parser.add_argument('--end', type=int, default=None)
 

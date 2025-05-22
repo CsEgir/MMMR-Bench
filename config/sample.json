@@ -1,12 +1,12 @@
 {
     "model_info": {
-        "provider": "openai",
-        "name": "claude-3-7-sonnet-thinking",
+        "provider": "",
+        "name": "",
         "model_method": "api"
     },
     "api_key_info": {
-        "api_keys": "sk-gS5FEDYMfaQYdpvIJUSdWx09mCzMty6eEpFwg5yaJXaugjrB",
-        "api_url": "https://4.0.wokaai.com/v1/"
+        "api_keys": "",
+        "api_url": ""
     },
     "params": {
         "temperature": 0.1,
