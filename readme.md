@@ -5,13 +5,9 @@ Official repository for **“Benchmarking Massive Multi-Modal Reasoning Tasks”
 
 [**🌐 Homepage**](https://mmmr-benchmark.github.io/) | [**🏆 Leaderboard**](https://mmmr-benchmark.github.io/#leaderboard) | [**🤗 MMMR**](https://huggingface.co/datasets/csegirl/MMMR) | [**💡 Examples**](https://mmmr-benchmark.github.io/#Examples)
 
----
-
 ## 📢 News
 
 - **2025.05.21** 🎉 We are very proud to launch MMMR, a new benchmark designed to rigorously evaluate multi-modal reasoning with explicit thinking.
-
----
 
 ## 📘 About MMMR-Bench
 
