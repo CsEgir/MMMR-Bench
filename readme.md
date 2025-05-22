@@ -1,5 +1,4 @@
-# MMMR 🔍🧠
-**Benchmarking Massive Multi-Modal Reasoning Tasks**
+# MMMR 🔍🧠 **Benchmarking Massive Multi-Modal Reasoning Tasks**
 
 Official repository for **“Benchmarking Massive Multi-Modal Reasoning Tasks”**
 
