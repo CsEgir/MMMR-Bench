@@ -63,9 +63,9 @@ pip install -r requirements.txt
 
 2. Fill the model config file
 
-'''bash
+```bash
 cd config
-'''
+```
 
 create your model config file as the form of sample.json.
 
@@ -73,17 +73,17 @@ create your model config file as the form of sample.json.
 
 Run the evaluation with the based prompt
 
-'''bash
+```bash
 cd code
 python Based_prompt.py --model_config <your model path> --task_config_file <the dataset json file path> --test_num <test number> --results_file <your results path>
-'''
+```
 
 Run the evaluation with the reasoing prompt (with models who have reasoing content)
 
-'''bash
+```bash
 cd code
 python Reasoning_prompt.py --model_config <your model path> --task_config_file <the dataset json file path> --test_num <test number> -results_file <your results path>
-'''
+```
 
 Finally, you can fing your results in the results path.
 
