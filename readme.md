@@ -43,7 +43,7 @@ our evaluation pipeline comprises three core stages: **(I) Reasoning Dataset Con
 
 <p align="center"><strong>📈 Evaluation Metrics & Scoring</strong></p>
 <p align="center">
-    <img src="readme_imgs/eval.png" width="70%"> <br>
+    <img src="readme_imgs/eval.png" width="90%"> <br>
 </p>
 
 ---
