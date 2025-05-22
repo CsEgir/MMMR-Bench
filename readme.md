@@ -25,7 +25,7 @@ To address this gap, we introduce the **MMMR**, a new benchmark designed to rigo
 
 <p align="center"><strong>📊 Dataset Composition</strong></p>
 <p align="center">
-    <img src="readme_imgs/data.png" width="80%"> <br>
+    <img src="readme_imgs/data.png" width="90%"> <br>
 </p>
 
 2) a modular **Reasoning Trace Evaluation Pipeline (RTEP)** for assessing reasoning quality beyond accuracy through metrics like relevance, consistency, and structured error annotation.
@@ -41,7 +41,7 @@ This benchmark reveals persistent gaps between accuracy and reasoning quality an
 
 our evaluation pipeline comprises three core stages: **(I) Reasoning Dataset Construction**, **(II) Thinking Quality Assessment**, and **(III) Reasoning Insights Synthesis**.
 
-<p align="center"><strong>📈 Evaluation Metrics & Scoring</strong></p>
+<p align="center"><strong>📈 Evaluation Pipeline</strong></p>
 <p align="center">
     <img src="readme_imgs/eval.png" width="90%"> <br>
 </p>
