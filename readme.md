@@ -86,7 +86,7 @@ Finally, you can fing your results in the results path.
 
 ### Contributing to the Leaderboard
 
-🚨 The [Leaderboard][https://mmmr-benchmark.github.io/#Leaderboard] is continuously being updated, welcoming the contribution of your excellent LMMs!
+🚨 The [Leaderboard](https://mmmr-benchmark.github.io/#Leaderboard) is continuously being updated, welcoming the contribution of your excellent LMMs!
 
 
 ### Data Usage
@@ -107,10 +107,13 @@ ds = load_dataset("csegirl/MMMR")
 If you find **MMMR** useful for your research and applications, please kindly cite using this BibTeX:
 
 ```latex
-@inproceedings{tie2025mmmr,
-        title={MMMR: Benchmarking Massive Multi-Modal Reasoning Tasks},
-        author={Guiyao Tie and Xueyang Zhou and Tianhe Gu and Ruihang Zhang and Chaoran Hu and Sizhe Zhang and Mengqu Sun and Yan Zhang and Pan Zhou and Lichao Sun},
-        booktitle={Proceedings of the NeurIPS 2025 Datasets and Benchmarks Track},
-        year={2025},
-      }
+@misc{tie2025mmmrbenchmarkingmassivemultimodal,
+      title={MMMR: Benchmarking Massive Multi-Modal Reasoning Tasks}, 
+      author={Guiyao Tie and Xueyang Zhou and Tianhe Gu and Ruihang Zhang and Chaoran Hu and Sizhe Zhang and Mengqu Sun and Yan Zhang and Pan Zhou and Lichao Sun},
+      year={2025},
+      eprint={2505.16459},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2505.16459}, 
+}
 ```
