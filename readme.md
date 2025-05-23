@@ -1,12 +1,12 @@
 # MMMR 🔍🧠: **Benchmarking Massive Multi-Modal Reasoning Tasks**
 
-Official repository for **“Benchmarking Massive Multi-Modal Reasoning Tasks”**
+Official repository for "[Benchmarking Massive Multi-Modal Reasoning Tasks](https://arxiv.org/abs/2505.16459)"
 
-[**🌐 Homepage**](https://mmmr-benchmark.github.io/) | [**🏆 Leaderboard**](https://mmmr-benchmark.github.io/#leaderboard) | [**🤗 MMMR**](https://huggingface.co/datasets/csegirl/MMMR) | [**💡 Examples**](https://mmmr-benchmark.github.io/#Examples)
+[**🌐 Homepage**](https://mmmr-benchmark.github.io/) | [**🏆 Leaderboard**](https://mmmr-benchmark.github.io/#leaderboard) | [**📖 MMMR arXiv**](https://arxiv.org/abs/2505.16459) | [**🤗 MMMR**](https://huggingface.co/datasets/csegirl/MMMR) | [**💡 Examples**](https://mmmr-benchmark.github.io/#Examples)
 
 ## 📢 News
 
-- **2025.05.21** 🎉 We are very proud to launch MMMR, a new benchmark designed to rigorously evaluate multi-modal reasoning with explicit thinking.
+- **2025.05.23** 🎉 We are very proud to launch MMMR, a new benchmark designed to rigorously evaluate multi-modal reasoning with explicit thinking. We release the [arxiv paper](https://arxiv.org/abs/2505.16459) and MMMR dataset in [huggingface dataset](https://huggingface.co/datasets/csegirl/MMMR).
 
 ## 📘 About MMMR-Bench
 
