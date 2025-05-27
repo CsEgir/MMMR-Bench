@@ -25,6 +25,7 @@ To address this gap, we introduce the **MMMR**, a new benchmark designed to rigo
 <p align="center"><strong>📊 Dataset Composition</strong></p>
 <p align="center">
     <img src="readme_imgs/data.png" width="90%"> <br>
+    <img src="readme_imgs/data2.png" width="90%"> <br>
 </p>
 
 2) a modular **Reasoning Trace Evaluation Pipeline (RTEP)** for assessing reasoning quality beyond accuracy through metrics like relevance, consistency, and structured error annotation.
