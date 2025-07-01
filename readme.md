@@ -1,4 +1,4 @@
-# MMMR 🔍🧠: **Benchmarking Massive Multi-Modal Reasoning Tasks**
+# MMLU-Reason: 🔍🧠: **Benchmarking Multi-Task Multi-modal Language Understanding and Reasoning**
 
 Official repository for "[Benchmarking Massive Multi-Modal Reasoning Tasks](https://arxiv.org/abs/2505.16459)"
 
